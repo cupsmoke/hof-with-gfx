@@ -104,4 +104,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/gui_hof/politic/icon_city_show.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_icon_random_tag_show"
+		texturefile = "gfx/interface/gui_hof/politic/icon_random_tag_show.png"
+		legacy_lazy_load = no
+	}
 }
