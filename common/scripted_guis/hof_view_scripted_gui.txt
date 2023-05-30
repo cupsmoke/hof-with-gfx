@@ -178,4 +178,31 @@ scripted_gui = {
 			}
 		}
 	}
+	HOF_random_law_view_ui = {
+		context_type = player_context
+		# parent_window_token = politics_tab
+		parent_window_token = politics_tab
+		window_name = "HOF_random_law_view"
+		visible = {
+			always = yes
+		}
+		effects = {
+			# view_button_click = {
+			# 	if = {
+			# 		limit = {
+			# 			tag = HUN
+			# 		}
+			# 		if = {
+			# 			limit = {
+			# 				has_country_flag = show_power_balance_context
+			# 			}
+			# 			clr_country_flag = show_power_balance_context
+			# 		}
+			# 		else = {
+			# 			set_country_flag = show_power_balance_context
+			# 		}
+			# 	}
+			# }
+		}
+	}
 }
