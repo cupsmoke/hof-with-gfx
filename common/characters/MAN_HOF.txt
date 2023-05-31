@@ -1,6 +1,7 @@
 characters = {
-	###领袖
-	MAN_shuten_doji = { #酒吞
+# 领袖
+	MAN_shuten_doji = {
+		#酒吞
 		name = MAN_shuten_doji
 		portraits = {
 			civilian = {
@@ -19,14 +20,13 @@ characters = {
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 3
-			legacy_id = 8007
+			# legacy_id = 8007
 		}
 		country_leader = {
 			ideology = rexism
 			traits = {
 				Ghost_of_Showa
 			}
-			expire = "1960.1.1.1"
 			id = -1
 		}
 		country_leader = {
@@ -38,24 +38,126 @@ characters = {
 			id = -1
 		}
 	}
-	###将领
-	MAN_yamashita_tomoyuki = { #山下奉文
+####
+# advisor
+	MAN_hoshino_ai = {
+		# 星野爱
+		name = MAN_hoshino_ai
+		portraits = {
+			army = {
+				small = GFX_idea_man_hoshino_ai
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_hoshino_ai
+			ledger = civilian
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				SWI_fascist_propagandist
+				technocrat
+				# SWI_technocrat
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 5.5
+			}
+		}
+	}
+	MAN_shiina_etsusaburo = {
+		# 椎名悦三郎
+		name = MAN_shiina_etsusaburo
+		portraits = {
+			army = {
+				small = GFX_idea_MAN_shiina_etsusaburo
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_shiina_etsusaburo
+			ledger = civilian
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				silent_workhorse
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 2.5
+			}
+		}
+	}
+	MAN_shirogane_miyuki = {
+		# 白银御行
+		name = MAN_shirogane_miyuki
+		portraits = {
+			army = {
+				small = GFX_idea_man_shirogane_miyuki
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_shirogane_miyuki
+			ledger = civilian
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				armaments_organizer
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+	}
+	MAN_hoshiguma = {
+		# 星熊
+		name = MAN_hoshiguma
+		portraits = {
+			army = {
+				small = GFX_idea_man_hoshiguma
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_hoshiguma
+			ledger = civilian
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				gran_carabinero
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+	}
+####
+###将领
+	MAN_yamashita_tomoyuki = {
+		#山下奉文
 		name = JAP_tomoyuki_yamashita
 		portraits = {
 			army = {
-				small="GFX_idea_tomoyuki_yamashita"
+				small = "GFX_idea_tomoyuki_yamashita"
 			}
 			army = {
 				large = "gfx/leaders/MAN/Portrait_MAN_Tomoyuki_Yamashita.png"
 			}
 		}
-		advisor={
+		advisor = {
 			cost = 150
 			slot = theorist
 			idea_token = JAP_tomoyuki_yamashita
 			ledger = army
 			allowed = {
-				original_tag = JAP
+				original_tag = MAN
 			}
 			traits = {
 				grand_battle_plan_expert
@@ -76,7 +178,8 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	MAN_tanaka_shizuichi = { #田中静壹
+	MAN_tanaka_shizuichi = {
+		#田中静壹
 		name = JAP_shizuichi_tanaka
 		portraits = {
 			army = {
@@ -100,17 +203,18 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	MAN_okamura_yasuji = { #冈村宁次
+	MAN_okamura_yasuji = {
+		#冈村宁次
 		name = JAP_yasuji_okamura
 		portraits = {
 			army = {
-				small="GFX_idea_yasuji_okamura"
+				small = "GFX_idea_yasuji_okamura"
 			}
 			army = {
 				large = "gfx/leaders/MAN/Portrait_MAN_Yasuji_Okamura.png"
 			}
 		}
-		advisor={
+		advisor = {
 			slot = high_command
 			idea_token = MAN_okamura_yasuji
 			ledger = army
@@ -122,7 +226,7 @@ characters = {
 			}
 			cost = 100
 			ai_will_do = {
-				factor = 2.500
+				factor = 2.5
 			}
 		}
 		corps_commander = {
@@ -139,7 +243,8 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	MAN_mutaguchi_renya = { #牟田口廉也
+	MAN_mutaguchi_renya = {
+		#牟田口廉也
 		name = MAN_mutaguchi_renya
 		portraits = {
 			army = {
@@ -163,11 +268,12 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	MAN_nishio_toshizo = { #西尾寿造
+	MAN_nishio_toshizo = {
+		#西尾寿造
 		name = JAP_toshizo_nishio
 		portraits = {
 			army = {
-				small=GFX_portrait_JAP_toshizo_nishio_small
+				small = GFX_portrait_JAP_toshizo_nishio_small
 			}
 			army = {
 				large = "gfx/leaders/MAN/Portrait_MAN_Toshizo_Nishio.png"
@@ -186,7 +292,8 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	MAN_akasaka_saburo = { #荒坂三郎
+	MAN_akasaka_saburo = {
+		#荒坂三郎
 		name = MAN_akasaka_saburo
 		portraits = {
 			army = {
@@ -211,11 +318,12 @@ characters = {
 			legacy_id = 1505
 		}
 	}
-	MAN_itagaki_seishiro = { #板垣征四郎
+	MAN_itagaki_seishiro = {
+		#板垣征四郎
 		name = JAP_seishiro_itagaki
 		portraits = {
 			army = {
-				small=GFX_portrait_JAP_seishiro_itagaki_small
+				small = GFX_portrait_JAP_seishiro_itagaki_small
 			}
 			army = {
 				large = "gfx/leaders/MAN/Portrait_JAP_Seishiro_Itagaki.png"
@@ -235,11 +343,12 @@ characters = {
 			legacy_id = 1504
 		}
 	}
-	MAN_ishiwara_kanji = { #石原莞爾
+	MAN_ishiwara_kanji = {
+		#石原莞爾
 		name = JAP_kanji_ishiwara
 		portraits = {
 			army = {
-				small=GFX_portrait_JAP_kanji_ishiwara_small
+				small = GFX_portrait_JAP_kanji_ishiwara_small
 			}
 			army = {
 				large = "gfx/leaders/MAN/Portrait_JAP_Kanji_Ishiwara.png"

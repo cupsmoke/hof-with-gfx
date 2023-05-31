@@ -1,0 +1,14 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_man_hoshiguma"
+		texturefile = "gfx/interface/advisor/MAN/man_hoshiguma.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_man_hoshino_ai"
+		texturefile = "gfx/interface/advisor/MAN/man_hoshino_ai.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_man_shirogane_miyuki"
+		texturefile = "gfx/interface/advisor/MAN/man_shirogane_miyuki.png"
+	}
+}

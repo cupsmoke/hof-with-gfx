@@ -150,8 +150,13 @@ recruit_character = MAN_ishiwara_kanji
 ####admiral
 
 ####advisor
-recruit_character = MAN_aisin_gioro_xiqia
+# recruit_character = MAN_aisin_gioro_xiqia
 recruit_character = MAN_yoshiko_kawashima
+
+recruit_character = MAN_hoshino_ai
+# recruit_character = MAN_shiina_etsusaburo
+recruit_character = MAN_shirogane_miyuki
+recruit_character = MAN_hoshiguma
 
 
 
