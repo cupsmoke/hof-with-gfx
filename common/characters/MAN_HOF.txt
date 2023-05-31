@@ -1,5 +1,5 @@
 characters = {
-# 领袖
+	# 领袖
 	MAN_shuten_doji = {
 		#酒吞
 		name = MAN_shuten_doji
@@ -38,7 +38,7 @@ characters = {
 			id = -1
 		}
 	}
-####
+	####
 # advisor
 	MAN_hoshino_ai = {
 		# 星野爱
@@ -121,6 +121,9 @@ characters = {
 			army = {
 				small = GFX_idea_man_hoshiguma
 			}
+			army = {
+				large = "gfx/leaders/MAN/Portrait_MAN_hoshiguma.png"
+			}
 		}
 		advisor = {
 			slot = political_advisor
@@ -136,6 +139,62 @@ characters = {
 			ai_will_do = {
 				factor = 1.5
 			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				# JAP_samurai_lineage
+				# trickster
+				# commando
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+			# legacy_id = 1505
+		}
+	}
+	MAN_akasaka_saburo = {
+		#荒坂三郎
+		name = MAN_akasaka_saburo
+		portraits = {
+			army = {
+				small = "GFX_idea_advisor_unknown"
+			}
+			army = {
+				large = "gfx/leaders/MAN/Portrait_JAP_Akasaka_Saburo.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_akasaka_saburo
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+
+			}
+			traits = {
+				war_industrialist
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}	
+		corps_commander = {
+			traits = {
+				politically_connected
+				JAP_samurai_lineage
+				trickster
+				commando
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			# legacy_id = 1505
 		}
 	}
 ####
@@ -178,6 +237,48 @@ characters = {
 			legacy_id = -1
 		}
 	}
+
+	MAN_nishio_toshizo = {
+		#西尾寿造
+		name = JAP_toshizo_nishio
+		portraits = {
+			army = {
+				small = GFX_portrait_JAP_toshizo_nishio_small
+			}
+			army = {
+				large = "gfx/leaders/MAN/Portrait_MAN_Toshizo_Nishio.png"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MAN_nishio_toshizo
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
 	MAN_tanaka_shizuichi = {
 		#田中静壹
 		name = JAP_shizuichi_tanaka
@@ -187,6 +288,21 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/MAN/Portrait_MAN_Shizuichi_Tanaka.png"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = MAN_okamura_yasuji
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.5
 			}
 		}
 		corps_commander = {
@@ -254,6 +370,21 @@ characters = {
 				large = "gfx/leaders/MAN/Portrait_MAN_Renya_Mutaguchi.png"
 			}
 		}
+		advisor = {
+			slot = high_command
+			idea_token = MAN_mutaguchi_renya
+			ledger = army
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				army_logistics_1
+			}
+			cost = 50
+			ai_will_do = {
+				factor = 2.5
+			}
+		}
 		corps_commander = {
 			traits = {
 				trait_reckless
@@ -268,56 +399,8 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	MAN_nishio_toshizo = {
-		#西尾寿造
-		name = JAP_toshizo_nishio
-		portraits = {
-			army = {
-				small = GFX_portrait_JAP_toshizo_nishio_small
-			}
-			army = {
-				large = "gfx/leaders/MAN/Portrait_MAN_Toshizo_Nishio.png"
-			}
-		}
-		corps_commander = {
-			traits = {
-				brilliant_strategist
-				infantry_officer
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id = -1
-		}
-	}
-	MAN_akasaka_saburo = {
-		#荒坂三郎
-		name = MAN_akasaka_saburo
-		portraits = {
-			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
-				large = "gfx/leaders/MAN/Portrait_JAP_Akasaka_Saburo.png"
-			}
-		}
-		corps_commander = {
-			traits = {
-				politically_connected
-				JAP_samurai_lineage
-				trickster
-				commando
-			}
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 2
-			legacy_id = 1505
-		}
-	}
+
+
 	MAN_itagaki_seishiro = {
 		#板垣征四郎
 		name = JAP_seishiro_itagaki
