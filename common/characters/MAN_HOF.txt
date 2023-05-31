@@ -101,7 +101,6 @@ characters = {
 		advisor = {
 			slot = political_advisor
 			idea_token = MAN_shirogane_miyuki
-			ledger = civilian
 			allowed = {
 				original_tag = MAN
 			}
@@ -119,16 +118,13 @@ characters = {
 		name = MAN_hoshiguma
 		portraits = {
 			army = {
-				small = GFX_idea_man_hoshiguma
-			}
-			army = {
 				large = "gfx/leaders/MAN/Portrait_MAN_hoshiguma.png"
+				small = GFX_idea_man_hoshiguma
 			}
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = MAN_hoshiguma
-			ledger = civilian
 			allowed = {
 				original_tag = MAN
 			}
@@ -143,6 +139,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				politically_connected
+				defensive_doctrine
 				# JAP_samurai_lineage
 				# trickster
 				# commando
@@ -160,10 +157,8 @@ characters = {
 		name = MAN_akasaka_saburo
 		portraits = {
 			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
 				large = "gfx/leaders/MAN/Portrait_JAP_Akasaka_Saburo.png"
+				small = "GFX_idea_advisor_unknown"
 			}
 		}
 		advisor = {
@@ -187,7 +182,8 @@ characters = {
 				politically_connected
 				JAP_samurai_lineage
 				trickster
-				commando
+				naval_liason
+				# commando
 			}
 			skill = 2
 			attack_skill = 2
