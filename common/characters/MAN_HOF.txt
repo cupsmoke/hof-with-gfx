@@ -1,5 +1,5 @@
 characters = {
-	# 领袖
+	#leader
 	MAN_shuten_doji = {
 		#酒吞
 		name = MAN_shuten_doji
@@ -38,8 +38,10 @@ characters = {
 			id = -1
 		}
 	}
-	####
-# advisor
+}
+
+characters = {
+	#advisor
 	MAN_hoshino_ai = {
 		# 星野爱
 		name = MAN_hoshino_ai
@@ -168,7 +170,6 @@ characters = {
 				original_tag = MAN
 			}
 			available = {
-
 			}
 			traits = {
 				war_industrialist
@@ -176,7 +177,7 @@ characters = {
 			ai_will_do = {
 				factor = 5
 			}
-		}	
+		}
 		corps_commander = {
 			traits = {
 				politically_connected
@@ -193,8 +194,10 @@ characters = {
 			# legacy_id = 1505
 		}
 	}
-####
-###将领
+}
+
+characters = {
+	#commander
 	MAN_yamashita_tomoyuki = {
 		#山下奉文
 		name = JAP_tomoyuki_yamashita
@@ -447,4 +450,5 @@ characters = {
 			legacy_id = 1503
 		}
 	}
+
 }
