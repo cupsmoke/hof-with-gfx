@@ -1,0 +1,142 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_Portrait_Crownslayer"
+		texturefile = "gfx/leaders/UKR/Portrait_Crownslayer.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_Faust"
+		texturefile = "gfx/leaders/UKR/Portrait_Faust.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_Ines"
+		texturefile = "gfx/leaders/UKR/Portrait_Ines.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_Leonid_Brezhnev"
+		texturefile = "gfx/leaders/UKR/Portrait_Leonid_Brezhnev.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_Mephisto"
+		texturefile = "gfx/leaders/UKR/Portrait_Mephisto.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_Stepan_Petrichenko"
+		texturefile = "gfx/leaders/UKR/Portrait_Stepan_Petrichenko.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Andrew_Pokrovskii"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Andrew_Pokrovskii.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Andriy_Melnyk"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Andriy_Melnyk.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Aron_Baron"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Aron_Baron.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Fanny_Kaplan"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Fanny_Kaplan.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Hnat_Stefaniv"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Hnat_Stefaniv.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Ivan_Turkenich"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Ivan_Turkenich.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Lesia_Petliura"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Lesia_Petliura.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Mykhailo_Omelianovych_Pavlenko"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Mykhailo_Omelianovych_Pavlenko.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Nestor_Makhno_2"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Nestor_Makhno_2.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Nikolai_Sablin"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Nikolai_Sablin.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Oleksandr_Udovychenko"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Oleksandr_Udovychenko.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Pavel_Dybenko"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Pavel_Dybenko.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Philip_Kyva"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Philip_Kyva.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Reunion_Makhnovshchina"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Reunion_Makhnovshchina.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Roman_Shukhevych"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Roman_Shukhevych.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Semyon_Hitler"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Semyon_Hitler.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Seymon_Zelensky"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Seymon_Zelensky.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Stepan_Bandera"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Stepan_Bandera.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Sviatoslav_Shramchenko"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Sviatoslav_Shramchenko.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Symon_Petlura"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Symon_Petlura.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Vasyl_Vyshyvany"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Vyshyvany.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Viktor_Belash"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Viktor_Belash.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Volodymyr_Salsky"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Volodymyr_Salsky.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Vsevolod_Eikhenbaum"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Vsevolod_Eikhenbaum.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Vsevolod_Petriv"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Vsevolod_Petriv.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Yuriy_Tyutyunnyk"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Yuriy_Tyutyunnyk.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_W"
+		texturefile = "gfx/leaders/UKR/Portrait_W.png"
+	}
+	SpriteType = {
+		name = "GFX_Skoropadsky"
+		texturefile = "gfx/leaders/UKR/Skoropadsky.png"
+	}
+	SpriteType = {
+		name = "GFX_yevhen_konovalets"
+		texturefile = "gfx/leaders/UKR/yevhen_konovalets.png"
+	}
+}

@@ -1,18 +1,15 @@
 ﻿capital = 745
-
 oob = "MAN_1936"
-
 set_technology = {
-
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_recon = 1
 	tech_engineers = 1
-    tech_signal_company = 1
-    tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_logistics_company = 1
 	motorised_infantry = 1
-	marines  = 1
+	marines = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
@@ -30,16 +27,17 @@ set_technology = {
 	basic_train = 1
 	trench_warfare = 1
 	base_strike = 1
-  force_rotation = 1
+	force_rotation = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	fuel_refining = 1
-    armored_car1 = 1
-	
+	armored_car1 = 1
 }
 
 if = {
-	limit = { has_dlc = "Waking the Tiger" }
+	limit = {
+		has_dlc = "Waking the Tiger"
+	}
 	set_country_flag = MAN_northern_bandits
 	set_country_flag = MAN_eastern_bandits
 	set_country_flag = MAN_western_bandits
@@ -91,32 +89,49 @@ add_equipment_to_stockpile = {
 	amount = 15
 	producer = JAP
 }
-add_equipment_to_stockpile = {
-    type = train_equipment_1
-    amount = 35
-    producer = JAP
-}
 
+add_equipment_to_stockpile = {
+	type = train_equipment_1
+	amount = 35
+	producer = JAP
+}
 
 set_convoys = 5
 starting_train_buffer = 2
-
-328 = { #Kirin
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-715 = { #Liaoning
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-714 = { #Heilungkiang
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-717 = { #Hungkiang
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-761 = { #Hulunbuir
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+328 = {
+	#Kirin
+	add_dynamic_modifier = {
+		modifier = dense_rural_infrastructure
+	}
 }
 
+715 = {
+	#Liaoning
+	add_dynamic_modifier = {
+		modifier = dense_rural_infrastructure
+	}
+}
+
+714 = {
+	#Heilungkiang
+	add_dynamic_modifier = {
+		modifier = dense_rural_infrastructure
+	}
+}
+
+717 = {
+	#Hungkiang
+	add_dynamic_modifier = {
+		modifier = dense_rural_infrastructure
+	}
+}
+
+761 = {
+	#Hulunbuir
+	add_dynamic_modifier = {
+		modifier = dense_rural_infrastructure
+	}
+}
 
 set_politics = {
 	ruling_party = fascism
@@ -124,21 +139,34 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	fascism = 80
 	neutrality = 20
 }
-
 set_cosmetic_tag = MAN_Mantsu
-
-
-
 ####leader
 recruit_character = MAN_shuten_doji
-recruit_character = MAN_ma_shangzhi
+recruit_character = MAN_konno_junko
+recruit_character = MAN_shiromeguri_meguri
+recruit_character = JAP_nagao_kagetora
+activate_advisor = JAP_nagao_kagetora_in_man
 recruit_character = MAN_changlin_linge
+####advisor
+# recruit_character = MAN_aisin_gioro_xiqia
+
+recruit_character = MAN_hoshino_ai
+# recruit_character = MAN_shiina_etsusaburo
+recruit_character = MAN_shirogane_miyuki
+recruit_character = MAN_hoshiguma
+recruit_character = MAN_akasaka_saburo
+recruit_character = MAN_hayasaka_ai
+recruit_character = MAN_yuugiri
+recruit_character = MAN_miyano_shiho
+recruit_character = MAN_shiba_tatsuya
 
 ####commander
+recruit_character = MAN_yoshiko_kawashima
 recruit_character = MAN_yamashita_tomoyuki
 recruit_character = MAN_tanaka_shizuichi
 recruit_character = MAN_okamura_yasuji
@@ -148,17 +176,3 @@ recruit_character = MAN_akasaka_saburo
 recruit_character = MAN_itagaki_seishiro
 recruit_character = MAN_ishiwara_kanji
 ####admiral
-
-####advisor
-# recruit_character = MAN_aisin_gioro_xiqia
-recruit_character = MAN_yoshiko_kawashima
-
-recruit_character = MAN_hoshino_ai
-# recruit_character = MAN_shiina_etsusaburo
-recruit_character = MAN_shirogane_miyuki
-recruit_character = MAN_hoshiguma
-
-
-
-
-

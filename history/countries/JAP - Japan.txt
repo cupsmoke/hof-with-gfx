@@ -245,7 +245,9 @@ recruit_character = JAP_oda_nobunaga
 recruit_character = JAP_tomoe_gozen
 recruit_character = JAP_yogyu_munenori
 recruit_character = JAP_fujiwara_no_mokou
-recruit_character = JAP_nagao_kagetora
+
+# recruit_character = JAP_nagao_kagetora
+
 recruit_character = JAP_hijikato_toshizo
 recruit_character = JAP_mikasa
 recruit_character = JAP_nagato

@@ -1,5 +1,7 @@
+
+#leader
 characters = {
-	#leader
+
 	MAN_shuten_doji = {
 		#酒吞
 		name = MAN_shuten_doji
@@ -8,43 +10,78 @@ characters = {
 				large = "gfx/leaders/MAN/Portrait_MAN_shuten_doji.png"
 			}
 		}
-		corps_commander = {
-			traits = {
-				infantry_officer
-				organizer
-				infantry_leader
-				trickster
-			}
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 3
-			# legacy_id = 8007
-		}
+		# corps_commander = {
+		# 	traits = {
+		# 		infantry_officer
+		# 		organizer
+		# 		infantry_leader
+		# 		trickster
+		# 	}
+		# 	skill = 4
+		# 	attack_skill = 3
+		# 	defense_skill = 3
+		# 	planning_skill = 4
+		# 	logistics_skill = 3
+		# }
 		country_leader = {
-			ideology = rexism
+			ideology = fascism_ideology
 			traits = {
 				Ghost_of_Showa
 			}
 			id = -1
 		}
+		# country_leader = {
+		# 	ideology = despotism
+		# 	traits = {
+		# 		Ghost_of_Showa
+		# 	}
+		# 	id = -1
+		# }
+	}
+	MAN_konno_junko = {
+		#绀野纯子
+		name = MAN_konno_junko
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_MAN_konno_junko
+			}
+		}
 		country_leader = {
-			ideology = despotism
+			ideology = conservatism
 			traits = {
-				Ghost_of_Showa
+				# Ghost_of_Showa
 			}
 			id = -1
 		}
 	}
+	MAN_shiromeguri_meguri = {
+		#城回巡
+		name = MAN_shiromeguri_meguri
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_MAN_konno_junko
+			}
+		}
+		# country_leader = {
+		# 	ideology = despotism
+		# 	traits = {
+		# 		# Ghost_of_Showa
+		# 	}
+		# 	id = -1
+		# }
+	}
 }
 
+#advisor
 characters = {
-	#advisor
+	####
 	MAN_hoshino_ai = {
 		# 星野爱
 		name = MAN_hoshino_ai
 		portraits = {
+			civilian = {
+				large = GFX_Portrait_MAN_hoshino_ai
+			}
 			army = {
 				small = GFX_idea_man_hoshino_ai
 			}
@@ -72,7 +109,7 @@ characters = {
 		name = MAN_shiina_etsusaburo
 		portraits = {
 			army = {
-				small = GFX_idea_MAN_shiina_etsusaburo
+				small = GFX_idea_advisor_unknow_pol
 			}
 		}
 		advisor = {
@@ -119,7 +156,7 @@ characters = {
 		name = MAN_hoshiguma
 		portraits = {
 			army = {
-				large = "gfx/leaders/MAN/Portrait_MAN_hoshiguma.png"
+				large = GFX_Portrait_MAN_hoshiguma
 				small = GFX_idea_man_hoshiguma
 			}
 		}
@@ -158,8 +195,8 @@ characters = {
 		name = MAN_akasaka_saburo
 		portraits = {
 			army = {
-				large = "gfx/leaders/MAN/Portrait_JAP_Akasaka_Saburo.png"
-				small = "GFX_idea_advisor_unknown"
+				large = GFX_Portrait_JAP_Akasaka_Saburo
+				small = "GFX_idea_advisor_unknow_mil"
 			}
 		}
 		advisor = {
@@ -193,6 +230,121 @@ characters = {
 			# legacy_id = 1505
 		}
 	}
+
+	####
+	MAN_hayasaka_ai = {
+		#早坂爱
+		name = MAN_hayasaka_ai
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_MAN_hayasaka_ai
+			}
+			army = {
+				small = GFX_idea_man_hayasaka_ai
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_hayasaka_ai
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+
+			}
+			traits = {
+				war_industrialist
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	MAN_yuugiri = {
+		#夕雾
+		name = MAN_yuugiri
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_MAN_yuugiri
+			}
+			army = {
+				small = GFX_idea_man_yuugiri
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_yuugiri
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+
+			}
+			traits = {
+				war_industrialist
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	MAN_miyano_shiho = {
+		#宫野志保
+		name = MAN_miyano_shiho
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_MAN_miyano_shiho
+			}
+			army = {
+				small = GFX_idea_man_miyano_shiho
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_miyano_shiho
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+
+			}
+			traits = {
+				war_industrialist
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	MAN_shiba_tatsuya = {
+		#司波达也
+		name = MAN_shiba_tatsuya
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_MAN_shiba_tatsuya
+			}
+			army = {
+				small = GFX_idea_man_shiba_tatsuya
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_shiba_tatsuya
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+
+			}
+			traits = {
+				war_industrialist
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+
 }
 
 characters = {
@@ -362,7 +514,7 @@ characters = {
 		name = MAN_mutaguchi_renya
 		portraits = {
 			army = {
-				small = "GFX_idea_advisor_unknown"
+				small = "GFX_idea_advisor_unknow_mil"
 			}
 			army = {
 				large = "gfx/leaders/MAN/Portrait_MAN_Renya_Mutaguchi.png"

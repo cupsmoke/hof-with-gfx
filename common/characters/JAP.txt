@@ -475,6 +475,31 @@ characters = {
 			logistics_skill = 4
 			legacy_id = 8002
 		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				# Ghost_of_Showa
+			}
+		}		
+		advisor = {
+			slot = army_chief
+			idea_token = JAP_nagao_kagetora_in_man
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+
+			}
+			traits = {
+				army_chief_drill_3
+			}
+			cost = 100
+			can_be_fired = no
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+
 	}
 	JAP_hijikato_toshizo = {
 		name = JAP_hijikato_toshizo
