@@ -1,5 +1,17 @@
 ﻿l_simp_chinese:
+#  counrty name
 
+
+# party
+ MAN_fascism_party:0 "满铁"
+ MAN_fascism_party_long:0 "南满洲铁道株式会社"
+ MAN_neutrality_party:0 "关东军"
+ MAN_neutrality_party_long:0 "满洲国协和会"
+ MAN_communism_party:0 "-"
+ MAN_communism_party_long:0 "-"
+ MAN_democratic_party:0 "协和会"
+ MAN_democratic_party_long:0 "南满洲协和会"
+# 
  MAN_superior_will:0 "关东军" 
  MAN_superior_will_desc:0 "" 
 
