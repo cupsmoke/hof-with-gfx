@@ -1,0 +1,40 @@
+scripted_gui = {
+
+	HOF_random_man_window_ui = {
+		context_type = player_context
+		# parent_window_token = politics_tab
+		window_name = "HOF_random_man_window"
+		visible = {
+			tag = MAN
+			has_country_flag = show_random_tag_context
+			# always = no
+		}
+		effects = {
+			button_close_click = {
+				clr_country_flag = show_random_tag_context
+			}
+		}
+		properties = {
+			man_gui_kwantung_army_pie_chart = {
+				frame = kwantung_army_pie_frame
+			}
+			man_gui_kwantung_gov_pie_chart = {
+				frame = kwantung_gov_pie_frame
+			}
+			man_gui_mantetsu_pie_chart = {
+				frame = mantetsu_pie_frame
+			}
+			man_gui_zaibatsu_pie_chart = {
+				frame = zaibatsu_pie_frame
+			}
+			# center_value = {
+			# 	image = "[GetHunCenterValue]"
+			# }
+			# right_value = {
+			# 	image = "[GetHunRightValue]"
+			# }
+		}
+	}
+	
+}
+

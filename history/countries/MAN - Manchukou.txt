@@ -128,3 +128,15 @@ recruit_character = MAN_akasaka_saburo
 recruit_character = MAN_itagaki_seishiro
 recruit_character = MAN_ishiwara_kanji
 ####admiral
+
+
+####var
+
+set_variable = { ROOT.kwantung_army_inf = 40 }
+set_variable = { ROOT.kwantung_gov_inf = 10 }
+set_variable = { ROOT.mantetsu_inf = 50 }
+set_variable = { ROOT.zaibatsu_inf = 0 }
+MAN_faction_inf_pie = yes
+
+
+

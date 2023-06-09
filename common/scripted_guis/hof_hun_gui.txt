@@ -34,12 +34,12 @@ scripted_gui = {
 		window_name = "HOF_hun_power_balance_window"
 		visible = {
 			tag = HUN
-			has_country_flag = show_power_balance_context
+			has_country_flag = show_random_tag_context
 			# always = no
 		}
 		effects = {
 			button_close_click = {
-				clr_country_flag = show_power_balance_context
+				clr_country_flag = show_random_tag_context
 			}
 		}
 		properties = {

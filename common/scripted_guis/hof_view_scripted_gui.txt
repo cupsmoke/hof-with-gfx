@@ -1,42 +1,42 @@
 scripted_gui = {
 
-	HOF_ukr_power_balance_view_ui = {
-		context_type = player_context
-		parent_window_token = politics_tab
-		window_name = "HOF_ukr_power_balance_view"
-		visible = {
-			tag = UKR
-			always = no
-		}
-		effects = {
-			view_button_click = {
-				if = {
-					limit = {
-						has_country_flag = show_power_balance_context
-					}
-					clr_country_flag = show_power_balance_context
-				}
-				else = {
-					set_country_flag = show_power_balance_context
-				}
-			}
-		}
-	}
-	HOF_ukr_power_balance_window_ui = {
-		context_type = player_context
-		# parent_window_token = politics_tab
-		window_name = "HOF_ukr_power_balance_window"
-		visible = {
-			tag = UKR
-			has_country_flag = show_power_balance_context
-			always = no
-		}
-		effects = {
-			button_close_click = {
-				clr_country_flag = show_power_balance_context
-			}
-		}
-	}
+	# HOF_ukr_power_balance_view_ui = {
+	# 	context_type = player_context
+	# 	parent_window_token = politics_tab
+	# 	window_name = "HOF_ukr_power_balance_view"
+	# 	visible = {
+	# 		tag = UKR
+	# 		always = no
+	# 	}
+	# 	effects = {
+	# 		view_button_click = {
+	# 			if = {
+	# 				limit = {
+	# 					has_country_flag = show_power_balance_context
+	# 				}
+	# 				clr_country_flag = show_power_balance_context
+	# 			}
+	# 			else = {
+	# 				set_country_flag = show_power_balance_context
+	# 			}
+	# 		}
+	# 	}
+	# }
+	# HOF_ukr_power_balance_window_ui = {
+	# 	context_type = player_context
+	# 	# parent_window_token = politics_tab
+	# 	window_name = "HOF_ukr_power_balance_window"
+	# 	visible = {
+	# 		tag = UKR
+	# 		has_country_flag = show_power_balance_context
+	# 		always = no
+	# 	}
+	# 	effects = {
+	# 		button_close_click = {
+	# 			clr_country_flag = show_power_balance_context
+	# 		}
+	# 	}
+	# }
 	HOF_city_view_ui = {
 		context_type = player_context
 		# parent_window_token = politics_tab
@@ -146,35 +146,13 @@ scripted_gui = {
 			view_button_click = {
 				if = {
 					limit = {
-						tag = HUN
+						has_country_flag = show_random_tag_context
 					}
-					if = {
-						limit = {
-							has_country_flag = show_power_balance_context
-						}
-						clr_country_flag = show_power_balance_context
-					}
-					else = {
-						set_country_flag = show_power_balance_context
-					}
+					clr_country_flag = show_random_tag_context
 				}
-				# if = {
-				# 	limit = {
-				# 		has_country_flag = show_city_context
-				# 	}
-				# 	clr_country_flag = show_city_context
-				# }
-				# else = {
-				# 	set_country_flag = show_city_context
-				# }
-				# if = {
-				# 	limit = {
-				# 		ROOT = {
-				# 			num_subjects > 0
-				# 		}
-				# 	}
-				# 	check_whether_subject_has_city = yes
-				# }
+				else = {
+					set_country_flag = show_random_tag_context
+				}
 			}
 		}
 	}
@@ -186,23 +164,8 @@ scripted_gui = {
 		visible = {
 			always = yes
 		}
-		effects = {
-			# view_button_click = {
-			# 	if = {
-			# 		limit = {
-			# 			tag = HUN
-			# 		}
-			# 		if = {
-			# 			limit = {
-			# 				has_country_flag = show_power_balance_context
-			# 			}
-			# 			clr_country_flag = show_power_balance_context
-			# 		}
-			# 		else = {
-			# 			set_country_flag = show_power_balance_context
-			# 		}
-			# 	}
-			# }
-		}
+		# effects = {
+
+		# }
 	}
 }

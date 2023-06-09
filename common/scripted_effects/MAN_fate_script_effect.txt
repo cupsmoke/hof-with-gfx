@@ -1,0 +1,29 @@
+
+MAN_faction_inf_pie = {
+
+	set_variable = { current_stat = 0 }
+
+	add_to_variable = {	current_stat = ROOT.kwantung_army_inf }
+	set_variable = { kwantung_army_pie_frame = current_stat }
+	multiply_variable = { kwantung_army_pie_frame = 1000 }
+
+	# set_variable = { kwantung_gov_pie_frame = 0 }
+	
+	add_to_variable = {	current_stat = ROOT.kwantung_gov_inf }
+	set_variable = { kwantung_gov_pie_frame = current_stat }
+	multiply_variable = { kwantung_gov_pie_frame = 1000 }
+
+	add_to_variable = {	current_stat = ROOT.mantetsu_inf }
+	set_variable = { mantetsu_pie_frame = current_stat }
+	multiply_variable = { mantetsu_pie_frame = 1000 }
+
+	add_to_variable = {	current_stat = ROOT.zaibatsu_inf }
+	set_variable = { zaibatsu_pie_frame = current_stat }
+	multiply_variable = { zaibatsu_pie_frame = 1000 }
+
+	# set_variable = { ROOT.kwantung_army_inf = 40 }
+	# set_variable = { ROOT.kwantung_gov_inf = 10 }
+	# set_variable = { ROOT.mantetsu_inf = 50 }
+	# set_variable = { ROOT.zaibatsu_inf = 0 }
+	
+}
