@@ -3,7 +3,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "HOF_random_man_window"
 		position = { x = 540  y = 100 }
-		size = { width = 565 height= 600 }
+		size = { width = 1000 height= 800 }
 		fade_time = 100
 		fade_type = linear
 		moveable = yes
@@ -26,7 +26,7 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "HOF_man_faction_inf_container"
-			position = { x = 0 y = 50 }
+			position = { x = 0 y = 20 }
 			size = { width = 545 height = 540 }
 			margin = { top = 10 bottom = 10 }
 			Orientation = upper_left
@@ -35,27 +35,27 @@ guiTypes = {
 			iconType = {
 				name = "man_gui_zaibatsu_pie_chart"
 				spriteType = "GFX_man_gui_zaibatsu_pie"
-				position = { x = 100 y = 150 }
+				position = { x = 100 y = 100 }
 			}
 			iconType = {
 				name = "man_gui_mantetsu_pie_chart"
 				spriteType = "GFX_man_gui_mantetsu_pie"
-				position = { x = 100 y = 150 }
+				position = { x = 100 y = 100 }
 			}
 			iconType = {
 				name = "man_gui_kwantung_gov_pie_chart"
 				spriteType = "GFX_man_gui_kwantung_gov_pie"
-				position = { x = 100 y = 150 }
+				position = { x = 100 y = 100 }
 			}
 			iconType = {
 				name = "man_gui_kwantung_army_pie_chart"
 				spriteType = "GFX_man_gui_kwantung_army_pie"
-				position = { x = 100 y = 150 }
+				position = { x = 100 y = 100 }
 			}
 			iconType = {
 				name = "man_gui_overlay"
 				spriteType = "GFX_man_gui_overlay_pie"
-				position = { x = 100 y = 150 }
+				position = { x = 100 y = 100 }
 				alwaystransparent = yes
 				scale = 0.6
 			}
@@ -91,6 +91,42 @@ guiTypes = {
 			# 		maxHeight = 20
 			# 		format = center
 			# 	}
+			# }
+		}
+		containerWindowType = {
+			name = "HOF_man_faction_img_container"
+			position = { x = 0 y = 50 }
+			size = { width = 545 height = 540 }
+			margin = { top = 10 bottom = 10 }
+			Orientation = upper_left
+
+			# verticalScrollbar = "right_vertical_slider"
+			# iconType = {
+			# 	name = "man_gui_zaibatsu_pie_chart"
+			# 	spriteType = "GFX_man_gui_zaibatsu_pie"
+			# 	position = { x = 100 y = 150 }
+			# }
+			# iconType = {
+			# 	name = "man_gui_mantetsu_pie_chart"
+			# 	spriteType = "GFX_man_gui_mantetsu_pie"
+			# 	position = { x = 100 y = 150 }
+			# }
+			# iconType = {
+			# 	name = "man_gui_kwantung_gov_pie_chart"
+			# 	spriteType = "GFX_man_gui_kwantung_gov_pie"
+			# 	position = { x = 100 y = 150 }
+			# }
+			# iconType = {
+			# 	name = "man_gui_kwantung_army_pie_chart"
+			# 	spriteType = "GFX_man_gui_kwantung_army_pie"
+			# 	position = { x = 100 y = 150 }
+			# }
+			# iconType = {
+			# 	name = "man_gui_overlay"
+			# 	spriteType = "GFX_man_gui_overlay_pie"
+			# 	position = { x = 100 y = 150 }
+			# 	alwaystransparent = yes
+			# 	scale = 0.6
 			# }
 		}
 
