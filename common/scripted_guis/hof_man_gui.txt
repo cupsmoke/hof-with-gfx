@@ -1,5 +1,4 @@
 scripted_gui = {
-
 	HOF_random_man_window_ui = {
 		context_type = player_context
 		# parent_window_token = politics_tab
@@ -12,6 +11,39 @@ scripted_gui = {
 		effects = {
 			button_close_click = {
 				clr_country_flag = show_random_tag_context
+			}
+			debug_1_click = {
+				# 随机
+				# clr_country_flag = show_random_tag_context
+				set_variable_to_random = {
+					var = ROOT.kwantung_army_inf
+					max = 100
+					integer = yes
+				}
+				set_temp_variable = {
+					temp = 100
+				}
+				subtract_from_temp_variable = {
+					temp = ROOT.kwantung_army_inf
+				}
+				set_variable_to_random = {
+					var = ROOT.kwantung_gov_inf
+					max = 100
+					integer = yes
+				}
+				set_temp_variable = {
+					temp = 100
+				}
+				subtract_from_temp_variable = {
+					temp = ROOT.kwantung_army_inf
+				}
+				subtract_from_temp_variable = {
+					temp = ROOT.kwantung_gov_inf
+				}
+				set_variable = {
+					ROOT.mantetsu_inf = temp
+				} 
+				MAN_faction_inf_pie = yes
 			}
 		}
 		properties = {
@@ -35,6 +67,4 @@ scripted_gui = {
 			# }
 		}
 	}
-	
 }
-

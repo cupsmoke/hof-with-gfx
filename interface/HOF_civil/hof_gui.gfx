@@ -109,7 +109,7 @@ spriteTypes = {
 		textureFile1 = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_kwantung_army_pie.png"
 		textureFile2 = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_empty_pie.png"
 		color = { 10 0 0 0 }
-		size = { x = 300 y = 300}
+		size = { x = 250 y = 250}
 		effectFile = "gfx/FX/progress_radial.lua"
 		steps = 100000
 	}
@@ -118,7 +118,7 @@ spriteTypes = {
 		textureFile1 = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_kwantung_gov_pie.png"
 		textureFile2 = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_empty_pie.png"
 		color = { 20 0 0 0 }
-		size = { x = 300 y = 300}
+		size = { x = 250 y = 250}
 		effectFile = "gfx/FX/progress_radial.lua"
 		steps = 100000
 	}
@@ -127,7 +127,7 @@ spriteTypes = {
 		textureFile1 = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_mantetsu_pie.png"
 		textureFile2 = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_empty_pie.png"
 		color = { 30 0 0 0 }
-		size = { x = 300 y = 300}
+		size = { x = 250 y = 250}
 		effectFile = "gfx/FX/progress_radial.lua"
 		steps = 100000
 	}
@@ -136,8 +136,34 @@ spriteTypes = {
 		textureFile1 = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_zaibatsu_pie.png"
 		textureFile2 = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_empty_pie.png"
 		color = { 40 0 0 0 }
-		size = { x = 300 y = 300}
+		size = { x = 250 y = 250}
 		effectFile = "gfx/FX/progress_radial.lua"
 		steps = 100000
 	}
+
+
+
+	SpriteType = {
+		name = "GFX_man_gui_portrait_frame"
+		texturefile = "gfx/interface/gui_hof/MAN/man_faction_ui/man_gui_portrait_frame.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_man_gui_mantetsu_logo"
+		texturefile = "gfx/interface/gui_hof/MAN/man_faction_ui/man_gui_mantetsu_logo.png"
+	}
+	SpriteType = {
+		name = "GFX_man_gui_kwantung_gov_logo"
+		texturefile = "gfx/interface/gui_hof/MAN/man_faction_ui/man_gui_kwantung_gov_logo.png"
+	}
+	SpriteType = {
+		name = "GFX_man_gui_kwantung_army_logo"
+		texturefile = "gfx/interface/gui_hof/MAN/man_faction_ui/man_gui_kwantung_army_logo.png"
+	}
+	SpriteType = {
+		name = "GFX_man_gui_tohsaka_logo"
+		texturefile = "gfx/interface/gui_hof/MAN/man_faction_ui/man_gui_tohsaka_logo.png"
+	}
+
+
 }

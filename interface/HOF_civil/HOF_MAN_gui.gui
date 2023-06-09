@@ -19,45 +19,61 @@ guiTypes = {
 			name = "button_close"
 			position = {x = -45 y = 13 }
 			spriteType = "GFX_closebutton"
+			
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 			shortcut = "ESCAPE"
 			orientation = UPPER_RIGHT
 		}
 		containerWindowType = {
+			name = "HOF_man_debug_container"
+			position = { x = 0  y = 0 }
+			# size = { width = 1000 height= 800 }
+			orientation = UPPER_RIGHT
+			buttonType = {
+				name = "debug_1"
+				position = {x = -100 y = 50 }
+				spriteType = "GFX_closebutton"
+				# clicksound = click_close
+				# pdx_tooltip = "CLOSE"
+				# shortcut = "ESCAPE"
+				
+			}			
+		}
+		containerWindowType = {
 			name = "HOF_man_faction_inf_container"
-			position = { x = 0 y = 20 }
-			size = { width = 545 height = 540 }
-			margin = { top = 10 bottom = 10 }
-			Orientation = upper_left
+			position = { x = -125 y = -300 }
+			# size = { width = 545 height = 540 }
+			# margin = { top = 10 bottom = 10 }
+			Orientation = center
 
 			# verticalScrollbar = "right_vertical_slider"
 			iconType = {
 				name = "man_gui_zaibatsu_pie_chart"
 				spriteType = "GFX_man_gui_zaibatsu_pie"
-				position = { x = 100 y = 100 }
+				position = { x = 0 y = 0 }
 			}
 			iconType = {
 				name = "man_gui_mantetsu_pie_chart"
 				spriteType = "GFX_man_gui_mantetsu_pie"
-				position = { x = 100 y = 100 }
+				position = { x = 0 y = 0 }
 			}
 			iconType = {
 				name = "man_gui_kwantung_gov_pie_chart"
 				spriteType = "GFX_man_gui_kwantung_gov_pie"
-				position = { x = 100 y = 100 }
+				position = { x = 0 y = 0 }
 			}
 			iconType = {
 				name = "man_gui_kwantung_army_pie_chart"
 				spriteType = "GFX_man_gui_kwantung_army_pie"
-				position = { x = 100 y = 100 }
+				position = { x = 0 y = 0 }
 			}
 			iconType = {
 				name = "man_gui_overlay"
 				spriteType = "GFX_man_gui_overlay_pie"
-				position = { x = 100 y = 100 }
+				position = { x = 0 y = 0 }
 				alwaystransparent = yes
-				scale = 0.6
+				scale = 0.5
 			}
 			# containerWindowType = { 
 			# 	name = "HOF_hun_power_balance_right"
@@ -95,43 +111,92 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "HOF_man_faction_img_container"
-			position = { x = 0 y = 50 }
+			position = { x = -261 y = 0 }
 			size = { width = 545 height = 540 }
 			margin = { top = 10 bottom = 10 }
-			Orientation = upper_left
+			Orientation = center
 
+			containerWindowType = {
+				name = "HOF_man_faction_mantetsu_container"
+				position = { x = 0 y = 100 }
+				# Orientation = CENTER
+				iconType = {
+					name = "man_gui_portrait"
+					spriteType = "GFX_Portrait_MAN_shuten_doji"
+					position = { x = 8 y = 12 }
+				}
+				iconType = {
+					name = "man_gui_portrait_frame"
+					spriteType = "GFX_man_gui_portrait_frame"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "man_gui_logo"
+					spriteType = "GFX_man_gui_mantetsu_logo"
+					position = { x = 31 y = -110 } 
+				}
+			}
+			containerWindowType = {
+				name = "HOF_man_faction_kwantung_gov_container"
+				position = { x = 172 y = 100 }
 
-			# containerWindowType = {
-			# 	name = "HOF_man_faction_img_container"
-			# }
-			# verticalScrollbar = "right_vertical_slider"
-			# iconType = {
-			# 	name = "man_gui_zaibatsu_pie_chart"
-			# 	spriteType = "GFX_man_gui_zaibatsu_pie"
-			# 	position = { x = 100 y = 150 }
-			# }
-			# iconType = {
-			# 	name = "man_gui_mantetsu_pie_chart"
-			# 	spriteType = "GFX_man_gui_mantetsu_pie"
-			# 	position = { x = 100 y = 150 }
-			# }
-			# iconType = {
-			# 	name = "man_gui_kwantung_gov_pie_chart"
-			# 	spriteType = "GFX_man_gui_kwantung_gov_pie"
-			# 	position = { x = 100 y = 150 }
-			# }
-			# iconType = {
-			# 	name = "man_gui_kwantung_army_pie_chart"
-			# 	spriteType = "GFX_man_gui_kwantung_army_pie"
-			# 	position = { x = 100 y = 150 }
-			# }
-			# iconType = {
-			# 	name = "man_gui_overlay"
-			# 	spriteType = "GFX_man_gui_overlay_pie"
-			# 	position = { x = 100 y = 150 }
-			# 	alwaystransparent = yes
-			# 	scale = 0.6
-			# }
+				iconType = {
+					name = "man_gui_portrait"
+					spriteType = "GFX_Portrait_MAN_shiromeguri_meguri"
+					position = { x = 8 y = 12 }
+				}
+				iconType = {
+					name = "man_gui_portrait_frame"
+					spriteType = "GFX_man_gui_portrait_frame"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "man_gui_logo"
+					spriteType = "GFX_man_gui_kwantung_gov_logo"
+					position = { x = 31 y = -110 } 
+				}
+			}
+			containerWindowType = {
+				name = "HOF_man_faction_kwantung_army_container"
+				position = { x = 344 y = 100 }
+
+				iconType = {
+					name = "man_gui_portrait"
+					spriteType = "GFX_Portrait_MAN_naoe_ai"
+					position = { x = 8 y = 12 }
+				}
+				iconType = {
+					name = "man_gui_portrait_frame"
+					spriteType = "GFX_man_gui_portrait_frame"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "man_gui_logo"
+					spriteType = "GFX_man_gui_kwantung_army_logo"
+					position = { x = 31 y = -110 } 
+				}
+			}
+			containerWindowType = {
+				name = "HOF_man_faction_tohsaka_container"
+				position = { x = 516 y = 100 }
+
+				iconType = {
+					name = "man_gui_portrait"
+					spriteType = "GFX_Portrait_tohsaka_rin"
+					position = { x = 8 y = 12 }
+				}
+				iconType = {
+					name = "man_gui_portrait_frame"
+					spriteType = "GFX_man_gui_portrait_frame"
+					position = { x = 0 y = 0 }
+				}
+				iconType = {
+					name = "man_gui_logo"
+					spriteType = "GFX_man_gui_tohsaka_logo"
+					position = { x = 31 y = -110 } 
+				}
+			}
+			
 		}
 
 	}
