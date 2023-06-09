@@ -57,7 +57,7 @@ JAP = {
 # this is military spending
 add_offsite_building = {
 	type = arms_factory
-	level = 3
+	level = 6
 }
 
 add_equipment_to_stockpile = {

@@ -17,7 +17,7 @@ operations = {
 		fire_only_once = yes
 
 		activation = {
-			date < 1936.1.10
+			date < 1936.2.10
 			tag = rus
 		}
 
