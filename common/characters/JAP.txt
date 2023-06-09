@@ -3024,6 +3024,7 @@ characters = {
 					has_completed_focus = JAP_eliminate_traitors
 				}
 			}
+			
 			traits = {
 				air_tactical_bombing_2
 				air_cooridination

@@ -49,7 +49,7 @@ characters = {
 		country_leader = {
 			ideology = conservatism
 			traits = {
-				# Ghost_of_Showa
+				# compassionate_commoner
 			}
 			id = -1
 		}
@@ -65,7 +65,7 @@ characters = {
 		# country_leader = {
 		# 	ideology = despotism
 		# 	traits = {
-		# 		# Ghost_of_Showa
+		# 		# propaganda_bungler
 		# 	}
 		# 	id = -1
 		# }
@@ -253,7 +253,7 @@ characters = {
 
 			}
 			traits = {
-				war_industrialist
+				modernizer_and_diplomat
 			}
 			ai_will_do = {
 				factor = 5
@@ -281,7 +281,7 @@ characters = {
 
 			}
 			traits = {
-				war_industrialist
+				emigre_connections
 			}
 			ai_will_do = {
 				factor = 5
@@ -309,7 +309,7 @@ characters = {
 
 			}
 			traits = {
-				war_industrialist
+				gallant_doctor
 			}
 			ai_will_do = {
 				factor = 5
@@ -337,7 +337,8 @@ characters = {
 
 			}
 			traits = {
-				war_industrialist
+				technocrat
+				retired_officer
 			}
 			ai_will_do = {
 				factor = 5
