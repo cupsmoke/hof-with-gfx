@@ -104,6 +104,10 @@ spriteTypes = {
 		name = "GFX_man_gui_overlay_pie"
 		texturefile = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_overload2.png"
 	}
+	SpriteType = {
+		name = "GFX_man_gui_frame_pie"
+		texturefile = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_frame_pie.png"
+	}
 	progressbartype = {
 		name = "GFX_man_gui_kwantung_army_pie"
 		textureFile1 = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_kwantung_army_pie.png"
@@ -166,4 +170,5 @@ spriteTypes = {
 	}
 
 
+	
 }

@@ -1,0 +1,31 @@
+
+defined_text = {
+	name = GetManFactionName
+	text = {
+		trigger = {
+			check_variable = { faction_idex = 0 }
+		}
+		localization_key = MAN_faction_kwantung_army
+	}
+	text = {
+		trigger = {
+			check_variable = { faction_idex = 1 }
+		}
+		localization_key = MAN_faction_kwantung_gov
+	}
+	text = {
+		trigger = {
+			check_variable = { faction_idex = 2 }
+		}
+		localization_key = MAN_faction_mantetsu
+	}
+	text = {
+		trigger = {
+			check_variable = { faction_idex = 3 }
+		}
+		localization_key = MAN_faction_zaibatsu
+	}
+	# text = {
+	# 	localization_key = generic_null
+	# }
+}

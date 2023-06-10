@@ -37,7 +37,6 @@ guiTypes = {
 				# clicksound = click_close
 				# pdx_tooltip = "CLOSE"
 				# shortcut = "ESCAPE"
-				
 			}			
 			buttonType = {
 				name = "debug_2"
@@ -45,8 +44,15 @@ guiTypes = {
 				spriteType = "GFX_closebutton"
 				# clicksound = click_close
 				pdx_tooltip = "add_2"
-				# shortcut = "ESCAPE"
-				
+				# shortcut = "ESCAPE"	
+			}			
+			buttonType = {
+				name = "debug_3"
+				position = {x = -100 y = 120 }
+				spriteType = "GFX_closebutton"
+				# clicksound = click_close
+				pdx_tooltip = "add_2"
+				# shortcut = "ESCAPE"	
 			}			
 		}
 		containerWindowType = {
@@ -83,6 +89,13 @@ guiTypes = {
 				position = { x = 0 y = 0 }
 				alwaystransparent = yes
 				scale = 0.5
+			}
+			iconType = {
+				name = "man_gui_frame"
+				spriteType = "GFX_man_gui_frame_pie"
+				position = { x = -15 y = -20 }
+				alwaystransparent = yes
+				scale = 0.7
 			}
 			# containerWindowType = { 
 			# 	name = "HOF_hun_power_balance_right"
@@ -148,7 +161,6 @@ guiTypes = {
 			containerWindowType = {
 				name = "HOF_man_faction_kwantung_gov_container"
 				position = { x = 172 y = 100 }
-
 				iconType = {
 					name = "man_gui_portrait"
 					spriteType = "GFX_Portrait_MAN_shiromeguri_meguri"

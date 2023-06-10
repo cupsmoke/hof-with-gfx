@@ -48,7 +48,11 @@
  MAN_communism_party_long:0 "-"
  MAN_democratic_party:0 "协和会"
  MAN_democratic_party_long:0 "南满洲协和会"
-
+# faction
+ MAN_faction_kwantung_army:0 "§g关东军§!"
+ MAN_faction_kwantung_gov:0 "§O关东厅§!"
+ MAN_faction_mantetsu:0 "§6满铁§!"
+ MAN_faction_zaibatsu:0 "§L财阀§!"
 # character
  MAN_shuten_doji:0 "酒吞童子" 
  MAN_konno_junko:0 "绀野纯子" 
@@ -78,8 +82,10 @@
 
 
 
-
-
-
 #debug
+ add_delta_faction_inf_tt:0 "[GetManFactionName]影响力$RIGHT|=%%Y0$"
  add_kwantung_army_inf_tt:0 "关东军影响力上升$RIGHT$%"
+ add_kwantung_gov_inf_tt:0 "关东厅影响力上升$RIGHT$%"
+ add_mantetsu_inf_tt:0 "满铁影响力上升$RIGHT$%"
+ add_zaibatsu_inf_tt:0 "财阀影响力上升$RIGHT$%"
+

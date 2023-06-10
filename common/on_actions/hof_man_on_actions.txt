@@ -1,0 +1,30 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			MAN = {
+				add_to_array = {
+					man_faction_inf_array = 40
+				}
+				add_to_array = {
+					man_faction_inf_array = 10
+				}
+				add_to_array = {
+					man_faction_inf_array = 50
+				}
+				add_to_array = {
+					man_faction_inf_array = 0
+				}
+				set_variable = {
+					man_faction_portrait_move = 8
+				}
+				set_variable = {
+					man_faction_frame_move = 0
+				}
+				set_variable = {
+					man_faction_logo_move = 31
+				}
+				MAN_faction_inf_pie = yes
+			}
+		}
+	}
+}

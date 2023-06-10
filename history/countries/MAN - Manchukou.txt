@@ -132,10 +132,26 @@ recruit_character = MAN_ishiwara_kanji
 
 ####var
 
-set_variable = { ROOT.kwantung_army_inf = 40 }
-set_variable = { ROOT.kwantung_gov_inf = 10 }
-set_variable = { ROOT.mantetsu_inf = 50 }
-set_variable = { ROOT.zaibatsu_inf = 0 }
+add_to_array = {
+	man_faction_inf_array = 40
+}
+add_to_array = {
+	man_faction_inf_array = 10
+}
+add_to_array = {
+	man_faction_inf_array = 50
+}
+add_to_array = {
+	man_faction_inf_array = 0
+}
+# set_variable = { man_faction_inf_array^0 = 40 }
+# set_variable = { man_faction_inf_array^1 = 10 }
+# set_variable = { man_faction_inf_array^2 = 50 }
+# set_variable = { man_faction_inf_array^3 = 0 }
+set_variable = { man_faction_portrait_move = 8 }
+set_variable = { man_faction_frame_move = 0 }
+set_variable = { man_faction_logo_move = 31 }
+
 MAN_faction_inf_pie = yes
 
 

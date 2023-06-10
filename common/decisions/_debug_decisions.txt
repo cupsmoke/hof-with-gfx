@@ -303,27 +303,42 @@ POL_debug_decisions = {
 }
 
 generic_debug_decisions = {
-	man_kw_army_add_10 = {
+	man_add_10 = {
 		icon = generic_research
 		cost = 0
 		available = {
-			# NOT = {
-			# 	has_country_flag = POL_Sanacja_show_initial_flag
-			# }
 			tag = man
 			is_ai = no
 		}
 		complete_effect = {
 			set_temp_variable = {
-				delta_kwantung_army_inf = 3
+				faction_idex = 0
 			}
-			MAN_add_kwantung_army_inf = yes
-			MAN_faction_inf_pie = yes
 			set_temp_variable = {
-				delta_kwantung_army_inf = -2
+				delta_faction_inf = 3
 			}
-			MAN_add_kwantung_army_inf = yes
-			MAN_faction_inf_pie = yes
+			MAN_add_faction_inf = yes
+			set_temp_variable = {
+				faction_idex = 1
+			}
+			set_temp_variable = {
+				delta_faction_inf = -2
+			}
+			MAN_add_faction_inf = yes
+			set_temp_variable = {
+				faction_idex = 2
+			}
+			set_temp_variable = {
+				delta_faction_inf = 5
+			}
+			MAN_add_faction_inf = yes
+			set_temp_variable = {
+				faction_idex = 3
+			}
+			set_temp_variable = {
+				delta_faction_inf = -6
+			}
+			MAN_add_faction_inf = yes
 		}
 	}
 }
