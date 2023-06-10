@@ -45,6 +45,14 @@ scripted_gui = {
 				} 
 				MAN_faction_inf_pie = yes
 			}
+			debug_2_click = {
+
+				set_temp_variable = {
+					delta_kwantung_army_inf = 10
+				}
+				MAN_add_kwantung_army_inf = yes
+				MAN_faction_inf_pie = yes
+			}
 		}
 		properties = {
 			man_gui_kwantung_army_pie_chart = {

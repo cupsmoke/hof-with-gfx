@@ -28,3 +28,13 @@ POL_debug_decisions = {
 		is_debug = yes
 	}
 }
+generic_debug_decisions = {
+	icon = generic_formable_nations
+	allowed = {
+		# tag = POL
+	}
+	priority = 500
+	visible = {
+		is_debug = yes
+	}
+}

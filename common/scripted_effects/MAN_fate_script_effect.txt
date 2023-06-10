@@ -1,29 +1,116 @@
-
 MAN_faction_inf_pie = {
-
-	set_variable = { current_stat = 0 }
-
-	add_to_variable = {	current_stat = ROOT.kwantung_army_inf }
-	set_variable = { kwantung_army_pie_frame = current_stat }
-	multiply_variable = { kwantung_army_pie_frame = 1000 }
-
+	set_variable = {
+		current_stat = 0
+	}
+	add_to_variable = {
+		current_stat = ROOT.kwantung_army_inf
+	}
+	set_variable = {
+		kwantung_army_pie_frame = current_stat
+	}
+	multiply_variable = {
+		kwantung_army_pie_frame = 1000
+	}
 	# set_variable = { kwantung_gov_pie_frame = 0 }
-	
-	add_to_variable = {	current_stat = ROOT.kwantung_gov_inf }
-	set_variable = { kwantung_gov_pie_frame = current_stat }
-	multiply_variable = { kwantung_gov_pie_frame = 1000 }
-
-	add_to_variable = {	current_stat = ROOT.mantetsu_inf }
-	set_variable = { mantetsu_pie_frame = current_stat }
-	multiply_variable = { mantetsu_pie_frame = 1000 }
-
-	add_to_variable = {	current_stat = ROOT.zaibatsu_inf }
-	set_variable = { zaibatsu_pie_frame = current_stat }
-	multiply_variable = { zaibatsu_pie_frame = 1000 }
-
+	add_to_variable = {
+		current_stat = ROOT.kwantung_gov_inf
+	}
+	set_variable = {
+		kwantung_gov_pie_frame = current_stat
+	}
+	multiply_variable = {
+		kwantung_gov_pie_frame = 1000
+	}
+	add_to_variable = {
+		current_stat = ROOT.mantetsu_inf
+	}
+	set_variable = {
+		mantetsu_pie_frame = current_stat
+	}
+	multiply_variable = {
+		mantetsu_pie_frame = 1000
+	}
+	add_to_variable = {
+		current_stat = ROOT.zaibatsu_inf
+	}
+	set_variable = {
+		zaibatsu_pie_frame = current_stat
+	}
+	multiply_variable = {
+		zaibatsu_pie_frame = 1000
+	}
 	# set_variable = { ROOT.kwantung_army_inf = 40 }
 	# set_variable = { ROOT.kwantung_gov_inf = 10 }
 	# set_variable = { ROOT.mantetsu_inf = 50 }
 	# set_variable = { ROOT.zaibatsu_inf = 0 }
-	
+}
+
+MAN_add_kwantung_army_inf = {
+	# set_variable = { current_stat = 0 }
+	set_temp_variable = {
+		makr_0 = 100
+	}
+	subtract_from_temp_variable = {
+		makr_0 = ROOT.kwantung_army_inf
+	}
+	add_to_variable = {
+		var = kwantung_army_inf
+		value = ENG.delta_kwantung_army_inf
+		tooltip = add_kwantung_army_inf_tt
+	}
+	# add_to_variable = {
+	# 	# ROOT.kwantung_army_inf = delta_kwantung_army_inf
+	# }
+	if = {
+		limit = {
+			check_variable = {
+				ROOT.kwantung_army_inf > 100
+			}
+		}
+		set_variable = {
+			ROOT.kwantung_army_inf = 100
+		}
+		set_variable = {
+			ROOT.kwantung_gov_inf = 0
+		}
+		set_variable = {
+			ROOT.mantetsu_inf = 0
+		}
+		set_variable = {
+			ROOT.zaibatsu_inf = 0
+		}
+	}
+	else = {
+		if = {
+			limit = {
+				check_variable = {
+					ROOT.kwantung_army_inf < 0
+				}
+			}
+			set_variable = {
+				ROOT.kwantung_army_inf = 0
+			}
+		}
+		set_temp_variable = {
+			makr_1 = 100
+		}
+		subtract_from_temp_variable = {
+			makr_1 = ROOT.kwantung_army_inf
+		}
+		set_temp_variable = {
+			temp_ratio = makr_1
+		}
+		divide_temp_variable = {
+			temp_ratio = makr_0
+		}
+		multiply_variable = {
+			ROOT.kwantung_gov_inf = temp_ratio
+		}
+		multiply_variable = {
+			ROOT.mantetsu_inf = temp_ratio
+		}
+		multiply_variable = {
+			ROOT.zaibatsu_inf = temp_ratio
+		}
+	}
 }

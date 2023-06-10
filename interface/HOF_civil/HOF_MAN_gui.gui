@@ -39,6 +39,15 @@ guiTypes = {
 				# shortcut = "ESCAPE"
 				
 			}			
+			buttonType = {
+				name = "debug_2"
+				position = {x = -100 y = 80 }
+				spriteType = "GFX_closebutton"
+				# clicksound = click_close
+				pdx_tooltip = "add_2"
+				# shortcut = "ESCAPE"
+				
+			}			
 		}
 		containerWindowType = {
 			name = "HOF_man_faction_inf_container"
