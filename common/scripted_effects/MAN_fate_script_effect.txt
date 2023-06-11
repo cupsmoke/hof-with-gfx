@@ -1,4 +1,5 @@
 MAN_faction_inf_pie = {
+	##用于更新饼图
 	set_variable = {
 		current_stat = 0
 	}
@@ -11,7 +12,6 @@ MAN_faction_inf_pie = {
 	multiply_variable = {
 		kwantung_army_pie_frame = 1000
 	}
-	# set_variable = { kwantung_gov_pie_frame = 0 }
 	add_to_variable = {
 		current_stat = man_faction_inf_array^1
 	}
@@ -45,77 +45,77 @@ MAN_faction_inf_pie = {
 	# set_variable = { ROOT.zaibatsu_inf = 0 }
 }
 
-MAN_add_kwantung_army_inf = {
-	# set_variable = { current_stat = 0 }
-	set_temp_variable = {
-		makr_0 = 100
-	}
-	subtract_from_temp_variable = {
-		makr_0 = man_faction_inf_array^0
-	}
-	add_to_variable = {
-		var = man_faction_inf_array^0
-		value = delta_kwantung_army_inf
-		tooltip = add_kwantung_army_inf_tt
-	}
-	# add_to_variable = {
-	# 	# ROOT.kwantung_army_inf = delta_kwantung_army_inf
-	# }
-	if = {
-		limit = {
-			check_variable = {
-				man_faction_inf_array^0 > 100
-			}
-		}
-		set_variable = {
-			man_faction_inf_array^0 = 100
-		}
-		set_variable = {
-			man_faction_inf_array^1 = 0
-		}
-		set_variable = {
-			man_faction_inf_array^2 = 0
-		}
-		set_variable = {
-			man_faction_inf_array^3 = 0
-		}
-	}
-	else = {
-		if = {
-			limit = {
-				check_variable = {
-					man_faction_inf_array^0 < 0
-				}
-			}
-			set_variable = {
-				man_faction_inf_array^0 = 0
-			}
-		}
-		set_temp_variable = {
-			makr_1 = 100
-		}
-		subtract_from_temp_variable = {
-			makr_1 = man_faction_inf_array^0
-		}
-		set_temp_variable = {
-			temp_ratio = makr_1
-		}
-		divide_temp_variable = {
-			temp_ratio = makr_0
-		}
-		multiply_variable = {
-			man_faction_inf_array^1 = temp_ratio
-		}
-		multiply_variable = {
-			man_faction_inf_array^2 = temp_ratio
-		}
-		multiply_variable = {
-			man_faction_inf_array^3 = temp_ratio
-		}
-	}
-}
-
+# MAN_add_kwantung_army_inf = {
+# 	# set_variable = { current_stat = 0 }
+# 	set_temp_variable = {
+# 		makr_0 = 100
+# 	}
+# 	subtract_from_temp_variable = {
+# 		makr_0 = man_faction_inf_array^0
+# 	}
+# 	add_to_variable = {
+# 		var = man_faction_inf_array^0
+# 		value = delta_kwantung_army_inf
+# 		tooltip = add_kwantung_army_inf_tt
+# 	}
+# 	# add_to_variable = {
+# 	# 	# ROOT.kwantung_army_inf = delta_kwantung_army_inf
+# 	# }
+# 	if = {
+# 		limit = {
+# 			check_variable = {
+# 				man_faction_inf_array^0 > 100
+# 			}
+# 		}
+# 		set_variable = {
+# 			man_faction_inf_array^0 = 100
+# 		}
+# 		set_variable = {
+# 			man_faction_inf_array^1 = 0
+# 		}
+# 		set_variable = {
+# 			man_faction_inf_array^2 = 0
+# 		}
+# 		set_variable = {
+# 			man_faction_inf_array^3 = 0
+# 		}
+# 	}
+# 	else = {
+# 		if = {
+# 			limit = {
+# 				check_variable = {
+# 					man_faction_inf_array^0 < 0
+# 				}
+# 			}
+# 			set_variable = {
+# 				man_faction_inf_array^0 = 0
+# 			}
+# 		}
+# 		set_temp_variable = {
+# 			makr_1 = 100
+# 		}
+# 		subtract_from_temp_variable = {
+# 			makr_1 = man_faction_inf_array^0
+# 		}
+# 		set_temp_variable = {
+# 			temp_ratio = makr_1
+# 		}
+# 		divide_temp_variable = {
+# 			temp_ratio = makr_0
+# 		}
+# 		multiply_variable = {
+# 			man_faction_inf_array^1 = temp_ratio
+# 		}
+# 		multiply_variable = {
+# 			man_faction_inf_array^2 = temp_ratio
+# 		}
+# 		multiply_variable = {
+# 			man_faction_inf_array^3 = temp_ratio
+# 		}
+# 	}
+# }
 MAN_add_faction_inf = {
+	# 用于修改派系inf
 	# set_variable = { current_stat = 0 }
 	set_temp_variable = {
 		makr_0 = 100
@@ -148,12 +148,12 @@ MAN_add_faction_inf = {
 			value = temp_j
 			if = {
 				limit = {
-					check_variable = {
-						temp_j = faction_idex
+					NOT = {
+						check_variable = {
+							temp_j = faction_idex
+						}
 					}
 				}
-			}
-			else = {
 				set_variable = {
 					man_faction_inf_array^temp_j = 0
 				}
@@ -188,12 +188,12 @@ MAN_add_faction_inf = {
 			value = temp_j
 			if = {
 				limit = {
-					check_variable = {
-						temp_j = faction_idex
+					NOT = {
+						check_variable = {
+							temp_j = faction_idex
+						}
 					}
 				}
-			}
-			else = {
 				multiply_variable = {
 					man_faction_inf_array^temp_j = temp_ratio
 				}
