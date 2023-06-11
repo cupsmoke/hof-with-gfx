@@ -12,6 +12,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MAN/Portrait_JAP_Seishiro_Itagaki.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_MAN_hanekawa_tsubasa"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_hanekawa_tsubasa.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_hanekawa_tsubasa_after"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_hanekawa_tsubasa_after.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_MAN_hayasaka_ai"
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_hayasaka_ai.png"
 	}
@@ -22,6 +30,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_MAN_hoshino_ai"
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_hoshino_ai.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_isshiki_iroha"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_isshiki_iroha.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_MAN_kazuya_mishima"
@@ -54,6 +66,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_MAN_Renya_Mutaguchi"
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_Renya_Mutaguchi.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_sakura_matou"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_sakura_matou.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_sakura_matou_after"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_sakura_matou_after.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_MAN_shiba_tatsuya"

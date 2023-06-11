@@ -19,7 +19,6 @@ guiTypes = {
 			name = "button_close"
 			position = {x = -45 y = 13 }
 			spriteType = "GFX_closebutton"
-			
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 			shortcut = "ESCAPE"
@@ -34,26 +33,20 @@ guiTypes = {
 				name = "debug_1"
 				position = {x = -100 y = 50 }
 				spriteType = "GFX_closebutton"
-				# clicksound = click_close
-				# pdx_tooltip = "CLOSE"
-				# shortcut = "ESCAPE"
+				pdx_tooltip = "add_2"
 			}			
 			buttonType = {
 				name = "debug_2"
 				position = {x = -100 y = 80 }
 				spriteType = "GFX_closebutton"
-				# clicksound = click_close
 				pdx_tooltip = "add_2"
-				# shortcut = "ESCAPE"	
 			}			
 			buttonType = {
 				name = "debug_3"
 				position = {x = -100 y = 120 }
 				spriteType = "GFX_closebutton"
-				# clicksound = click_close
-				pdx_tooltip = "add_2"
-				# shortcut = "ESCAPE"	
-			}			
+				pdx_tooltip = "add_2"	
+			}
 		}
 		containerWindowType = {
 			name = "HOF_man_faction_inf_container"
@@ -61,7 +54,6 @@ guiTypes = {
 			# size = { width = 545 height = 540 }
 			# margin = { top = 10 bottom = 10 }
 			Orientation = center
-
 			# verticalScrollbar = "right_vertical_slider"
 			iconType = {
 				name = "man_gui_zaibatsu_pie_chart"
@@ -143,7 +135,7 @@ guiTypes = {
 				position = { x = 0 y = 100 }
 				# Orientation = CENTER
 				iconType = {
-					name = "man_gui_portrait"
+					name = "man_gui_portrait_mantetsu"
 					spriteType = "GFX_Portrait_MAN_shuten_doji"
 					position = { x = 8 y = 12 }
 				}
@@ -162,7 +154,7 @@ guiTypes = {
 				name = "HOF_man_faction_kwantung_gov_container"
 				position = { x = 172 y = 100 }
 				iconType = {
-					name = "man_gui_portrait"
+					name = "man_gui_portrait_kwantung_gov"
 					spriteType = "GFX_Portrait_MAN_shiromeguri_meguri"
 					position = { x = 8 y = 12 }
 				}
@@ -182,7 +174,7 @@ guiTypes = {
 				position = { x = 344 y = 100 }
 
 				iconType = {
-					name = "man_gui_portrait"
+					name = "man_gui_portrait_kwantung_army"
 					spriteType = "GFX_Portrait_MAN_naoe_ai"
 					position = { x = 8 y = 12 }
 				}
@@ -198,11 +190,11 @@ guiTypes = {
 				}
 			}
 			containerWindowType = {
-				name = "HOF_man_faction_tohsaka_container"
+				name = "HOF_man_faction_zaibatsu_container"
 				position = { x = 516 y = 100 }
 
 				iconType = {
-					name = "man_gui_portrait"
+					name = "man_gui_portrait_zaibatsu"
 					spriteType = "GFX_Portrait_tohsaka_rin"
 					position = { x = 8 y = 12 }
 				}
@@ -212,7 +204,7 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 				}
 				iconType = {
-					name = "man_gui_logo"
+					name = "man_gui_logo_zaibatsu"
 					spriteType = "GFX_man_gui_tohsaka_logo"
 					position = { x = 31 y = -110 } 
 				}

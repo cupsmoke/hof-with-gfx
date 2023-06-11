@@ -44,7 +44,60 @@ MAN_faction_inf_pie = {
 	# set_variable = { ROOT.mantetsu_inf = 50 }
 	# set_variable = { ROOT.zaibatsu_inf = 0 }
 }
-
+MAN_faction_random_set = {
+	set_variable_to_random = {
+		var = man_faction_inf_array^0
+		min = 0
+		max = 100
+		integer = yes
+	}
+	set_variable_to_random = {
+		var = man_faction_inf_array^1
+		min = 0
+		max = 100
+		integer = yes
+	}
+	set_variable_to_random = {
+		var = man_faction_inf_array^2
+		min = 0
+		max = 100
+		integer = yes
+	}
+	set_variable_to_random = {
+		var = man_faction_inf_array^3
+		min = 0
+		max = 100
+		integer = yes
+	}
+	set_temp_variable = {
+		sum = man_faction_inf_array^0
+	}
+	add_to_temp_variable = {
+		sum = man_faction_inf_array^1
+	}
+	add_to_temp_variable = {
+		sum = man_faction_inf_array^2
+	}
+	add_to_temp_variable = {
+		sum = man_faction_inf_array^3
+	}
+	divide_temp_variable = {
+		sum = 100
+	}
+	divide_variable = {
+		man_faction_inf_array^0 = sum
+	}
+	divide_variable = {
+		man_faction_inf_array^1 = sum
+	}
+	divide_variable = {
+		man_faction_inf_array^2 = sum
+	}
+	divide_variable = {
+		man_faction_inf_array^3 = sum
+	}
+	MAN_faction_inf_pie = yes	
+}
 # MAN_add_kwantung_army_inf = {
 # 	# set_variable = { current_stat = 0 }
 # 	set_temp_variable = {

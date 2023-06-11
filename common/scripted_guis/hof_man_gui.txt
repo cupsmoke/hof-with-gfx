@@ -8,72 +8,26 @@ scripted_gui = {
 			has_country_flag = show_random_tag_context
 			# always = no
 		}
+		triggers = {
+			debug_2_visible = {
+				always = no
+			}
+		}
 		effects = {
 			button_close_click = {
 				clr_country_flag = show_random_tag_context
 			}
 			debug_1_click = {
+				MAN_faction_random_set = yes
 				# 随机
 				# clr_country_flag = show_random_tag_context
-				set_variable_to_random = {
-					var = man_faction_inf_array^0
-					min = 0
-					max = 100
-					integer = yes
-				}
-				set_variable_to_random = {
-					var = man_faction_inf_array^1
-					min = 0
-					max = 100
-					integer = yes
-				}
-				set_variable_to_random = {
-					var = man_faction_inf_array^2
-					min = 0
-					max = 100
-					integer = yes
-				}
-				set_variable_to_random = {
-					var = man_faction_inf_array^3
-					min = 0
-					max = 100
-					integer = yes
-				}
-				set_temp_variable = {
-					sum = man_faction_inf_array^0
-				}
-				add_to_temp_variable = {
-					sum = man_faction_inf_array^1
-				}
-				add_to_temp_variable = {
-					sum = man_faction_inf_array^2
-				}
-				add_to_temp_variable = {
-					sum = man_faction_inf_array^3
-				}
-				divide_temp_variable = {
-					sum = 100
-				}
-				divide_variable = {
-					man_faction_inf_array^0 = sum
-				}
-				divide_variable = {
-					man_faction_inf_array^1 = sum
-				}
-				divide_variable = {
-					man_faction_inf_array^2 = sum
-				}
-				divide_variable = {
-					man_faction_inf_array^3 = sum
-				}
-				MAN_faction_inf_pie = yes
 			}
 			debug_2_click = {
-				set_temp_variable = {
-					delta_kwantung_army_inf = 10
-				}
-				MAN_add_kwantung_army_inf = yes
-				# MAN_faction_inf_pie = yes
+				# set_temp_variable = {
+				# 	delta_kwantung_army_inf = 10
+				# }
+				# MAN_add_kwantung_army_inf = yes
+				# # MAN_faction_inf_pie = yes
 			}
 			debug_3_click = {
 				# add_to_variable = {
@@ -92,6 +46,7 @@ scripted_gui = {
 			}
 		}
 		properties = {
+			## pie
 			man_gui_kwantung_army_pie_chart = {
 				frame = kwantung_army_pie_frame
 			}
@@ -104,16 +59,34 @@ scripted_gui = {
 			man_gui_zaibatsu_pie_chart = {
 				frame = zaibatsu_pie_frame
 			}
+			## 
 			man_gui_portrait_frame = {
 				x = man_faction_frame_move
 			}
+			# logo
 			man_gui_logo = {
 				x = man_faction_logo_move
 			}
-			man_gui_portrait = {
+			man_gui_logo_zaibatsu = {
+				x = man_faction_logo_move
+			}
+			# portrait
+			man_gui_portrait_mantetsu = {
+				image = "[get_man_mantetsu_portrait]"
+				x = man_faction_portrait_move
+			}
+			man_gui_portrait_kwantung_gov = {
+				image = "[get_man_kwantung_gov_portrait]"
+				x = man_faction_portrait_move
+			}
+			man_gui_portrait_kwantung_army = {
+				image = "[get_man_kwantung_army_portrait]"
+				x = man_faction_portrait_move
+			}
+			man_gui_portrait_zaibatsu = {
+				image = "[get_man_zaibatsu_portrait]"
 				x = man_faction_portrait_move
 			}
 		}
 	}
-	
 }
