@@ -102,7 +102,7 @@ spriteTypes = {
 	###MAN
 	SpriteType = {
 		name = "GFX_man_gui_overlay_pie"
-		texturefile = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_overload2.png"
+		texturefile = "gfx/interface/gui_hof/MAN/man_inf_ui/man_gui_overload3.png"
 	}
 	SpriteType = {
 		name = "GFX_man_gui_frame_pie"
