@@ -1,27 +1,34 @@
-
 defined_text = {
 	name = GetManFactionName
 	text = {
 		trigger = {
-			check_variable = { faction_idex = 0 }
+			check_variable = {
+				faction_idex = 0
+			}
 		}
 		localization_key = MAN_faction_kwantung_army
 	}
 	text = {
 		trigger = {
-			check_variable = { faction_idex = 1 }
+			check_variable = {
+				faction_idex = 1
+			}
 		}
 		localization_key = MAN_faction_kwantung_gov
 	}
 	text = {
 		trigger = {
-			check_variable = { faction_idex = 2 }
+			check_variable = {
+				faction_idex = 2
+			}
 		}
 		localization_key = MAN_faction_mantetsu
 	}
 	text = {
 		trigger = {
-			check_variable = { faction_idex = 3 }
+			check_variable = {
+				faction_idex = 3
+			}
 		}
 		localization_key = MAN_faction_zaibatsu
 	}
@@ -30,18 +37,22 @@ defined_text = {
 	# }
 }
 
-
+#满铁
 defined_text = {
 	name = get_man_mantetsu_portrait
 	text = {
 		trigger = {
-			check_variable = { mantetsu_portrait = 0 }
+			check_variable = {
+				mantetsu_portrait = 0
+			}
 		}
 		localization_key = "GFX_Portrait_MAN_shuten_doji"
 	}
 	text = {
 		trigger = {
-			check_variable = { mantetsu_portrait = 1 }
+			check_variable = {
+				mantetsu_portrait = 1
+			}
 		}
 		localization_key = "GFX_Portrait_MAN_shuten_doji"
 	}
@@ -49,23 +60,31 @@ defined_text = {
 		localization_key = "GFX_Portrait_MAN_shuten_doji"
 	}
 }
-defined_text = { #关东州领袖
+
+#关东州领袖
+defined_text = {
 	name = get_man_kwantung_gov_portrait
 	text = {
 		trigger = {
-			check_variable = { kwantung_gov_portrait = 0 }
+			check_variable = {
+				kwantung_gov_portrait = 0
+			}
 		}
 		localization_key = "GFX_Portrait_MAN_shiromeguri_meguri"
 	}
 	text = {
 		trigger = {
-			check_variable = { kwantung_gov_portrait = 1 }
+			check_variable = {
+				kwantung_gov_portrait = 1
+			}
 		}
 		localization_key = "GFX_Portrait_MAN_isshiki_iroha"
 	}
 	text = {
 		trigger = {
-			check_variable = { kwantung_gov_portrait = 2 }
+			check_variable = {
+				kwantung_gov_portrait = 2
+			}
 		}
 		localization_key = "GFX_Portrait_MAN_hayasaka_ai"
 	}
@@ -73,17 +92,22 @@ defined_text = { #关东州领袖
 		localization_key = generic_null
 	}
 }
+# 关东军
 defined_text = {
 	name = get_man_kwantung_army_portrait
 	text = {
 		trigger = {
-			check_variable = { kwantung_army_portrait = 0 }
+			check_variable = {
+				kwantung_army_portrait = 0
+			}
 		}
 		localization_key = "GFX_Portrait_Nagao_Kagetora"
 	}
 	text = {
 		trigger = {
-			check_variable = { kwantung_army_portrait = 1 }
+			check_variable = {
+				kwantung_army_portrait = 1
+			}
 		}
 		localization_key = "GFX_Portrait_MAN_naoe_ai"
 	}
@@ -91,29 +115,76 @@ defined_text = {
 		localization_key = generic_null
 	}
 }
+# 财阀
 defined_text = {
 	name = get_man_zaibatsu_portrait
 	text = {
 		trigger = {
-			check_variable = { zaibatsu_portrait = 0 }
+			check_variable = {
+				zaibatsu_portrait = 0
+			}
 		}
 		localization_key = "GFX_Portrait_tohsaka_rin"
 	}
 	text = {
 		trigger = {
-			check_variable = { zaibatsu_portrait = 1 }
+			check_variable = {
+				zaibatsu_portrait = 1
+			}
 		}
 		localization_key = "GFX_Portrait_MAN_shiba_tatsuya"
 	}
 	text = {
 		trigger = {
-			check_variable = { zaibatsu_portrait = 2 }
+			check_variable = {
+				zaibatsu_portrait = 2
+			}
 		}
 		localization_key = "GFX_Portrait_MAN_miyano_shiho"
 	}
 	text = {
 		trigger = {
-			check_variable = { zaibatsu_portrait = 3 }
+			check_variable = {
+				zaibatsu_portrait = 3
+			}
+		}
+		localization_key = "GFX_Portrait_MAN_kazuya_mishima"
+	}
+	text = {
+		localization_key = generic_null
+	}
+}
+defined_text = {
+	name = get_man_zaibatsu_logo
+	text = {
+		trigger = {
+			check_variable = {
+				zaibatsu_portrait = 0
+			}
+		}
+		localization_key = "GFX_Portrait_tohsaka_rin"
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				zaibatsu_portrait = 1
+			}
+		}
+		localization_key = "GFX_Portrait_MAN_shiba_tatsuya"
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				zaibatsu_portrait = 2
+			}
+		}
+		localization_key = "GFX_Portrait_MAN_miyano_shiho"
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				zaibatsu_portrait = 3
+			}
 		}
 		localization_key = "GFX_Portrait_MAN_kazuya_mishima"
 	}

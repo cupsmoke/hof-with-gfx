@@ -165,6 +165,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/gui_hof/MAN/man_faction_ui/man_gui_kwantung_army_logo.png"
 	}
 	SpriteType = {
+		name = "GFX_man_gui_concordia_association_logo"
+		texturefile = "gfx/interface/gui_hof/MAN/man_faction_ui/man_gui_concordia_association_logo.png"
+	} 
+	SpriteType = {
 		name = "GFX_man_gui_tohsaka_logo"
 		texturefile = "gfx/interface/gui_hof/MAN/man_faction_ui/man_gui_tohsaka_logo.png"
 	}

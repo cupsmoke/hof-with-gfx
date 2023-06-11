@@ -79,13 +79,18 @@
  MAN_man_railway_benefit_desc:0 ""  
 # trait
  Ghost_of_Showa:0 "昭和之鬼" 
-
-
-
-#debug
+# gui
  add_delta_faction_inf_tt:0 "[GetManFactionName]影响力$RIGHT|=%%Y0$"
- add_kwantung_army_inf_tt:0 "关东军影响力上升$RIGHT$%"
- add_kwantung_gov_inf_tt:0 "关东厅影响力上升$RIGHT$%"
- add_mantetsu_inf_tt:0 "满铁影响力上升$RIGHT$%"
- add_zaibatsu_inf_tt:0 "财阀影响力上升$RIGHT$%"
+ #  add_kwantung_army_inf_tt:0 "关东军影响力上升$RIGHT$%"
+ #  add_kwantung_gov_inf_tt:0 "关东厅影响力上升$RIGHT$%"
+ #  add_mantetsu_inf_tt:0 "满铁影响力上升$RIGHT$%"
+ #  add_zaibatsu_inf_tt:0 "财阀影响力上升$RIGHT$%"
+ man_gui_mantetsu_logo_tt:0 "§6满铁§!\n全称为南满洲铁道株式会社"
+ man_gui_portrait_mantetsu_tt:0 "§6满铁总裁§!\n酒吞童子"
+ man_gui_kwantung_gov_logo_tt:0 "§O关东厅§!\n为日本在关东州设立的行政机关"
+ man_gui_portrait_kwantung_gov_tt:0 "§O关东长官§!\n城回巡"
+ man_gui_kwantung_army_logo_tt:0 "§g关东军§!\n"
+ man_gui_portrait_kwantung_army_tt:0 "§g关东军司令§!\n长尾景虎"
+ man_gui_zaibatsu_logo_tt:0 "§L财阀§!\n"
+ man_gui_portrait_zaibatsu_tt:0 "§L财阀总帅§!\n远坂凛"
 
