@@ -33,15 +33,37 @@ scripted_gui = {
 				# add_to_variable = {
 				# 	man_faction_move = -10
 				# }
-				set_variable = {
-					man_faction_portrait_move = -78
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = HOF_zaibatsu_flag
+						}
+					}
+
+					add_to_variable = {
+						man_faction_portrait_move = -86
+					}
+					add_to_variable = {
+						man_faction_frame_move = -86
+					}
+					add_to_variable = {
+						man_faction_logo_move = -86
+					}
+					set_country_flag = HOF_zaibatsu_flag
 				}
-				set_variable = {
-					man_faction_frame_move = -86
+				else = {
+					subtract_from_variable = {
+						man_faction_portrait_move = -86
+					}
+					subtract_from_variable = {
+						man_faction_frame_move = -86
+					}
+					subtract_from_variable = {
+						man_faction_logo_move = -86
+					}
+					clr_country_flag = HOF_zaibatsu_flag
 				}
-				set_variable = {
-					man_faction_logo_move = -55
-				}
+
 				# MAN_faction_inf_pie = yes
 			}
 		}
@@ -59,32 +81,96 @@ scripted_gui = {
 			man_gui_zaibatsu_pie_chart = {
 				frame = zaibatsu_pie_frame
 			}
-			## 
+		}
+	}
+	HOF_man_faction_mantetsu_container = {
+		context_type = player_context
+		parent_window_name = "HOF_random_man_window"
+		window_name = "HOF_man_faction_mantetsu_container"
+
+		properties = {
 			man_gui_portrait_frame = {
 				x = man_faction_frame_move
 			}
-			# logo
 			man_gui_logo = {
 				x = man_faction_logo_move
 			}
-			man_gui_logo_zaibatsu = {
-				x = man_faction_logo_move
-			}
-			# portrait
-			man_gui_portrait_mantetsu = {
+			man_gui_portrait = {
 				image = "[get_man_mantetsu_portrait]"
 				x = man_faction_portrait_move
 			}
-			man_gui_portrait_kwantung_gov = {
+		}
+	}
+	HOF_man_faction_kwantung_gov_container = {
+		context_type = player_context
+		parent_window_name = "HOF_random_man_window"
+		window_name = "HOF_man_faction_kwantung_gov_container"
+		properties = {
+			man_gui_portrait_frame = {
+				x = man_faction_frame_move
+			}
+			man_gui_logo = {
+				x = man_faction_logo_move
+			}
+			man_gui_portrait = {
 				image = "[get_man_kwantung_gov_portrait]"
 				x = man_faction_portrait_move
 			}
-			man_gui_portrait_kwantung_army = {
+		}
+	}
+	HOF_man_faction_kwantung_army_container = {
+		context_type = player_context
+		parent_window_name = "HOF_random_man_window"
+		window_name = "HOF_man_faction_kwantung_army_container"
+		properties = {
+			man_gui_portrait_frame = {
+				x = man_faction_frame_move
+			}
+			man_gui_logo = {
+				x = man_faction_logo_move
+			}
+			man_gui_portrait = {
 				image = "[get_man_kwantung_army_portrait]"
 				x = man_faction_portrait_move
 			}
-			man_gui_portrait_zaibatsu = {
+		}
+	}
+	HOF_man_faction_zaibatsu_container = {
+		context_type = player_context
+		parent_window_name = "HOF_random_man_window"
+		window_name = "HOF_man_faction_zaibatsu_container"
+		visible = {
+			has_country_flag = HOF_zaibatsu_flag
+		}
+		properties = {
+			man_gui_portrait_frame = {
+				x = man_faction_frame_move
+			}
+			man_gui_logo = {
+				x = man_faction_logo_move
+			}
+			man_gui_portrait = {
 				image = "[get_man_zaibatsu_portrait]"
+				x = man_faction_portrait_move
+			}
+		}
+	}
+	HOF_man_faction_concordia_association_container = {
+		context_type = player_context
+		parent_window_name = "HOF_random_man_window"
+		window_name = "HOF_man_faction_concordia_association_container"
+		visible = {
+			has_country_flag = HOF_concordia_association_flag
+		}
+		properties = {
+			man_gui_portrait_frame = {
+				x = man_faction_frame_move
+			}
+			man_gui_logo = {
+				x = man_faction_logo_move
+			}
+			man_gui_portrait = {
+				image = "[get_man_mantetsu_portrait]"
 				x = man_faction_portrait_move
 			}
 		}

@@ -129,127 +129,224 @@ guiTypes = {
 			# 	}
 			# }
 		}
+
+	}
+
+	containerWindowType = {
+		name = "HOF_man_faction_img_container"
+		position = { x = -261 y = 0 }
+		size = { width = 545 height = 540 }
+		margin = { top = 10 bottom = 10 }
+
+
+
 		containerWindowType = {
-			name = "HOF_man_faction_img_container"
-			position = { x = -261 y = 0 }
-			size = { width = 545 height = 540 }
-			margin = { top = 10 bottom = 10 }
-			Orientation = center
-
-			containerWindowType = {
-				name = "HOF_man_faction_mantetsu_container"
-				position = { x = 0 y = 100 }
-				# Orientation = CENTER
-				iconType = {
-					name = "man_gui_portrait_mantetsu"
-					spriteType = "GFX_Portrait_MAN_shuten_doji"
-					position = { x = 8 y = 12 }
-					pdx_tooltip = "man_gui_portrait_mantetsu_tt"
-				}
-				iconType = {
-					name = "man_gui_portrait_frame"
-					spriteType = "GFX_man_gui_portrait_frame"
-					alwaystransparent = yes
-					position = { x = 0 y = 0 }
-				}
-				iconType = {
-					name = "man_gui_logo"
-					spriteType = "GFX_man_gui_mantetsu_logo"
-					position = { x = 31 y = -110 } 
-					pdx_tooltip = "man_gui_mantetsu_logo_tt"
-				}
+			name = "HOF_man_faction_kwantung_gov_container"
+			position = { x = 172 y = 100 }
+			iconType = {
+				name = "man_gui_portrait_kwantung_gov"
+				spriteType = "GFX_Portrait_MAN_shiromeguri_meguri"
+				position = { x = 8 y = 12 }
+				pdx_tooltip = "man_gui_portrait_kwantung_gov_tt"
 			}
-			containerWindowType = {
-				name = "HOF_man_faction_kwantung_gov_container"
-				position = { x = 172 y = 100 }
-				iconType = {
-					name = "man_gui_portrait_kwantung_gov"
-					spriteType = "GFX_Portrait_MAN_shiromeguri_meguri"
-					position = { x = 8 y = 12 }
-					pdx_tooltip = "man_gui_portrait_kwantung_gov_tt"
-				}
-				iconType = {
-					name = "man_gui_portrait_frame"
-					spriteType = "GFX_man_gui_portrait_frame"
-					alwaystransparent = yes
-					position = { x = 0 y = 0 }
-				}
-				iconType = {
-					name = "man_gui_logo"
-					spriteType = "GFX_man_gui_kwantung_gov_logo"
-					position = { x = 31 y = -110 } 
-					pdx_tooltip = "man_gui_kwantung_gov_logo_tt"
-				}
+			iconType = {
+				name = "man_gui_portrait_frame"
+				spriteType = "GFX_man_gui_portrait_frame"
+				alwaystransparent = yes
+				position = { x = 0 y = 0 }
 			}
-			containerWindowType = {
-				name = "HOF_man_faction_kwantung_army_container"
-				position = { x = 344 y = 100 }
-
-				iconType = {
-					name = "man_gui_portrait_kwantung_army"
-					spriteType = "GFX_Portrait_MAN_naoe_ai"
-					position = { x = 8 y = 12 }
-					pdx_tooltip = "man_gui_portrait_kwantung_army_tt"
-
-				}
-				iconType = {
-					name = "man_gui_portrait_frame"
-					spriteType = "GFX_man_gui_portrait_frame"
-					alwaystransparent = yes
-					position = { x = 0 y = 0 }
-				}
-				iconType = {
-					name = "man_gui_logo"
-					spriteType = "GFX_man_gui_kwantung_army_logo"
-					position = { x = 31 y = -110 } 
-					pdx_tooltip = "man_gui_kwantung_army_logo_tt"
-
-				}
+			iconType = {
+				name = "man_gui_logo"
+				spriteType = "GFX_man_gui_kwantung_gov_logo"
+				position = { x = 31 y = -110 } 
+				pdx_tooltip = "man_gui_kwantung_gov_logo_tt"
 			}
-			containerWindowType = {
-				name = "HOF_man_faction_zaibatsu_container"
-				position = { x = 516 y = 100 }
+		}
+		containerWindowType = {
+			name = "HOF_man_faction_kwantung_army_container"
+			position = { x = 344 y = 100 }
 
-				iconType = {
-					name = "man_gui_portrait_zaibatsu"
-					spriteType = "GFX_Portrait_tohsaka_rin"
-					position = { x = 8 y = 12 }
-					pdx_tooltip = "man_gui_portrait_zaibatsu_tt"
-				}
-				iconType = {
-					name = "man_gui_portrait_frame"
-					spriteType = "GFX_man_gui_portrait_frame"
-					alwaystransparent = yes
-					position = { x = 0 y = 0 }
-				}
-				iconType = {
-					name = "man_gui_logo_zaibatsu"
-					spriteType = "GFX_man_gui_tohsaka_logo"
-					position = { x = 31 y = -110 } 
-					pdx_tooltip = "man_gui_zaibatsu_logo_tt"
-				}
+			iconType = {
+				name = "man_gui_portrait_kwantung_army"
+				spriteType = "GFX_Portrait_MAN_naoe_ai"
+				position = { x = 8 y = 12 }
+				pdx_tooltip = "man_gui_portrait_kwantung_army_tt"
+
 			}
-			# containerWindowType = {
-			# 	name = "HOF_man_faction_concordia_association_container"
-			# 	position = { x = 688 y = 100 }
+			iconType = {
+				name = "man_gui_portrait_frame"
+				spriteType = "GFX_man_gui_portrait_frame"
+				alwaystransparent = yes
+				position = { x = 0 y = 0 }
+			}
+			iconType = {
+				name = "man_gui_logo"
+				spriteType = "GFX_man_gui_kwantung_army_logo"
+				position = { x = 31 y = -110 } 
+				pdx_tooltip = "man_gui_kwantung_army_logo_tt"
 
-			# 	iconType = {
-			# 		name = "man_gui_portrait_concordia_association"
-			# 		spriteType = "GFX_Portrait_MAN_konno_junko"
-			# 		position = { x = 8 y = 12 }
-			# 	}
-			# 	iconType = {
-			# 		name = "man_gui_portrait_frame"
-			# 		spriteType = "GFX_man_gui_portrait_frame"
-			# 		alwaystransparent = yes
-			# 		position = { x = 0 y = 0 }
-			# 	}
-			# 	iconType = {
-			# 		name = "man_gui_logo_concordia_association"
-			# 		spriteType = "GFX_man_gui_concordia_association_logo"
-			# 		position = { x = 31 y = -110 } 
-			# 	}
-			# }
+			}
+		}
+		containerWindowType = {
+			name = "HOF_man_faction_zaibatsu_container"
+			position = { x = 516 y = 100 }
+
+			iconType = {
+				name = "man_gui_portrait_zaibatsu"
+				spriteType = "GFX_Portrait_tohsaka_rin"
+				position = { x = 8 y = 12 }
+				pdx_tooltip = "man_gui_portrait_zaibatsu_tt"
+			}
+			iconType = {
+				name = "man_gui_portrait_frame"
+				spriteType = "GFX_man_gui_portrait_frame"
+				alwaystransparent = yes
+				position = { x = 0 y = 0 }
+			}
+			iconType = {
+				name = "man_gui_logo_zaibatsu"
+				spriteType = "GFX_man_gui_tohsaka_logo"
+				position = { x = 31 y = -110 } 
+				pdx_tooltip = "man_gui_zaibatsu_logo_tt"
+			}
+		}
+		containerWindowType = {
+			name = "HOF_man_faction_concordia_association_container"
+			position = { x = 688 y = 100 }
+
+			iconType = {
+				name = "man_gui_portrait_concordia_association"
+				spriteType = "GFX_Portrait_MAN_konno_junko"
+				position = { x = 8 y = 12 }
+			}
+			iconType = {
+				name = "man_gui_portrait_frame"
+				spriteType = "GFX_man_gui_portrait_frame"
+				alwaystransparent = yes
+				position = { x = 0 y = 0 }
+			}
+			iconType = {
+				name = "man_gui_logo_concordia_association"
+				spriteType = "GFX_man_gui_concordia_association_logo"
+				position = { x = 31 y = -110 } 
+			}
+		}
+	}
+	containerWindowType = {
+		name = "HOF_man_faction_mantetsu_container"
+		position = { x = -261 y = 100 }
+		Orientation = center
+		# Orientation = CENTER
+		iconType = {
+			name = "man_gui_portrait"
+			spriteType = "GFX_Portrait_MAN_shuten_doji"
+			position = { x = 8 y = 12 }
+			pdx_tooltip = "man_gui_portrait_mantetsu_tt"
+		}
+		iconType = {
+			name = "man_gui_portrait_frame"
+			spriteType = "GFX_man_gui_portrait_frame"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+		iconType = {
+			name = "man_gui_logo"
+			spriteType = "GFX_man_gui_mantetsu_logo"
+			position = { x = 31 y = -110 } 
+			pdx_tooltip = "man_gui_mantetsu_logo_tt"
+		}
+	}
+	containerWindowType = {
+		name = "HOF_man_faction_kwantung_gov_container"
+		position = { x = -89 y = 100 }
+		Orientation = center
+		iconType = {
+			name = "man_gui_portrait"
+			spriteType = "GFX_Portrait_MAN_shiromeguri_meguri"
+			position = { x = 8 y = 12 }
+			pdx_tooltip = "man_gui_portrait_kwantung_gov_tt"
+		}
+		iconType = {
+			name = "man_gui_portrait_frame"
+			spriteType = "GFX_man_gui_portrait_frame"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+		iconType = {
+			name = "man_gui_logo"
+			spriteType = "GFX_man_gui_kwantung_gov_logo"
+			position = { x = 31 y = -110 } 
+			pdx_tooltip = "man_gui_kwantung_gov_logo_tt"
+		}
+	}
+	containerWindowType = {
+		name = "HOF_man_faction_kwantung_army_container"
+		position = { x = 83 y = 100 }
+		Orientation = center
+
+		iconType = {
+			name = "man_gui_portrait"
+			spriteType = "GFX_Portrait_MAN_naoe_ai"
+			position = { x = 8 y = 12 }
+			pdx_tooltip = "man_gui_portrait_kwantung_army_tt"
+
+		}
+		iconType = {
+			name = "man_gui_portrait_frame"
+			spriteType = "GFX_man_gui_portrait_frame"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+		iconType = {
+			name = "man_gui_logo"
+			spriteType = "GFX_man_gui_kwantung_army_logo"
+			position = { x = 31 y = -110 } 
+			pdx_tooltip = "man_gui_kwantung_army_logo_tt"
+
+		}
+	}
+	containerWindowType = {
+		name = "HOF_man_faction_zaibatsu_container"
+		position = { x = 255 y = 100 }
+		Orientation = center
+		iconType = {
+			name = "man_gui_portrait"
+			spriteType = "GFX_Portrait_tohsaka_rin"
+			position = { x = 8 y = 12 }
+			pdx_tooltip = "man_gui_portrait_zaibatsu_tt"
+		}
+		iconType = {
+			name = "man_gui_portrait_frame"
+			spriteType = "GFX_man_gui_portrait_frame"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+		iconType = {
+			name = "man_gui_logo"
+			spriteType = "GFX_man_gui_tohsaka_logo"
+			position = { x = 31 y = -110 } 
+			pdx_tooltip = "man_gui_zaibatsu_logo_tt"
+		}
+	}
+	containerWindowType = {
+		name = "HOF_man_faction_concordia_association_container"
+		position = { x = 427 y = 100 }
+		Orientation = center
+		iconType = {
+			name = "man_gui_portrait"
+			spriteType = "GFX_Portrait_MAN_konno_junko"
+			position = { x = 8 y = 12 }
+		}
+		iconType = {
+			name = "man_gui_portrait_frame"
+			spriteType = "GFX_man_gui_portrait_frame"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+		}
+		iconType = {
+			name = "man_gui_logo"
+			spriteType = "GFX_man_gui_concordia_association_logo"
+			position = { x = 31 y = -110 } 
 		}
 	}
 }
