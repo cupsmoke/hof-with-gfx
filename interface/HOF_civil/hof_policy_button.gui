@@ -39,6 +39,7 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			pdx_tooltip = "show_tag_gui"
 			pdx_tooltip_delayed = "show_tag_gui_delayed"
+			shortcut = "ctrl+i"
 			# Orientation = "UPPER_RIGHT"
 		}
 		iconType = {

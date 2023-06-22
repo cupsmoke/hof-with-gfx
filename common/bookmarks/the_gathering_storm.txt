@@ -198,6 +198,17 @@ bookmarks = {
 				UKR_generic_Zaporizhzhia_industrial_complex
 			}
 		}
+		"USA" = {
+			minor = yes
+			history = "USA_GATHERING_STORM_COVER"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
 
 		"SWE" = {
 			minor = yes

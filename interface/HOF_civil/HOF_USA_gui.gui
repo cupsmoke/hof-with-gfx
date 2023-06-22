@@ -1,0 +1,57 @@
+guiTypes = {
+	# for USA 
+	containerWindowType = {
+		name = "HOF_random_usa_window"
+		position = { x = 540  y = 100 }
+		size = { width = 1000 height= 800 }
+		fade_time = 30
+		fade_type = linear
+		moveable = yes
+		show_sound = menu_open_window
+		click_to_front = yes
+		orientation = left
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_w_close"
+		}
+		buttonType = {
+			name = "button_close"
+			position = {x = -45 y = 13 }
+			spriteType = "GFX_closebutton"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+			shortcut = "ESCAPE"
+			orientation = UPPER_RIGHT
+		}
+		iconType = {
+			name = "button_close_show_inr"
+			position = {x = -60 y = 100 }
+			spriteType = "GFX_closebutton"
+			pdx_tooltip = "usa_button_close_show_inr_tt"
+			orientation = UPPER_RIGHT
+		}
+		gridboxtype = {
+			name = "lower_parliament_list"
+			position = { x = 150 y = 300 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 100%% height = 0 }
+			max_slots_horizontal = 1
+			add_horizontal = no
+		}
+	}
+	containerWindowType = {
+		name = "lower_parliament_seat"
+		position = { x = 0 y = 0 }
+		iconType = { 
+			name = "lower_parliament_dot_icon"
+			quadTextureSprite = "GFX_usa_gui_parliament_seat"
+			pdx_tooltip = "low_seat_tt"
+		}
+		iconType = { 
+			name = "lower_parliament_ring_icon"
+			spriteType = "GFX_usa_gui_parliament_seat_ring"
+			# pdx_tooltip = "low_seat_tt"
+		}
+	}
+}

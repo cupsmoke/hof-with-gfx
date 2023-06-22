@@ -153,6 +153,12 @@ scripted_gui = {
 				else = {
 					set_country_flag = show_random_tag_context
 				}
+				if = {
+					limit = {
+						original_tag = USA
+					}
+					update_lower_par_info = yes
+				}
 			}
 		}
 	}

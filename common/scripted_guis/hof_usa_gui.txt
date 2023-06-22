@@ -1,0 +1,38 @@
+scripted_gui = {
+	HOF_random_usa_window_ui = {
+		context_type = player_context
+		# parent_window_token = politics_tab
+		window_name = "HOF_random_usa_window"
+		visible = {
+			tag = USA
+			has_country_flag = show_random_tag_context
+			# always = no
+		}
+		effects = {
+			button_close_click = {
+				clr_country_flag = show_random_tag_context
+			}
+		}
+		dynamic_lists = {
+			lower_parliament_list = {
+				array = lower_seat_x
+				change_scope = no
+				entry_container = lower_parliament_seat
+				index = lower_seat_idx
+			}
+		}
+		properties = {
+			lower_parliament_dot_icon = {
+				x = lower_seat_x^lower_seat_idx
+				y = lower_seat_y^lower_seat_idx
+				frame = lower_seat_frame^lower_seat_idx
+			}
+			lower_parliament_ring_icon = {
+				x = lower_seat_x^lower_seat_idx
+				y = lower_seat_y^lower_seat_idx
+				frame = lower_seat_attitude^lower_seat_idx
+			}
+		}
+	}
+
+}

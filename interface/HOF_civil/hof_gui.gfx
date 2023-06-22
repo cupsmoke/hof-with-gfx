@@ -174,5 +174,16 @@ spriteTypes = {
 	}
 
 
+	##USA
+	spriteType = {
+		name = "GFX_usa_gui_parliament_seat"
+		textureFile = "gfx/interface/gui_hof/USA/USA_parliament_seat.png"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_usa_gui_parliament_seat_ring"
+		textureFile = "gfx/interface/gui_hof/USA/USA_parliament_seat_ring.png"
+		noOfFrames = 2
+	}
 	
 }

@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			USA = {
+				setup_lower_par_array = yes
+			}
+		}
+	}
+}
