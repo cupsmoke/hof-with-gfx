@@ -362,7 +362,7 @@ generic_debug_decisions = {
 				usa_seat_to = 3
 			}
 			set_temp_variable = {
-				delta_seats_num = 5
+				delta_seats_num = -80 
 			}
 			change_lower_party_seats_num = yes
 		}

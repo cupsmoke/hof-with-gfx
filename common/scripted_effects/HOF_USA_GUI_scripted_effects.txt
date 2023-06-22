@@ -1054,19 +1054,23 @@ update_lower_par_info = {
 
 }
 change_lower_party_seats_num = {
+	set_temp_variable = {
+		other_two_temp = lower_seat_attitude^num
+	}
+	subtract_from_temp_variable = {
+		other_two_temp = lower_party_seats_num^usa_seat_from
+	}
+	subtract_from_temp_variable = {
+		other_two_temp = lower_party_seats_num^usa_seat_to
+	}
 	# lower_party_seats_num
-	# from
-	
-	# to 
-
-	# num
 	add_to_variable = {
 		# var = temp_i
-		lower_party_seats_num^usa_seat_from = delta_seats_num
+		lower_party_seats_num^usa_seat_to = delta_seats_num
 	}
 	subtract_from_variable = {
 		# var = temp_i
-		lower_party_seats_num^usa_seat_to = delta_seats_num
+		lower_party_seats_num^usa_seat_from = delta_seats_num
 	}
 	if = {
 		limit = {
@@ -1079,6 +1083,38 @@ change_lower_party_seats_num = {
 	}
 	else = {
 		custom_effect_tooltip = increase_lower_party_seats_num_tt
+	}
+	if = {
+		limit = {
+			check_variable = {
+				lower_party_seats_num^usa_seat_from < 0
+			}
+		}
+		set_variable = {
+			lower_party_seats_num^usa_seat_from = 0
+		}
+		set_variable = {
+			lower_party_seats_num^usa_seat_to = lower_seat_attitude^num
+		}
+		subtract_from_variable = {
+			lower_party_seats_num^usa_seat_to = other_two_temp
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				lower_party_seats_num^usa_seat_to < 0
+			}
+		}
+		set_variable = {
+			lower_party_seats_num^usa_seat_to = 0
+		}
+		set_variable = {
+			lower_party_seats_num^usa_seat_from = lower_seat_attitude^num
+		}
+		subtract_from_variable = {
+			lower_party_seats_num^usa_seat_from = other_two_temp
+		}
 	}
 	update_lower_par_info = yes
 }
