@@ -32,19 +32,18 @@ setup_lower_par_array = {
 		value = 1
 		size = t1
 	}
-	# Resize array to t2 seats, setting P2 frame numbers to 2 (Party 2 color)
 	resize_array = {
 		array = lower_seat_frame
 		value = 2
 		size = t2
 	}
-	# Resize array to t3 seats, setting P3 frame numbers to 3 (Party 3 color)
+
 	resize_array = {
 		array = lower_seat_frame
 		value = 3
 		size = t3
 	}
-	# Resize array to all 300 seats, setting remaining frame numbers to 4 (Party 4 color)
+
 	resize_array = {
 		array = lower_seat_frame
 		value = 4
@@ -1040,7 +1039,6 @@ update_lower_par_info = {
 						}						
 					}
 				}
-
 			}
 			set_variable = {
 				lower_seat_attitude^ii = 1
@@ -1051,9 +1049,36 @@ update_lower_par_info = {
 				lower_seat_attitude^ii = 2
 			}	
 		}
-
-
 	}	
 
 
+}
+change_lower_party_seats_num = {
+	# lower_party_seats_num
+	# from
+	
+	# to 
+
+	# num
+	add_to_variable = {
+		# var = temp_i
+		lower_party_seats_num^usa_seat_from = delta_seats_num
+	}
+	subtract_from_variable = {
+		# var = temp_i
+		lower_party_seats_num^usa_seat_to = delta_seats_num
+	}
+	if = {
+		limit = {
+			check_variable = {
+				delta_seats_num < 0
+			}
+		}
+		multiply_temp_variable = { delta_seats_num = -1 }
+		custom_effect_tooltip = reduce_lower_party_seats_num_tt
+	}
+	else = {
+		custom_effect_tooltip = increase_lower_party_seats_num_tt
+	}
+	update_lower_par_info = yes
 }

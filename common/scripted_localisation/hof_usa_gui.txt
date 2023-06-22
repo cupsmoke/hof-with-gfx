@@ -1,0 +1,78 @@
+defined_text = {
+	name = GetToName
+	text = {
+		trigger = {
+			check_variable = {
+				usa_seat_to = 0
+			}
+		}
+		localization_key = USA_Democrats_Northern_name_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				usa_seat_to = 1
+			}
+		}
+		localization_key = USA_Democrats_Southern_name_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				usa_seat_to = 2
+			}
+		}
+		localization_key = USA_Republican_Northeastern_name_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				usa_seat_to = 3
+			}
+		}
+		localization_key = USA_Republican_Regular_name_text
+	}
+	# text = {
+	# 	localization_key = generic_null
+	# }
+}
+defined_text = {
+	name = GetFromName
+	text = {
+		trigger = {
+			check_variable = {
+				usa_seat_from = 0
+			}
+		}
+		localization_key = USA_Democrats_Northern_name_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				usa_seat_from = 1
+			}
+		}
+		localization_key = USA_Democrats_Southern_name_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				usa_seat_from = 2
+			}
+		}
+		localization_key = USA_Republican_Northeastern_name_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				usa_seat_from = 3
+			}
+		}
+		localization_key = USA_Republican_Regular_name_text
+	}
+	# text = {
+	# 	localization_key = generic_null
+	# }
+}
+
+

@@ -3,5 +3,10 @@
 # gui
 
  usa_button_close_show_inr_tt:0 "众议院总席位：[?lower_party_seats_support]/[?lower_seat_attitude^num]\n众议院党派1：[?lower_party_seats_att^0]/[?lower_party_seats_num^0]\n众议院党派2：[?lower_party_seats_att^1]/[?lower_party_seats_num^1]\n众议院党派3：[?lower_party_seats_att^2]/[?lower_party_seats_num^2]\n众议院党派4：[?lower_party_seats_att^3]/[?lower_party_seats_num^3]\n"
+ 
+ 
 
+ reduce_lower_party_seats_num_tt:0 "[?delta_seats_num]名众议员，从[USA.GetToName]加入[USA.GetFromName]"
+ increase_lower_party_seats_num_tt:0 "[?delta_seats_num]名众议员，从[USA.GetFromName]加入[USA.GetToName]"
+ 
 

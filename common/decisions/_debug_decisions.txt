@@ -310,6 +310,9 @@ generic_debug_decisions = {
 			tag = man
 			is_ai = no
 		}
+		visible = {
+			tag = man
+		}
 		complete_effect = {
 			set_temp_variable = {
 				faction_idex = 0
@@ -339,6 +342,29 @@ generic_debug_decisions = {
 				delta_faction_inf = -6
 			}
 			MAN_add_faction_inf = yes
+		}
+	}
+	usa_add_10 = {
+		icon = generic_research
+		cost = 0
+		available = {
+			tag = USA
+			is_ai = no
+		}
+		visible = {
+			tag = usa
+		}
+		complete_effect = {
+			set_temp_variable = {
+				usa_seat_from = 0
+			}
+			set_temp_variable = {
+				usa_seat_to = 3
+			}
+			set_temp_variable = {
+				delta_seats_num = 5
+			}
+			change_lower_party_seats_num = yes
 		}
 	}
 }
