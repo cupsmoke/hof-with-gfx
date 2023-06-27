@@ -1,4 +1,429 @@
 Please_don_improve_the_relationship_anymore_ai_Strategy = {
+
+	Ai_JAP_Your_script_2 = {
+		icon = eng_trade_unions_demand
+		visible = {
+			is_ai = yes
+			date > 1938.6.1
+			tag = JAP
+			is_ai = yes
+			is_major = yes
+			is_subject = no
+			OR = {
+				has_war_with = ENG
+				has_war_with = FRA
+			}
+		}
+		available = {
+		}
+		cancel_if_not_visible = yes
+		modifier = {
+			invasion_preparation = -0.75
+		}
+		cost = 0
+		complete_effect = {
+		}
+		cancel_trigger = {
+		}
+		days_remove = 180
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 2000
+		}
+	}
+
+	Ai_JAP_Your_script = { #拿好你的剧本朋友.
+		icon = generic_operation
+		available = {
+			NOT = {
+				CHI = {
+					has_completed_focus = CHI_war_of_national_liberation
+				}
+			}
+		}
+		visible = {
+			NOT = { date > 1940.6.1 }
+			tag = JAP
+			is_ai = yes
+			is_major = yes
+			is_subject = no
+			has_war_with = CHI
+		}
+		cost = 0
+		days_remove = 100000
+		fire_only_once = no
+		remove_trigger = {
+			OR = {
+				is_ai = no
+				CHI = {
+					has_completed_focus = CHI_war_of_national_liberation
+				}
+			}
+		}
+		targeted_modifier = {
+			tag = CHI
+			attack_bonus_against = 0.30
+			breakthrough_bonus_against = 0.15
+			defense_bonus_against = 0.15
+		}
+		modifier = {
+
+		}
+		ai_will_do = {
+			factor = 150
+		}
+		complete_effect = {
+		}
+	}
+
+#来自燃烧的世界
+	Ai_wont_get_weaker_1 = { #再强大的Ai到了40年后都无法面对玩具的成型大军 但是操作部分tag的玩具在40甚至39年前就十分凶残了
+		icon = generic_operation
+		available = {
+		}
+		visible = {
+			OR = {
+				date > 1939.1.1
+				AND = {
+					date > 1938.1.1
+					any_enemy_country = {
+						is_ai = no
+						OR = {
+							num_of_factories > 199
+							tag = ENG
+							tag = USA
+							tag = GER
+							tag = JAP
+							tag = SOV
+						}
+					}
+				}
+			}
+
+			is_ai = yes
+			is_major = yes
+			is_subject = no
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+			OR = {
+				tag = ENG
+				tag = FRA
+				tag = USA
+
+				tag = GER
+				tag = ITA
+				tag = JAP
+
+				tag = SOV
+				tag = RUS
+				tag = UKR
+
+				tag = ROM
+				tag = HUN
+				tag = POL
+				tag = SWE
+
+				tag = IRQ
+			}
+		}
+		cost = 0
+		days_remove = 100000
+		fire_only_once = no
+		remove_trigger = {
+			is_ai = no
+		}
+		modifier = {
+
+			dig_in_speed_factor = 0.25
+
+			experience_gain_army_unit_factor = 0.05
+			experience_loss_factor = -0.2
+			attrition = -0.15
+			supply_consumption_factor = -0.1
+
+			air_training_xp_gain_factor = 0.25
+			air_mission_xp_gain_factor = 0.15
+			air_untrained_pilots_penalty_factor = -0.25
+
+			air_fuel_consumption_factor = -0.1
+			army_fuel_consumption_factor = -0.1
+		}
+		ai_will_do = {
+			factor = 150
+		}
+		complete_effect = {
+		}
+	}
+
+	Ai_wont_get_weaker_2 = { #再强大的Ai到了40年后都无法面对玩具的成型大军 但是操作部分tag的玩具在40甚至39年前就十分凶残了
+		icon = generic_operation
+		available = {
+		}
+		visible = {
+			OR = {
+				date > 1940.1.1
+				AND = {
+					date > 1939.1.1
+					any_enemy_country = {
+						is_ai = no
+						OR = {
+							num_of_factories > 199
+							tag = ENG
+							tag = USA
+							tag = GER
+							tag = JAP
+							tag = SOV
+						}
+					}
+				}
+			}
+
+			is_ai = yes
+			is_major = yes
+			is_subject = no
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+			OR = {
+				tag = ENG
+				tag = FRA
+				tag = USA
+
+				tag = GER
+				tag = ITA
+				tag = JAP
+
+				tag = SOV
+				tag = RUS
+				tag = UKR
+
+				tag = ROM
+				tag = HUN
+				tag = POL
+				tag = SWE
+
+				tag = IRQ
+			}
+		}
+		cost = 0
+		days_remove = 100000
+		fire_only_once = no
+		remove_trigger = {
+			is_ai = no
+		}
+		modifier = {
+
+			dig_in_speed_factor = 0.25
+
+			experience_gain_army_unit_factor = 0.05
+			experience_loss_factor = -0.2
+			attrition = -0.15
+			supply_consumption_factor = -0.1
+
+			air_training_xp_gain_factor = 0.25
+			air_mission_xp_gain_factor = 0.15
+			air_untrained_pilots_penalty_factor = -0.25
+
+			air_fuel_consumption_factor = -0.1
+			army_fuel_consumption_factor = -0.1
+		}
+		ai_will_do = {
+			factor = 150
+		}
+		complete_effect = {
+		}
+	}
+
+	Ai_wont_get_weaker_3 = { #再强大的Ai到了40年后都无法面对玩具的成型大军 先试试看能不能给ai多续会
+		icon = generic_operation
+		available = {
+		}
+		visible = {
+			date > 1941.1.1
+			is_ai = yes
+			is_major = yes
+			is_subject = no
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+			OR = {
+				tag = ENG
+				tag = FRA
+				tag = USA
+
+				tag = GER
+				tag = ITA
+				tag = JAP
+
+				tag = SOV
+				tag = RUS
+				tag = UKR
+
+				tag = ROM
+				tag = HUN
+				tag = POL
+				tag = SWE
+
+				tag = IRQ
+			}
+		}
+		cost = 0
+		days_remove = 100000
+		fire_only_once = no
+		remove_trigger = {
+			is_ai = no
+		}
+		modifier = {
+
+			dig_in_speed_factor = 0.25
+
+			experience_gain_army_unit_factor = 0.05
+			experience_loss_factor = -0.2
+			attrition = -0.15
+			supply_consumption_factor = -0.1
+
+			air_training_xp_gain_factor = 0.25
+			air_mission_xp_gain_factor = 0.15
+			air_untrained_pilots_penalty_factor = -0.25
+
+			air_fuel_consumption_factor = -0.1
+			army_fuel_consumption_factor = -0.1
+		}
+		ai_will_do = {
+			factor = 150
+		}
+		complete_effect = {
+		}
+	}
+
+	Ai_wont_get_weaker_4 = { #再强大的Ai到了40年后都无法面对玩具的成型大军 先试试看能不能给ai多续会
+		icon = generic_operation
+		available = {
+		}
+		visible = {
+			date > 1942.1.1
+			is_ai = yes
+			is_major = yes
+			is_subject = no
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+			OR = {
+				tag = ENG
+				tag = FRA
+				tag = USA
+
+				tag = GER
+				tag = ITA
+				tag = JAP
+
+				tag = SOV
+				tag = RUS
+				tag = UKR
+
+				tag = ROM
+				tag = HUN
+				tag = POL
+				tag = SWE
+
+				tag = IRQ
+			}
+		}
+		cost = 0
+		days_remove = 100000
+		fire_only_once = no
+		remove_trigger = {
+			is_ai = no
+		}
+		modifier = {
+
+			dig_in_speed_factor = 0.25
+
+			experience_gain_army_unit_factor = 0.05
+			experience_loss_factor = -0.2
+			attrition = -0.15
+			supply_consumption_factor = -0.1
+
+			air_training_xp_gain_factor = 0.25
+			air_mission_xp_gain_factor = 0.15
+			air_untrained_pilots_penalty_factor = -0.25
+
+			air_fuel_consumption_factor = -0.1
+			army_fuel_consumption_factor = -0.1
+		}
+		ai_will_do = {
+			factor = 150
+		}
+		complete_effect = {
+		}
+	}
+
+	Ai_is_a_stinky_motherfucker_that_probably_wont_watch_the_debuff = {
+		icon = generic_operation
+		available = {
+		}
+		visible = {
+			date > 1938.1.1
+			is_ai = yes
+			is_subject = no
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+			OR = {
+				has_idea = war_economy
+				has_idea = tot_economic_mobilisation
+			}
+		}
+		cost = 0
+		days_remove = 100000
+		fire_only_once = no
+		remove_trigger = {
+			is_ai = no
+		}
+		modifier = {
+			production_speed_industrial_complex_factor = 0.3
+		}
+		ai_will_do = {
+			factor = 150
+		}
+		complete_effect = {
+		}
+	}
+	Ai_is_Big_Dick_and_his_PP_is_always_short = {
+		icon = generic_operation
+		available = {
+		}
+		visible = {
+			date > 1939.1.1
+			is_ai = yes
+			is_subject = no
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+		}
+		cost = 0
+		days_remove = 100000
+		fire_only_once = no
+		remove_trigger = {
+			is_ai = no
+		}
+		modifier = {
+			political_power_factor = 0.5
+		}
+		ai_will_do = {
+			factor = 150
+		}
+		complete_effect = {
+		}
+	}
 	AI_keep_fighting = {
 		icon = generic_operation
 		available = {
@@ -14,20 +439,24 @@ Please_don_improve_the_relationship_anymore_ai_Strategy = {
 			is_ai = no
 		}
 		modifier = {
-			political_advisor_cost_factor = -0.3
-			army_chief_cost_factor = -0.15
-			navy_chief_cost_factor = -0.15
-			air_chief_cost_factor = -0.15
-			high_command_cost_factor = -0.15
-			theorist_cost_factor = -0.5
-			economy_cost_factor = -0.3
-			mobilization_laws_cost_factor = -0.3
-			trade_laws_cost_factor = -0.15
-			industrial_concern_cost_factor = -0.15
-			materiel_manufacturer_cost_factor = -0.15
-			tank_manufacturer_cost_factor = -0.15
-			naval_manufacturer_cost_factor = -0.15
-			aircraft_manufacturer_cost_factor = -0.15
+
+			max_command_power = 75
+			command_power_gain = 0.5
+
+			political_advisor_cost_factor = -0.5
+			army_chief_cost_factor = -0.25
+			navy_chief_cost_factor = -0.25
+			air_chief_cost_factor = -0.25
+			high_command_cost_factor = -0.25
+			theorist_cost_factor = -0.75
+			economy_cost_factor = -0.5
+			mobilization_laws_cost_factor = -0.5
+			trade_laws_cost_factor = -0.25
+			industrial_concern_cost_factor = -0.35
+			materiel_manufacturer_cost_factor = -0.35
+			tank_manufacturer_cost_factor = -0.35
+			naval_manufacturer_cost_factor = -0.35
+			aircraft_manufacturer_cost_factor = -0.35
 		}
 		ai_will_do = {
 			factor = 150
@@ -77,8 +506,8 @@ Please_don_improve_the_relationship_anymore_ai_Strategy = {
 			is_ai = no
 		}
 		modifier = {
-			production_speed_rail_way_factor = 5
-			production_speed_naval_base_factor = 5
+			production_speed_rail_way_factor = 15
+			production_speed_naval_base_factor = 15
 		}
 		ai_will_do = {
 			factor = 150
@@ -98,7 +527,7 @@ Please_don_improve_the_relationship_anymore_ai_Strategy = {
 		cancel_if_not_visible = yes
 		modifier = {
 			production_factory_start_efficiency_factor = 0.3
-			production_factory_efficiency_gain_factor = 0.3
+			production_factory_efficiency_gain_factor = 0.5
 			line_change_production_efficiency_factor = 0.5
 		}
 		cost = 0
@@ -214,11 +643,14 @@ ENG_biesongle_ai_Strategy = {
 		icon = eng_trade_unions_demand
 		visible = {
 			is_ai = yes
-			NOT = {
-				TAG = USA
-			}
-			NOT = {
-				is_in_faction_with = USA
+			OR = {
+				NOT = {
+					is_in_faction_with = USA
+				}
+				AND = {
+					is_in_faction_with = USA
+					USA = { num_of_military_factories < 200 }
+				}
 			}
 			OR = {
 				is_in_faction_with = ENG				# anyone in allies
@@ -242,11 +674,24 @@ ENG_biesongle_ai_Strategy = {
 					is_ai = no
 				}
 				GER = {
-					surrender_progress < 0.05
+					surrender_progress < 0.10
 				}
 				GER = {
-					has_army_manpower = {
-						size > 1499999
+					casualties < 2000000
+				}
+				AND = {
+					GER = {
+						any_enemy_country = {
+							is_ai = no
+							is_major = yes
+							capital_scope = {
+								is_on_continent = europe # 
+							}
+						}
+					}
+					OR = {
+						surrender_progress < 0.05
+						casualties < 1000000
 					}
 				}
 			}
@@ -282,17 +727,17 @@ ENG_biesongle_ai_Strategy = {
 				is_in_faction_with = ENG				# anyone in allies
 				original_tag = ENG
 			}
-			date < 1942.6.1
+			date < 1943.1.1
 			OR = {
 				GER = {
-					surrender_progress < 0.05
+					surrender_progress < 0.10
 				}
 				GER = {
-					casualties < 1500000
+					casualties < 2000000
 				}
 			}
 			has_army_manpower = {
-				size < 1500000
+				size < 2000000
 			}
 			OR = {
 				has_war_with = GER
@@ -327,14 +772,6 @@ ENG_biesongle_ai_Strategy = {
 					}
 					AND = {
 						is_ai = no
-						OR = {
-							NOT = {
-								has_war_with = GER
-							}
-							NOT = {
-								surrender_progress > 0
-							}
-						}
 					}
 				}
 			}
@@ -575,6 +1012,9 @@ ENG_European_Equilibrium_Strategy = {
 		cost = 50
 		fire_only_once = yes
 		complete_effect = {
+
+		    add_named_threat = { threat = 10 name = ENG_Empire_Mobilization_dec }
+
 			if = {
 				limit = {
 					is_ai = yes
@@ -662,7 +1102,12 @@ ENG_European_Equilibrium_Strategy = {
 		icon = generic_army_support
 		available = {
 			ENG = {
-				has_war = no
+				OR = {
+					has_war = no
+					has_army_manpower = {
+						size > 1499999
+					}
+				}
 			}
 			NOT = {
 				has_country_flag = ENG_We_are_ready_to_fight_flag
@@ -768,7 +1213,12 @@ ENG_European_Equilibrium_Strategy = {
 		}
 		available = {
 			ENG = {
-				has_war = no
+				OR = {
+					has_war = no
+					has_army_manpower = {
+						size > 1499999
+					}
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = ENG_Political_points_are_positive_tt
@@ -972,6 +1422,21 @@ ENG_European_Equilibrium_Strategy = {
 			tag = ENG
 			is_subject = no
 			has_country_flag = ENG_Help_France_attack_Germany_flag
+
+			country_exists = GER
+			NOT = {
+				has_war_with = GER
+			}
+			NOT = {
+				GER = {
+					is_in_faction_with = ENG
+				}
+			}
+			NOT = {
+				GER = {
+					is_subject_of = ENG
+				}
+			}
 		}
 		target_trigger = {
 			FROM = {
@@ -980,7 +1445,12 @@ ENG_European_Equilibrium_Strategy = {
 		}
 		available = {
 			ENG = {
-				has_war = no
+				OR = {
+					has_war = no
+					has_army_manpower = {
+						size > 1499999
+					}
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = ENG_Political_points_are_positive_tt
@@ -995,7 +1465,7 @@ ENG_European_Equilibrium_Strategy = {
 		}
 		cost = 0
 		days_remove = 60
-		fire_only_once = yes
+		fire_only_once = no
 		complete_effect = {
 			if = {
 				limit = {
@@ -1122,6 +1592,21 @@ ENG_European_Equilibrium_Strategy = {
 			tag = ENG
 			is_subject = no
 			has_country_flag = ENG_Help_Germany_attack_France_flag
+
+			country_exists = FRA
+			NOT = {
+				has_war_with = FRA
+			}
+			NOT = {
+				FRA = {
+					is_in_faction_with = ENG
+				}
+			}
+			NOT = {
+				FRA = {
+					is_subject_of = ENG
+				}
+			}
 		}
 		target_trigger = {
 			FROM = {
@@ -1130,7 +1615,12 @@ ENG_European_Equilibrium_Strategy = {
 		}
 		available = {
 			ENG = {
-				has_war = no
+				OR = {
+					has_war = no
+					has_army_manpower = {
+						size > 1499999
+					}
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = ENG_Political_points_are_positive_tt
@@ -1145,7 +1635,7 @@ ENG_European_Equilibrium_Strategy = {
 		}
 		cost = 0
 		days_remove = 60
-		fire_only_once = yes
+		fire_only_once = no
 		complete_effect = {
 			if = {
 				limit = {
@@ -1303,12 +1793,19 @@ ENG_European_Equilibrium_Strategy = {
 			ITA = {
 				is_subject = no
 			}
-			ITA = {
-				has_added_tension_amount > 15
-				any_enemy_country = {
-					has_army_manpower = {
-						size > 299999
+			or = {
+				ITA = {
+					has_added_tension_amount > 15
+					any_enemy_country = {
+						has_army_manpower = {
+							size > 299999
+						}
 					}
+				}
+				ITA = {
+					date > 1940.1.1
+					has_war = no
+					num_of_factories > 150
 				}
 			}
 		}
@@ -1319,7 +1816,12 @@ ENG_European_Equilibrium_Strategy = {
 		}
 		available = {
 			ENG = {
-				has_war = no
+				OR = {
+					has_war = no
+					has_army_manpower = {
+						size > 999999
+					}
+				}
 			}
 			NOT = {
 				has_country_flag = ENG_We_are_ready_to_fight_flag

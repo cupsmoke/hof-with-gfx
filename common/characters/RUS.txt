@@ -26,6 +26,7 @@ characters = {
 				}
 			}
 			traits = {
+				army_CombinedArms_2
 				Madahan
 			}
 			cost = 100
@@ -244,7 +245,7 @@ characters = {
 			traits = {
 				army_chief_offensive_3
 			}
-			cost = 150
+			cost = 200
 			ai_will_do = {
 				factor = 3
 			}
@@ -404,7 +405,7 @@ characters = {
 			traits = {
 				army_logistics_3
 			}
-			cost = 150
+			cost = 200
 		}
 		portraits = {
 			army = {
@@ -445,7 +446,7 @@ characters = {
 			traits = {
 				army_infantry_3
 			}
-			cost = 150
+			cost = 100
 			ai_will_do = {
 				factor = 4
 			}
@@ -455,7 +456,7 @@ characters = {
 				small = "GFX_idea_rus_berezovich_kryuger"
 			}
 			army = {
-				large = "gfx/leaders/RUS/Portrait_Berezovich_Kryuger.dds"
+				large = "gfx/leaders/RUS/Portrait_Berezovich_Kryuger.png"
 			}
 		}
 		field_marshal = {
@@ -502,7 +503,7 @@ characters = {
 			traits = {
 				Ural_Silver_Wolf
 			}
-			cost = 100
+			cost = 200
 			ai_will_do = {
 				factor = 3
 			}
@@ -567,7 +568,7 @@ characters = {
 		name = "Anastasia I"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/RUS/Portrait_Anastasia.dds"
+				large = "gfx/leaders/RUS/Portrait_Anastasia.png"
 			}
 		}
 		country_leader = {
@@ -731,7 +732,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/RUS/Portrait_Russia_Boris_Annenkov.tga"
+				large = "gfx/leaders/RUS/Portrait_Russia_Boris_Annenkov.png"
 			}
 		}
 		corps_commander = {
@@ -883,7 +884,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/RUS/Portrait_Alexandra_Nikonova.dds"
+				large = "gfx/leaders/RUS/Portrait_Alexandra_Nikonova.png"
 			}
 		}
 		corps_commander = {
@@ -909,7 +910,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/RUS/Portrait_Avtomat_Kalashnikova.dds"
+				large = "gfx/leaders/RUS/Portrait_Avtomat_Kalashnikova.png"
 			}
 		}
 		corps_commander = {
@@ -937,7 +938,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/RUS/Portrait_Antona_Kalashnikova.dds"
+				large = "gfx/leaders/RUS/Portrait_Antona_Kalashnikova.png"
 			}
 		}
 		corps_commander = {
@@ -1052,7 +1053,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/RUS/Portrait_TRM_Boldyrev.tga"
+				large = "gfx/leaders/RUS/Portrait_TRM_Boldyrev.png"
 			}
 		}
 		corps_commander = {
@@ -1366,7 +1367,7 @@ characters = {
 			traits = {
 				navy_fleet_logistics_3
 			}
-			cost = 150
+			cost = 200
 		}
 		navy_leader = {
 			traits = {
@@ -1387,7 +1388,7 @@ characters = {
 				small = "GFX_idea_rus_boris_andreyevich_vilkitsky"
 			}
 			army = {
-				large = "gfx/leaders/RUS/Portrait_Boris_Andreyevich_Vilkitsky.dds"
+				large = "gfx/leaders/RUS/Portrait_Boris_Andreyevich_Vilkitsky.png"
 			}
 		}
 		navy_leader = {
@@ -1489,7 +1490,7 @@ characters = {
 				original_tag = RUS
 			}
 			available = {
-				has_completed_focus = rua_modernized_military_school
+				has_completed_focus = rua_Integrating_mercenaries
 				not = {
 					has_country_leader = {
 						ruling_only = yes
@@ -1503,7 +1504,7 @@ characters = {
 			traits = {
 				army_commando_3
 			}
-			cost = 150
+			cost = 200
 			ai_will_do = {
 				factor = 2
 			}
@@ -1538,7 +1539,7 @@ characters = {
 			traits = {
 				rus_warfare_engineer
 			}
-			cost = 200
+			cost = 100
 			ai_will_do = {
 				factor = 3
 			}
@@ -1667,6 +1668,7 @@ characters = {
 			traits = {
 				air_close_air_support_2
 			}
+			cost = 100
 		}
 		name = "RUS_vyacheslav_tkachov"
 		portraits = {

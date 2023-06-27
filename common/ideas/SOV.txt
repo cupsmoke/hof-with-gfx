@@ -58,11 +58,14 @@ ideas = {
 				production_speed_buildings_factor = 0.05
 				production_factory_max_efficiency_factor = 0.05
 				production_factory_efficiency_gain_factor = 0.10
+				industrial_capacity_factory = 0.1
 
 				communism_drift = 0.1
 
 				drift_defence_factor = 0.5
 				party_popularity_stability_factor = 0.3
+
+				ai_desired_divisions_factor = 0.20
 			}
 			rule = {
 				can_create_factions = yes
@@ -82,13 +85,16 @@ ideas = {
 			}
 			modifier = {
 				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.1
 
-				offensive_war_stability_factor = 0.1
-				war_support_factor = 0.1
+				offensive_war_stability_factor = 0.15
+				war_support_factor = 0.15
 
 				war_support_weekly = 0.001
 
 				drift_defence_factor = 0.5
+
+				ai_desired_divisions_factor = 0.40
 			}
 			rule = {
 				can_create_factions = yes
@@ -1560,7 +1566,7 @@ ideas = {
 				army_org_factor = 0.05
 				army_core_defence_factor = 0.05
 				army_core_attack_factor = 0.05
-				conscription_factor = 0.2
+				supply_combat_penalties_on_core_factor = -0.5
 			}
 		}
 		SOV_great_patriotic_war_3 = {
@@ -1583,14 +1589,18 @@ ideas = {
 				army_org_factor = 0.05
 				army_core_defence_factor = 0.05
 				army_core_attack_factor = 0.05
-				supply_combat_penalties_on_core_factor = -0.2
-				#industrial_capacity_factory = 0.2
-				conscription_factor = 0.1
+				supply_combat_penalties_on_core_factor = -0.5
+				industrial_capacity_factory = 0.2
+				supply_consumption_factor = -0.1
+				attrition = -0.1
+				out_of_supply_factor = -0.1
+
+				conscription_factor = -0.2
 			}
 		}
 		SOV_Extreme_mobilization_idea = {
 			removal_cost = -1
-			picture = generic_intel_bonus
+			picture = extreme_economic_mobilisation
 			allowed = {
 				always = no				# Added via event
 			}
@@ -1604,6 +1614,7 @@ ideas = {
 				political_power_factor = -0.1
 
 				consumer_goods_factor = -0.05
+				production_speed_arms_factory_factor = 0.1
 				industrial_capacity_factory = 0.25
 
 				war_support_weekly = -0.001
