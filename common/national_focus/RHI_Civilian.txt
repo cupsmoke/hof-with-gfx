@@ -1,0 +1,469 @@
+focus_tree = {
+	id = RHI_Civilian
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RHI
+		}
+	}
+
+	default = no
+	focus = {
+		id = RHI_empower_civil_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = RHI_strengthen_democracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = RHI_negotiate_with_striker
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = RHI_economic_reorganization 
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = RHI_rural_electrification
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = RHI_ruhr_industrial_center
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = RHI_national_radio_stations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = RHI_university_network
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = RHI_autobahn
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = RHI_renovate_koblenz
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = RHI_Institutionalize_trade_union
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = RHI_reconstruction_finance_corporation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = RHI_social_security_act
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = RHI_western_economic_tie
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = RHI_cooperate_with_solvay
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = RHI_luxembourg_field_hospital
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = RHI_french_cooperation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = RHI_coal_steel_treaty
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = RHI_minerva 
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = RHI_helker_koch
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = RHI_Bauhaus
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = RHI_landeswher
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = RHI_wartime_production
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = RHI_entente_committee
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = RHI_women_in_factory
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = RHI_arsenal_of_democracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = RHI_air_defense
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = RHI_forest_ranger
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = RHI_military_training
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = RHI_promote_officers
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = RHI_modernize_infantry
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 31
+		y = 2
+
+	}
+	focus = {
+		id = RHI_War_of_Restoration
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = RHI_invite_exiles
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_empower_civil_government
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = RHI_fate_of_freikrops
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_empower_civil_government
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = RHI_reorganize_police
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_fate_of_freikrops
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = RHI_Simplify_Production
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_War_of_Restoration
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = RHI_propaganda_effort
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_fate_of_freikrops
+		}
+		prerequisite = {
+			focus = RHI_strengthen_democracy
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = RHI_return_to_stage
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_propaganda_effort
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = RHI_Radio_Frier_Deutschland
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_War_of_Restoration
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = RHI_decentralization
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_strengthen_democracy
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = RHI_Burgfriedenspolitik
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_War_of_Restoration
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = RHI_public_construction 
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_negotiate_with_striker
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = RHI_War_Bonds
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_War_of_Restoration
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = RHI_fokker
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_air_defense
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = RHI_trench_and_fort
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_landeswher
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = RHI_defensive_engineer
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_trench_and_fort
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = RHI_begin_mechanization 
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_trench_and_fort
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = RHI_tank_destroyer
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_begin_mechanization 
+		}
+		x = 30
+		y = 6
+
+	}
+	focus = {
+		id = RHI_MP5
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_modernize_infantry
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = RHI_Finale
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_War_of_Restoration
+		}
+		x = 7
+		y = 7
+
+	}
+}
