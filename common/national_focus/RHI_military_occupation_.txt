@@ -1,5 +1,5 @@
 focus_tree = {
-	id = RHI_Military
+	id = RHI_military_occupation_
 	country = {
 		factor = 0
 		modifier = {
@@ -8,48 +8,23 @@ focus_tree = {
 		}
 	}
 	default = no
-	
 	focus = {
 		id = RHI_maintain_occupation
 		icon = GFX_goal_unknown
 		cost = 10.00
-		x = 5
+		x = 4
 		y = 0
 
 	}
 	focus = {
-		id = RHI_french_economic_integration
+		id = RHI_embrace_french_culture
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_maintain_occupation
 		}
-		x = 1
-		y = 1
-		relative_position_id = RHI_maintain_occupation
-
-	}
-	focus = {
-		id = RHI_request_recovery_budget
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = RHI_french_economic_integration
-		}
-		x = 2
-		y = 1
-		relative_position_id = RHI_french_economic_integration
-
-	}
-	focus = {
-		id = RHI_deal_with_striker
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = RHI_maintain_occupation
-		}
-		x = 3
-		y = 1
+		x = 0
+		y = 2
 		relative_position_id = RHI_maintain_occupation
 
 	}
@@ -60,9 +35,8 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_maintain_occupation
 		}
-		x = -2
+		x = 3
 		y = 1
-		relative_position_id = RHI_maintain_occupation
 
 	}
 	focus = {
@@ -72,21 +46,44 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_suppress_valkist
 		}
-		x = 0
-		y = 2
-		relative_position_id = RHI_suppress_valkist
+		x = 3
+		y = 3
 
 	}
 	focus = {
-		id = RHI_embrace_french_culture
+		id = RHI_request_recovery_budget
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_maintain_occupation
 		}
-		x = -1
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = RHI_deal_with_striker
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_maintain_occupation
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = RHI_french_economic_integration
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_request_recovery_budget
+		}
+		prerequisite = {
+			focus = RHI_deal_with_striker
+		}
+		x = 6
 		y = 2
-		relative_position_id = RHI_maintain_occupation
 
 	}
 	focus = {
@@ -94,11 +91,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
+			focus = RHI_request_recovery_budget
+		}
+		prerequisite = {
 			focus = RHI_french_economic_integration
 		}
-		x = 0
-		y = 2
-		relative_position_id = RHI_french_economic_integration
+		x = 5
+		y = 3
 
 	}
 	focus = {
@@ -106,14 +105,16 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
+			focus = RHI_embrace_french_culture
+		}
+		prerequisite = {
 			focus = RHI_centralized_government
 		}
 		prerequisite = {
 			focus = RHI_promote_collaborator
 		}
-		x = 0
-		y = 1
-		relative_position_id = RHI_centralized_government
+		x = 4
+		y = 4
 
 	}
 	focus = {
@@ -123,21 +124,8 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_tighten_military_control
 		}
-		x = 0
-		y = 1
-		relative_position_id = RHI_tighten_military_control
-
-	}
-	focus = {
-		id = RHI_reorganize_aachen_university
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = RHI_request_recovery_budget
-		}
-		x = 0
-		y = 1
-		relative_position_id = RHI_request_recovery_budget
+		x = 4
+		y = 5
 
 	}
 }
