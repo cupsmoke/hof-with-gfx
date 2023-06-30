@@ -43,7 +43,7 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Strengthen_Democracy
-		icon = GFX_generic_bastion_of_democracy
+		icon = GFX_focus_generic_bastion_of_democracy
 		cost = 3.00
 		prerequisite = {
 			focus = RHI_Empower_Civil_Government
@@ -62,7 +62,7 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Decentralization
-		icon = GFX_Goal_Continuous_political
+		icon = GFX_goal_constitutional_guarantees
 		cost = 3.00
 		prerequisite = {
 			focus = RHI_Strengthen_Democracy
@@ -77,7 +77,7 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Negotiate_With_Striker
-		icon = GFX_Goal_socialist_infrastructure
+		icon = GFX_goal_socialist_infrastructure
 		cost = 3.00
 		prerequisite = {
 			focus = RHI_Empower_Civil_Government
@@ -92,7 +92,7 @@ focus_tree = {
 	
 	focus = {
 		id = RHI_Public_Construction 
-		icon = GFX_Goal_Generic_railroad
+		icon = GFX_goal_generic_railway_construction
 		cost = 3.00
 		prerequisite = {
 			focus = RHI_Negotiate_With_Striker
@@ -123,7 +123,7 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Fate_Of_Freikrops
-		icon = GFX_Goal_HOL_Ban_paramilitary
+		icon = GFX_goal_HOL_ban_paramilitary
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Empower_Civil_Government

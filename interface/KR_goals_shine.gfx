@@ -8,7 +8,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_goal_continuous_political_shine"
-		texturefile = "gfx/interface/goals/KR/KR/continuous_political.png"
+		texturefile = "gfx/interface/goals/KR/continuous_political.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/KR/continuous_political.png"

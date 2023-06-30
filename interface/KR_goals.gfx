@@ -2,7 +2,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_goal_continuous_political"
-		texturefile = "gfx/interface/goals/KR/KR/continuous_political.png"
+		texturefile = "gfx/interface/goals/KR/continuous_political.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_empty_coffers"
