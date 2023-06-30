@@ -1,6 +1,6 @@
 #!gfx:interface\goals\goal_KR.gfx
+#!gfx:interface\goals\goal_KR1.gfx
 #!gfx:interface\goals\goal_generic.gfx
-
 
 focus_tree = {
 	id = RHI_Civilian
@@ -43,7 +43,7 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Strengthen_Democracy
-		icon = GFX_focus_generic_bastion_of_democracy
+		icon = GFX_generic_bastion_of_democracy
 		cost = 3.00
 		prerequisite = {
 			focus = RHI_Empower_Civil_Government
