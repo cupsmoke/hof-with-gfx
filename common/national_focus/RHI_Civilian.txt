@@ -8,39 +8,112 @@ focus_tree = {
 		}
 	}
 	default = no
+
+#		available = {
+#			always = no
+#		}
+#		bypass = {
+#		}
+#		ai_will_do = { factor = 10 }
+#		search_filters = { FOCUS_FILTER_POLITICAL }
+#		completion_reward = {
+#			log = "[GetDateText]: [Root.GetName]: Focus SER_Moralistic_Democracy"
+#			custom_effect_tooltip = tooltip_focus_unlocked_by_event
+#		}
+
+##Government
+
 	focus = {
-		id = RHI_empower_civil_government
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = RHI_Empower_Civil_Government
+		icon = GFX_generic_parliament2
+		cost = 3.00
 		x = 8
 		y = 1
+		ai_will_do = { factor = 10 }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}
+	}
+
+		focus = {
+		id = RHI_Strengthen_Democracy
+		icon = GFX_focus_generic_bastion_of_democracy
+		cost = 3.00
+		prerequisite = {
+			focus = RHI_Empower_Civil_Government
+		}
+		x = 2
+		y = 1
+		relative_position_id = RHI_Empower_Civil_Government
+		completion_reward = {
+			RHI_Reduce_Instability = yes
+		}
+	}
+
+	focus = {
+		id = RHI_Decentralization
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = RHI_Strengthen_Democracy
+		}
+		x = 0
+		y = 1
+		relative_position_id = RHI_Strengthen_Democracy
 
 	}
+	
+
+##Economic
 	focus = {
-		id = RHI_economic_reorganization 
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = RHI_Economic_Reorganization 
+		icon = GFX_goal_economic_control
+		cost = 3.00
 		x = 18
 		y = 2
-
+		completion_reward = {
+			add_political_power = 100
+			RHI_Reduce_Depression = yes
+		}
 	}
+
+##Military
 	focus = {
-		id = RHI_minerva 
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = RHI_Minerva 
+		icon = GFX_goal_BEL_minerva
+		cost = 4.00
+		prerequisite = {
+			focus = RHI_Entente_Committee
+		}
 		x = -1
 		y = 1
-		relative_position_id = RHI_fokker
-
+		relative_position_id = RHI_Fokker
+		completion_reward = {
+		add_tech_bonus = {
+				name = RHI_Truck
+				bonus = 1
+				uses = 2
+				category = truck
+			}
+		custom_effect_tooltip = available_designer
+		show_ideas_tooltip = Minerva
+		}
 	}
+
 	focus = {
-		id = RHI_landeswher
-		icon = GFX_goal_unknown
-		cost = 10.00
+		id = RHI_Landeswher
+		icon = GFX_goal_army_guy
+		cost = 2.00
 		x = 30
 		y = 3
-
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = RHI_landeswher_1
+		}
 	}
+
+##Reconstruction
 	focus = {
 		id = RHI_Begin_Reconstruction
 		icon = GFX_goal_unknown
@@ -49,30 +122,8 @@ focus_tree = {
 		y = 8
 
 	}
-	focus = {
-		id = RHI_strengthen_democracy
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = RHI_empower_civil_government
-		}
-		x = 2
-		y = 1
-		relative_position_id = RHI_empower_civil_government
 
-	}
-	focus = {
-		id = RHI_decentralization
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = RHI_strengthen_democracy
-		}
-		x = 0
-		y = 1
-		relative_position_id = RHI_strengthen_democracy
-
-	}
+##
 	focus = {
 		id = RHI_negotiate_with_striker
 		icon = GFX_goal_unknown
