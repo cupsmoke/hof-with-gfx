@@ -29,7 +29,7 @@ focus_tree = {
 ##Government
 	focus = {
 		id = RHI_Empower_Civil_Government
-		icon = GFX_generic_parliament2
+		icon = GFX_focus_generic_parliament2
 		cost = 3.00
 		x = 8
 		y = 1
