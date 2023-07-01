@@ -13,7 +13,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_Focus_position = { x = 3000 y = 1350 }
+	continuous_Focus_position = { x = 2500 y = 1350 }
 
 #		available = {
 #			always = no
@@ -32,7 +32,7 @@ focus_tree = {
 		id = RHI_Empower_Civil_Government
 		icon = GFX_focus_generic_parliament2
 		cost = 3.00
-		x = 8
+		x = 10
 		y = 1
 		ai_will_Do = { factor = 10 }
 		completion_reward = {
@@ -44,12 +44,12 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Strengthen_Democracy
-		icon = GFX_focus_generic_bastion_of_democracy
+		icon = GFX_focus_generic_microphone_diplomacy
 		cost = 3.00
 		prerequisite = {
 			focus = RHI_Empower_Civil_Government
 		}
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = RHI_Empower_Civil_Government
 		completion_reward = {
@@ -69,7 +69,7 @@ focus_tree = {
 			focus = RHI_Strengthen_Democracy
 		}
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = RHI_Strengthen_Democracy
 		completion_reward = {
 			RHI_Increase_Stability = yes
@@ -83,7 +83,7 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Empower_Civil_Government
 		}
-		x = 4
+		x = 3
 		y = 1
 		relative_position_id = RHI_Empower_Civil_Government
 		completion_reward = {
@@ -93,13 +93,14 @@ focus_tree = {
 	
 	focus = {
 		id = RHI_Public_Construction 
-		icon = GFX_goal_generic_railway_construction
+		icon = GFX_focus_generic_invest_in_our_weaker_allies
 		cost = 3.00
 		prerequisite = {
 			focus = RHI_Negotiate_With_Striker
+			focus = RHI_Economic_Reorganization
 		}
-		x = 0
-		y = 2
+		x = 1
+		y = 1
 		relative_position_id = RHI_Negotiate_With_Striker
 		completion_reward = {
 			every_owned_state = {
@@ -139,7 +140,7 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Propaganda_Effort
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_goal_imperial_legacy
 		cost = 3.00
 		prerequisite = {
 			focus = RHI_Fate_Of_Freikrops
@@ -157,7 +158,7 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Return_To_Stage
-		icon = GFX_goal_HOL_progressive_tax
+		icon = GFX_focus_generic_ban_the_radicals
 		cost = 2.00
 		prerequisite = {
 			focus = RHI_Propaganda_Effort
@@ -177,12 +178,12 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Return_Of_Exiles
-		icon = GFX_focus_ger_return_of_the_kaiser
+		icon = GFX_goal_GER_SPD_agreement
 		cost = 3.00
 		prerequisite = {
 			focus = RHI_Empower_Civil_Government
 		}
-		x = -4
+		x = -3
 		y = 1
 		relative_position_id = RHI_Empower_Civil_Government
 		completion_reward  = {
@@ -219,10 +220,7 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Public_Construction 
 		}
-		prerequisite = {
-			focus = RHI_Decentralization
-		}
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = RHI_Public_Construction 
 
@@ -230,13 +228,13 @@ focus_tree = {
 
 	focus = {
 		id = RHI_War_Bonds
-		icon = GFX_goal_bag_of_money
+		icon = GFX_focus_generic_royal_bonds
 		cost = 10.00
 		prerequisite = {
-			focus = RHI_Public_Construction 
+			focus = RHI_Reconstruction_Finance_Corporation
 		}
-		x = 1
-		y = 1
+		x = -2
+		y = 2
 		relative_position_id = RHI_Public_House_Project
 
 	}
@@ -248,7 +246,7 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Fate_Of_Freikrops
 		}
-		x = -2
+		x = -1
 		y = 1
 		relative_position_id = RHI_Fate_Of_Freikrops
 
@@ -262,7 +260,7 @@ focus_tree = {
 			focus = RHI_Reorganize_Police
 		}
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = RHI_Reorganize_Police
 
 	}
@@ -288,7 +286,7 @@ focus_tree = {
 			focus = RHI_Return_Of_Exiles
 		}
 		x = 0
-		y = 3
+		y = 2
 		relative_position_id = RHI_Return_Of_Exiles
 
 	}
@@ -297,7 +295,7 @@ focus_tree = {
 		id = RHI_Economic_Reorganization 
 		icon = GFX_goal_economic_control
 		cost = 3.00
-		x = 18
+		x = 19
 		y = 2
 		completion_reward = {
 			add_political_power = 100
@@ -312,12 +310,9 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Negotiate_With_Striker
 		}
-		prerequisite = {
-			focus = RHI_Economic_Reorganization 
-		}
-		x = -4
+		x = -1
 		y = 1
-		relative_position_id = RHI_Economic_Reorganization 
+		relative_position_id = RHI_Negotiate_With_Striker
 
 	}
 
@@ -328,7 +323,7 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Economic_Reorganization 
 		}
-		x = -2
+		x = -3
 		y = 1
 		relative_position_id = RHI_Economic_Reorganization 
 
@@ -336,12 +331,25 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Ruhr_Industrial_Center
-		icon = GFX_goal_generic_improve_industry
+		icon = GFX_focus_generic_ITA_urban
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Economic_Reorganization 
 		}
-		x = 0
+		x = -1
+		y = 1
+		relative_position_id = RHI_Economic_Reorganization 
+
+	}
+
+	focus = {
+		id = RHI_Light_Industry
+		icon = GFX_goal_generic_lightbulb
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_Economic_Reorganization 
+		}
+		x = 2
 		y = 1
 		relative_position_id = RHI_Economic_Reorganization 
 
@@ -352,10 +360,12 @@ focus_tree = {
 		icon = GFX_goal_FRA_paris
 		cost = 10.00
 		prerequisite = {
-			focus = RHI_Economic_Reorganization 
+			focus = RHI_Entente_Committee
+			focus = RHI_Economic_Reorganization
 		}
-		x = 2
-		y = 1
+
+		x = 1
+		y = 2
 		relative_position_id = RHI_Economic_Reorganization 
 
 	}
@@ -384,7 +394,7 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Public_Construction 
 		}
-		x = 0
+		x = 1
 		y = 2
 		relative_position_id = RHI_Institutionalize_Trade_Union
 
@@ -392,7 +402,7 @@ focus_tree = {
 
 	focus = {
 		id = RHI_National_Radio_Stations
-		icon = GFX_EGY_Radio_Free_Cairo
+		icon = GFX_focus_generic_Radio_Free_Cairo
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Rural_Electrification
@@ -405,7 +415,7 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Renovate_Koblenz
-		icon = GFX_IRE_medium_industry
+		icon = GFX_focus_generic_advanced_assembly_line
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Ruhr_Industrial_Center
@@ -417,30 +427,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = RHI_Bauhaus
-		icon = GFX_goal_art_avantgarde
-		cost = 10.00
-		prerequisite = {
-			focus = RHI_National_Radio_Stations
-		}
-		prerequisite = {
-			focus = RHI_Reconstruction_Finance_Corporation
-		}
-		x = -1
-		y = 1
-		relative_position_id = RHI_National_Radio_Stations
-
-	}
-
-	focus = {
 		id = RHI_University_Network
-		icon = GFX_goal_double_research
+		icon = GFX_focus_generic_science_research
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Renovate_Koblenz
 		}
 		prerequisite = {
 			focus = RHI_Reconstruction_Finance_Corporation
+		}
+		prerequisite = {
+			focus = RHI_Coal_Steel_Treaty
 		}
 		x = 0
 		y = 1
@@ -456,8 +453,8 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_National_Radio_Stations
 		}
-		x = 0
-		y = 2
+		x = -1
+		y = 1
 		relative_position_id = RHI_National_Radio_Stations
 
 	}
@@ -470,7 +467,7 @@ focus_tree = {
 			focus = RHI_Western_Economic_Tie
 		}
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = RHI_Western_Economic_Tie
 
 	}
@@ -482,12 +479,9 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Western_Economic_Tie
 		}
-		prerequisite = {
-			focus = RHI_Entente_Committee
-		}
-		x = -1
-		y = 1
-		relative_position_id = RHI_Entente_Committee
+		x = 1
+		y = 2
+		relative_position_id = RHI_Western_Economic_Tie
 
 	}
 ##Military
@@ -495,12 +489,12 @@ focus_tree = {
 		id = RHI_Minerva 
 		icon = GFX_goal_BEL_minerva
 		cost = 4.00
-		prerequisite = {
-			focus = RHI_Entente_Committee
-		}
-		x = -2
-		y = 0
+		x = -1
+		y = 1
 		relative_position_id = RHI_Fokker
+		prerequisite = {
+			focus = RHI_French_Cooperation
+		}
 		completion_reward = {
 		add_tech_Bonus = {
 				name = RHI_Truck
@@ -518,7 +512,7 @@ focus_tree = {
 		#icon = GFX_RHI_Landswher
 		icon = GFX_goal_PER_army
 		cost = 2.00
-		x = 30
+		x = 29
 		y = 3
 		completion_reward = {
 			add_political_power = 100
@@ -527,13 +521,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = RHI_Tank
-		icon = GFX_focus_generic_tank_destroyer
+		id = RHI_Trench_And_Fort
+		icon = GFX_focus_generic_invincible
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Landeswher
 		}
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = RHI_Landeswher
 
@@ -543,11 +537,8 @@ focus_tree = {
 		id = RHI_Entente_Committee
 		icon = GFX_goal_NFA_Army
 		cost = 10.00
-		prerequisite = {
-			focus = RHI_Landeswher
-		}
-		x = -7
-		y = 1
+		x = -5
+		y = 0
 		relative_position_id = RHI_Landeswher
 	}
 
@@ -555,12 +546,12 @@ focus_tree = {
 		id = RHI_Wartime_Production
 		icon = GFX_goal_production
 		cost = 10.00
-		prerequisite = {
-			focus = RHI_Landeswher
-		}
-		x = -5
+		x = -7
 		y = 1
 		relative_position_id = RHI_Landeswher
+		prerequisite = {
+			focus = RHI_Economic_Reorganization
+		}
 
 	}
 
@@ -593,12 +584,12 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Military_Training
-		icon = GFX_goal_generic_army_training
+		icon = GFX_focus_generic_army_guy_2
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Landeswher
 		}
-		x = 4
+		x = 3
 		y = 1
 		relative_position_id = RHI_Landeswher
 
@@ -606,15 +597,12 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Luxembourg_Field_Hospital
-		icon = GFX_goal_generic_support_equipment
+		icon = GFX_focus_generic_promote_the_red_cross
 		cost = 10.00
-		prerequisite = {
-			focus = RHI_Entente_Committee
-		}
 		prerequisite = {
 			focus = RHI_Women_In_Factory
 		}
-		x = 0
+		x = 1
 		y = 1
 		relative_position_id = RHI_Women_In_Factory
 
@@ -627,8 +615,9 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Entente_Committee
 		}
+
 		x = 0
-		y = 3
+		y = 2
 		relative_position_id = RHI_Entente_Committee
 	}
 
@@ -639,7 +628,7 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Helker_Koch
 		}
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = RHI_Helker_Koch
 
@@ -652,7 +641,7 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Wartime_Production
 		}
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = RHI_Wartime_Production
 
@@ -660,7 +649,7 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Arsenal_Of_Democracy
-		icon = GFX_goal_production
+		icon = GFX_goal_munitions_factories
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Wartime_Production
@@ -672,13 +661,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = RHI_Trench_And_Fort
-		icon = GFX_goal_generic_support_equipment
+		id = RHI_Mobile_Warfare
+		icon = GFX_goal_generic_army_mobile_warfare
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Landeswher
 		}
-		x = 0
+		x = -1
 		y = 2
 		relative_position_id = RHI_Landeswher
 
@@ -691,7 +680,7 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Air_Defense
 		}
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = RHI_Air_Defense
 
@@ -701,9 +690,6 @@ focus_tree = {
 		id = RHI_Forest_Ranger
 		icon = GFX_SIA_jungletraining
 		cost = 10.00
-		prerequisite = {
-			focus = RHI_Trench_And_Fort
-		}
 		prerequisite = {
 			focus = RHI_promote_Officers
 		}
@@ -731,14 +717,14 @@ focus_tree = {
 		icon = GFX_goal_generic_mechanized_infantry
 		cost = 10.00
 		prerequisite = {
-			focus = RHI_Trench_And_Fort
+			focus = RHI_Mobile_Warfare
 		}
 		prerequisite = {
 			focus = RHI_Minerva 
 		}
-		x = -3
+		x = -2
 		y = 2
-		relative_position_id = RHI_Trench_And_Fort
+		relative_position_id = RHI_Mobile_Warfare
 
 	}
 
@@ -773,11 +759,24 @@ focus_tree = {
 		icon = GFX_focus_generic_tank_destroyer
 		cost = 10.00
 		prerequisite = {
-			focus = RHI_Trench_And_Fort
+			focus = RHI_Mobile_Warfare
 		}
 		x = 0
 		y = 2
-		relative_position_id = RHI_Trench_And_Fort
+		relative_position_id = RHI_Mobile_Warfare
+
+	}
+
+	focus = {
+		id = RHI_Tank
+		icon = GFX_goal_generic_army_tanks2
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_Mobile_Warfare
+		}
+		x = -1
+		y = 1
+		relative_position_id = RHI_Mobile_Warfare
 
 	}
 
@@ -800,11 +799,8 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Focus_Quality
-		icon = GFX_goal_generic_drafted_army
+		icon = GFX_goal_Focus_Military_Mobilisation
 		cost = 10.00
-		prerequisite = {
-			focus = RHI_French_Cooperation
-		}
 		prerequisite = {
 			focus = RHI_Arsenal_Of_Democracy
 		}
@@ -834,9 +830,12 @@ focus_tree = {
 		id = RHI_industry_Revocation
 		icon = GFX_DAH_FR_Prod
 		cost = 10.00
-		x = -1
-		y = 1
+		x = 1
+		y = -1
 		relative_position_id = RHI_French_Cooperation
+		prerequisite = {
+			focus = RHI_Entente_Committee
+		}
 
 	}
 
@@ -861,12 +860,12 @@ focus_tree = {
 		icon = GFX_goal_military_research
 		cost = 10.00
 		prerequisite = {
-			focus = RHI_Tank_Destroyer
-			focus = RHI_Begin_Mechanization 
-		}
-		prerequisite = {
 			focus = RHI_City_Defense
 			focus = RHI_MP5
+		}
+		prerequisite = {
+			focus = RHI_Tank_Destroyer
+			focus = RHI_Begin_Mechanization
 		}
 		x = 1
 		y = 5
@@ -876,7 +875,7 @@ focus_tree = {
 ##Reconstruction
 	focus = {
 		id = RHI_Begin_Reconstruction
-		icon = GFX_Goal_unknown
+		icon = GFX_goal_generic_recovery
 		cost = 10.00
 		x = 12
 		y = 8
@@ -885,14 +884,43 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Our_Place
-		icon = GFX_Goal_unknown
+		icon = GFX_goal_OTT_Railroad
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Begin_Reconstruction
 		}
-		x = 6
+		x = 5
 		y = 1
 		relative_position_id = RHI_Begin_Reconstruction
+
+	}
+
+	focus = {
+		id = RHI_Anschluss
+		icon = GFX_goal_AUS_republican
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_OstPolitk
+		}
+		prerequisite = {
+			focus = RHI_End_Reconstruction
+		}
+		x = -1
+		y = 1
+		relative_position_id = RHI_OstPolitk
+
+	}
+
+	focus = {
+		id = RHI_Federialism
+		icon = GFX_focus_generic_elections
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_End_Reconstruction
+		}
+		x = 1
+		y = 1
+		relative_position_id = RHI_End_Reconstruction
 
 	}
 
@@ -903,7 +931,7 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Our_Place
 		}
-		x = 3
+		x = 2
 		y = 1
 		relative_position_id = RHI_Our_Place
 
@@ -911,90 +939,63 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Renew_Treaty
-		icon = GFX_Goal_unknown
+		icon = GFX_goal_new_treaty
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Paneurope
 		}
-		x = -2
+		x = -1
 		y = 1
 		relative_position_id = RHI_Paneurope
 
 	}
 
-	focus = {
-		id = RHI_Abolish_Restriction
-		icon = GFX_Goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = RHI_Paneurope
-		}
-		x = 0
-		y = 1
-		relative_position_id = RHI_Paneurope
-
-	}
-
-	focus = {
-		id = RHI_Promote_Private_Investment
-		icon = GFX_Goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = RHI_Paneurope
-		}
-		x = 2
-		y = 1
-		relative_position_id = RHI_Paneurope
-
-	}
 	focus = {
 		id = RHI_Economical_Union
-		icon = GFX_Goal_unknown
+		icon = GFX_goal_SWI_international_aid
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Renew_Treaty
 		}
-		x = -1
-		y = 1
-		relative_position_id = RHI_Abolish_Restriction
+		prerequisite = {
+			focus = RHI_Military_Council
+		}
+		x = 0
+		y = 2
+		relative_position_id = RHI_Paneurope
 
 	}
 	focus = {
 		id = RHI_Military_Council
-		icon = GFX_Goal_unknown
+		icon = GFX_goal_generic_council
 		cost = 10.00
 		prerequisite = {
-			focus = RHI_Promote_Private_Investment
+			focus = RHI_Paneurope
 		}
 		x = 1
 		y = 1
-		relative_position_id = RHI_Abolish_Restriction
+		relative_position_id = RHI_Paneurope
 
 	}
 	focus = {
 		id = RHI_Peace_In_Our_Time
-		icon = GFX_Goal_unknown
+		icon = GFX_HON_peace_in_our_time
 		cost = 10.00
-		prerequisite = {
-			focus = RHI_Abolish_Restriction
-		}
+
 		prerequisite = {
 			focus = RHI_Economical_Union
 		}
 		prerequisite = {
-			focus = RHI_Military_Council
-		}
-		prerequisite = {
 			focus = RHI_OstPolitk
 		}
-		x = 0
-		y = 2
-		relative_position_id = RHI_Abolish_Restriction
+		x = -1
+		y = 3
+		relative_position_id = RHI_Paneurope
 
 	}
 	focus = {
 		id = RHI_OstPolitk
-		icon = GFX_Goal_unknown
+		icon = GFX_goal_planning_bonus
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Our_Place
@@ -1007,55 +1008,44 @@ focus_tree = {
 
 	focus = {
 		id = RHI_Transformation_Justice
-		icon = GFX_Goal_unknown
+		icon = GFX_goal_ideology_social_liberal
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Nuremberg_Trial
 		}
-		x = -2
+		x = -1
 		y = 1
 		relative_position_id = RHI_Nuremberg_Trial
 
 	}
 	focus = {
 		id = RHI_Destory_Radicalism
-		icon = GFX_Goal_unknown
+		icon = GFX_HOL_crackdown_natpop
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Nuremberg_Trial
 		}
-		x = 0
+		x = 1
 		y = 1
 		relative_position_id = RHI_Nuremberg_Trial
 
 	}
 	focus = {
 		id = RHI_Nuremberg_Trial
-		icon = GFX_Goal_unknown
+		icon = GFX_goal_generic_trial
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Begin_Reconstruction
 		}
-		x = -3
+		x = -2
 		y = 1
 		relative_position_id = RHI_Begin_Reconstruction
 
 	}
-	focus = {
-		id = RHI_Defend_Democracy
-		icon = GFX_Goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = RHI_Nuremberg_Trial
-		}
-		x = 2
-		y = 1
-		relative_position_id = RHI_Nuremberg_Trial
 
-	}
 	focus = {
 		id = RHI_Restore_Legimacy
-		icon = GFX_Goal_unknown
+		icon = GFX_goal_AUS_german_austria
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Transformation_Justice
@@ -1066,65 +1056,78 @@ focus_tree = {
 		prerequisite = {
 			focus = RHI_Defend_Democracy
 		}
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = RHI_Destory_Radicalism
 
 	}
 	focus = {
 		id = RHI_Reconstruction_Bureau
-		icon = GFX_Goal_unknown
+		icon = GFX_focus_generic_social_reforms
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Begin_Reconstruction
 		}
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = RHI_Begin_Reconstruction
 
 	}
 	focus = {
-		id = RHI_Rebuild_Industry
-		icon = GFX_Goal_unknown
+		id = RHI_Religion_Reconciliation
+		icon = GFX_focus_generic_Federalism
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Reconstruction_Bureau
 		}
-		x = -1
+		x = -2
 		y = 2
 		relative_position_id = RHI_Reconstruction_Bureau
 
 	}
 	focus = {
 		id = RHI_Agriculture
-		icon = GFX_Goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = RHI_Reconstruction_Bureau
-		}
-		x = 2
-		y = 1
-		relative_position_id = RHI_Reconstruction_Bureau
-
-	}
-	focus = {
-		id = RHI_Electrification
-		icon = GFX_Goal_unknown
+		icon = GFX_focus_generic_agriculture
 		cost = 10.00
 		prerequisite = {
 			focus = RHI_Reconstruction_Bureau
 		}
 		x = 1
+		y = 1
+		relative_position_id = RHI_Reconstruction_Bureau
+
+	}
+
+	focus = {
+		id = RHI_Women_Right
+		icon = GFX_focus_generic_female_voting
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_Reconstruction_Bureau
+		}
+		x = -1
+		y = 1
+		relative_position_id = RHI_Reconstruction_Bureau
+
+	}
+	focus = {
+		id = RHI_Fair_Labour
+		icon = GFX_goal_generic_labour_legislation
+		cost = 10.00
+		prerequisite = {
+			focus = RHI_Reconstruction_Bureau
+		}
+		x = 0
 		y = 2
 		relative_position_id = RHI_Reconstruction_Bureau
 
 	}
 	focus = {
 		id = RHI_Land_Reform
-		icon = GFX_Goal_unknown
+		icon = GFX_goal_generic_land_reform
 		cost = 10.00
 		prerequisite = {
-			focus = RHI_Agriculture
+			focus = RHI_Reconstruction_Bureau
 		}
 		x = 1
 		y = 1
@@ -1132,21 +1135,24 @@ focus_tree = {
 
 	}
 	focus = {
-		id = RHI_Economic_Revival
-		icon = GFX_Goal_unknown
+		id = RHI_End_Reconstruction
+		icon = GFX_focus_generic_economic_prosperity
 		cost = 10.00
 		prerequisite = {
-			focus = RHI_Rebuild_Industry
+			focus = RHI_Religion_Reconciliation
 		}
 		prerequisite = {
-			focus = RHI_Electrification
+			focus = RHI_Fair_Labour
 		}
 		prerequisite = {
 			focus = RHI_Land_Reform
 		}
-		x = 0
+		prerequisite = {
+			focus = RHI_Restore_Legimacy
+		}
+		x = -1
 		y = 1
-		relative_position_id = RHI_Electrification
+		relative_position_id = RHI_Fair_Labour
 
 	}
 ##
