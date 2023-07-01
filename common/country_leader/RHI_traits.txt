@@ -1,0 +1,37 @@
+leader_traits = {
+
+    RHI_Union_Boss = {
+		sprite = 10
+		random = no
+		industrial_capacity_factory = 0.10
+		production_factory_max_efficiency_factor = 0.10
+		ai_will_do = { factor = 20 }
+	}
+
+    RHI_Mayor_Of_Cologne = {
+		sprite = 13
+		random = no
+		political_power_gain = 0.15
+		stability_weekly = 0.003
+		ai_will_do = { factor = 20 }
+    }
+
+    RHI_Marxist_Economist = {
+        sprite = 14
+		random = no
+		consumer_goods_factor = -0.05
+		stability_factor = 0.05
+		ai_will_do = { factor = 20 }
+    }
+
+    RHI_Anti_Volkism = {
+        sprite = 7
+		random = no
+		targeted_modifier = {
+			tag = GER
+			attack_bonus_against = 0.15
+			defense_bonus_against = 0.15
+		}
+    }
+
+}
