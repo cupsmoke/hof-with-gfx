@@ -12,7 +12,7 @@ leader_traits = {
 		sprite = 13
 		random = no
 		political_power_gain = 0.15
-		stability_weekly = 0.003
+		stability_weekly = 0.005
 		ai_will_do = { factor = 20 }
     }
 
@@ -24,14 +24,21 @@ leader_traits = {
 		ai_will_do = { factor = 20 }
     }
 
-    RHI_Anti_Volkism = {
+    RHI_Socialist_Militia = {
         sprite = 7
 		random = no
 		targeted_modifier = {
 			tag = GER
-			attack_bonus_against = 0.15
-			defense_bonus_against = 0.15
+			attack_bonus_against = 0.10
+			defense_bonus_against = 0.10
 		}
+		targeted_modifier = {
+			tag = HOL
+			attack_bonus_against = 0.10
+			defense_bonus_against = 0.10
+		}
+		communism_drift = 0.01
+		democratic_drift = 0.01
     }
 
 }

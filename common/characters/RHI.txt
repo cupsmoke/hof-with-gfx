@@ -50,7 +50,7 @@ characters={
 
 ##3DGerman
 
-##Otto Wels	奥托·威尔士	SPD	Leader/Advisor He will die in late-1937
+##Otto Wels	奥托·威尔士	SPD	Leader/Advisor He may die in late-1937
 	RHI_Otto_Wels = {
 		name = RHI_Otto_Wels
 		portraits = {
@@ -70,16 +70,16 @@ characters={
 			}
 			available = {
 				is_country_leader = no
-				has_country_flag = RHI_SPD
 			}
 			slot = political_advisor
 			idea_token = RHI_Otto_Wels
+			desc = RHI_Otto_Wels_desc
 			traits = { RHI_Union_Boss }
 			cost = 150
 		}
 		country_leader = {
 			ideology = socialism
-			desc = RHI_Otto_Wels_leader_desc
+			desc = RHI_Otto_Wels_desc
 			trait = { RHI_Union_Boss }
 		}
 	}																			
@@ -100,17 +100,20 @@ characters={
 				original_tag  = RHI
 			}
 			visible = {
-
 			}
 			available = {
 				OR = {
 					has_country_flag = RHI_Military
-					date > 1936.12.30
+					AND = {
+						date > 1936.12.30
+						has_country_flag = RHI_Arcueid_Back
+					}
 				}
 				is_country_leader = no
 			}
 			slot = political_advisor
 			idea_token = RHI_Konrad_Adenauer
+			desc = RHI_Konrad_Adenauer_desc
 			traits = { RHI_Mayor_Of_Cologne }
 			cost = 150
 		}
@@ -139,6 +142,7 @@ characters={
 						has_character = GER_hjalmar_schacht
 					}
 				}
+				has_country_flag = RHI_Democracy
 			}
 			available  = {
 				NOT = {
@@ -147,12 +151,13 @@ characters={
 			}
 			slot = political_advisor
 			idea_token = RHI_Rudolf_Hilferding
+			desc = RHI_Rudolf_Hilferding_desc
 			traits = { RHI_Marxist_Economist }
 			cost = 150
 		}
 	}																						
 
-##Willy Brandt 维利 勃兰特 USPD Advisor/General																																										
+##Willy Brandt 维利 勃兰特 USPD Advisor/General He is the man who defeats Speer
 	RHI_Willy_Brandt= {
 		name = RHI_Willy_Brandt
 		portraits = {
@@ -175,7 +180,6 @@ characters={
 					has_civil_war = no
 				}
 				has_country_flag = RHI_Democracy
-				has_country_flag = RHI_SPD
 			}
 		}
 		advisor = {
@@ -186,17 +190,46 @@ characters={
 				has_country_flag = RHI_Democracy
 			}
 			available  = {
-				has_country_flag = RHI_SPD
 				SPR = {
 					has_civil_war = no
 				}
 			}
 			slot = political_advisor
 			idea_token = RHI_Willy_Brandt
+			desc = RHI_Willy_Brandt_desc
 			traits = { RHI_Socialist_Militia }
 			cost = 150
 		}
-
-
 	}
+
+##Kurt Tucholsky 库尔特·图霍尔斯基 SPD Advisor A famous pressman																				
+	RHI_Kurt_Tucholsky = {
+		name = RHI_Rudolf_Hilferding
+		portraits = {
+			army = {
+				small = "gfx/interface/advisor/RHI_Kurt_Tucholsky.png"
+			}
+		}
+		advisor = {
+			allowed  = {
+				original_tag  = RHI
+			}
+			visible = {
+				has_country_flag = RHI_Democracy
+			}
+			available  = {
+			}
+			slot = political_advisor
+			idea_token = RHI_Kurt_Tucholsky
+			desc = RHI_Kurt_Tucholsky_desc
+			traits = { RHI_Famous_Journalist }
+			cost = 150
+		}
+	}																						
+
+
+
+
+
+
 }
