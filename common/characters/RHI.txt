@@ -394,8 +394,8 @@ characters={
 				large = "gfx/leaders/FRA/Portrait_FRA_Henry_Mordacq.png"
 			}
 		}
-		corps_commander={
-			traits = { inflexible_strategist organizer }
+		field_marshal={
+			traits = { old_guard inflexible_strategist organizer }
 			skill=4
 			attack_skill=3
 			defense_skill=6
@@ -447,12 +447,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ cavalry_leader infantry_leader brilliant_strategist inflexible_strategist }
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
+			traits={ armor_leader cavalry_leader infantry_leader inflexible_strategist }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=6
+			logistics_skill=2
 			visible = {
 				has_country_flag = RHI_Democracy
 				has_country_flag = RHI_Heckler_Koch
@@ -460,6 +460,94 @@ characters={
 		}
 	}
 
+##UMP9 Neun Layia HK General
+	RHI_UMP9 = {
+		name = RHI_UMP9
+		portraits = {
+			army = {
+				large = "gfx/leaders/RHI/Portrait_RHI_UMP9.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious infantry_officer urban_assault_specialist organizer commando }
+			skill=3
+			attack_skill=3
+			defense_skill=6
+			planning_skill=2
+			logistics_skill=2
+			visible = {
+				has_country_flag = RHI_Democracy
+				has_country_flag = RHI_Heckler_Koch
+			}
+		}
+	}
 
+##HK416 Vierhundertsechzehn Heckler Koch HK General
+	RHI_HK416 = {
+		name = RHI_HK416
+		portraits = {
+			army = {
+				small = "gfx/interface/advisor/RHI/RHI_HK416.png"
+				large = "gfx/leaders/RHI/Portrait_RHI_HK416.png"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader brilliant_strategist cavalry_leader hill_fighter ranger trickster }
+			skill=4
+			attack_skill=5
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+			visible = {
+				has_country_flag = RHI_Democracy
+				has_country_flag = RHI_Heckler_Koch
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = RHI_HK416
+			ledger = army
+			allowed = {
+				original_tag = RHI
+			}
+			visible = {
+				has_country_flag = RHI_Democracy
+				has_country_flag = RHI_Heckler_Koch
+			}
+			available = {
 
+			}
+			traits = {
+				army_armored_2
+				army_CombinedArms_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 50
+			}
+		}
+	}
+
+##G11 Elfzehn Gewher HK	General
+	RHI_G11 = {
+		name = RHI_G11
+		portraits = {
+			army = {
+				large = "gfx/leaders/RHI/Portrait_RHI_G11.png"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious infantry_officer ranger urban_assault_specialist adaptable }
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			visible = {
+				has_country_flag = RHI_Democracy
+				has_country_flag = RHI_Heckler_Koch
+			}
+		}
+	}																						
+	
 }
