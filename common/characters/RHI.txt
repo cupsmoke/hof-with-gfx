@@ -386,7 +386,7 @@ characters={
 	}
 
 ##Henry Mordacq	亨利·莫达克	French Army	Marshal/Staff/Advisor	
-	FRA_Alphonse_Juin={
+	FRA_Henry_Mordacq={
 		name=FRA_Henry_Mordacq
 		portraits={
 			army={
@@ -549,5 +549,5 @@ characters={
 			}
 		}
 	}																						
-	
+
 }

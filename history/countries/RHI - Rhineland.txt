@@ -3,28 +3,19 @@ oob = "RHI_1936"
 
 set_research_slots = 3
 
-set_stability = 0.3
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	support_weapons = 1
-
 	tech_support = 1
 	tech_engineers = 1
-
 	motorised_infantry = 1
-
 	gw_artillery = 1
-
 	# gwtank = 1
-
 	# early_fighter = 1
 	# early_bomber = 1
-	
 	# CAS1 = 1
-	
 	transport = 1
 	fuel_silos = 1
 }
@@ -53,6 +44,21 @@ RHI_Valkist
 RHI_Military_occupation
 }
 
-
 recruit_character = RHI_astolfo
 recruit_character = RHI_lady_saria
+recruit_character = RHI_Otto_Wels
+recruit_character = RHI_Rudolf_Hilferding
+recruit_character = RHI_Willy_Brandt
+recruit_character = RHI_Kurt_Tucholsky
+recruit_character = RHI_Max_Planck
+recruit_character = RHI_Kalergi
+recruit_character = RHI_Josef_Friedrich_Matthes
+recruit_character = RHI_UMP45
+recruit_character = RHI_UMP9
+recruit_character = RHI_HK416
+recruit_character = RHI_G11
+recruit_character = FRA_Alphonse_Juin
+recruit_character = FRA_Marie_Pierre_Koenig
+recruit_character = FRA_Henri_Frenay
+recruit_character = FRA_Henry_Mordacq
+recruit_character = FRA_Louis_Napoleon
