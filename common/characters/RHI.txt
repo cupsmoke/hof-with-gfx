@@ -4,6 +4,7 @@ characters={
 	### Country Leaders ###
 	#######################
 
+##以后要换一个
 	RHI_astolfo={
 		name="Astolfo"
 		portraits={
@@ -19,7 +20,6 @@ characters={
 		}
 	}
 	
-
 ##This Character Seems Invaild
 	RHI_lady_saria={
 		name="Lady Saria"
@@ -48,7 +48,7 @@ characters={
 		}
 	}
 
-##3DGerman
+##3DGerman tag = RHI
 
 ##Otto Wels	奥托·威尔士	SPD	Leader/Advisor He may die in late-1937
 	RHI_Otto_Wels = {
@@ -63,12 +63,13 @@ characters={
 		}
 		advisor = {
 			allowed  = {
-				original_tag  = RHI
+				original_tag = RHI
 			}
 			visible = {
 				has_country_flag = RHI_Democracy
 			}
 			available = {
+				has_country_flag = RHI_SPD_Join
 				is_country_leader = no
 			}
 			slot = political_advisor
@@ -97,7 +98,7 @@ characters={
 		}
 		advisor = {
 			allowed  = {
-				original_tag  = RHI
+				original_tag = RHI
 			}
 			visible = {
 			}
@@ -145,6 +146,7 @@ characters={
 				has_country_flag = RHI_Democracy
 			}
 			available  = {
+				has_country_flag = RHI_SPD_Join
 				NOT = {
 					has_character = GER_hjalmar_schacht
 				}
@@ -184,12 +186,13 @@ characters={
 		}
 		advisor = {
 			allowed  = {
-				original_tag  = RHI
+				original_tag = RHI
 			}
 			visible = {
 				has_country_flag = RHI_Democracy
 			}
 			available  = {
+				has_country_flag = RHI_SPD_Join
 				SPR = {
 					has_civil_war = no
 				}
@@ -204,7 +207,7 @@ characters={
 
 ##Kurt Tucholsky 库尔特·图霍尔斯基 SPD Advisor A famous pressman																				
 	RHI_Kurt_Tucholsky = {
-		name = RHI_Rudolf_Hilferding
+		name = RHI_Kurt_Tucholsky
 		portraits = {
 			army = {
 				small = "gfx/interface/advisor/RHI_Kurt_Tucholsky.png"
@@ -212,12 +215,13 @@ characters={
 		}
 		advisor = {
 			allowed  = {
-				original_tag  = RHI
+				original_tag = RHI
 			}
 			visible = {
 				has_country_flag = RHI_Democracy
 			}
 			available  = {
+				has_country_flag = RHI_SPD_Join
 			}
 			slot = political_advisor
 			idea_token = RHI_Kurt_Tucholsky
@@ -227,8 +231,234 @@ characters={
 		}
 	}																						
 
+##Max Planck 马克斯 普朗克 Independent advisor	
+	RHI_Max_Planck = {
+		name = RHI_Max_Planck
+		portraits = {
+			army = {
+				small = "gfx/interface/advisor/RHI_Max_Planck.png"
+			}
+		}
+		advisor = {
+			allowed  = {
+				original_tag = RHI
+			}
+			visible = {
+				has_country_flag = RHI_Democracy
+			}
+			available  = {
+				has_completed_focus = RHI_University_Network
+			}
+			slot = political_advisor
+			idea_token = RHI_Max_Planck
+			desc = RHI_Max_Planck_desc
+			traits = { RHI_Brilliant_Scientist }
+			cost = 150
+		}
+	}	
 
+##Richard von Coudenhove-Kalergi 理查德·尼古拉斯·冯·康登霍维-凯勒奇	Independent	Advisor	Trigger for europan union																																										
+	RHI_Kalergi = {
+		name = RHI_Kalergi
+		portraits = {
+			army = {
+				small = "gfx/interface/advisor/RHI_Kalergi.png"
+			}
+		}
+		advisor = {
+			allowed  = {
+				original_tag = RHI
+			}
+			visible = {
+				has_country_flag = RHI_Democracy
+			}
+			available  = {
+				GER = {
+					has_completed_focus = GER_anschluss
+				}
+				Date > 1938.6.1
+			}
+			slot = political_advisor
+			idea_token = RHI_Kalergi
+			desc = RHI_Kalergi_desc
+			traits = { RHI_Paneurope }
+			cost = 150
+		}
+	}	
 
+##Josef Friedrich Matthes 约瑟夫·弗里德里希·马特斯 Local General Milita
+	RHI_Josef_Friedrich_Matthes = {
+		name = RHI_Josef_Friedrich_Matthes
+		portraits = {
+			army = {
+				large = "gfx/leaders/RHI/Portrait_RHI_Josef_Friedrich_Matthes.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			visible = {
+				has_country_flag = RHI_Democracy
+			}
+		}
+	}
+
+##3DFrench They will return when the war ends tag = FRA
+
+##Marie-Pierre Kœnig 玛里-皮埃尔·柯尼希	French Army	Staff/General
+	FRA_Marie_Pierre_Koenig = {
+		name = FRA_Marie_Pierre_Koenig
+		portraits = {
+			army = {
+				large = "gfx/leaders/FRA/Portrait_FRA_Marie_Pierre_Koenig.png"
+				small = "gfx/interface/advisor/FRA/FRA_Marie_Pierre_Koenig.png"
+			}
+		}
+		corps_commander = {
+			traits = { organizer brilliant_strategist infantry_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = FRA_Marie_Pierre_Koenig
+			traits = { army_chief_drill_2 }
+			cost = 100
+		}
+	}
+
+##Alphonse Juin	阿尔方斯·朱安	French Army	Staff/General Infantry
+	FRA_Alphonse_Juin={
+		name=FRA_Alphonse_Juin
+		portraits={
+			army={
+				small = "gfx/interface/advisor/FRA/FRA_Alphonse_Juin.png"
+				large = "gfx/leaders/FRA/Portrait_FRA_Alphonse_Juin.png"
+			}
+		}
+		corps_commander={
+			traits = { cavalry_leader infantry_leader brilliant_strategist }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+		}
+		advisor = {
+			allowed = {
+				OR = { 
+					original_tag = FRA
+					original_tag = RHI
+					original_tag = FIC
+				}
+			}
+			ledger = army
+			slot = high_command
+			idea_token = FRA_Alphonse_Juin
+			traits = { army_infantry_3 }
+			cost = 200
+		}
+	}
+
+##Henri Frenay	亨利·弗雷奈	French Army	General	
+	FRA_Henri_Frenay={
+		name=FRA_Henri_Frenay
+		portraits={
+			army={
+				large = "gfx/leaders/FRA/Portrait_FRA_Henri_Frenay.png"
+			}
+		}
+		corps_commander={
+			traits = { inflexible_strategist }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+
+##Henry Mordacq	亨利·莫达克	French Army	Marshal/Staff/Advisor	
+	FRA_Alphonse_Juin={
+		name=FRA_Henry_Mordacq
+		portraits={
+			army={
+				small = "gfx/interface/advisor/FRA/FRA_Henry_Mordacq.png"
+				large = "gfx/leaders/FRA/Portrait_FRA_Henry_Mordacq.png"
+			}
+		}
+		corps_commander={
+			traits = { inflexible_strategist organizer }
+			skill=4
+			attack_skill=3
+			defense_skill=6
+			planning_skill=4
+			logistics_skill=2
+		}
+		advisor = {
+			allowed = {
+				OR = { 
+					original_tag = FRA
+					original_tag = RHI
+					original_tag = FIC
+				}
+			}
+			ledger = army
+			slot = army_chief
+			idea_token = FRA_Henry_Mordacq
+			traits = { army_chief_defensive_3 }
+			cost = 200
+		}
+	}
+
+##Louis Napoleon 路易·拿破仑 French Army General
+	FRA_Louis_Napoleon={
+		name=FRA_Louis_Napoleon
+		portraits={
+			army={
+				large = "gfx/leaders/FRA/Portrait_FRA_Louis_Napoleon.png"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+
+##2DGerman
+
+##UMP45 Fünfundvierzig Reina
+	RHI_UMP45 = {
+		name = RHI_UMP45
+		portraits = {
+			army = {
+				large = "gfx/leaders/RHI/Portrait_RHI_UMP45.png"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_leader infantry_leader brilliant_strategist inflexible_strategist }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			visible = {
+				has_country_flag = RHI_Democracy
+				has_country_flag = RHI_Heckler_Koch
+			}
+		}
+	}
 
 
 

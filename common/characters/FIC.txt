@@ -122,24 +122,6 @@ characters={
 			id=-1
 		}
 	}
-	FIC_alphonse_juin={
-		name="Alphonse Juin"
-		portraits={
-
-			army={
-				small="GFX_idea_advisor_unknown"
-				large="gfx/leaders/FIC/Portrait_France_Alphonse_Juin.png"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=4
-			logistics_skill=3
-			legacy_id=-1
-		}
-	}
 	FIC_maurice_janin={
 		name="Maurice Janin"
 		portraits={
