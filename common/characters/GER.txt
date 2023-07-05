@@ -1394,18 +1394,37 @@ characters = {
 			slot = political_advisor
 			idea_token = hjalmar_schacht
 			cost = 75
+
 			allowed = {
-				original_tag = GER
-			}
+				OR = { 
+					original_tag = GER
+				 	original_tag = RHI
+				}
+
 			available = {
-				has_war = no
-				NOT = {
-					has_added_tension_amount > 15
-				}
-				NOT = {
-					has_completed_focus = GER_Strasser_Project
+				OR={
+					has_country_flag = RHI_Hjalmar_Schacht
+					AND = {
+						has_war = no
+						NOT = {
+							has_added_tension_amount > 15
+						}
+						NOT = {
+							has_completed_focus = GER_Strasser_Project
+						}
+					}
 				}
 			}
+
+			visible = {
+				if = {
+					limit = { original_tag = GER }
+				}
+				else = {
+					has_country_flag = RHI_Hjalmar_Schacht
+				}
+			}
+
 			traits = {
 				GER_schacht_T
 			}
@@ -1414,6 +1433,7 @@ characters = {
 			}
 		}
 	}
+	
 	GER_fritz_todt = {
 		name = GER_fritz_todt
 		portraits = {
