@@ -80,6 +80,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Drozdovsky.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_RUS_Nikita_Dragovich"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Nikita_Dragovich.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_RUS_Peter_Wrangel_jr"
 		texturefile = "gfx/leaders/RUS/Portrait_RUS_Peter_Wrangel_jr.png"
 	}

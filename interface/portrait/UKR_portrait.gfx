@@ -44,10 +44,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/UKR/Portrait_UKR_Ines.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_UKR_Ivan_Turkenich"
-		texturefile = "gfx/leaders/UKR/Portrait_UKR_Ivan_Turkenich.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_UKR_Leonid_Brezhnev"
 		texturefile = "gfx/leaders/UKR/Portrait_UKR_Leonid_Brezhnev.png"
 	}
@@ -148,12 +144,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Vyshyvany.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_UKR_Vasyl_Vyshyvanyi"
-		texturefile = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Vyshyvanyi.png"
+		name = "GFX_Portrait_UKR_Vasyl_Vyshyvany_suit"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Vasyl_Vyshyvany_suit.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_UKR_Viktor_Belash"
 		texturefile = "gfx/leaders/UKR/Portrait_UKR_Viktor_Belash.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_UKR_Viktor_Belash_army"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Viktor_Belash_army.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_UKR_Volodymyr_Salsky"

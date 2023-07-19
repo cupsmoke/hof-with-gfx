@@ -1,15 +1,11 @@
 spriteTypes = {
 	SpriteType = {
-		name = "GFX_Portrait_JAP_Akasaka_Saburo"
-		texturefile = "gfx/leaders/MAN/Portrait_JAP_Akasaka_Saburo.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_JAP_Kanji_Ishiwara"
-		texturefile = "gfx/leaders/MAN/Portrait_JAP_Kanji_Ishiwara.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_JAP_Seishiro_Itagaki"
 		texturefile = "gfx/leaders/MAN/Portrait_JAP_Seishiro_Itagaki.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Akasaka_Saburo"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Akasaka_Saburo.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_MAN_hanekawa_tsubasa"
@@ -34,6 +30,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_MAN_isshiki_iroha"
 		texturefile = "gfx/leaders/MAN/Portrait_MAN_isshiki_iroha.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Kanji_Ishiwara"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Kanji_Ishiwara.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_MAN_kazuya_mishima"

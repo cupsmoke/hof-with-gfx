@@ -1,5 +1,13 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_idea_man_akasaka_saburo_army"
+		texturefile = "gfx/interface/advisor/MAN/man_akasaka_saburo_army.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_man_akasaka_saburo_navy"
+		texturefile = "gfx/interface/advisor/MAN/man_akasaka_saburo_navy.png"
+	}
+	SpriteType = {
 		name = "GFX_idea_man_hayasaka_ai"
 		texturefile = "gfx/interface/advisor/MAN/man_hayasaka_ai.png"
 	}
@@ -10,6 +18,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_man_hoshino_ai"
 		texturefile = "gfx/interface/advisor/MAN/man_hoshino_ai.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_man_kanji_ishiwara"
+		texturefile = "gfx/interface/advisor/MAN/man_kanji_ishiwara.png"
 	}
 	SpriteType = {
 		name = "GFX_idea_man_miyano_shiho"

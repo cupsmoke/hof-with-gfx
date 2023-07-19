@@ -585,7 +585,7 @@ characters = {
 				small = GFX_portrait_JAP_kanji_ishiwara_small
 			}
 			army = {
-				large = "gfx/leaders/MAN/Portrait_JAP_Kanji_Ishiwara.png"
+				large = "gfx/leaders/MAN/Portrait_MAN_Kanji_Ishiwara.png"
 			}
 		}
 		corps_commander = {
