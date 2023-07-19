@@ -195,8 +195,8 @@ characters = {
 		name = MAN_akasaka_saburo
 		portraits = {
 			army = {
-				large = GFX_Portrait_JAP_Akasaka_Saburo
-				small = "GFX_idea_advisor_unknow_mil"
+				large = GFX_Portrait_MAN_Akasaka_Saburo
+				small = "GFX_idea_man_akasaka_saburo_army"
 			}
 		}
 		advisor = {
@@ -217,7 +217,7 @@ characters = {
 		corps_commander = {
 			traits = {
 				politically_connected
-				JAP_samurai_lineage
+				# JAP_samurai_lineage
 				trickster
 				naval_liason
 				# commando
@@ -582,7 +582,7 @@ characters = {
 		name = JAP_kanji_ishiwara
 		portraits = {
 			army = {
-				small = GFX_portrait_JAP_kanji_ishiwara_small
+				small = GFX_idea_man_kanji_ishiwara
 			}
 			army = {
 				large = "gfx/leaders/MAN/Portrait_MAN_Kanji_Ishiwara.png"
