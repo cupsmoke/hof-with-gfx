@@ -129,7 +129,39 @@ focus_tree = {
 		prerequisite = { focus = MAN_increase_pioneer_quota }
 		prerequisite = { focus = MAN_cooperate_with_locals }
 	}
-	
+	focus = {
+		id = MAN_collective_farms_hof
+		text = MAN_collective_farms
+		icon = GFX_goal_generic_construction
+		prerequisite = {
+			focus = MAN_increase_pioneer_quota
+		}
+		prerequisite = {
+			focus = MAN_review_economic_guidelines
+		}
+		x = -1
+		y = 1
+		relative_position_id = MAN_increase_pioneer_quota
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}
+		bypass = {
+		}
+		complete_tooltip = {
+		}
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
 	focus = {
 		id = MAN_intelligence_bureau_yearbook
 		icon = GFX_focus_generic_investigate_corruption
@@ -157,8 +189,8 @@ focus_tree = {
 		completion_reward = {
 			
 		}
-		relative_position_id = MAN_increase_pioneer_quota
-		prerequisite = { focus = MAN_increase_pioneer_quota }
+		relative_position_id = MAN_review_economic_guidelines
+		# prerequisite = { focus = MAN_increase_pioneer_quota }
 		prerequisite = { focus = MAN_review_economic_guidelines }
 	}
 
@@ -166,7 +198,7 @@ focus_tree = {
 		id = MAN_expand_yamato_hotel
 		icon = GFX_focus_generic_happy_new_life
 		cost = 2
-		x = 0
+		x = 1
 		y = 1
 		completion_reward = {
 			
@@ -182,11 +214,14 @@ focus_tree = {
 		cost = 2
 		x = -1
 		y = 1
+		available = {
+			# 财阀进驻
+		}
 		completion_reward = {
 			
 		}
-		relative_position_id = MAN_review_economic_guidelines
-		prerequisite = { focus = MAN_review_economic_guidelines }
+		relative_position_id = MAN_establish_industrial_bank
+		prerequisite = { focus = MAN_establish_industrial_bank }
 	}
 	
 	focus = {
@@ -243,4 +278,124 @@ focus_tree = {
 	}
 	
 	#shared_focus = CHI_invite_foreign_investors
+
+
+	##### 远坂凛国策
+	focus = {
+		id = MAN_mistress_tohsaka
+		icon = GFX_focus_generic_annex_country
+		cost = 2
+		x = -8
+		y = 0
+		relative_position_id = MAN_youkai_fief
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_mistress_tohsaka"
+		}
+	}
+	
+	focus = {
+		id = MAN_auditing_manchurian_assets
+		icon = GFX_focus_generic_investigate_corruption
+		cost = 2
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_auditing_manchurian_assets"
+		}
+		relative_position_id = MAN_mistress_tohsaka
+		prerequisite = { focus = MAN_mistress_tohsaka }
+	}
+	
+	focus = {
+		id = MAN_profit_above_all
+		icon = GFX_focus_generic_state_economy_2
+		cost = 2
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_profit_above_all"
+		}
+		relative_position_id = MAN_auditing_manchurian_assets
+		prerequisite = { focus = MAN_auditing_manchurian_assets }
+	}
+	
+	focus = {
+		id = MAN_entertaining_kanto_chief
+		icon = GFX_focus_generic_elections
+		cost = 2
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_entertaining_kanto_chief"
+		}
+		relative_position_id = MAN_mistress_tohsaka
+		prerequisite = { focus = MAN_mistress_tohsaka }
+	}
+	
+	focus = {
+		id = MAN_investing_in_industrial_bank
+		icon = GFX_focus_generic_foreign_investments
+		cost = 2
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_investing_in_industrial_bank"
+		}
+		relative_position_id = MAN_auditing_manchurian_assets
+		prerequisite = { focus = MAN_auditing_manchurian_assets }
+		prerequisite = { focus = MAN_entertaining_kanto_chief }
+	}
+	
+	focus = {
+		id = MAN_imperial_pearl_plan
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 2
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_imperial_pearl_plan"
+		}
+		relative_position_id = MAN_entertaining_kanto_chief
+		prerequisite = { focus = MAN_entertaining_kanto_chief }
+	}
+	
+	focus = {
+		id = MAN_ruby_plan
+		icon = GFX_focus_generic_promote_the_red_cross
+		cost = 2
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_ruby_plan"
+		}
+		relative_position_id = MAN_profit_above_all
+		prerequisite = { focus = MAN_profit_above_all }
+		prerequisite = { focus = MAN_investing_in_industrial_bank }
+	}
+	
+	focus = {
+		id = MAN_inviting_prominent_japanese_guests
+		icon = GFX_focus_generic_council
+		cost = 2
+		x = -1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_inviting_prominent_japanese_guests"
+		}
+		relative_position_id = MAN_imperial_pearl_plan
+		prerequisite = { focus = MAN_imperial_pearl_plan }
+	}
+	
+	focus = {
+		id = MAN_developing_dalian_port
+		icon = GFX_focus_generic_coastal_fort
+		cost = 2
+		x = 1
+		y = 1
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus MAN_developing_dalian_port"
+		}
+		relative_position_id = MAN_imperial_pearl_plan
+		prerequisite = { focus = MAN_imperial_pearl_plan }
+	}
 }

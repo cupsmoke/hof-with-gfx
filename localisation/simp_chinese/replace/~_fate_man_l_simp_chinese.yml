@@ -129,5 +129,16 @@
  MAN_build_border_fortifications: "修建边境堡垒"
  MAN_build_border_fortifications_desc: ""
 
+ ##
+ MAN_mistress_tohsaka: "远坂家的大小姐"
+ MAN_auditing_manchurian_assets: "核算满洲资产"
+ MAN_profit_above_all: "利润至上"
+ MAN_entertaining_kanto_chief: "宴请关东长官"
+ MAN_investing_in_industrial_bank: "注资兴业银行"
+ MAN_imperial_pearl_plan: "帝国明珠计划"
+ MAN_ruby_plan: "红宝石计划"
+ MAN_inviting_prominent_japanese_guests: "邀请日本要人"
+ MAN_developing_dalian_port: "碧波万里"
+
 
 
