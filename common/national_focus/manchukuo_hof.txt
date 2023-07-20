@@ -1,0 +1,246 @@
+#!gfx:interface\goals\goal_JAP.gfx
+#!gfx:interface\goals\goal_RUS.gfx
+#!gfx:interface\goals\goal_generic.gfx
+focus_tree = {
+	id = man_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = MAN
+			# has_dlc = "Waking the Tiger"
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 20
+		y = 800
+	}
+
+	focus = {
+		id = MAN_youkai_fief
+		icon = GFX_focus_generic_brain
+		cost = 2
+		x = -3
+		y = 0
+		relative_position_id = MAN_kwantung_banquet
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MAN_new_faces_of_kwantung_army
+		icon = GFX_focus_JAP_goal_japanese_instructors_2
+		cost = 2
+		x = 3
+		y = 0
+		allow_branch = {
+
+		}
+		available = {
+			not = {
+				has_idea = JAP_nagao_kagetora_in_man
+			}			
+		}
+		relative_position_id = MAN_kwantung_banquet
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MAN_equipment_update_plan
+		icon = GFX_focus_generic_design_equipment_standards
+		cost = 2
+		x = 1
+		y = 1
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_new_faces_of_kwantung_army
+		prerequisite = { focus = MAN_new_faces_of_kwantung_army }
+	}
+	
+	focus = {
+		id = MAN_kwantung_banquet
+		icon = GFX_focus_generic_collaborate_local_elites
+		cost = 2
+		x = 10
+		y = 0
+		available = {
+			has_completed_focus = MAN_youkai_fief
+			has_completed_focus = MAN_new_faces_of_kwantung_army
+		}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = MAN_increase_pioneer_quota
+		icon = GFX_focus_generic_agriculture_3
+		cost = 2
+		x = -1
+		y = 1
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_kwantung_banquet
+		prerequisite = { focus = MAN_kwantung_banquet }
+	}
+	
+	focus = {
+		id = MAN_cooperate_with_locals
+		icon = GFX_focus_generic_government_deals
+		cost = 2
+		x = 1
+		y = 1
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_kwantung_banquet
+		prerequisite = { focus = MAN_kwantung_banquet }
+	}
+	
+	focus = {
+		id = MAN_review_economic_guidelines
+		icon = GFX_focus_generic_bag_of_money
+		cost = 2
+		x = 0
+		y = 1
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_youkai_fief
+		prerequisite = { focus = MAN_youkai_fief }
+	}
+	
+	focus = {
+		id = MAN_concordia_labor_corps
+		icon = GFX_focus_generic_conspiracy
+		cost = 2
+		x = 1
+		y = 1
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_increase_pioneer_quota
+		prerequisite = { focus = MAN_increase_pioneer_quota }
+		prerequisite = { focus = MAN_cooperate_with_locals }
+	}
+	
+	focus = {
+		id = MAN_intelligence_bureau_yearbook
+		icon = GFX_focus_generic_investigate_corruption
+		cost = 2
+		x = -2
+		y = 1
+		completion_reward = {
+			# 触发事件 调查部年鉴
+		}
+		available = {
+			NOT = {
+				has_completed_focus = MAN_implement_five_year_plan
+			}
+		}
+		relative_position_id = MAN_youkai_fief
+		prerequisite = { focus = MAN_youkai_fief }
+	}
+	
+	focus = {
+		id = MAN_establish_industrial_bank
+		icon = GFX_focus_RUS_Japanese_yen
+		cost = 2
+		x = -1
+		y = 1
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_increase_pioneer_quota
+		prerequisite = { focus = MAN_increase_pioneer_quota }
+		prerequisite = { focus = MAN_review_economic_guidelines }
+	}
+
+	focus = {
+		id = MAN_expand_yamato_hotel
+		icon = GFX_focus_generic_happy_new_life
+		cost = 2
+		x = 0
+		y = 1
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_establish_industrial_bank
+		prerequisite = { focus = MAN_establish_industrial_bank }
+		
+	}
+	
+	focus = {
+		id = MAN_implement_five_year_plan
+		icon = GFX_focus_generic_dam
+		cost = 2
+		x = -1
+		y = 1
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_review_economic_guidelines
+		prerequisite = { focus = MAN_review_economic_guidelines }
+	}
+	
+	focus = {
+		id = MAN_increase_garrison_troops
+		icon = GFX_focus_generic_army_grand_battleplan
+		cost = 2
+		x = 0
+		y = 1
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_equipment_update_plan
+		prerequisite = { focus = MAN_equipment_update_plan }
+	}
+	
+	focus = {
+		id = MAN_form_manchukuo_mp
+		icon = GFX_focus_generic_LEP_selective_enforcement
+		cost = 2
+		x = -2
+		y = 1
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_equipment_update_plan
+		prerequisite = { focus = MAN_equipment_update_plan }
+		prerequisite = { focus = MAN_cooperate_with_locals }
+	}
+	
+	focus = {
+		id = MAN_russia_military_exchange
+		icon = GFX_focus_RUS_flag
+		cost = 2
+		x = 1
+		y = 2
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_equipment_update_plan
+		prerequisite = { focus = MAN_equipment_update_plan }
+	}
+	
+	focus = {
+		id = MAN_build_border_fortifications
+		icon = GFX_focus_generic_faction_fortification
+		cost = 2
+		x = 2
+		y = 1
+		completion_reward = {
+			
+		}
+		relative_position_id = MAN_equipment_update_plan
+		prerequisite = { focus = MAN_equipment_update_plan }
+	}
+	
+	#shared_focus = CHI_invite_foreign_investors
+}

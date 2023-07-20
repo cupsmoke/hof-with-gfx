@@ -252,6 +252,24 @@ characters = {
 			available = {
 
 			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 1
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 1
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
+			}
 			traits = {
 				modernizer_and_diplomat
 			}
@@ -279,6 +297,12 @@ characters = {
 			}
 			available = {
 
+			}
+			on_add = {
+				
+			}
+			on_remove = {
+				# add_political_power = -50
 			}
 			traits = {
 				emigre_connections
@@ -308,6 +332,24 @@ characters = {
 			available = {
 
 			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
+			}
 			traits = {
 				gallant_doctor
 			}
@@ -335,6 +377,24 @@ characters = {
 			}
 			available = {
 
+			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
 			}
 			traits = {
 				technocrat
@@ -443,7 +503,7 @@ characters = {
 		}
 		advisor = {
 			slot = high_command
-			idea_token = MAN_okamura_yasuji
+			idea_token = MAN_shizuichi_tanaka
 			ledger = army
 			allowed = {
 				original_tag = MAN

@@ -255,3 +255,13 @@ MAN_add_faction_inf = {
 	}
 	MAN_faction_inf_pie = yes
 }
+
+
+###
+#财阀id
+# 变量 ：  zaibatsu_portrait
+# 0 - 远坂凛
+# 1 - 司波达也
+# 2 - 灰原哀
+# 3 - 三岛
+# 0 - 远坂凛
