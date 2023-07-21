@@ -76,15 +76,15 @@
  MAN_superior_will_desc:0 "" 
 
  MAN_man_railway_benefit:0 "满铁的收益"
- MAN_man_railway_benefit_desc:0 ""  
+ MAN_man_railway_benefit_desc:0 "" 
 # trait
  Ghost_of_Showa:0 "昭和之鬼" 
 # gui
  add_delta_faction_inf_tt:0 "[GetManFactionName]影响力$RIGHT|=%%Y0$"
- #  add_kwantung_army_inf_tt:0 "关东军影响力上升$RIGHT$%"
- #  add_kwantung_gov_inf_tt:0 "关东厅影响力上升$RIGHT$%"
- #  add_mantetsu_inf_tt:0 "满铁影响力上升$RIGHT$%"
- #  add_zaibatsu_inf_tt:0 "财阀影响力上升$RIGHT$%"
+ # add_kwantung_army_inf_tt:0 "关东军影响力上升$RIGHT$%"
+ # add_kwantung_gov_inf_tt:0 "关东厅影响力上升$RIGHT$%"
+ # add_mantetsu_inf_tt:0 "满铁影响力上升$RIGHT$%"
+ # add_zaibatsu_inf_tt:0 "财阀影响力上升$RIGHT$%"
  man_gui_mantetsu_logo_tt:0 "§6满铁§!\n全称为南满洲铁道株式会社"
  man_gui_portrait_mantetsu_tt:0 "§6满铁总裁§!\n酒吞童子"
  man_gui_kwantung_gov_logo_tt:0 "§O关东厅§!\n为日本在关东州设立的行政机关"
@@ -139,6 +139,26 @@
  MAN_ruby_plan: "红宝石计划"
  MAN_inviting_prominent_japanese_guests: "邀请日本要人"
  MAN_developing_dalian_port: "碧波万里"
-
+ ##
+ MAN_brilliant_biologist: "天才生物学家"
+ MAN_brilliant_biologist_desc: "placeholder"
+ MAN_promote_epidemic_prevention_policy: "推动防疫政策"
+ MAN_promote_epidemic_prevention_policy_desc: "placeholder"
+ MAN_build_chinese_hospital: "建立中国人医院"
+ MAN_build_chinese_hospital_desc: "placeholder"
+ MAN_convenience_door: "关东厅的方便之门?"
+ MAN_convenience_door_desc: "placeholder"
+ MAN_absorb_chinese_doctors: "吸纳中国医师"
+ MAN_absorb_chinese_doctors_desc: "placeholder"
+ MAN_new_analgesic: "新型镇痛剂"
+ MAN_new_analgesic_desc: "placeholder"
+ MAN_karasuma_pharmaceutical: "乌丸制药"
+ MAN_karasuma_pharmaceutical_desc: "placeholder"
+ MAN_aim_at_civilian_market: "瞄下民用市场"
+ MAN_aim_at_civilian_market_desc: "placeholder"
+ MAN_silver_bullet: "银色子弹"
+ MAN_silver_bullet_desc: "placeholder"
+ MAN_backdoor_deal: "关东军的幕后交易?"
+ MAN_backdoor_deal_desc: "placeholder"
 
 

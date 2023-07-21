@@ -1,0 +1,12 @@
+MAN_tohsaka_selected_trigger = {
+	check_variable = {
+		zaibatsu_portrait = 0
+	}
+	# MAN_selected_tohsaka
+}
+MAN_karasuma_selected_trigger = {
+	check_variable = {
+		zaibatsu_portrait = 2
+	}
+	# MAN_selected_tohsaka
+}

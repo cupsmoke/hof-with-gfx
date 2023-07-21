@@ -1,0 +1,60 @@
+MAN_debug_categories = {
+	man_add_10 = {
+		icon = generic_research
+		cost = 0
+		available = {
+			tag = man
+			is_ai = no
+		}
+		visible = {
+			tag = man
+		}
+		complete_effect = {
+			set_temp_variable = {
+				faction_idex = 0
+			}
+			set_temp_variable = {
+				delta_faction_inf = 3
+			}
+			MAN_add_faction_inf = yes
+			set_temp_variable = {
+				faction_idex = 1
+			}
+			set_temp_variable = {
+				delta_faction_inf = -2
+			}
+			MAN_add_faction_inf = yes
+			set_temp_variable = {
+				faction_idex = 2
+			}
+			set_temp_variable = {
+				delta_faction_inf = 5
+			}
+			MAN_add_faction_inf = yes
+			set_temp_variable = {
+				faction_idex = 3
+			}
+			set_temp_variable = {
+				delta_faction_inf = -6
+			}
+			MAN_add_faction_inf = yes
+		}
+	}
+	man_set_rin = {
+		complete_effect = {
+			set_variable = {
+				zaibatsu_portrait = 0
+			}
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	man_set_haibala = {
+		complete_effect = {
+			set_variable = {
+				zaibatsu_portrait = 2
+			}
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+}

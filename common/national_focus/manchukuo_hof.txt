@@ -14,9 +14,8 @@ focus_tree = {
 	default = no
 	continuous_focus_position = {
 		x = 20
-		y = 800
+		y = 2000
 	}
-
 	focus = {
 		id = MAN_youkai_fief
 		icon = GFX_focus_generic_brain
@@ -25,10 +24,8 @@ focus_tree = {
 		y = 0
 		relative_position_id = MAN_kwantung_banquet
 		completion_reward = {
-			
 		}
 	}
-	
 	focus = {
 		id = MAN_new_faces_of_kwantung_army
 		icon = GFX_focus_JAP_goal_japanese_instructors_2
@@ -36,19 +33,16 @@ focus_tree = {
 		x = 3
 		y = 0
 		allow_branch = {
-
 		}
 		available = {
 			not = {
 				has_idea = JAP_nagao_kagetora_in_man
-			}			
+			}
 		}
 		relative_position_id = MAN_kwantung_banquet
 		completion_reward = {
-			
 		}
 	}
-	
 	focus = {
 		id = MAN_equipment_update_plan
 		icon = GFX_focus_generic_design_equipment_standards
@@ -56,12 +50,12 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_new_faces_of_kwantung_army
-		prerequisite = { focus = MAN_new_faces_of_kwantung_army }
+		prerequisite = {
+			focus = MAN_new_faces_of_kwantung_army
+		}
 	}
-	
 	focus = {
 		id = MAN_kwantung_banquet
 		icon = GFX_focus_generic_collaborate_local_elites
@@ -73,10 +67,8 @@ focus_tree = {
 			has_completed_focus = MAN_new_faces_of_kwantung_army
 		}
 		completion_reward = {
-			
 		}
 	}
-	
 	focus = {
 		id = MAN_increase_pioneer_quota
 		icon = GFX_focus_generic_agriculture_3
@@ -84,12 +76,12 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_kwantung_banquet
-		prerequisite = { focus = MAN_kwantung_banquet }
+		prerequisite = {
+			focus = MAN_kwantung_banquet
+		}
 	}
-	
 	focus = {
 		id = MAN_cooperate_with_locals
 		icon = GFX_focus_generic_government_deals
@@ -97,12 +89,12 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_kwantung_banquet
-		prerequisite = { focus = MAN_kwantung_banquet }
+		prerequisite = {
+			focus = MAN_kwantung_banquet
+		}
 	}
-	
 	focus = {
 		id = MAN_review_economic_guidelines
 		icon = GFX_focus_generic_bag_of_money
@@ -110,12 +102,12 @@ focus_tree = {
 		x = 0
 		y = 1
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_youkai_fief
-		prerequisite = { focus = MAN_youkai_fief }
+		prerequisite = {
+			focus = MAN_youkai_fief
+		}
 	}
-	
 	focus = {
 		id = MAN_concordia_labor_corps
 		icon = GFX_focus_generic_conspiracy
@@ -123,11 +115,14 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_increase_pioneer_quota
-		prerequisite = { focus = MAN_increase_pioneer_quota }
-		prerequisite = { focus = MAN_cooperate_with_locals }
+		prerequisite = {
+			focus = MAN_increase_pioneer_quota
+		}
+		prerequisite = {
+			focus = MAN_cooperate_with_locals
+		}
 	}
 	focus = {
 		id = MAN_collective_farms_hof
@@ -177,9 +172,10 @@ focus_tree = {
 			}
 		}
 		relative_position_id = MAN_youkai_fief
-		prerequisite = { focus = MAN_youkai_fief }
+		prerequisite = {
+			focus = MAN_youkai_fief
+		}
 	}
-	
 	focus = {
 		id = MAN_establish_industrial_bank
 		icon = GFX_focus_RUS_Japanese_yen
@@ -187,13 +183,13 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_review_economic_guidelines
 		# prerequisite = { focus = MAN_increase_pioneer_quota }
-		prerequisite = { focus = MAN_review_economic_guidelines }
+		prerequisite = {
+			focus = MAN_review_economic_guidelines
+		}
 	}
-
 	focus = {
 		id = MAN_expand_yamato_hotel
 		icon = GFX_focus_generic_happy_new_life
@@ -201,13 +197,12 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_establish_industrial_bank
-		prerequisite = { focus = MAN_establish_industrial_bank }
-		
+		prerequisite = {
+			focus = MAN_establish_industrial_bank
+		}
 	}
-	
 	focus = {
 		id = MAN_implement_five_year_plan
 		icon = GFX_focus_generic_dam
@@ -218,12 +213,12 @@ focus_tree = {
 			# 财阀进驻
 		}
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_establish_industrial_bank
-		prerequisite = { focus = MAN_establish_industrial_bank }
+		prerequisite = {
+			focus = MAN_establish_industrial_bank
+		}
 	}
-	
 	focus = {
 		id = MAN_increase_garrison_troops
 		icon = GFX_focus_generic_army_grand_battleplan
@@ -231,12 +226,12 @@ focus_tree = {
 		x = 0
 		y = 1
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_equipment_update_plan
-		prerequisite = { focus = MAN_equipment_update_plan }
+		prerequisite = {
+			focus = MAN_equipment_update_plan
+		}
 	}
-	
 	focus = {
 		id = MAN_form_manchukuo_mp
 		icon = GFX_focus_generic_LEP_selective_enforcement
@@ -244,13 +239,15 @@ focus_tree = {
 		x = -2
 		y = 1
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_equipment_update_plan
-		prerequisite = { focus = MAN_equipment_update_plan }
-		prerequisite = { focus = MAN_cooperate_with_locals }
+		prerequisite = {
+			focus = MAN_equipment_update_plan
+		}
+		prerequisite = {
+			focus = MAN_cooperate_with_locals
+		}
 	}
-	
 	focus = {
 		id = MAN_russia_military_exchange
 		icon = GFX_focus_RUS_flag
@@ -258,12 +255,12 @@ focus_tree = {
 		x = 1
 		y = 2
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_equipment_update_plan
-		prerequisite = { focus = MAN_equipment_update_plan }
+		prerequisite = {
+			focus = MAN_equipment_update_plan
+		}
 	}
-	
 	focus = {
 		id = MAN_build_border_fortifications
 		icon = GFX_focus_generic_faction_fortification
@@ -271,28 +268,31 @@ focus_tree = {
 		x = 2
 		y = 1
 		completion_reward = {
-			
 		}
 		relative_position_id = MAN_equipment_update_plan
-		prerequisite = { focus = MAN_equipment_update_plan }
+		prerequisite = {
+			focus = MAN_equipment_update_plan
+		}
 	}
-	
 	#shared_focus = CHI_invite_foreign_investors
-
-
-	##### 远坂凛国策
+  ##### 远坂凛国策
 	focus = {
 		id = MAN_mistress_tohsaka
 		icon = GFX_focus_generic_annex_country
 		cost = 2
 		x = -8
 		y = 0
+		allow_branch = {
+			OR = {
+				MAN_tohsaka_selected_trigger = yes
+				has_country_flag = show_all_focus_flag
+			}
+		}
 		relative_position_id = MAN_youkai_fief
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAN_mistress_tohsaka"
 		}
 	}
-	
 	focus = {
 		id = MAN_auditing_manchurian_assets
 		icon = GFX_focus_generic_investigate_corruption
@@ -303,9 +303,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAN_auditing_manchurian_assets"
 		}
 		relative_position_id = MAN_mistress_tohsaka
-		prerequisite = { focus = MAN_mistress_tohsaka }
+		prerequisite = {
+			focus = MAN_mistress_tohsaka
+		}
 	}
-	
 	focus = {
 		id = MAN_profit_above_all
 		icon = GFX_focus_generic_state_economy_2
@@ -316,9 +317,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAN_profit_above_all"
 		}
 		relative_position_id = MAN_auditing_manchurian_assets
-		prerequisite = { focus = MAN_auditing_manchurian_assets }
+		prerequisite = {
+			focus = MAN_auditing_manchurian_assets
+		}
 	}
-	
 	focus = {
 		id = MAN_entertaining_kanto_chief
 		icon = GFX_focus_generic_elections
@@ -329,9 +331,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAN_entertaining_kanto_chief"
 		}
 		relative_position_id = MAN_mistress_tohsaka
-		prerequisite = { focus = MAN_mistress_tohsaka }
+		prerequisite = {
+			focus = MAN_mistress_tohsaka
+		}
 	}
-	
 	focus = {
 		id = MAN_investing_in_industrial_bank
 		icon = GFX_focus_generic_foreign_investments
@@ -342,10 +345,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAN_investing_in_industrial_bank"
 		}
 		relative_position_id = MAN_auditing_manchurian_assets
-		prerequisite = { focus = MAN_auditing_manchurian_assets }
-		prerequisite = { focus = MAN_entertaining_kanto_chief }
+		prerequisite = {
+			focus = MAN_auditing_manchurian_assets
+		}
+		prerequisite = {
+			focus = MAN_entertaining_kanto_chief
+		}
 	}
-	
 	focus = {
 		id = MAN_imperial_pearl_plan
 		icon = GFX_focus_generic_the_giant_wakes
@@ -356,9 +362,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAN_imperial_pearl_plan"
 		}
 		relative_position_id = MAN_entertaining_kanto_chief
-		prerequisite = { focus = MAN_entertaining_kanto_chief }
+		prerequisite = {
+			focus = MAN_entertaining_kanto_chief
+		}
 	}
-	
 	focus = {
 		id = MAN_ruby_plan
 		icon = GFX_focus_generic_promote_the_red_cross
@@ -369,10 +376,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAN_ruby_plan"
 		}
 		relative_position_id = MAN_profit_above_all
-		prerequisite = { focus = MAN_profit_above_all }
-		prerequisite = { focus = MAN_investing_in_industrial_bank }
+		prerequisite = {
+			focus = MAN_profit_above_all
+		}
+		prerequisite = {
+			focus = MAN_investing_in_industrial_bank
+		}
 	}
-	
 	focus = {
 		id = MAN_inviting_prominent_japanese_guests
 		icon = GFX_focus_generic_council
@@ -383,9 +393,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAN_inviting_prominent_japanese_guests"
 		}
 		relative_position_id = MAN_imperial_pearl_plan
-		prerequisite = { focus = MAN_imperial_pearl_plan }
+		prerequisite = {
+			focus = MAN_imperial_pearl_plan
+		}
 	}
-	
 	focus = {
 		id = MAN_developing_dalian_port
 		icon = GFX_focus_generic_coastal_fort
@@ -396,6 +407,161 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus MAN_developing_dalian_port"
 		}
 		relative_position_id = MAN_imperial_pearl_plan
-		prerequisite = { focus = MAN_imperial_pearl_plan }
+		prerequisite = {
+			focus = MAN_imperial_pearl_plan
+		}
+	}
+  ####灰原哀
+	focus = {
+		id = MAN_brilliant_biologist
+		icon = GFX_focus_generic_promote_the_red_cross
+		cost = 2
+		x = -8
+		y = 5
+		offset = {
+			y = -5
+			trigger = {
+				MAN_karasuma_selected_trigger = yes
+				NOT = {
+					has_country_flag = show_all_focus_flag
+				}
+			}
+		}
+		relative_position_id = MAN_youkai_fief
+		allow_branch = {
+			OR = {
+				MAN_karasuma_selected_trigger = yes
+				has_country_flag = show_all_focus_flag
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_promote_epidemic_prevention_policy
+		icon = GFX_focus_generic_foreign_diplomacy
+		cost = 2
+		x = 0
+		y = 1
+		relative_position_id = MAN_convenience_door
+		prerequisite = {
+			focus = MAN_convenience_door
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_build_chinese_hospital
+		icon = GFX_focus_generic_research3
+		cost = 2
+		x = 1
+		y = 1
+		relative_position_id = MAN_promote_epidemic_prevention_policy
+		prerequisite = {
+			focus = MAN_promote_epidemic_prevention_policy
+		}
+		mutually_exclusive = {
+			focus = MAN_absorb_chinese_doctors
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_convenience_door
+		icon = GFX_focus_generic_investigate_corruption
+		cost = 2
+		x = -2
+		y = 1
+		relative_position_id = MAN_brilliant_biologist
+		prerequisite = {
+			focus = MAN_brilliant_biologist
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_absorb_chinese_doctors
+		icon = GFX_focus_generic_eduction_1
+		cost = 2
+		x = -1
+		y = 1
+		relative_position_id = MAN_promote_epidemic_prevention_policy
+		prerequisite = {
+			focus = MAN_promote_epidemic_prevention_policy
+		}
+		mutually_exclusive = {
+			focus = MAN_build_chinese_hospital
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_new_analgesic
+		icon = GFX_focus_generic_corporatism
+		cost = 2
+		x = -1
+		y = 1
+		relative_position_id = MAN_karasuma_pharmaceutical
+		prerequisite = {
+			focus = MAN_karasuma_pharmaceutical
+		}
+		prerequisite = {
+			focus = MAN_backdoor_deal
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_karasuma_pharmaceutical
+		icon = GFX_focus_generic_Basic_Oil
+		cost = 2
+		x = 2
+		y = 1
+		relative_position_id = MAN_brilliant_biologist
+		prerequisite = {
+			focus = MAN_brilliant_biologist
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_aim_at_civilian_market
+		icon = GFX_focus_generic_Panzerschokolade
+		cost = 2
+		x = 1
+		y = 1
+		relative_position_id = MAN_karasuma_pharmaceutical
+		prerequisite = {
+			focus = MAN_karasuma_pharmaceutical
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_silver_bullet
+		icon = GFX_focus_generic_microphone_diplomacy
+		cost = 2
+		x = 1
+		y = 1
+		relative_position_id = MAN_new_analgesic
+		prerequisite = {
+			focus = MAN_aim_at_civilian_market
+			focus = MAN_new_analgesic
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_backdoor_deal
+		icon = GFX_focus_generic_foreign_investments
+		cost = 2
+		x = 0
+		y = 1
+		relative_position_id = MAN_brilliant_biologist
+		prerequisite = {
+			focus = MAN_brilliant_biologist
+		}
+		completion_reward = {
+		}
 	}
 }
