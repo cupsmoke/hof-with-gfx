@@ -275,7 +275,7 @@ focus_tree = {
 		}
 	}
 	#shared_focus = CHI_invite_foreign_investors
-  ##### 远坂凛国策
+	##### 远坂凛国策
 	focus = {
 		id = MAN_mistress_tohsaka
 		icon = GFX_focus_generic_annex_country
@@ -411,7 +411,7 @@ focus_tree = {
 			focus = MAN_imperial_pearl_plan
 		}
 	}
-  ####灰原哀
+	####灰原哀
 	focus = {
 		id = MAN_brilliant_biologist
 		icon = GFX_focus_generic_promote_the_red_cross
@@ -482,7 +482,7 @@ focus_tree = {
 	focus = {
 		id = MAN_absorb_chinese_doctors
 		icon = GFX_focus_generic_eduction_1
-		cost = 2
+		cost = 2 
 		x = -1
 		y = 1
 		relative_position_id = MAN_promote_epidemic_prevention_policy
@@ -493,6 +493,7 @@ focus_tree = {
 			focus = MAN_build_chinese_hospital
 		}
 		completion_reward = {
+			# 顾问 阮振铎
 		}
 	}
 	focus = {
@@ -560,6 +561,155 @@ focus_tree = {
 		relative_position_id = MAN_brilliant_biologist
 		prerequisite = {
 			focus = MAN_brilliant_biologist
+		}
+		completion_reward = {
+		}
+	}
+	####  四叶国策
+	focus = {
+		id = MAN_inheritor_of_yotsuba
+		icon = GFX_focus_generic_agriculture
+		cost = 2
+		x = -8
+		y = 10
+		offset = {
+			y = -10
+			trigger = {
+				MAN_yotsuba_selected_trigger = yes
+				NOT = {
+					has_country_flag = show_all_focus_flag
+				}
+			}
+		}
+		allow_branch = {
+			OR = {
+				MAN_yotsuba_selected_trigger = yes
+				has_country_flag = show_all_focus_flag
+			}
+		}
+		relative_position_id = MAN_youkai_fief
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_establish_flt
+		icon = GFX_focus_generic_research3
+		cost = 2
+		x = 2
+		y = 1
+		relative_position_id = MAN_inheritor_of_yotsuba
+		prerequisite = {
+			focus = MAN_inheritor_of_yotsuba
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_new_equipment_rd
+		icon = GFX_focus_generic_military_equipment
+		cost = 2
+		x = -1
+		y = 1
+		relative_position_id = MAN_establish_flt
+		prerequisite = {
+			focus = MAN_establish_flt
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_equipment_maintenance_expert
+		icon = GFX_focus_generic_social_reforms
+		cost = 2
+		x = 1
+		y = 1
+		relative_position_id = MAN_establish_flt
+		prerequisite = {
+			focus = MAN_establish_flt
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_connections_staff_office
+		icon = GFX_focus_generic_army_mass_assault
+		cost = 2
+		x = -2
+		y = 1
+		relative_position_id = MAN_inheritor_of_yotsuba
+		prerequisite = {
+			focus = MAN_inheritor_of_yotsuba
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_promote_yotsuba_manufacturing
+		icon = GFX_focus_generic_state_economy
+		cost = 2
+		x = -2
+		y = 1
+		relative_position_id = MAN_new_equipment_rd
+		prerequisite = {
+			focus = MAN_new_equipment_rd
+		}
+		prerequisite = {
+			focus = MAN_sponsor_kwantung_army_exercises
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_sponsor_kwantung_army_exercises
+		icon = GFX_focus_generic_army_grand_battleplan
+		cost = 2
+		x = 1
+		y = 1
+		relative_position_id = MAN_connections_staff_office
+		prerequisite = {
+			focus = MAN_connections_staff_office
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_active_general_advisor
+		icon = GFX_focus_generic_agrarian_soldiers
+		cost = 2
+		x = -1
+		y = 1
+		relative_position_id = MAN_connections_staff_office
+		prerequisite = {
+			focus = MAN_connections_staff_office
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_practice_scientific_management
+		icon = GFX_focus_generic_economic_prosperity
+		cost = 2
+		x = 0
+		y = 1
+		relative_position_id = MAN_equipment_maintenance_expert
+		prerequisite = {
+			focus = MAN_equipment_maintenance_expert
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_iterative_design
+		icon = GFX_focus_generic_invest_in_our_weaker_allies
+		cost = 2
+		x = 0
+		y = 1
+		relative_position_id = MAN_new_equipment_rd
+		prerequisite = {
+			focus = MAN_new_equipment_rd
+		}
+		prerequisite = {
+			focus = MAN_sponsor_kwantung_army_exercises
 		}
 		completion_reward = {
 		}

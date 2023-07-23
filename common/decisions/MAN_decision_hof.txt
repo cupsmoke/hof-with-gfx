@@ -48,7 +48,15 @@ MAN_debug_categories = {
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
-	man_set_haibala = {
+	man_set_yotsuba = {
+		complete_effect = {
+			set_variable = {
+				zaibatsu_portrait = 1
+			}
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	man_set_karasuma = {
 		complete_effect = {
 			set_variable = {
 				zaibatsu_portrait = 2

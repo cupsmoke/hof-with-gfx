@@ -139,8 +139,8 @@
  MAN_ruby_plan: "红宝石计划"
  MAN_inviting_prominent_japanese_guests: "邀请日本要人"
  MAN_developing_dalian_port: "碧波万里"
- ##
- MAN_brilliant_biologist: "天才生物学家"
+ ## 乌丸
+ MAN_brilliant_biologist: "天才药剂师"
  MAN_brilliant_biologist_desc: "placeholder"
  MAN_promote_epidemic_prevention_policy: "推动防疫政策"
  MAN_promote_epidemic_prevention_policy_desc: "placeholder"
@@ -160,5 +160,24 @@
  MAN_silver_bullet_desc: "placeholder"
  MAN_backdoor_deal: "关东军的幕后交易?"
  MAN_backdoor_deal_desc: "placeholder"
-
-
+ ##四叶
+ MAN_inheritor_of_yotsuba: "四叶的继承者"
+ MAN_inheritor_of_yotsuba_desc: "placeholder"
+ MAN_establish_flt: "成立四叶研究院"
+ MAN_establish_flt_desc: "placeholder"
+ MAN_new_equipment_rd: "新型枪械研发"
+ MAN_new_equipment_rd_desc: "placeholder"
+ MAN_equipment_maintenance_expert: "设备维护专家"
+ MAN_equipment_maintenance_expert_desc: "placeholder"
+ MAN_connections_staff_office: "参谋部中的人脉"
+ MAN_connections_staff_office_desc: "placeholder"
+ MAN_promote_yotsuba_manufacturing: "推广四叶制造"
+ MAN_promote_yotsuba_manufacturing_desc: "placeholder"
+ MAN_sponsor_kwantung_army_exercises: "赞助关东军演习"
+ MAN_sponsor_kwantung_army_exercises_desc: "placeholder"
+ MAN_active_general_advisor: "现役武官顾问"
+ MAN_active_general_advisor_desc: "placeholder"
+ MAN_practice_scientific_management: "实践科学管理"
+ MAN_practice_scientific_management_desc: "placeholder"
+ MAN_iterative_design: "迭代式设计"
+ MAN_iterative_design_desc: "placeholder"
