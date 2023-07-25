@@ -109,14 +109,31 @@ recruit_character = MAN_changlin_linge
 ####advisor
 # recruit_character = MAN_aisin_gioro_xiqia
 recruit_character = MAN_hoshino_ai
-# recruit_character = MAN_shiina_etsusaburo
+recruit_character = MAN_shiina_etsusaburo
 recruit_character = MAN_shirogane_miyuki
 recruit_character = MAN_hoshiguma
 recruit_character = MAN_akasaka_saburo
+
 recruit_character = MAN_hayasaka_ai
+recruit_character = MAN_masayoshi_ohira
+
 recruit_character = MAN_yuugiri
+
+recruit_character = MAN_hisato_ichimada
+recruit_character = MAN_kakuei_tanaka
+
 recruit_character = MAN_miyano_shiho
+recruit_character = MAN_ruan_zhenduo
+
 recruit_character = MAN_shiba_tatsuya
+recruit_character = MAN_konosuke_matsushita
+recruit_character = MAN_masaru_ibuka
+
+recruit_character = MAN_tatsunosuke_takasaki
+recruit_character = MAN_hayato_ikeda
+
+
+
 ####commander
 recruit_character = MAN_yoshiko_kawashima
 recruit_character = MAN_yamashita_tomoyuki
@@ -127,4 +144,7 @@ recruit_character = MAN_nishio_toshizo
 recruit_character = MAN_akasaka_saburo
 recruit_character = MAN_itagaki_seishiro
 recruit_character = MAN_ishiwara_kanji
+recruit_character = MAN_hideki_tojo
+recruit_character = MAN_kenji_tenzai
+recruit_character = MAN_teiichi_suzuki
 ####admiral

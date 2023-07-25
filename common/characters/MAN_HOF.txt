@@ -1,7 +1,5 @@
-
 #leader
 characters = {
-
 	MAN_shuten_doji = {
 		#酒吞
 		name = MAN_shuten_doji
@@ -74,7 +72,7 @@ characters = {
 
 #advisor
 characters = {
-	####
+	#### 满铁系
 	MAN_hoshino_ai = {
 		# 星野爱
 		name = MAN_hoshino_ai
@@ -109,7 +107,7 @@ characters = {
 		name = MAN_shiina_etsusaburo
 		portraits = {
 			army = {
-				small = GFX_idea_advisor_unknow_pol
+				small = GFX_idea_man_etsusaburo_shiina
 			}
 		}
 		advisor = {
@@ -196,7 +194,7 @@ characters = {
 		portraits = {
 			army = {
 				large = GFX_Portrait_MAN_Akasaka_Saburo
-				small = "GFX_idea_man_akasaka_saburo_army"
+				small = GFX_idea_man_akasaka_saburo_army
 			}
 		}
 		advisor = {
@@ -230,8 +228,7 @@ characters = {
 			# legacy_id = 1505
 		}
 	}
-
-	####
+	#### 关东厅
 	MAN_hayasaka_ai = {
 		#早坂爱
 		name = MAN_hayasaka_ai
@@ -250,7 +247,6 @@ characters = {
 				original_tag = MAN
 			}
 			available = {
-
 			}
 			on_add = {
 				set_temp_variable = {
@@ -278,6 +274,50 @@ characters = {
 			}
 		}
 	}
+	MAN_masayoshi_ohira = {
+		#大平正芳
+		name = MAN_masayoshi_ohira
+		portraits = {
+			civilian = {
+				small = GFX_idea_man_masayoshi_ohira
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_masayoshi_ohira
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 1
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 1
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
+			}
+			traits = {
+				modernizer_and_diplomat
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+
+	### 协和会
 	MAN_yuugiri = {
 		#夕雾
 		name = MAN_yuugiri
@@ -296,10 +336,8 @@ characters = {
 				original_tag = MAN
 			}
 			available = {
-
 			}
 			on_add = {
-				
 			}
 			on_remove = {
 				# add_political_power = -50
@@ -312,25 +350,22 @@ characters = {
 			}
 		}
 	}
-	MAN_miyano_shiho = {
-		#宫野志保
-		name = MAN_miyano_shiho
+	# 远坂
+	MAN_hisato_ichimada = {
+		# 一萬田尚登
+		name = MAN_hisato_ichimada
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_MAN_miyano_shiho
-			}
-			army = {
-				small = GFX_idea_man_miyano_shiho
+				small = GFX_idea_man_hisato_ichimada
 			}
 		}
 		advisor = {
 			slot = political_advisor
-			idea_token = MAN_miyano_shiho
+			idea_token = MAN_hisato_ichimada
 			allowed = {
 				original_tag = MAN
 			}
 			available = {
-
 			}
 			on_add = {
 				set_temp_variable = {
@@ -358,6 +393,138 @@ characters = {
 			}
 		}
 	}
+	MAN_kakuei_tanaka = {
+		# 田中角荣
+		name = MAN_kakuei_tanaka
+		portraits = {
+			civilian = {
+				small = GFX_idea_man_kakuei_tanaka
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_kakuei_tanaka
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
+			}
+			traits = {
+				gallant_doctor
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+
+	# 乌丸
+	MAN_miyano_shiho = {
+		#宫野志保
+		name = MAN_miyano_shiho
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_MAN_miyano_shiho
+			}
+			army = {
+				small = GFX_idea_man_miyano_shiho
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_miyano_shiho
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
+			}
+			traits = {
+				gallant_doctor
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	MAN_ruan_zhenduo = {
+		# 阮振铎
+		name = MAN_ruan_zhenduo
+		portraits = {
+			civilian = {
+				small = GFX_idea_man_ruan_zhenduo
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_ruan_zhenduo
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
+			}
+			traits = {
+				gallant_doctor
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	# 四叶
 	MAN_shiba_tatsuya = {
 		#司波达也
 		name = MAN_shiba_tatsuya
@@ -376,7 +543,92 @@ characters = {
 				original_tag = MAN
 			}
 			available = {
-
+			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
+			}
+			traits = {
+				technocrat
+				retired_officer
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	MAN_konosuke_matsushita = {
+		# 松下幸之助
+		name = MAN_konosuke_matsushita
+		portraits = {
+			civilian = {
+				small = GFX_idea_man_konosuke_matsushita
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_konosuke_matsushita
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
+			}
+			traits = {
+				technocrat
+				retired_officer
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	MAN_masaru_ibuka = {
+		# 井深大
+		name = MAN_masaru_ibuka
+		portraits = {
+			civilian = {
+				small = GFX_idea_man_masaru_ibuka
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_masaru_ibuka
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
 			}
 			on_add = {
 				set_temp_variable = {
@@ -406,10 +658,97 @@ characters = {
 		}
 	}
 
+	# 三岛
+	MAN_tatsunosuke_takasaki = {
+		# 高碕达之助
+		name = MAN_tatsunosuke_takasaki
+		portraits = {
+			civilian = {
+				small = GFX_idea_man_tatsunosuke_takasaki
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_tatsunosuke_takasaki
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
+			}
+			traits = {
+				technocrat
+				retired_officer
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
+	MAN_hayato_ikeda = {
+		# 池田勇人
+		name = MAN_hayato_ikeda
+		portraits = {
+			civilian = {
+				small = GFX_idea_man_hayato_ikeda
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_hayato_ikeda
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
+			}
+			traits = {
+				technocrat
+				retired_officer
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
 }
 
+#commander
 characters = {
-	#commander
 	MAN_yamashita_tomoyuki = {
 		#山下奉文
 		name = JAP_tomoyuki_yamashita
@@ -448,7 +787,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-
 	MAN_nishio_toshizo = {
 		#西尾寿造
 		name = JAP_toshizo_nishio
@@ -467,14 +805,13 @@ characters = {
 				original_tag = MAN
 			}
 			available = {
-
 			}
 			traits = {
 				army_chief_drill_2
 			}
 			cost = 100
 			ai_will_do = {
-				factor = 1.000
+				factor = 1
 			}
 		}
 		corps_commander = {
@@ -610,8 +947,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-
-
 	MAN_itagaki_seishiro = {
 		#板垣征四郎
 		name = JAP_seishiro_itagaki
@@ -663,4 +998,70 @@ characters = {
 		}
 	}
 
+	MAN_hideki_tojo = {
+		# 东条英机
+		name = MAN_hideki_tojo
+		portraits = {
+			army = {
+				small = GFX_idea_man_hideki_tojo
+				large = GFX_Portrait_MAN_Hideki_Tojo
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				JAP_samurai_lineage
+				organizer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MAN_kenji_tenzai = {
+		# 天西贤治
+		name = MAN_kenji_tenzai
+		portraits = {
+			army = {
+				small = GFX_idea_man_kenji_tenzai
+				large = GFX_Portrait_MAN_Kenji_Tenzai
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				JAP_samurai_lineage
+				organizer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	MAN_teiichi_suzuki = {
+		# 鈴木貞一
+		name = MAN_teiichi_suzuki
+		portraits = {
+			army = {
+				small = GFX_idea_man_suzuki_teiichi
+				large = GFX_Portrait_MAN_Teiichi_Suzuki
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				JAP_samurai_lineage
+				organizer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }

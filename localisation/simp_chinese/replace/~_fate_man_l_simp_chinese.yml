@@ -57,18 +57,35 @@
  MAN_shuten_doji:0 "酒吞童子" 
  MAN_konno_junko:0 "绀野纯子" 
  MAN_shiromeguri_meguri:0 "城回巡" 
- MAN_mutaguchi_renya:0 "牟田口廉也" 
- MAN_akasaka_saburo:0 "荒坂三郎" 
 
  MAN_hoshino_ai:0 "星野爱" 
  MAN_shiina_etsusaburo:0 "椎名悦三郎" 
  MAN_shirogane_miyuki:0 "白银御行" 
  MAN_hoshiguma:0 "星熊" 
+ MAN_akasaka_saburo:0 "荒坂三郎" 
+
 
  MAN_hayasaka_ai:0 "早坂爱" 
+ MAN_masayoshi_ohira:0 "大平正芳" 
  MAN_yuugiri:0 "夕雾" 
+
+ MAN_hisato_ichimada:0 "一万田尚登" 
+ MAN_kakuei_tanaka:0 "田中角荣" 
+
  MAN_miyano_shiho:0 "宫野志保" 
+ MAN_ruan_zhenduo:0 "阮振铎" 
+
  MAN_shiba_tatsuya:0 "司波达也" 
+ MAN_konosuke_matsushita:0 "松下幸之助" 
+ MAN_masaru_ibuka:0 "井深大" 
+
+ MAN_tatsunosuke_takasaki:0 "高碕达之助" 
+ MAN_hayato_ikeda:0 "池田勇人" 
+
+ MAN_mutaguchi_renya:0 "牟田口廉也" 
+ MAN_hideki_tojo:0 "东条英机" 
+ MAN_kenji_tenzai:0 "天西贤治" 
+ MAN_teiichi_suzuki:0 "铃木贞一" 
 
 
 # idea
