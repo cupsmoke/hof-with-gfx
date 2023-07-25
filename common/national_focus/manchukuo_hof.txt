@@ -75,12 +75,15 @@ focus_tree = {
 		cost = 2
 		x = -1
 		y = 1
-		completion_reward = {
-		}
-		relative_position_id = MAN_kwantung_banquet
 		prerequisite = {
 			focus = MAN_kwantung_banquet
 		}
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = MAN_masayoshi_ohira
+		}
+		relative_position_id = MAN_kwantung_banquet
+
 	}
 	focus = {
 		id = MAN_cooperate_with_locals
@@ -341,16 +344,19 @@ focus_tree = {
 		cost = 2
 		x = 1
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus MAN_investing_in_industrial_bank"
-		}
 		relative_position_id = MAN_auditing_manchurian_assets
+
 		prerequisite = {
 			focus = MAN_auditing_manchurian_assets
 		}
 		prerequisite = {
 			focus = MAN_entertaining_kanto_chief
 		}
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = MAN_hisato_ichimada
+		}
+
 	}
 	focus = {
 		id = MAN_imperial_pearl_plan
@@ -358,13 +364,15 @@ focus_tree = {
 		cost = 2
 		x = 1
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus MAN_imperial_pearl_plan"
-		}
 		relative_position_id = MAN_entertaining_kanto_chief
 		prerequisite = {
 			focus = MAN_entertaining_kanto_chief
 		}
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = MAN_kakuei_tanaka		
+		}
+
 	}
 	focus = {
 		id = MAN_ruby_plan
@@ -373,7 +381,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus MAN_ruby_plan"
+			add_research_slot = 1
 		}
 		relative_position_id = MAN_profit_above_all
 		prerequisite = {
@@ -550,6 +558,7 @@ focus_tree = {
 			focus = MAN_new_analgesic
 		}
 		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 	focus = {
@@ -602,6 +611,9 @@ focus_tree = {
 			focus = MAN_inheritor_of_yotsuba
 		}
 		completion_reward = {
+			add_research_slot = 1
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = MAN_masaru_ibuka
 		}
 	}
 	focus = {
@@ -696,6 +708,8 @@ focus_tree = {
 			focus = MAN_equipment_maintenance_expert
 		}
 		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = MAN_konosuke_matsushita	
 		}
 	}
 	focus = {

@@ -288,6 +288,7 @@ characters = {
 			allowed = {
 				original_tag = MAN
 			}
+			cost = 50
 			available = {
 			}
 			on_add = {
@@ -309,7 +310,7 @@ characters = {
 				MAN_add_faction_inf = yes
 			}
 			traits = {
-				modernizer_and_diplomat
+				propaganda_bungler
 			}
 			ai_will_do = {
 				factor = 5
@@ -386,7 +387,7 @@ characters = {
 				MAN_add_faction_inf = yes
 			}
 			traits = {
-				gallant_doctor
+				the_banker
 			}
 			ai_will_do = {
 				factor = 5
@@ -428,7 +429,7 @@ characters = {
 				MAN_add_faction_inf = yes
 			}
 			traits = {
-				gallant_doctor
+				head_directorate_of_new_buildings
 			}
 			ai_will_do = {
 				factor = 5
@@ -606,8 +607,7 @@ characters = {
 				MAN_add_faction_inf = yes
 			}
 			traits = {
-				technocrat
-				retired_officer
+				electronics_developer
 			}
 			ai_will_do = {
 				factor = 5
@@ -650,7 +650,6 @@ characters = {
 			}
 			traits = {
 				technocrat
-				retired_officer
 			}
 			ai_will_do = {
 				factor = 5
@@ -694,8 +693,7 @@ characters = {
 				MAN_add_faction_inf = yes
 			}
 			traits = {
-				technocrat
-				retired_officer
+				war_industrialist
 			}
 			ai_will_do = {
 				factor = 5
@@ -737,8 +735,7 @@ characters = {
 				MAN_add_faction_inf = yes
 			}
 			traits = {
-				technocrat
-				retired_officer
+				economy_reformer
 			}
 			ai_will_do = {
 				factor = 5
