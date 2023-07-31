@@ -13,7 +13,7 @@ focus_tree = {
 	}
 	default = no
 	continuous_focus_position = {
-		x = 20
+		x = 10000
 		y = 2000
 	}
 	focus = {
@@ -83,7 +83,6 @@ focus_tree = {
 			show_ideas_tooltip = MAN_masayoshi_ohira
 		}
 		relative_position_id = MAN_kwantung_banquet
-
 	}
 	focus = {
 		id = MAN_cooperate_with_locals
@@ -241,14 +240,15 @@ focus_tree = {
 		cost = 2
 		x = -2
 		y = 1
-		completion_reward = {
-		}
+
 		relative_position_id = MAN_equipment_update_plan
 		prerequisite = {
 			focus = MAN_equipment_update_plan
 		}
 		prerequisite = {
 			focus = MAN_cooperate_with_locals
+		}
+		completion_reward = {
 		}
 	}
 	focus = {
@@ -257,11 +257,44 @@ focus_tree = {
 		cost = 2
 		x = 1
 		y = 2
-		completion_reward = {
+		available = {
+			country_exists = RUS
+			RUS = {
+				has_war = no
+			}
+		}
+		bypass = {
+			RUS = {
+				exists = no
+			}
+		}
+		mutually_exclusive = {
+			focus = MAN_take_in_traitors
 		}
 		relative_position_id = MAN_equipment_update_plan
 		prerequisite = {
 			focus = MAN_equipment_update_plan
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_take_in_traitors
+		icon = GFX_focus_RUS_flag
+		cost = 2
+		x = -1
+		y = 2
+		relative_position_id = MAN_equipment_update_plan
+		available = {
+			
+		}
+		mutually_exclusive = {
+			focus = MAN_russia_military_exchange
+		}
+		prerequisite = {
+			focus = MAN_equipment_update_plan
+		}
+		completion_reward = {
 		}
 	}
 	focus = {
@@ -345,7 +378,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = MAN_auditing_manchurian_assets
-
 		prerequisite = {
 			focus = MAN_auditing_manchurian_assets
 		}
@@ -356,7 +388,6 @@ focus_tree = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = MAN_hisato_ichimada
 		}
-
 	}
 	focus = {
 		id = MAN_imperial_pearl_plan
@@ -370,9 +401,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = MAN_kakuei_tanaka		
+			show_ideas_tooltip = MAN_kakuei_tanaka
 		}
-
 	}
 	focus = {
 		id = MAN_ruby_plan
@@ -490,7 +520,7 @@ focus_tree = {
 	focus = {
 		id = MAN_absorb_chinese_doctors
 		icon = GFX_focus_generic_eduction_1
-		cost = 2 
+		cost = 2
 		x = -1
 		y = 1
 		relative_position_id = MAN_promote_epidemic_prevention_policy
@@ -643,6 +673,20 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = MAN_talented_engineer
+		icon = GFX_focus_generic_social_reforms
+		cost = 2
+		x = 0
+		y = 1
+		relative_position_id = MAN_equipment_maintenance_expert
+		prerequisite = {
+			focus = MAN_equipment_maintenance_expert
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
 		id = MAN_connections_staff_office
 		icon = GFX_focus_generic_army_mass_assault
 		cost = 2
@@ -697,21 +741,7 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	focus = {
-		id = MAN_practice_scientific_management
-		icon = GFX_focus_generic_economic_prosperity
-		cost = 2
-		x = 0
-		y = 1
-		relative_position_id = MAN_equipment_maintenance_expert
-		prerequisite = {
-			focus = MAN_equipment_maintenance_expert
-		}
-		completion_reward = {
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = MAN_konosuke_matsushita	
-		}
-	}
+
 	focus = {
 		id = MAN_iterative_design
 		icon = GFX_focus_generic_invest_in_our_weaker_allies
@@ -724,6 +754,170 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = MAN_sponsor_kwantung_army_exercises
+		}
+		completion_reward = {
+		}
+	}
+	
+	### 三岛
+	focus = {
+		id = MAN_setup_manyo
+		icon = GFX_generic_suspend_constitution
+		cost = 2
+		x = -8
+		y = 15
+		offset = {
+			y = -15
+			trigger = {
+				MAN_mishima_selected_trigger = yes
+				NOT = {
+					has_country_flag = show_all_focus_flag
+				}
+			}
+		}
+		allow_branch = {
+			OR = {
+				MAN_mishima_selected_trigger = yes
+				has_country_flag = show_all_focus_flag
+			}
+		}
+		relative_position_id = MAN_youkai_fief
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_reorganize_industry
+		icon = GFX_generic_suspend_constitution
+		cost = 2
+		x = -1
+		y = 1
+		relative_position_id = MAN_setup_manyo
+		prerequisite = {
+			focus = MAN_setup_manyo
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = MAN_tripartite_talks
+		icon = GFX_generic_suspend_constitution
+		cost = 2
+		x = 1
+		y = 1
+		relative_position_id = MAN_reorganize_industry
+		prerequisite = {
+			focus = MAN_reorganize_industry
+		}
+		prerequisite = {
+			focus = MAN_settle_subsidiaries
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_settle_subsidiaries
+		icon = GFX_generic_suspend_constitution
+		cost = 2
+		x = 1
+		y = 1
+		relative_position_id = MAN_setup_manyo
+		prerequisite = {
+			focus = MAN_setup_manyo
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_revise_the_five_year_plan
+		icon = GFX_generic_suspend_constitution
+		cost = 2
+		x = 0
+		y = 1
+		relative_position_id = MAN_tripartite_talks
+		prerequisite = {
+			focus = MAN_tripartite_talks
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_support_arasaka_company
+		icon = GFX_generic_suspend_constitution
+		cost = 2
+		x = -1
+		y = 1
+		relative_position_id = MAN_revise_the_five_year_plan
+		prerequisite = {
+			focus = MAN_revise_the_five_year_plan
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = MAN_practice_scientific_management
+		icon = GFX_focus_generic_economic_prosperity
+		cost = 2
+		x = 0
+		y = 1
+		relative_position_id = MAN_support_arasaka_company
+		prerequisite = {
+			focus = MAN_support_arasaka_company
+		}
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = MAN_konosuke_matsushita
+		}
+	}
+	focus = {
+		id = MAN_bushido_spirit
+		icon = GFX_generic_suspend_constitution
+		cost = 2
+		x = 1
+		y = 1
+		relative_position_id = MAN_revise_the_five_year_plan
+		prerequisite = {
+			focus = MAN_revise_the_five_year_plan
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_demon_plan
+		icon = GFX_generic_suspend_constitution
+		cost = 2
+		x = 0
+		y = 1
+		relative_position_id = MAN_bushido_spirit
+		prerequisite = {
+			focus = MAN_bushido_spirit
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_attract_foreign_investment
+		icon = GFX_generic_suspend_constitution
+		cost = 2
+		x = -2
+		y = 1
+		relative_position_id = MAN_tripartite_talks
+		prerequisite = {
+			focus = MAN_tripartite_talks
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = MAN_father_legacy
+		icon = GFX_generic_suspend_constitution
+		cost = 2
+		x = 2
+		y = 1
+		relative_position_id = MAN_tripartite_talks
+		prerequisite = {
+			focus = MAN_tripartite_talks
 		}
 		completion_reward = {
 		}

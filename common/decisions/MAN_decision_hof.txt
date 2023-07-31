@@ -64,5 +64,13 @@ MAN_debug_categories = {
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
+	man_set_mishima = {
+		complete_effect = {
+			set_variable = {
+				zaibatsu_portrait = 3
+			}
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
 
 }
