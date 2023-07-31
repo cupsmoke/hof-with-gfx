@@ -111,22 +111,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = MAN_concordia_labor_corps
-		icon = GFX_focus_generic_conspiracy
-		cost = 2
-		x = 1
-		y = 1
-		completion_reward = {
-		}
-		relative_position_id = MAN_increase_pioneer_quota
-		prerequisite = {
-			focus = MAN_increase_pioneer_quota
-		}
-		prerequisite = {
-			focus = MAN_cooperate_with_locals
-		}
-	}
-	focus = {
 		id = MAN_collective_farms_hof
 		text = MAN_collective_farms
 		icon = GFX_goal_generic_construction
@@ -157,6 +141,22 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 1
 			}
+		}
+	}
+	focus = {
+		id = MAN_manchu_youth
+		icon = GFX_focus_generic_conspiracy
+		cost = 2
+		x = 1
+		y = 1
+		completion_reward = {
+		}
+		relative_position_id = MAN_increase_pioneer_quota
+		prerequisite = {
+			focus = MAN_increase_pioneer_quota
+		}
+		prerequisite = {
+			focus = MAN_cooperate_with_locals
 		}
 	}
 	focus = {
@@ -235,12 +235,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = MAN_form_manchukuo_mp
+		id = MAN_enhanced_border_patrol
 		icon = GFX_focus_generic_LEP_selective_enforcement
 		cost = 2
 		x = -2
 		y = 1
-
 		relative_position_id = MAN_equipment_update_plan
 		prerequisite = {
 			focus = MAN_equipment_update_plan
@@ -280,13 +279,12 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_take_in_traitors
-		icon = GFX_focus_RUS_flag
+		icon = GFX_focus_SOV_approach_semyonov
 		cost = 2
 		x = -1
 		y = 2
 		relative_position_id = MAN_equipment_update_plan
 		available = {
-			
 		}
 		mutually_exclusive = {
 			focus = MAN_russia_military_exchange
@@ -674,7 +672,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_talented_engineer
-		icon = GFX_focus_generic_social_reforms
+		icon = GFX_focus_generic_brain
 		cost = 2
 		x = 0
 		y = 1
@@ -685,7 +683,6 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-	
 	focus = {
 		id = MAN_connections_staff_office
 		icon = GFX_focus_generic_army_mass_assault
@@ -741,7 +738,6 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-
 	focus = {
 		id = MAN_iterative_design
 		icon = GFX_focus_generic_invest_in_our_weaker_allies
@@ -756,13 +752,12 @@ focus_tree = {
 			focus = MAN_sponsor_kwantung_army_exercises
 		}
 		completion_reward = {
-		}
+		} 
 	}
-	
 	### 三岛
 	focus = {
 		id = MAN_setup_manyo
-		icon = GFX_generic_suspend_constitution
+		icon = GFX_focus_generic_An_International_New_Deal
 		cost = 2
 		x = -8
 		y = 15
@@ -787,7 +782,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_reorganize_industry
-		icon = GFX_generic_suspend_constitution
+		icon = GFX_focus_generic_state_economy
 		cost = 2
 		x = -1
 		y = 1
@@ -798,10 +793,9 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-
 	focus = {
 		id = MAN_tripartite_talks
-		icon = GFX_generic_suspend_constitution
+		icon = GFX_focus_generic_parliament2
 		cost = 2
 		x = 1
 		y = 1
@@ -817,7 +811,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_settle_subsidiaries
-		icon = GFX_generic_suspend_constitution
+		icon = GFX_focus_generic_social_reforms
 		cost = 2
 		x = 1
 		y = 1
@@ -830,7 +824,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_revise_the_five_year_plan
-		icon = GFX_generic_suspend_constitution
+		icon = GFX_focus_generic_Basic_Fighter_Development
 		cost = 2
 		x = 0
 		y = 1
@@ -843,7 +837,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_support_arasaka_company
-		icon = GFX_generic_suspend_constitution
+		icon = GFX_focus_generic_bridge
 		cost = 2
 		x = -1
 		y = 1
@@ -854,7 +848,6 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-
 	focus = {
 		id = MAN_practice_scientific_management
 		icon = GFX_focus_generic_economic_prosperity
@@ -872,7 +865,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_bushido_spirit
-		icon = GFX_generic_suspend_constitution
+		icon = GFX_focus_generic_mass_concentration_of_army
 		cost = 2
 		x = 1
 		y = 1
@@ -885,7 +878,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_demon_plan
-		icon = GFX_generic_suspend_constitution
+		icon = GFX_focus_generic_eduction_1
 		cost = 2
 		x = 0
 		y = 1
@@ -898,7 +891,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_attract_foreign_investment
-		icon = GFX_generic_suspend_constitution
+		icon = GFX_focus_generic_happy_new_life
 		cost = 2
 		x = -2
 		y = 1
@@ -911,7 +904,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_father_legacy
-		icon = GFX_generic_suspend_constitution
+		icon = GFX_focus_generic_invest_rural
 		cost = 2
 		x = 2
 		y = 1
