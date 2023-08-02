@@ -273,7 +273,7 @@ bookmarks = {
 		}
 		"MAN" = {
 			minor = yes
-			history = "FIC_GATHERING_STORM_COVER"
+			history = "MAN_GATHERING_STORM_COVER"
 			ideology = fascism
 			ideas = {
 				MAN_banditry
@@ -281,9 +281,9 @@ bookmarks = {
 				MAN_man_railway_benefit
 			}
 			focuses = {
-				MAN_first_five_year_plan
-				MAN_white_russian_advisers
-				MAN_law_university
+				MAN_youkai_fief
+				MAN_new_equipment_rd
+				MAN_new_analgesic
 			}
 		}
 		effect = {

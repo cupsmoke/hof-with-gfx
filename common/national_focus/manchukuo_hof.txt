@@ -1,5 +1,6 @@
 #!gfx:interface\goals\goal_JAP.gfx
 #!gfx:interface\goals\goal_RUS.gfx
+#!gfx:interface\goals\goal_MAN.gfx
 #!gfx:interface\goals\goal_generic.gfx
 focus_tree = {
 	id = man_focus
@@ -18,7 +19,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_youkai_fief
-		icon = GFX_focus_generic_brain
+		icon = GFX_focus_MAN_youkai_fief
 		cost = 2
 		x = -3
 		y = 0
@@ -28,7 +29,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_new_faces_of_kwantung_army
-		icon = GFX_focus_JAP_goal_japanese_instructors_2
+		icon = GFX_focus_MAN_new_faces_of_kwantung_army
 		cost = 2
 		x = 3
 		y = 0
@@ -44,11 +45,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = MAN_equipment_update_plan
+		id = MAN_deal_with_bandits
 		icon = GFX_focus_generic_design_equipment_standards
 		cost = 2
-		x = 1
-		y = 1
+		x = 1  
+		y = 1 
 		completion_reward = {
 		}
 		relative_position_id = MAN_new_faces_of_kwantung_army
@@ -58,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_kwantung_banquet
-		icon = GFX_focus_generic_collaborate_local_elites
+		icon = GFX_focus_MAN_kwantung_banquet
 		cost = 2
 		x = 10
 		y = 0
@@ -229,20 +230,20 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 		}
-		relative_position_id = MAN_equipment_update_plan
+		relative_position_id = MAN_deal_with_bandits
 		prerequisite = {
-			focus = MAN_equipment_update_plan
+			focus = MAN_deal_with_bandits
 		}
 	}
 	focus = {
-		id = MAN_enhanced_border_patrol
+		id = MAN_setup_local_mp
 		icon = GFX_focus_generic_LEP_selective_enforcement
 		cost = 2
 		x = -2
 		y = 1
-		relative_position_id = MAN_equipment_update_plan
+		relative_position_id = MAN_deal_with_bandits
 		prerequisite = {
-			focus = MAN_equipment_update_plan
+			focus = MAN_deal_with_bandits
 		}
 		prerequisite = {
 			focus = MAN_cooperate_with_locals
@@ -270,9 +271,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = MAN_take_in_traitors
 		}
-		relative_position_id = MAN_equipment_update_plan
+		relative_position_id = MAN_deal_with_bandits
 		prerequisite = {
-			focus = MAN_equipment_update_plan
+			focus = MAN_deal_with_bandits
 		}
 		completion_reward = {
 		}
@@ -283,14 +284,14 @@ focus_tree = {
 		cost = 2
 		x = -1
 		y = 2
-		relative_position_id = MAN_equipment_update_plan
+		relative_position_id = MAN_deal_with_bandits
 		available = {
 		}
 		mutually_exclusive = {
 			focus = MAN_russia_military_exchange
 		}
 		prerequisite = {
-			focus = MAN_equipment_update_plan
+			focus = MAN_deal_with_bandits
 		}
 		completion_reward = {
 		}
@@ -303,16 +304,16 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 		}
-		relative_position_id = MAN_equipment_update_plan
+		relative_position_id = MAN_deal_with_bandits
 		prerequisite = {
-			focus = MAN_equipment_update_plan
+			focus = MAN_deal_with_bandits
 		}
 	}
 	#shared_focus = CHI_invite_foreign_investors
 	##### 远坂凛国策
 	focus = {
 		id = MAN_mistress_tohsaka
-		icon = GFX_focus_generic_annex_country
+		icon = GFX_focus_MAN_mistress_tohsaka
 		cost = 2
 		x = -8
 		y = 0
@@ -382,6 +383,9 @@ focus_tree = {
 		prerequisite = {
 			focus = MAN_entertaining_kanto_chief
 		}
+		available = {
+			has_completed_focus = MAN_establish_industrial_bank
+		}
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = MAN_hisato_ichimada
@@ -450,7 +454,7 @@ focus_tree = {
 	####灰原哀
 	focus = {
 		id = MAN_brilliant_biologist
-		icon = GFX_focus_generic_promote_the_red_cross
+		icon = GFX_focus_MAN_brilliant_biologist
 		cost = 2
 		x = -8
 		y = 5
@@ -504,7 +508,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_convenience_door
-		icon = GFX_focus_generic_investigate_corruption
+		icon = GFX_focus_MAN_convenience_door
 		cost = 2
 		x = -2
 		y = 1
@@ -534,7 +538,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_new_analgesic
-		icon = GFX_focus_generic_corporatism
+		icon = GFX_focus_MAN_new_analgesic
 		cost = 2
 		x = -1
 		y = 1
@@ -550,7 +554,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_karasuma_pharmaceutical
-		icon = GFX_focus_generic_Basic_Oil
+		icon = GFX_focus_MAN_karasuma_pharmaceutical
 		cost = 2
 		x = 2
 		y = 1
@@ -591,7 +595,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_backdoor_deal
-		icon = GFX_focus_generic_foreign_investments
+		icon = GFX_focus_MAN_backdoor_deal
 		cost = 2
 		x = 0
 		y = 1
@@ -605,7 +609,7 @@ focus_tree = {
 	####  四叶国策
 	focus = {
 		id = MAN_inheritor_of_yotsuba
-		icon = GFX_focus_generic_agriculture
+		icon = GFX_focus_MAN_inheritor_of_yotsuba
 		cost = 2
 		x = -8
 		y = 10
@@ -630,7 +634,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_establish_flt
-		icon = GFX_focus_generic_research3
+		icon = GFX_focus_MAN_establish_flt
 		cost = 2
 		x = 2
 		y = 1
@@ -646,7 +650,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_new_equipment_rd
-		icon = GFX_focus_generic_military_equipment
+		icon = GFX_focus_MAN_new_equipment_rd
 		cost = 2
 		x = -1
 		y = 1
@@ -714,8 +718,8 @@ focus_tree = {
 	}
 	focus = {
 		id = MAN_sponsor_kwantung_army_exercises
-		icon = GFX_focus_generic_army_grand_battleplan
-		cost = 2
+		icon = GFX_focus_MAN_sponsor_kwantung_army_exercises
+		cost = 2 
 		x = 1
 		y = 1
 		relative_position_id = MAN_connections_staff_office
@@ -757,7 +761,7 @@ focus_tree = {
 	### 三岛
 	focus = {
 		id = MAN_setup_manyo
-		icon = GFX_focus_generic_An_International_New_Deal
+		icon = GFX_focus_MAN_setup_manyo
 		cost = 2
 		x = -8
 		y = 15
