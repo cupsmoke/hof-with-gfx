@@ -68,6 +68,40 @@ characters = {
 		# 	id = -1
 		# }
 	}
+	MAN_yoshi = {
+		# 芳郎
+		name = MAN_yoshi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_MAN_Yoshi
+				small = GFX_idea_man_yoshi
+			}
+		}
+		# country_leader = {
+		# 	ideology = despotism
+		# 	traits = {
+		# 		# propaganda_bungler
+		# 	}
+		# 	id = -1
+		# }
+	}
+	MAN_tatsu = {
+		# 达郎
+		name = MAN_tatsu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_MAN_Tatsu
+				small = GFX_idea_man_tatsu
+			}
+		}
+		# country_leader = {
+		# 	ideology = despotism
+		# 	traits = {
+		# 		# propaganda_bungler
+		# 	}
+		# 	id = -1
+		# }
+	}
 }
 
 #advisor
@@ -656,6 +690,48 @@ characters = {
 			}
 		}
 	}
+	MAN_shinji_shimada = {
+		# 城户真司
+		name = MAN_shinji_shimada
+		portraits = {
+			civilian = {
+				small = GFX_idea_man_shinji_shimada
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MAN_shinji_shimada
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+			}
+			on_add = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = 3
+				}
+				MAN_add_faction_inf = yes
+			}
+			on_remove = {
+				set_temp_variable = {
+					faction_idex = 3
+				}
+				set_temp_variable = {
+					delta_faction_inf = -3
+				}
+				MAN_add_faction_inf = yes
+			}
+			traits = {
+				technocrat
+			}
+			ai_will_do = {
+				factor = 5
+			}
+		}
+	}
 
 	# 三岛
 	MAN_tatsunosuke_takasaki = {
@@ -1061,4 +1137,28 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	MAN_masanobu_tsuji = {
+		# 辻政信
+		name = MAN_masanobu_tsuji
+		portraits = {
+			army = {
+				small = GFX_idea_man_masanobu_tsuji
+				large = GFX_Portrait_MAN_Masanobu_Tsuji
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				JAP_samurai_lineage
+				organizer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+
 }
