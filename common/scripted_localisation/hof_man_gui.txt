@@ -125,14 +125,14 @@ defined_text = {
 			}
 		}
 		localization_key = "GFX_Portrait_tohsaka_rin"
-	}
+	}	
 	text = {
 		trigger = {
 			check_variable = {
 				zaibatsu_portrait = 1
 			}
 		}
-		localization_key = "GFX_Portrait_MAN_shiba_tatsuya"
+		localization_key = "GFX_Portrait_MAN_miyano_shiho"
 	}
 	text = {
 		trigger = {
@@ -140,7 +140,7 @@ defined_text = {
 				zaibatsu_portrait = 2
 			}
 		}
-		localization_key = "GFX_Portrait_MAN_miyano_shiho"
+		localization_key = "GFX_Portrait_MAN_shiba_tatsuya"
 	}
 	text = {
 		trigger = {

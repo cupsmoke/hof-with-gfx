@@ -148,3 +148,16 @@ recruit_character = MAN_hideki_tojo
 recruit_character = MAN_kenji_tenzai
 recruit_character = MAN_teiichi_suzuki
 ####admiral
+
+
+
+##event 
+
+country_event = {
+	id = man_hof.1
+	days = 15
+}
+country_event = {
+	id = man_hof.4
+	days = 20
+}
