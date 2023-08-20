@@ -871,22 +871,22 @@ characters = {
 				large = "gfx/leaders/MAN/Portrait_MAN_Toshizo_Nishio.png"
 			}
 		}
-		advisor = {
-			slot = army_chief
-			idea_token = MAN_nishio_toshizo
-			allowed = {
-				original_tag = MAN
-			}
-			available = {
-			}
-			traits = {
-				army_chief_drill_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1
-			}
-		}
+		# advisor = {
+		# 	slot = army_chief
+		# 	idea_token = MAN_nishio_toshizo
+		# 	allowed = {
+		# 		original_tag = MAN
+		# 	}
+		# 	available = {
+		# 	}
+		# 	traits = {
+		# 		army_chief_drill_2
+		# 	}
+		# 	cost = 100
+		# 	ai_will_do = {
+		# 		factor = 1
+		# 	}
+		# }
 		corps_commander = {
 			traits = {
 				brilliant_strategist

@@ -44,6 +44,7 @@ MAN_faction_inf_pie = {
 	# set_variable = { ROOT.mantetsu_inf = 50 }
 	# set_variable = { ROOT.zaibatsu_inf = 0 }
 }
+
 MAN_faction_random_set = {
 	set_variable_to_random = {
 		var = man_faction_inf_array^0
@@ -96,77 +97,10 @@ MAN_faction_random_set = {
 	divide_variable = {
 		man_faction_inf_array^3 = sum
 	}
-	MAN_faction_inf_pie = yes	
+	MAN_faction_inf_pie = yes
 }
-# MAN_add_kwantung_army_inf = {
-# 	# set_variable = { current_stat = 0 }
-# 	set_temp_variable = {
-# 		makr_0 = 100
-# 	}
-# 	subtract_from_temp_variable = {
-# 		makr_0 = man_faction_inf_array^0
-# 	}
-# 	add_to_variable = {
-# 		var = man_faction_inf_array^0
-# 		value = delta_kwantung_army_inf
-# 		tooltip = add_kwantung_army_inf_tt
-# 	}
-# 	# add_to_variable = {
-# 	# 	# ROOT.kwantung_army_inf = delta_kwantung_army_inf
-# 	# }
-# 	if = {
-# 		limit = {
-# 			check_variable = {
-# 				man_faction_inf_array^0 > 100
-# 			}
-# 		}
-# 		set_variable = {
-# 			man_faction_inf_array^0 = 100
-# 		}
-# 		set_variable = {
-# 			man_faction_inf_array^1 = 0
-# 		}
-# 		set_variable = {
-# 			man_faction_inf_array^2 = 0
-# 		}
-# 		set_variable = {
-# 			man_faction_inf_array^3 = 0
-# 		}
-# 	}
-# 	else = {
-# 		if = {
-# 			limit = {
-# 				check_variable = {
-# 					man_faction_inf_array^0 < 0
-# 				}
-# 			}
-# 			set_variable = {
-# 				man_faction_inf_array^0 = 0
-# 			}
-# 		}
-# 		set_temp_variable = {
-# 			makr_1 = 100
-# 		}
-# 		subtract_from_temp_variable = {
-# 			makr_1 = man_faction_inf_array^0
-# 		}
-# 		set_temp_variable = {
-# 			temp_ratio = makr_1
-# 		}
-# 		divide_temp_variable = {
-# 			temp_ratio = makr_0
-# 		}
-# 		multiply_variable = {
-# 			man_faction_inf_array^1 = temp_ratio
-# 		}
-# 		multiply_variable = {
-# 			man_faction_inf_array^2 = temp_ratio
-# 		}
-# 		multiply_variable = {
-# 			man_faction_inf_array^3 = temp_ratio
-# 		}
-# 	}
-# }
+
+
 MAN_add_faction_inf = {
 	# 用于修改派系inf
 	# set_variable = { current_stat = 0 }
@@ -256,12 +190,40 @@ MAN_add_faction_inf = {
 	MAN_faction_inf_pie = yes
 }
 
+MAN_set_zaibatsu_in = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = HOF_zaibatsu_flag
+			}
+		}
+		add_to_variable = {
+			man_faction_portrait_move = -86
+		}
+		add_to_variable = {
+			man_faction_frame_move = -86
+		}
+		add_to_variable = {
+			man_faction_logo_move = -86
+		}
+		set_country_flag = HOF_zaibatsu_flag
+
+		set_temp_variable = {
+			faction_idex = 3
+		}
+		set_temp_variable = {
+			delta_faction_inf = 5
+		}
+		MAN_add_faction_inf = yes
+	}
+
+}
 
 ###
 #财阀id
 # 变量 ：  zaibatsu_portrait
 # 0 - 远坂凛
-# 1 - 司波达也
-# 2 - 灰原哀
+# 1 - 灰原哀
+# 2 - 司波
 # 3 - 三岛
 # 0 - 远坂凛

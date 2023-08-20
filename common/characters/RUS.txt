@@ -526,27 +526,43 @@ characters = {
 		}
 	}
 	RUS_grigory_semyonov = {
-		name = "Grigory Semyonov"
+		name = SOV_grigory_semyonov
 		portraits = {
 			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
+				small = "GFX_idea_SOV_grigory_semyonov"
 				large = "gfx/leaders/RUS/portrait_Grigory_Semyenov.png"
 			}
 		}
-		field_marshal = {
-			traits = {
-				cavalry_leader
-				defensive_doctrine
-			}
+		corps_commander = {
+			traits = { cavalry_officer cavalry_leader }
 			skill = 3
 			attack_skill = 2
 			defense_skill = 3
 			planning_skill = 1
 			logistics_skill = 3
-			legacy_id = 464
+			# legacy_id = 464
 		}
+		advisor = {
+			slot = high_command
+			idea_token = RUS_grigory_semyonov
+			allowed = {
+				OR = {
+					original_tag = SOV
+					original_tag = MAN # This is where he starts the game
+				}
+			}
+			available = {
+				original_tag = MAN
+				# tag = MAN
+				has_completed_focus = MAN_take_in_traitors
+			}
+			visible = {
+
+			}
+			traits = {
+				ataman_transbaikal_host
+			}
+		}	
 	}
 	RUS_imran_zakhaev = {
 		name = "Imran Zakhaev"

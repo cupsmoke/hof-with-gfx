@@ -5644,15 +5644,12 @@ country_event = {
 	option = {
 		name = russian_flavour.10.a
 		add_war_support = -0.05
-		remove_unit_leader = 464
+		retire_character = RUS_grigory_semyonov
 	}
 	option = {
 		name = russian_flavour.10.b
 		add_political_power = -20
-		random_army_leader = {
-			limit = {
-				has_id = 464
-			}
+		RUS_grigory_semyonov = {
 			set_nationality = MAN
 		}
 	}

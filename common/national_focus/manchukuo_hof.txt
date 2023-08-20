@@ -25,6 +25,13 @@ focus_tree = {
 		y = 0
 		relative_position_id = MAN_kwantung_banquet
 		completion_reward = {
+			set_temp_variable = {
+				faction_idex = 2
+			}
+			set_temp_variable = {
+				delta_faction_inf = 5
+			}
+			MAN_add_faction_inf = yes
 		}
 	}
 	focus = {
@@ -42,6 +49,13 @@ focus_tree = {
 		}
 		relative_position_id = MAN_kwantung_banquet
 		completion_reward = {
+			set_temp_variable = {
+				faction_idex = 0
+			}
+			set_temp_variable = {
+				delta_faction_inf = 5
+			}
+			MAN_add_faction_inf = yes
 		}
 	}
 	focus = {
@@ -50,11 +64,13 @@ focus_tree = {
 		cost = 2
 		x = 1  
 		y = 1 
-		completion_reward = {
-		}
+
 		relative_position_id = MAN_new_faces_of_kwantung_army
 		prerequisite = {
 			focus = MAN_new_faces_of_kwantung_army
+		}
+		completion_reward = {
+			# 开启剿匪决议
 		}
 	}
 	focus = {
@@ -68,6 +84,13 @@ focus_tree = {
 			has_completed_focus = MAN_new_faces_of_kwantung_army
 		}
 		completion_reward = {
+			set_temp_variable = {
+				faction_idex = 1
+			}
+			set_temp_variable = {
+				delta_faction_inf = 5
+			}
+			MAN_add_faction_inf = yes
 		}
 	}
 	focus = {
@@ -79,11 +102,15 @@ focus_tree = {
 		prerequisite = {
 			focus = MAN_kwantung_banquet
 		}
+
+		relative_position_id = MAN_kwantung_banquet
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = MAN_masayoshi_ohira
+
+			# 获得idea 增加人口
+			# 决议 吸引移民？
 		}
-		relative_position_id = MAN_kwantung_banquet
 	}
 	focus = {
 		id = MAN_cooperate_with_locals
@@ -91,11 +118,15 @@ focus_tree = {
 		cost = 2
 		x = 1
 		y = 1
-		completion_reward = {
-		}
+
 		relative_position_id = MAN_kwantung_banquet
 		prerequisite = {
 			focus = MAN_kwantung_banquet
+		}
+		completion_reward = {
+			add_stability = 0.05
+			# 获得本地人支持
+			# 获得顾问熙洽
 		}
 	}
 	focus = {
@@ -104,11 +135,13 @@ focus_tree = {
 		cost = 2
 		x = 0
 		y = 1
-		completion_reward = {
-		}
+
 		relative_position_id = MAN_youkai_fief
 		prerequisite = {
 			focus = MAN_youkai_fief
+		}
+		completion_reward = {
+			
 		}
 	}
 	focus = {
@@ -150,14 +183,16 @@ focus_tree = {
 		cost = 2
 		x = 1
 		y = 1
-		completion_reward = {
-		}
 		relative_position_id = MAN_increase_pioneer_quota
 		prerequisite = {
 			focus = MAN_increase_pioneer_quota
 		}
 		prerequisite = {
 			focus = MAN_cooperate_with_locals
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 20
 		}
 	}
 	focus = {
@@ -166,9 +201,6 @@ focus_tree = {
 		cost = 2
 		x = -2
 		y = 1
-		completion_reward = {
-			# 触发事件 调查部年鉴
-		}
 		available = {
 			NOT = {
 				has_completed_focus = MAN_implement_five_year_plan
@@ -178,6 +210,16 @@ focus_tree = {
 		prerequisite = {
 			focus = MAN_youkai_fief
 		}
+		completion_reward = {
+			# 触发事件 调查部年鉴
+			set_temp_variable = {
+				faction_idex = 2
+			}
+			set_temp_variable = {
+				delta_faction_inf = 5
+			}
+			MAN_add_faction_inf = yes
+		}
 	}
 	focus = {
 		id = MAN_establish_industrial_bank
@@ -185,12 +227,15 @@ focus_tree = {
 		cost = 2
 		x = -1
 		y = 1
-		completion_reward = {
-		}
+
 		relative_position_id = MAN_review_economic_guidelines
 		# prerequisite = { focus = MAN_increase_pioneer_quota }
 		prerequisite = {
 			focus = MAN_review_economic_guidelines
+		}
+		completion_reward = {
+			# 设立兴业银行
+			# 
 		}
 	}
 	focus = {
@@ -199,11 +244,20 @@ focus_tree = {
 		cost = 2
 		x = 1
 		y = 1
-		completion_reward = {
-		}
+
 		relative_position_id = MAN_establish_industrial_bank
 		prerequisite = {
 			focus = MAN_establish_industrial_bank
+		}
+		completion_reward = {
+			add_stability = 0.1
+			set_temp_variable = {
+				faction_idex = 2
+			}
+			set_temp_variable = {
+				delta_faction_inf = 5
+			}
+			MAN_add_faction_inf = yes
 		}
 	}
 	focus = {
@@ -215,11 +269,13 @@ focus_tree = {
 		available = {
 			# 财阀进驻
 		}
-		completion_reward = {
-		}
+
 		relative_position_id = MAN_establish_industrial_bank
 		prerequisite = {
 			focus = MAN_establish_industrial_bank
+		}
+		completion_reward = {
+			# 开启五年计划系列决议
 		}
 	}
 	focus = {
@@ -228,11 +284,14 @@ focus_tree = {
 		cost = 2
 		x = 0
 		y = 1
-		completion_reward = {
-		}
+
 		relative_position_id = MAN_deal_with_bandits
 		prerequisite = {
 			focus = MAN_deal_with_bandits
+		}
+		completion_reward = {
+
+
 		}
 	}
 	focus = {
@@ -249,6 +308,8 @@ focus_tree = {
 			focus = MAN_cooperate_with_locals
 		}
 		completion_reward = {
+			# 设立纠察队
+			create_intelligence_agency = yes
 		}
 	}
 	focus = {
@@ -276,6 +337,9 @@ focus_tree = {
 			focus = MAN_deal_with_bandits
 		}
 		completion_reward = {
+			army_experience = 25
+			navy_experience = 25
+			air_experience = 25
 		}
 	}
 	focus = {
@@ -286,6 +350,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = MAN_deal_with_bandits
 		available = {
+			has_character = RUS_grigory_semyonov
 		}
 		mutually_exclusive = {
 			focus = MAN_russia_military_exchange
@@ -294,6 +359,8 @@ focus_tree = {
 			focus = MAN_deal_with_bandits
 		}
 		completion_reward = {
+			army_experience = 65
+
 		}
 	}
 	focus = {
@@ -325,7 +392,7 @@ focus_tree = {
 		}
 		relative_position_id = MAN_youkai_fief
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus MAN_mistress_tohsaka"
+			
 		}
 	}
 	focus = {
@@ -334,12 +401,13 @@ focus_tree = {
 		cost = 2
 		x = -1
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus MAN_auditing_manchurian_assets"
-		}
+
 		relative_position_id = MAN_mistress_tohsaka
 		prerequisite = {
 			focus = MAN_mistress_tohsaka
+		}
+		completion_reward = {
+			
 		}
 	}
 	focus = {
@@ -349,7 +417,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus MAN_profit_above_all"
+			
 		}
 		relative_position_id = MAN_auditing_manchurian_assets
 		prerequisite = {
@@ -362,12 +430,13 @@ focus_tree = {
 		cost = 2
 		x = 1
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus MAN_entertaining_kanto_chief"
-		}
+
 		relative_position_id = MAN_mistress_tohsaka
 		prerequisite = {
 			focus = MAN_mistress_tohsaka
+		}
+		completion_reward = {
+			
 		}
 	}
 	focus = {
@@ -429,12 +498,12 @@ focus_tree = {
 		cost = 2
 		x = -1
 		y = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus MAN_inviting_prominent_japanese_guests"
-		}
 		relative_position_id = MAN_imperial_pearl_plan
 		prerequisite = {
 			focus = MAN_imperial_pearl_plan
+		}
+		completion_reward = {
+			# 获得临时投资
 		}
 	}
 	focus = {
@@ -444,7 +513,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus MAN_developing_dalian_port"
+			
 		}
 		relative_position_id = MAN_imperial_pearl_plan
 		prerequisite = {
@@ -833,6 +902,9 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = MAN_tripartite_talks
+		available = {
+			has_completed_focus = MAN_implement_five_year_plan
+		}
 		prerequisite = {
 			focus = MAN_tripartite_talks
 		}

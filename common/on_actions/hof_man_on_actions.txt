@@ -36,7 +36,7 @@ on_actions = {
 					kwantung_army_portrait = 0
 				}
 				set_variable = {
-					zaibatsu_portrait = 0
+					zaibatsu_portrait = -1
 				}
 				MAN_faction_inf_pie = yes
 			}

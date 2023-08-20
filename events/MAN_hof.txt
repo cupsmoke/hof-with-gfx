@@ -1,0 +1,334 @@
+﻿###########################
+# Man Events
+###########################
+add_namespace = man_hof
+country_event = {
+	# 新任关东军司令 - 景虎离任
+	id = man_hof.1
+	title = man_hof.1.t
+	desc = man_hof.1.d
+	picture = GFX_report_event_pol_1936_election
+	
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			remove_ideas = JAP_nagao_kagetora_in_man
+			JAP_nagao_kagetora = {
+				set_nationality = JAP
+			}
+		}
+	}
+	
+	option = {
+		name = man_hof.1.a
+		### 不加以干涉
+		trigger = {
+
+		}
+		# country_event = { id = poland_hof.13 hours = 12 }
+		effect_tooltip = {
+			JAP_nagao_kagetora = {
+				set_nationality = JAP
+			}
+		}
+		JAP = {
+			country_event = man_hof.2
+		}
+	}
+}
+country_event = {
+	# 新任关东军司令 - 日本选人
+	id = man_hof.2
+	title = man_hof.2.t
+	desc = man_hof.2.d
+	picture = GFX_report_event_pol_1936_election
+	
+	is_triggered_only = yes
+	immediate = {
+
+	}
+	
+	option = {
+		name = man_hof.2.a
+		MAN = {
+			# 直江爱成为关东军司令
+			country_event = man_hof.3
+		}
+	}
+}
+country_event = { # 新任关东军司令 - 直江爱
+	id = man_hof.3
+	title = man_hof.3.t
+	desc = man_hof.3.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_hof.3.a
+		ai_chance = { factor = 1 }
+		# 直江爱成为关东军司令
+	}
+	option = { #
+		name = man_hof.3.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			always = no
+		}
+	}
+}
+
+country_event = { # 经济困局
+	id = man_hof.4
+	title = man_hof.4.t
+	desc = man_hof.4.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 希望获得资金
+		name = man_hof.4.a
+		ai_chance = { factor = 1 }
+		JAP = {
+			country_event = man_hof.5
+		}
+	}
+	option = { # 与政界关联
+		name = man_hof.4.e
+		ai_chance = { factor = 1 }
+		JAP = {
+			country_event = man_hof.5
+		}
+	}	
+	option = { # 联络革新官僚
+		name = man_hof.4.b
+		ai_chance = { factor = 1 }
+		trigger = {
+
+			# always = no
+		}
+
+		JAP = {
+			set_country_flag = MAN_ask_reformer
+			country_event = man_hof.5
+		}
+	}
+	option = { # 联络其他财阀
+		name = man_hof.4.c
+		ai_chance = { factor = 1 }
+		trigger = {
+			# always = no
+		}
+		JAP = {
+			set_country_flag = MAN_ask_others
+			country_event = man_hof.5
+		}
+	}
+}
+
+country_event = { # 经济困局 满铁希望扩大投资
+	id = man_hof.5
+	title = man_hof.5.t
+	desc = man_hof.5.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 远坂
+		name = man_hof.5.a
+		ai_chance = { factor = 1 }
+		MAN = {
+			country_event = man_hof.6
+		}
+	}
+	option = { # 乌丸
+		name = man_hof.5.b
+		trigger = {
+			JAP = {
+				NOT = {
+					has_country_leader  = {
+						ruling_only  = yes 
+						# character = SOV_lev_trotsky
+						name = "Tohsaka Tokiomi"
+					}
+				}
+			}
+		}
+		MAN = {
+			country_event = man_hof.7
+		}		
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { # 四叶
+		name = man_hof.5.c
+		trigger = {
+			JAP = {
+				NOT = {
+					has_country_leader  = {
+						ruling_only  = yes 
+						# character = SOV_lev_trotsky
+						name = "Tohsaka Tokiomi"
+					}
+				}
+			}
+		}
+		MAN = {
+			country_event = man_hof.8
+		}		
+		ai_chance = { factor = 1 }
+	}
+	option = { # 三岛
+		name = man_hof.5.e
+		trigger = {
+			JAP = {
+				NOT = {
+					has_country_leader  = {
+						ruling_only  = yes 
+						# character = SOV_lev_trotsky
+						name = "Tohsaka Tokiomi"
+					}
+				}
+			}
+		}
+		MAN = {
+			country_event = man_hof.9
+		}
+		ai_chance = { factor = 1 }	
+	}
+
+}
+
+country_event = { # 远坂入驻满洲
+	id = man_hof.6
+	title = man_hof.6.t
+	desc = man_hof.6.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_hof.6.a
+		ai_chance = { factor = 1 }
+		set_variable = {
+			zaibatsu_portrait = 0
+		}
+		MAN_set_zaibatsu_in = yes
+		mark_focus_tree_layout_dirty = yes
+	}
+	option = { #
+		name = man_hof.6.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { # 乌丸入驻
+	id = man_hof.7
+	title = man_hof.7.t
+	desc = man_hof.7.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_hof.7.a
+		ai_chance = { factor = 1 }
+		set_variable = {
+			zaibatsu_portrait = 1
+		}
+		MAN_set_zaibatsu_in = yes
+		mark_focus_tree_layout_dirty = yes
+	}
+	option = { #
+		name = man_hof.7.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { # 四叶入驻
+	id = man_hof.8
+	title = man_hof.8.t
+	desc = man_hof.8.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_hof.8.a
+		ai_chance = { factor = 1 }
+		set_variable = {
+			zaibatsu_portrait = 2
+		}
+		MAN_set_zaibatsu_in = yes
+		mark_focus_tree_layout_dirty = yes
+	}
+	option = { #
+		name = man_hof.8.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { # 三岛入驻
+	id = man_hof.9
+	title = man_hof.9.t
+	desc = man_hof.9.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_hof.9.a
+		ai_chance = { factor = 1 }
+		set_variable = {
+			zaibatsu_portrait = 3
+		}
+		MAN_set_zaibatsu_in = yes
+		mark_focus_tree_layout_dirty = yes
+	}
+	option = { #
+		name = man_hof.9.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { # 
+	id = man_hof.10
+	title = man_hof.10.t
+	desc = man_hof.10.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_hof.10.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = man_hof.10.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+
