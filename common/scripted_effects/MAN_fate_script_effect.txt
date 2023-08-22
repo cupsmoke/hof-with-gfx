@@ -118,9 +118,6 @@ MAN_add_faction_inf = {
 		man_faction_inf_array^faction_idex = delta_faction_inf
 		tooltip = add_delta_faction_inf_tt
 	}
-	# add_to_variable = {
-	# 	# ROOT.kwantung_army_inf = delta_kwantung_army_inf
-	# }
 	if = {
 		limit = {
 			check_variable = {

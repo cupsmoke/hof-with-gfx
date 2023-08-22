@@ -106,6 +106,7 @@ recruit_character = MAN_shiromeguri_meguri
 recruit_character = JAP_nagao_kagetora
 activate_advisor = JAP_nagao_kagetora_in_man
 recruit_character = MAN_changlin_linge
+recruit_character = MAN_naoe_ai
 ####advisor
 # recruit_character = MAN_aisin_gioro_xiqia
 recruit_character = MAN_hoshino_ai
@@ -147,6 +148,7 @@ recruit_character = MAN_ishiwara_kanji
 recruit_character = MAN_hideki_tojo
 recruit_character = MAN_kenji_tenzai
 recruit_character = MAN_teiichi_suzuki
+recruit_character = MAN_masanobu_tsuji
 ####admiral
 
 

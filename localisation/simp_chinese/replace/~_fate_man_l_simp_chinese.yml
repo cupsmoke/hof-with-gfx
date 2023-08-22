@@ -57,6 +57,7 @@
  MAN_shuten_doji:0 "酒吞童子" 
  MAN_konno_junko:0 "绀野纯子" 
  MAN_shiromeguri_meguri:0 "城回巡" 
+ MAN_naoe_ai:0 "直江爱" 
 
  MAN_hoshino_ai:0 "星野爱" 
  MAN_shiina_etsusaburo:0 "椎名悦三郎" 
@@ -87,6 +88,7 @@
  MAN_hideki_tojo:0 "东条英机" 
  MAN_kenji_tenzai:0 "天西贤治" 
  MAN_teiichi_suzuki:0 "铃木贞一" 
+ MAN_masanobu_tsuji:0 "辻政信" 
 
 
 # idea
@@ -234,12 +236,12 @@
  MAN_practice_scientific_management: "实践科学管理"
  MAN_practice_scientific_management_desc: "placeholder"
 
- ##event
- man_hof.1.t: "关东军司令长尾景虎离任"
+##event
+ man_hof.1.t: "长尾景虎离任"
  man_hof.1.d: ""
  man_hof.1.a: "一路走好"
 
- man_hof.2.t: "关东军司令人选"
+ man_hof.2.t: "新司令官人选"
  man_hof.2.d: ""
  man_hof.2.a: "直江爱中将更熟悉满洲事务"
 

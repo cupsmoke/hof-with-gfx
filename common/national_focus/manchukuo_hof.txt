@@ -126,8 +126,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = 0.05
-			# 获得本地人支持
-			# 获得顾问熙洽
+			# 获得本地人支持 触发事件 二选一 谷次亨/熙洽
+			# 获得顾问熙洽 
+			# 
 		}
 	}
 	focus = {
@@ -252,6 +253,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = 0.1
+			# 顾问 千如
 			set_temp_variable = {
 				faction_idex = 2
 			}
@@ -268,9 +270,10 @@ focus_tree = {
 		x = -1
 		y = 1
 		available = {
-			# 财阀进驻
+			check_variable = {
+				zaibatsu_portrait > -1
+			}
 		}
-
 		relative_position_id = MAN_establish_industrial_bank
 		prerequisite = {
 			focus = MAN_establish_industrial_bank
@@ -408,7 +411,7 @@ focus_tree = {
 			focus = MAN_mistress_tohsaka
 		}
 		completion_reward = {
-			
+			# 清查账目 
 		}
 	}
 	focus = {
@@ -417,12 +420,12 @@ focus_tree = {
 		cost = 2
 		x = -1
 		y = 1
-		completion_reward = {
-			
-		}
 		relative_position_id = MAN_auditing_manchurian_assets
 		prerequisite = {
 			focus = MAN_auditing_manchurian_assets
+		}
+		completion_reward = {
+			# idea 盈利+++
 		}
 	}
 	focus = {
@@ -437,7 +440,7 @@ focus_tree = {
 			focus = MAN_mistress_tohsaka
 		}
 		completion_reward = {
-			
+			# 关东厅支持++ 财阀支持++ 
 		}
 	}
 	focus = {
@@ -474,6 +477,8 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = MAN_kakuei_tanaka
+
+			
 		}
 	}
 	focus = {
@@ -482,15 +487,15 @@ focus_tree = {
 		cost = 2
 		x = 1
 		y = 1
-		completion_reward = {
-			add_research_slot = 1
-		}
 		relative_position_id = MAN_profit_above_all
 		prerequisite = {
 			focus = MAN_profit_above_all
 		}
 		prerequisite = {
 			focus = MAN_investing_in_industrial_bank
+		}
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 	focus = {
@@ -604,6 +609,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			# 顾问 阮振铎
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = MAN_ruan_zhenduo
 		}
 	}
 	focus = {
@@ -755,6 +762,8 @@ focus_tree = {
 			focus = MAN_equipment_maintenance_expert
 		}
 		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = MAN_masaru_ibuka
 		}
 	}
 	focus = {

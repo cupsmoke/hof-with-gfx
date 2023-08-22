@@ -324,6 +324,7 @@ characters = {
 			}
 			cost = 50
 			available = {
+				has_completed_focus = MAN_increase_pioneer_quota
 			}
 			on_add = {
 				set_temp_variable = {
@@ -400,7 +401,13 @@ characters = {
 			allowed = {
 				original_tag = MAN
 			}
+			visible = {
+				check_variable = {
+					zaibatsu_portrait = 0
+				}
+			}
 			available = {
+				has_completed_focus = MAN_investing_in_industrial_bank
 			}
 			on_add = {
 				set_temp_variable = {
@@ -442,7 +449,13 @@ characters = {
 			allowed = {
 				original_tag = MAN
 			}
+			visible = {
+				check_variable = {
+					zaibatsu_portrait > -1
+				}
+			}
 			available = {
+				has_completed_focus = MAN_imperial_pearl_plan
 			}
 			on_add = {
 				set_temp_variable = {
@@ -491,6 +504,9 @@ characters = {
 			}
 			available = {
 			}
+			visible = {
+				always = no
+			}
 			on_add = {
 				set_temp_variable = {
 					faction_idex = 3
@@ -532,6 +548,12 @@ characters = {
 				original_tag = MAN
 			}
 			available = {
+				has_completed_focus = MAN_absorb_chinese_doctors
+			}
+			visible = {
+				check_variable = {
+					zaibatsu_portrait = 1
+				}
 			}
 			on_add = {
 				set_temp_variable = {
@@ -579,6 +601,9 @@ characters = {
 			}
 			available = {
 			}
+			visible = {
+				always = no
+			}
 			on_add = {
 				set_temp_variable = {
 					faction_idex = 3
@@ -622,6 +647,11 @@ characters = {
 			}
 			available = {
 			}
+			visible = {
+				check_variable = {
+					zaibatsu_portrait = 3
+				}
+			}
 			on_add = {
 				set_temp_variable = {
 					faction_idex = 3
@@ -662,7 +692,13 @@ characters = {
 			allowed = {
 				original_tag = MAN
 			}
+			visible = {
+				check_variable = {
+					zaibatsu_portrait = 2
+				}
+			}
 			available = {
+				has_completed_focus = MAN_talented_engineer
 			}
 			on_add = {
 				set_temp_variable = {
@@ -705,6 +741,11 @@ characters = {
 				original_tag = MAN
 			}
 			available = {
+			}
+			visible = {
+				check_variable = {
+					zaibatsu_portrait = 2
+				}
 			}
 			on_add = {
 				set_temp_variable = {
@@ -750,6 +791,11 @@ characters = {
 			}
 			available = {
 			}
+			visible = {
+				check_variable = {
+					zaibatsu_portrait = 3
+				}
+			}
 			on_add = {
 				set_temp_variable = {
 					faction_idex = 3
@@ -792,6 +838,11 @@ characters = {
 			}
 			available = {
 			}
+			visible = {
+				check_variable = {
+					zaibatsu_portrait = 3
+				}
+			}
 			on_add = {
 				set_temp_variable = {
 					faction_idex = 3
@@ -822,6 +873,48 @@ characters = {
 
 #commander
 characters = {
+	MAN_naoe_ai = {
+		# 直江爱
+		name = MAN_naoe_ai
+		portraits = {
+			army = {
+				small = GFX_idea_man_naoe_ai
+				large = GFX_Portrait_MAN_naoe_ai
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MAN_naoe_ai
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+				has_idea = MAN_naoe_ai
+			}
+			traits = {
+				army_chief_drill_3
+			}
+			cost = 150
+			can_be_fired = no
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+
 	MAN_yamashita_tomoyuki = {
 		#山下奉文
 		name = JAP_tomoyuki_yamashita
