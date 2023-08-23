@@ -2,6 +2,9 @@
 # Man Events
 ###########################
 add_namespace = man_hof
+add_namespace = man_army
+add_namespace = man_mantetsu
+add_namespace = man_kantoshu
 country_event = {
 	# 新任关东军司令 - 景虎离任
 	id = man_hof.1
@@ -21,16 +24,13 @@ country_event = {
 			}
 		}
 	}
-	
 	option = {
 		name = man_hof.1.a
 		### 不加以干涉
 		trigger = {
-
 		}
-		# country_event = { id = poland_hof.13 hours = 12 }
 		effect_tooltip = {
-			remove_ideas = JAP_nagao_kagetora_in_man
+			# remove_ideas = JAP_nagao_kagetora_in_man
 			JAP_nagao_kagetora = {
 				set_nationality = JAP
 				remove_country_leader_role = {
@@ -38,12 +38,34 @@ country_event = {
 				}
 			}
 		}
-		JAP = {
-			country_event = {
-				id = man_hof.2
-				days = 1
-			}
+		add_ideas = MAN_naoe_ai
+		set_variable = {
+			kwantung_army_portrait = 1
 		}
+		add_country_leader_role = {
+			character = MAN_naoe_ai
+			country_leader = {
+				ideology=despotism
+				traits = { quartermaster_general }
+				expire="1965.1.1"
+			}
+			promote_leader = yes
+		}
+		add_field_marshal_role = {
+			character = MAN_naoe_ai
+			traits = { JAP_samurai_lineage cavalry_officer hill_fighter }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		# JAP = {
+		# 	country_event = {
+		# 		id = man_hof.2
+		# 		days = 1
+		# 	}
+		# }
 	}
 }
 country_event = {
@@ -263,7 +285,9 @@ country_event = { # 远坂入驻满洲
 	option = { #
 		name = man_hof.6.b
 		ai_chance = { factor = 1 }
-		
+		trigger = {
+			always = no
+		}
 	}
 }
 
@@ -289,7 +313,9 @@ country_event = { # 乌丸入驻
 	option = { #
 		name = man_hof.7.b
 		ai_chance = { factor = 1 }
-		
+		trigger = {
+			always = no
+		}
 	}
 }
 
@@ -315,7 +341,9 @@ country_event = { # 四叶入驻
 	option = { #
 		name = man_hof.8.b
 		ai_chance = { factor = 1 }
-		
+		trigger = {
+			always = no
+		}
 	}
 }
 
@@ -341,7 +369,9 @@ country_event = { # 三岛入驻
 	option = { #
 		name = man_hof.9.b
 		ai_chance = { factor = 1 }
-		
+		trigger = {
+			always = no
+		}
 	}
 }
 

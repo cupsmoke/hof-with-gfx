@@ -157,7 +157,7 @@ recruit_character = MAN_masanobu_tsuji
 
 country_event = {
 	id = man_hof.1
-	days = 15
+	days = 5
 }
 country_event = {
 	id = man_hof.4
