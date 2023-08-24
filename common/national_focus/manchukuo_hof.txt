@@ -571,7 +571,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = MAN_build_chinese_hospital
+		id = MAN_more_japanese_doctors
 		icon = GFX_focus_generic_research3
 		cost = 2
 		x = 1
@@ -584,7 +584,10 @@ focus_tree = {
 			focus = MAN_absorb_chinese_doctors
 		}
 		completion_reward = {
-			# 获得idea 中国人医院
+			# 三选一
+			# 获得顾问 小泽开作 - 协和会 - 牙医
+			# 获得顾问 武見妙 - 自由派/社民派/革命派
+			# 获得顾问 嘉纳明博 - 革新派
 		}
 	}
 	focus = {
@@ -611,7 +614,7 @@ focus_tree = {
 			focus = MAN_promote_epidemic_prevention_policy
 		}
 		mutually_exclusive = {
-			focus = MAN_build_chinese_hospital
+			focus = MAN_more_japanese_doctors
 		}
 		completion_reward = {
 			# 顾问 阮振铎
