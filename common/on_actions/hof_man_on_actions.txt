@@ -25,7 +25,8 @@ on_actions = {
 				set_variable = {
 					man_faction_logo_move = 31
 				}
-				###faction leader
+				###faction leader portrait
+				# man_gui_portrait_array
 				set_variable = {
 					mantetsu_portrait = 0
 				}

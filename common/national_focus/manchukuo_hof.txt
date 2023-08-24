@@ -510,6 +510,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			# 获得临时投资
+			# 获得婚后航空的投资
 		}
 	}
 	focus = {
@@ -518,12 +519,13 @@ focus_tree = {
 		cost = 2
 		x = 1
 		y = 1
-		completion_reward = {
-			
-		}
+
 		relative_position_id = MAN_imperial_pearl_plan
 		prerequisite = {
 			focus = MAN_imperial_pearl_plan
+		}
+		completion_reward = {
+			
 		}
 	}
 	####灰原哀
@@ -550,11 +552,13 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			
 		}
 	}
 	focus = {
 		id = MAN_promote_epidemic_prevention_policy
 		icon = GFX_focus_generic_foreign_diplomacy
+		# 推动防疫政策
 		cost = 2
 		x = 0
 		y = 1
@@ -563,6 +567,7 @@ focus_tree = {
 			focus = MAN_convenience_door
 		}
 		completion_reward = {
+			# 获得idea 防疫政策实施中
 		}
 	}
 	focus = {
@@ -579,6 +584,7 @@ focus_tree = {
 			focus = MAN_absorb_chinese_doctors
 		}
 		completion_reward = {
+			# 获得idea 中国人医院
 		}
 	}
 	focus = {

@@ -5,6 +5,9 @@ add_namespace = man_hof
 add_namespace = man_army
 add_namespace = man_mantetsu
 add_namespace = man_kantoshu
+
+
+add_namespace = man_flavor
 country_event = {
 	# 新任关东军司令 - 景虎离任
 	id = man_hof.1
@@ -38,28 +41,34 @@ country_event = {
 				}
 			}
 		}
-		add_ideas = MAN_naoe_ai
+		# add_ideas = MAN_naoe_ai
+		activate_advisor = MAN_naoe_ai
 		set_variable = {
 			kwantung_army_portrait = 1
 		}
-		add_country_leader_role = {
-			character = MAN_naoe_ai
-			country_leader = {
-				ideology=despotism
-				traits = { quartermaster_general }
-				expire="1965.1.1"
+		MAN_naoe_ai = {
+			add_country_leader_role = {
+				country_leader = {
+					ideology = despotism
+					traits = { quartermaster_general }
+					expire = "1965.1.1"
+				}
+				promote_leader = yes
 			}
-			promote_leader = yes
+			add_field_marshal_role = {
+				traits = { JAP_samurai_lineage cavalry_officer hill_fighter }
+				skill = 3
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			add_timed_unit_leader_trait = {
+				trait = recently_promoted
+				days = 50
+			}
 		}
-		add_field_marshal_role = {
-			character = MAN_naoe_ai
-			traits = { JAP_samurai_lineage cavalry_officer hill_fighter }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-		}
+
 		# JAP = {
 		# 	country_event = {
 		# 		id = man_hof.2
@@ -1212,4 +1221,174 @@ country_event = { #
 }
 
 
+#####man flavor
+country_event = { # 长尾景虎改名 上杉政虎
+	id = man_flavor.1
+	title = man_flavor.1.t
+	desc = man_flavor.1.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_flavor.1.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = man_flavor.2
+	title = man_flavor.2.t
+	desc = man_flavor.2.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_flavor.2.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = man_flavor.3
+	title = man_flavor.3.t
+	desc = man_flavor.3.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_flavor.3.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = man_flavor.4
+	title = man_flavor.4.t
+	desc = man_flavor.4.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_flavor.4.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = man_flavor.5
+	title = man_flavor.5.t
+	desc = man_flavor.5.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_flavor.5.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = man_flavor.6
+	title = man_flavor.6.t
+	desc = man_flavor.6.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_flavor.6.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = man_flavor.7
+	title = man_flavor.7.t
+	desc = man_flavor.7.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_flavor.7.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = man_flavor.8
+	title = man_flavor.8.t
+	desc = man_flavor.8.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_flavor.8.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = man_flavor.9
+	title = man_flavor.9.t
+	desc = man_flavor.9.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_flavor.9.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = man_flavor.10
+	title = man_flavor.10.t
+	desc = man_flavor.10.d
+	immediate = {  }
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = man_flavor.10.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
 
