@@ -2,10 +2,6 @@
 # Man Events
 ###########################
 add_namespace = man_hof
-add_namespace = man_army
-add_namespace = man_mantetsu
-add_namespace = man_kantoshu
-
 
 add_namespace = man_flavor
 country_event = {
@@ -410,7 +406,7 @@ country_event = { # 调查部年鉴
 		
 	}
 }
-country_event = { # 日本移民事件 
+country_event = { # intro 源樱
 	id = man_hof.11
 	title = man_hof.11.t
 	desc = man_hof.11.d
@@ -425,19 +421,9 @@ country_event = { # 日本移民事件
 		ai_chance = { factor = 1 }
 		
 	}
-	option = { #
-		name = man_hof.11.b
-		ai_chance = { factor = 1 }
-		
-	}
-	option = { #
-		name = man_hof.11.c
-		ai_chance = { factor = 1 }
-		
-	}
 }
 
-country_event = { #
+country_event = { # 
 	id = man_hof.12
 	title = man_hof.12.t
 	desc = man_hof.12.d

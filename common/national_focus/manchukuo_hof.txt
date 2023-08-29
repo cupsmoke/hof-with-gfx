@@ -9,7 +9,6 @@ focus_tree = {
 		modifier = {
 			add = 20
 			tag = MAN
-			# has_dlc = "Waking the Tiger"
 		}
 	}
 	default = no
@@ -110,7 +109,7 @@ focus_tree = {
 
 			# 获得idea 增加人口
 			# 决议 吸引移民？
-			# 事件
+			# 事件 
 		}
 	}
 	focus = {
@@ -126,18 +125,18 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = 0.05
-			# 获得本地人支持 触发事件 二选一 谷次亨/熙洽
-			# 获得顾问熙洽 
+			# 获得本地人支持 触发事件 二选一 
+			# 获得顾问熙洽 / 谷次亨
 			# 
 		}
 	}
 	focus = {
+		# 审查经济建设要纲
 		id = MAN_review_economic_guidelines
 		icon = GFX_focus_generic_bag_of_money
 		cost = 2
 		x = 0
 		y = 1
-
 		relative_position_id = MAN_youkai_fief
 		prerequisite = {
 			focus = MAN_youkai_fief
@@ -170,6 +169,7 @@ focus_tree = {
 		complete_tooltip = {
 		}
 		completion_reward = {
+			# 农场用途
 			every_state = {
 				limit = {
 					is_fully_controlled_by = ROOT
@@ -195,6 +195,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			add_political_power = 20
+			# 满洲青年联盟 水野爱/二阶堂咲
 		}
 	}
 	focus = {
@@ -229,7 +230,11 @@ focus_tree = {
 		cost = 2
 		x = -1
 		y = 1
-
+		available = {
+			check_variable = {
+				zaibatsu_portrait > -1
+			}
+		}
 		relative_position_id = MAN_review_economic_guidelines
 		# prerequisite = { focus = MAN_increase_pioneer_quota }
 		prerequisite = {
@@ -283,6 +288,7 @@ focus_tree = {
 		}
 	}
 	focus = {
+		# 增派沿线驻军
 		id = MAN_increase_garrison_troops
 		icon = GFX_focus_generic_army_grand_battleplan
 		cost = 2
@@ -314,9 +320,13 @@ focus_tree = {
 		completion_reward = {
 			# 设立纠察队
 			create_intelligence_agency = yes
+			# 星熊
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = MAN_hoshiguma
 		}
 	}
 	focus = {
+		# 满 - 俄军事交流
 		id = MAN_russia_military_exchange
 		icon = GFX_focus_RUS_flag
 		cost = 2
@@ -324,6 +334,7 @@ focus_tree = {
 		y = 2
 		available = {
 			country_exists = RUS
+			country_exists = SOV
 			RUS = {
 				has_war = no
 			}
@@ -344,6 +355,10 @@ focus_tree = {
 			army_experience = 25
 			navy_experience = 25
 			air_experience = 25
+			# 获得经验
+			RUS = {
+				# 
+			}
 		}
 	}
 	focus = {
@@ -363,7 +378,7 @@ focus_tree = {
 			focus = MAN_deal_with_bandits
 		}
 		completion_reward = {
-			army_experience = 65
+			# army_experience = 65
 
 		}
 	}
@@ -373,11 +388,13 @@ focus_tree = {
 		cost = 2
 		x = 2
 		y = 1
-		completion_reward = {
-		}
+
 		relative_position_id = MAN_deal_with_bandits
 		prerequisite = {
 			focus = MAN_deal_with_bandits
+		}
+		completion_reward = {
+			# 刷堡垒
 		}
 	}
 	#shared_focus = CHI_invite_foreign_investors
@@ -509,7 +526,7 @@ focus_tree = {
 			focus = MAN_imperial_pearl_plan
 		}
 		completion_reward = {
-			# 获得临时投资
+			# 获得其他财阀的投资
 			# 获得婚后航空的投资
 		}
 	}
