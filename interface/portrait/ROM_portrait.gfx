@@ -4,6 +4,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ROM/Ion_Mota.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_Alexandru_Cantacuzino"
+		texturefile = "gfx/leaders/ROM/Portrait_Alexandru_Cantacuzino.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_Romania_Gheorghe_Tatarescu"
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_ROM_Constantin_Constantinescu_Claps"
 		texturefile = "gfx/leaders/ROM/Portrait_ROM_Constantin_Constantinescu_Claps.png"
 	}

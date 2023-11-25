@@ -28,6 +28,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Shangguan_Yunxiang.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_BEY_Sheng_Shicai_army"
+		texturefile = "gfx/leaders/BEY/Portrait_BEY_Sheng_Shicai_army.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_BEY_Sheng_Shicai_leader"
+		texturefile = "gfx/leaders/BEY/Portrait_BEY_Sheng_Shicai_leader.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_BEY_Shi_Yousan"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Shi_Yousan.png"
 	}

@@ -1,2 +1,14 @@
 spriteTypes = {
+	SpriteType = {
+		name = "GFX_Portrait_MON_Gelegdorjiin_Demid"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Gelegdorjiin_Demid.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MON_Khorloogiin_Choibalsan"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Khorloogiin_Choibalsan.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MON_Peljidiin_Genden"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Peljidiin_Genden.png"
+	}
 }
