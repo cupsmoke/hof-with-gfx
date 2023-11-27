@@ -112,12 +112,11 @@ if = {
 		basic_torpedo = 1
 		sonar = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 		improved_airplane_launcher = 1
+		basic_dp_light_battery = 1
 	}
 }
 if = {
@@ -302,9 +301,8 @@ give_guarantee = URG
 			improved_ship_hull_heavy = 1
 			improved_sonar = 1
 			improved_ship_torpedo_launcher = 1
-			improved_cruiser_armor_scheme = 1
 			improved_heavy_battery = 1
-			dp_secondary_battery = 1
+			advanced_dp_light_battery = 1
 		}
 		remove_ideas = MTG_naval_treaty_adherent
 		add_ideas = MTG_naval_treaty_adherent_reduced

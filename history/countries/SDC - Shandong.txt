@@ -23,7 +23,3 @@ set_popularities = {
 	communism = 100
 }
 
-add_ideas = {
-
-}
-

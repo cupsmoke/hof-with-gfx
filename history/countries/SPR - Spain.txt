@@ -527,5 +527,5 @@ recruit_character = SPR_Osmund_Saddler
 recruit_character = SPR_Ramon_Salazar
 recruit_character = SPR_Bitores_Mendez
 recruit_character = SPR_Jack_Krauser
-
+# 
 

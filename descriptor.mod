@@ -25,7 +25,7 @@ replace_path="common/bop"
 ##replace_path="common/decisions"
 ##replace_path="common/decisions/categories"
 
-replace_path="common/difficulty_settings"
+# replace_path="common/difficulty_settings"
 
 ##replace_path="common/dynamic_modifiers"
 ##replace_path="common/game_rules"
@@ -35,12 +35,12 @@ replace_path="common/ideas"
 
 ##replace_path="common/ideologies"
 
-replace_path="common/military_industrial_organization/organizations"
+# replace_path="common/military_industrial_organization/organizations"
 
 ##replace_path="common/modifiers"
 ##replace_path="common/modifier_definitions"
 ##replace_path="common/names"
-##replace_path="common/national_focus"
+replace_path="common/national_focus"
 ##replace_path="common/on_actions"
 ##replace_path="common/operations"
 ##replace_path="common/opinion_modifiers"
@@ -84,4 +84,4 @@ tags={
 	"Map"
 	"National Focuses"
 }
-supported_version="1.12.*"
+supported_version="1.13.*"

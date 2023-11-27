@@ -151,7 +151,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Pepperoni"
-	desc = ""
+
 	picture = "Portrait_Pepperoni.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
@@ -161,7 +161,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Alceste de Ambris"
-	desc = ""
+
 	picture = "Portrait_SRI_Alceste_de_Ambris.tga"
 	expire = "1965.1.1"
 	ideology = syndicalist
