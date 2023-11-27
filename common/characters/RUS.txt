@@ -809,66 +809,6 @@ characters = {
 			legacy_id = 8815
 		}
 	}
-	RUS_sergey_baranovsky = {
-		name = "Sergey Baranovsky"
-		portraits = {
-			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
-				large = "gfx/leaders/RUS/Portrait_TRM_Baranovsky.tga"
-			}
-		}
-		corps_commander = {
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = 466
-		}
-	}
-	RUS_dmitry_semenov = {
-		name = "Dmitry Semenov"
-		portraits = {
-			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
-				large = "gfx/leaders/RUS/Portrait_TRM_Semenov.tga"
-			}
-		}
-		corps_commander = {
-			traits = {
-				organizer
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 4
-			legacy_id = 468
-		}
-	}
-	RUS_vladimir_tolstov = {
-		name = "Vladimir Tolstov"
-		portraits = {
-			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
-				large = "gfx/leaders/RUS/Portrait_TRM_Tolstov.tga"
-			}
-		}
-		corps_commander = {
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = 470
-		}
-	}
 	RUS_vasiliy_boldyrev = {
 		name = "Vasiliy Boldyrev"
 		portraits = {
@@ -984,30 +924,6 @@ characters = {
 			legacy_id = 416
 		}
 	}
-	RUS_mitrofan_nezhentsev = {
-		name = "Mitrofan Nezhentsev"
-		portraits = {
-			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
-				large = "gfx/leaders/RUS/Portrait_Soviet_Mitrofan_Nezhentsev.tga"
-			}
-		}
-		corps_commander = {
-			traits = {
-				war_hero
-				organizer
-				infantry_leader
-			}
-			skill = 2
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = 417
-		}
-	}
 	RUS_ivan_romanovsky = {
 		name = "Ivan Romanovsky"
 		portraits = {
@@ -1097,31 +1013,6 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 3
 			legacy_id = 421
-		}
-	}
-	RUS_vasili_chernetsov = {
-		name = "Vasili Chernetsov"
-		portraits = {
-			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
-				large = "gfx/leaders/RUS/Portrait_Soviet_Vasili_Chernetsov.tga"
-			}
-		}
-		corps_commander = {
-			traits = {
-				trait_reckless
-				war_hero
-				cavalry_leader
-				panzer_leader
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id = 419
 		}
 	}
 	RUS_roman_von_ungernsternberg = {
