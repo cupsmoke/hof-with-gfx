@@ -998,8 +998,8 @@ JAP_civil_war_start = {
 				every_character = {
 					limit = {
 						OR = {
-							has_id = JAP_saigyouji_yuyuko
-							has_id = JAP_konpaku_youmu
+							is_character = JAP_saigyouji_yuyuko
+							is_character = JAP_konpaku_youmu
 						}
 					}
 					set_nationality = event_target:jap_civil_war
@@ -1609,10 +1609,10 @@ JAP_man_railway_reestablished = {
 	}
 	if = {
 		limit = {
-			FTC = {
+			BEY = {
 				is_subject_of = JAP
 			}
-			FTC = {
+			BEY = {
 				OR = {
 					NOT = {
 						has_idea = idea_man_railway
@@ -1623,17 +1623,17 @@ JAP_man_railway_reestablished = {
 		}
 		if = {
 			limit = {
-				FTC = {
+				BEY = {
 					has_idea = idea_man_railway_destoryed
 				}
 			}
-			FTC = {
+			BEY = {
 				remove_ideas = {
 					idea_man_railway_destoryed
 				}
 			}
 		}
-		FTC = {
+		BEY = {
 			add_ideas = {
 				idea_man_railway
 			}
@@ -1668,11 +1668,11 @@ JAP_man_railway_reestablished = {
 JAP_man_railway_destroyed = {
 	if = {
 		limit = {
-			FTC = {
+			BEY = {
 				has_idea = idea_man_railway
 			}
 		}
-		FTC = {
+		BEY = {
 			remove_ideas = idea_man_railway
 			add_timed_idea = {
 				idea = idea_man_railway_destoryed
@@ -1687,20 +1687,6 @@ JAP_man_railway_destroyed = {
 			}
 		}
 		MAN = {
-			remove_ideas = idea_man_railway
-			add_timed_idea = {
-				idea = idea_man_railway_destoryed
-				days = 180
-			}
-		}
-	}
-	if = {
-		limit = {
-			PRC = {
-				has_idea = idea_man_railway
-			}
-		}
-		PRC = {
 			remove_ideas = idea_man_railway
 			add_timed_idea = {
 				idea = idea_man_railway_destoryed
@@ -2093,27 +2079,6 @@ JAP_interservice_swap = {
 }
 
 CHI_message_to_warlords_about_greater_asian_alliance = {
-	if = {
-		limit = {
-			PRC = {
-				NOT = {
-					is_in_faction_with = JAP
-				}
-				NOT = {
-					is_subject_of = JAP
-				}
-				NOT = {
-					has_non_aggression_pact_with = JAP
-				}
-			}
-		}
-		PRC = {
-			country_event = {
-				id = jap_diplo.12
-				hours = 10
-			}
-		}
-	}
 	if = {
 		limit = {
 			YUN = {

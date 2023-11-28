@@ -3,7 +3,9 @@
 POL_increase_danzig_control = {
 	if = {
 		limit = {
-			has_dynamic_modifier = { modifier = international_city }
+			has_dynamic_modifier = {
+				modifier = international_city
+			}
 		}
 		remove_dynamic_modifier = {
 			modifier = international_city
@@ -14,7 +16,9 @@ POL_increase_danzig_control = {
 	}
 	else_if = {
 		limit = {
-			has_dynamic_modifier = { modifier = international_city_2 }
+			has_dynamic_modifier = {
+				modifier = international_city_2
+			}
 		}
 		remove_dynamic_modifier = {
 			modifier = international_city_2
@@ -25,7 +29,9 @@ POL_increase_danzig_control = {
 	}
 	else_if = {
 		limit = {
-			has_dynamic_modifier = { modifier = international_city_3 }
+			has_dynamic_modifier = {
+				modifier = international_city_3
+			}
 		}
 		remove_dynamic_modifier = {
 			modifier = international_city_3
@@ -36,7 +42,9 @@ POL_increase_danzig_control = {
 	}
 	else_if = {
 		limit = {
-			has_dynamic_modifier = { modifier = international_city_4 }
+			has_dynamic_modifier = {
+				modifier = international_city_4
+			}
 		}
 		add_compliance = 20
 	}
@@ -45,26 +53,36 @@ POL_increase_danzig_control = {
 POL_remove_danzig_effect = {
 	remove_core_of = DNZ
 	set_demilitarized_zone = no
-	controller = { save_event_target_as = danzig_occupier }
+	controller = {
+		save_event_target_as = danzig_occupier
+	}
 	if = {
 		limit = {
 			has_resistance = yes
 		}
-		force_enable_resistance = { 
+		force_enable_resistance = {
 			clear = yes
 			occupier = danzig_occupier
 			occupied = DNZ
 		}
 		if = {
 			limit = {
-				NOT = { controller = { PREV = { is_core_of = PREV } } }
+				NOT = {
+					controller = {
+						PREV = {
+							is_core_of = PREV
+						}
+					}
+				}
 			}
-			start_resistance = POL #swap resistance in Danzig to Poland if the occupier does not have a core there.
+			start_resistance = POL			#swap resistance in Danzig to Poland if the occupier does not have a core there.
 		}
 	}
 	if = {
 		limit = {
-			has_dynamic_modifier = { modifier =  international_city }
+			has_dynamic_modifier = {
+				modifier = international_city
+			}
 		}
 		remove_dynamic_modifier = {
 			modifier = international_city
@@ -72,7 +90,9 @@ POL_remove_danzig_effect = {
 	}
 	else_if = {
 		limit = {
-			has_dynamic_modifier = { modifier =  international_city_2 }
+			has_dynamic_modifier = {
+				modifier = international_city_2
+			}
 		}
 		remove_dynamic_modifier = {
 			modifier = international_city_2
@@ -80,7 +100,9 @@ POL_remove_danzig_effect = {
 	}
 	else_if = {
 		limit = {
-			has_dynamic_modifier = { modifier =  international_city_3 }
+			has_dynamic_modifier = {
+				modifier = international_city_3
+			}
 		}
 		remove_dynamic_modifier = {
 			modifier = international_city_3
@@ -88,7 +110,9 @@ POL_remove_danzig_effect = {
 	}
 	else_if = {
 		limit = {
-			has_dynamic_modifier = { modifier =  international_city_4 }
+			has_dynamic_modifier = {
+				modifier = international_city_4
+			}
 		}
 		remove_dynamic_modifier = {
 			modifier = international_city_4
@@ -186,7 +210,8 @@ POL_sanation_left_opposition_up = {
 			has_idea = POL_sanation_left_opposition_4
 		}
 		remove_ideas = POL_sanation_left_opposition_4
-		if = { #historically, Slawek committed suicide. On historical AI, the Left should be sidelined by the AI without any risk of civil war.
+		if = {
+			#historically, Slawek committed suicide. On historical AI, the Left should be sidelined by the AI without any risk of civil war.
 			limit = {
 				is_historical_focus_on = yes
 				is_ai = yes
@@ -199,12 +224,14 @@ POL_sanation_left_opposition_up = {
 			random_list = {
 				50 = {
 					hidden_effect = {
-						add_country_leader_role = {							
+						add_country_leader_role = {
 							character = "POL_walery_slawek"
 							country_leader = {
-								ideology=socialism
-								traits = { left_sanationist_minister }
-								expire="1965.1.1.1"
+								ideology = socialism
+								traits = {
+									left_sanationist_minister
+								}
+								expire = "1965.1.1.1"
 							}
 							promote_leader = yes
 						}
@@ -213,7 +240,9 @@ POL_sanation_left_opposition_up = {
 						ideology = democratic
 						size = 0.45
 						keep_unit_leaders_trigger = {
-							NOT = { has_trait = POL_sanation_left_leader }
+							NOT = {
+								has_trait = POL_sanation_left_leader
+							}
 						}
 					}
 					random_other_country = {
@@ -222,10 +251,10 @@ POL_sanation_left_opposition_up = {
 							has_government = democratic
 						}
 						set_cosmetic_tag = POL_SANATION
-						set_party_name = { 
-							ideology = democratic 
+						set_party_name = {
+							ideology = democratic
 							long_name = POL_POS_party_long
-							name = POL_POS_party 
+							name = POL_POS_party
 						}
 					}
 				}
@@ -337,26 +366,29 @@ POL_sanation_right_opposition_up = {
 		limit = {
 			has_idea = POL_sanation_right_opposition_4
 		}
-		if = { #The sanation right will not start a civil war if it's AI and historical so we don't risk any unwanted Civil Wars there. Instead they'll simply keep the national spirit at it's highest level. The player and the Non-Historical AI will still get the CW 
+		if = {
+			#The sanation right will not start a civil war if it's AI and historical so we don't risk any unwanted Civil Wars there. Instead they'll simply keep the national spirit at it's highest level. The player and the Non-Historical AI will still get the CW 
 			limit = {
 				OR = {
 					AND = {
-						is_ai = yes 
+						is_ai = yes
 						is_historical_focus_on = no
 					}
 					AND = {
-						is_ai = no 
+						is_ai = no
 					}
 				}
 			}
-			remove_ideas = POL_sanation_right_opposition_4 
+			remove_ideas = POL_sanation_right_opposition_4
 			hidden_effect = {
 				add_country_leader_role = {
 					character = "POL_edward_rydzsmigly"
 					country_leader = {
-						ideology=falangism
-						traits = { sanation_militarist_falangist }
-						expire="1965.1.1.1"
+						ideology = falangism
+						traits = {
+							sanation_militarist_falangist
+						}
+						expire = "1965.1.1.1"
 					}
 					promote_leader = yes
 				}
@@ -366,7 +398,9 @@ POL_sanation_right_opposition_up = {
 				size = 0.5
 				army_ratio = 0.25
 				keep_unit_leaders_trigger = {
-					NOT = { has_trait = POL_sanation_right_leader }
+					NOT = {
+						has_trait = POL_sanation_right_leader
+					}
 				}
 			}
 			random_other_country = {
@@ -374,15 +408,15 @@ POL_sanation_right_opposition_up = {
 					original_tag = ROOT
 					has_government = fascism
 				}
-				set_party_name = { 
-					ideology = fascism 
+				set_party_name = {
+					ideology = fascism
 					long_name = POL_OZON_party_long
 					name = POL_OZON_party
 				}
 				set_cosmetic_tag = POL_SANATION
 			}
 			hidden_effect = {
-				promote_character = POL_boleslaw_piasecki #Make Piasecki ruler of the fascist party in regular Poland
+				promote_character = POL_boleslaw_piasecki				#Make Piasecki ruler of the fascist party in regular Poland
 			}
 		}
 	}
@@ -482,9 +516,13 @@ POL_monarchist_civil_war_effect = {
 				ideology = neutrality
 				size = civil_war_size_var
 				keep_political_leader = yes
-				states = { 784 }
+				states = {
+					784
+				}
 				keep_unit_leaders_trigger = {
-					NOT = { has_unit_leader_flag = POL_monarchy_sympathies_flag }
+					NOT = {
+						has_unit_leader_flag = POL_monarchy_sympathies_flag
+					}
 				}
 			}
 		}
@@ -494,11 +532,12 @@ POL_monarchist_civil_war_effect = {
 				size = civil_war_size_var
 				keep_political_leader = yes
 				keep_unit_leaders_trigger = {
-					NOT = { has_unit_leader_flag = POL_monarchy_sympathies_flag }
+					NOT = {
+						has_unit_leader_flag = POL_monarchy_sympathies_flag
+					}
 				}
 			}
 		}
-
 		random_other_country = {
 			limit = {
 				has_civil_war = yes
@@ -511,7 +550,6 @@ POL_monarchist_civil_war_effect = {
 			limit = {
 				any_other_country = {
 					original_tag = POL
-					POL_is_valid_to_boost_monarchy = yes 
 				}
 			}
 			every_other_country = {
@@ -534,7 +572,9 @@ POL_monarchist_civil_war_effect = {
 			size = civil_war_size_var
 			keep_political_leader = yes
 			keep_unit_leaders_trigger = {
-				NOT = { has_unit_leader_flag = POL_monarchy_sympathies_flag }
+				NOT = {
+					has_unit_leader_flag = POL_monarchy_sympathies_flag
+				}
 			}
 		}
 		random_other_country = {
@@ -548,8 +588,7 @@ POL_monarchist_civil_war_effect = {
 		if = {
 			limit = {
 				any_other_country = {
-						original_tag = POL
-						POL_is_valid_to_boost_monarchy = yes 
+					original_tag = POL
 				}
 			}
 			every_other_country = {
@@ -568,7 +607,9 @@ POL_monarchist_civil_war_effect = {
 			ideology = neutrality
 			size = civil_war_size_var
 			keep_unit_leaders_trigger = {
-				NOT = { has_unit_leader_flag = POL_monarchy_sympathies_flag }
+				NOT = {
+					has_unit_leader_flag = POL_monarchy_sympathies_flag
+				}
 			}
 		}
 		random_other_country = {
@@ -581,8 +622,7 @@ POL_monarchist_civil_war_effect = {
 		if = {
 			limit = {
 				any_other_country = {
-						original_tag = POL
-						POL_is_valid_to_boost_monarchy = yes 
+					original_tag = POL
 				}
 			}
 			every_other_country = {
@@ -602,7 +642,9 @@ POL_monarchist_civil_war_effect = {
 			size = civil_war_size_var
 			keep_political_leader = yes
 			keep_unit_leaders_trigger = {
-				NOT = { has_unit_leader_flag = POL_monarchy_sympathies_flag }
+				NOT = {
+					has_unit_leader_flag = POL_monarchy_sympathies_flag
+				}
 			}
 		}
 		random_other_country = {
@@ -616,8 +658,7 @@ POL_monarchist_civil_war_effect = {
 		if = {
 			limit = {
 				any_other_country = {
-						original_tag = LIT
-						POL_is_valid_to_boost_monarchy = yes 
+					original_tag = LIT
 				}
 			}
 			every_other_country = {
@@ -628,44 +669,59 @@ POL_monarchist_civil_war_effect = {
 			}
 		}
 	}
-
 }
 
 POL_peasant_division_effect = {
 	custom_effect_tooltip = POL_peasant_division_tt
 	hidden_effect = {
-		division_template = { 
+		division_template = {
 			name = "Peasant Division"
 			division_names_group = POL_INF_01
 			is_locked = no
-			regiments = { 
-				infantry = { x = 0 y = 0 }
-				infantry = { x = 1 y = 0 }
-				infantry = { x = 2 y = 0 }
-				infantry = { x = 3 y = 0 }
-
-				infantry = { x = 0 y = 1 }
-				infantry = { x = 1 y = 1 }
+			regiments = {
+				infantry = {
+					x = 0
+					y = 0
+				}
+				infantry = {
+					x = 1
+					y = 0
+				}
+				infantry = {
+					x = 2
+					y = 0
+				}
+				infantry = {
+					x = 3
+					y = 0
+				}
+				infantry = {
+					x = 0
+					y = 1
+				}
+				infantry = {
+					x = 1
+					y = 1
+				}
 			}
 			support = {
-				
 			}
 		}
 		random_owned_controlled_state = {
-			create_unit = { 
-				division = "name = \"1. Peasant Division\" division_template = \"Peasant Division\" start_experience_factor = 0.5" 
+			create_unit = {
+				division = "name = \"1. Peasant Division\" division_template = \"Peasant Division\" start_experience_factor = 0.5"
 				owner = ROOT
 			}
-			create_unit = { 
-				division = "name = \"2. Peasant Division\" division_template = \"Peasant Division\" start_experience_factor = 0.5" 
+			create_unit = {
+				division = "name = \"2. Peasant Division\" division_template = \"Peasant Division\" start_experience_factor = 0.5"
 				owner = ROOT
 			}
-			create_unit = { 
-				division = "name = \"3. Peasant Division\" division_template = \"Peasant Division\" start_experience_factor = 0.5" 
+			create_unit = {
+				division = "name = \"3. Peasant Division\" division_template = \"Peasant Division\" start_experience_factor = 0.5"
 				owner = ROOT
 			}
-			create_unit = { 
-				division = "name = \"4. Peasant Division\" division_template = \"Peasant Division\" start_experience_factor = 0.5" 
+			create_unit = {
+				division = "name = \"4. Peasant Division\" division_template = \"Peasant Division\" start_experience_factor = 0.5"
 				owner = ROOT
 			}
 		}
@@ -710,10 +766,18 @@ POL_become_german_puppet_effect = {
 			}
 			transfer_state = 762
 		}
-		85 = { add_core_of = GER } #Danzig
-		86 = { add_core_of = GER } #Poznan
-		807 = { add_core_of = GER } #Gdynia
-		762 = { add_core_of = GER } #Upper Silesia
+		85 = {
+			add_core_of = GER
+		}		#Danzig
+		86 = {
+			add_core_of = GER
+		}		#Poznan
+		807 = {
+			add_core_of = GER
+		}		#Gdynia
+		762 = {
+			add_core_of = GER
+		}		#Upper Silesia
 		if = {
 			limit = {
 				has_dlc = "Death or Dishonor"
@@ -732,25 +796,28 @@ POL_become_german_puppet_effect = {
 		add_to_faction = POL
 	}
 	hidden_effect = {
-		GER = { #Reverse the AI strategy set at game start
+		GER = {
+			#Reverse the AI strategy set at game start
 			add_ai_strategy = {
-			   type = alliance
-			   id = POL
-			   value = 2000
+				type = alliance
+				id = POL
+				value = 2000
 			}
 		}
 		POL = {
 			add_ai_strategy = {
-			   type = alliance
-			   id = GER
-			   value = 2000
+				type = alliance
+				id = GER
+				value = 2000
 			}
 		}
 	}
 }
 
 POL_divide_lithuania_effect = {
-	188 = { add_core_of = GER }
+	188 = {
+		add_core_of = GER
+	}
 	LIT = {
 		every_owned_state = {
 			limit = {
@@ -774,15 +841,27 @@ POL_divide_lithuania_effect = {
 }
 
 POL_lithuania_wargoal_claims_effect = {
-	188 = { add_core_of = GER }
-	189 = { add_claim_by = POL }
-	815 = { add_claim_by = POL }
-	11 = { add_claim_by = POL }
-	814 = { add_claim_by = POL }
+	188 = {
+		add_core_of = GER
+	}
+	189 = {
+		add_claim_by = POL
+	}
+	815 = {
+		add_claim_by = POL
+	}
+	11 = {
+		add_claim_by = POL
+	}
+	814 = {
+		add_claim_by = POL
+	}
 	GER = {
 		create_wargoal = {
 			type = take_core_state
-			generator = { 188 }
+			generator = {
+				188
+			}
 			target = LIT
 		}
 	}
@@ -791,25 +870,33 @@ POL_lithuania_wargoal_claims_effect = {
 POL_set_attempted_royal_takeover_flag = {
 	hidden_effect = {
 		if = {
-			limit = { original_tag = POL }
+			limit = {
+				original_tag = POL
+			}
 			FROM = {
 				set_country_flag = attempted_royal_takeover_in_POL
 			}
 		}
 		else_if = {
-			limit = { original_tag = LIT }
+			limit = {
+				original_tag = LIT
+			}
 			FROM = {
 				set_country_flag = attempted_royal_takeover_in_LIT
 			}
 		}
 		else_if = {
-			limit = { original_tag = ROM }
+			limit = {
+				original_tag = ROM
+			}
 			FROM = {
 				set_country_flag = attempted_royal_takeover_in_ROM
 			}
 		}
 		else_if = {
-			limit = { original_tag = CZE }
+			limit = {
+				original_tag = CZE
+			}
 			FROM = {
 				set_country_flag = attempted_royal_takeover_in_CZE
 			}
@@ -821,64 +908,160 @@ POL_basic_form_commonwealth = {
 	# Lithuania
 	custom_effect_tooltip = form_country_lithuania_coring_states_tt
 	hidden_effect = {
-		11 = { add_core_of = ROOT }
-		189 = { add_core_of = ROOT }
-		188 = { add_core_of = ROOT }
-		784 = { add_core_of = ROOT }
-		814 = { add_core_of = ROOT }
-		815 = { add_core_of = ROOT }
+		11 = {
+			add_core_of = ROOT
+		}
+		189 = {
+			add_core_of = ROOT
+		}
+		188 = {
+			add_core_of = ROOT
+		}
+		784 = {
+			add_core_of = ROOT
+		}
+		814 = {
+			add_core_of = ROOT
+		}
+		815 = {
+			add_core_of = ROOT
+		}
 	}
 	# Poland
 	custom_effect_tooltip = form_country_poland_coring_states_tt
 	hidden_effect = {
-		66 = { add_core_of = ROOT }
-		67 = { add_core_of = ROOT }
-		85 = { add_core_of = ROOT }
-		86 = { add_core_of = ROOT }
-		87 = { add_core_of = ROOT }
-		88 = { add_core_of = ROOT }
-		90 = { add_core_of = ROOT }
-		98 = { add_core_of = ROOT }
-		10 = { add_core_of = ROOT }
-		97 = { add_core_of = ROOT }
-		92 = { add_core_of = ROOT }
-		91 = { add_core_of = ROOT }
-		89 = { add_core_of = ROOT }
-		93 = { add_core_of = ROOT }
-		94 = { add_core_of = ROOT }
-		95 = { add_core_of = ROOT }
-		96 = { add_core_of = ROOT }
-		784 = { add_core_of = ROOT }
-		5 = { add_core_of = ROOT }
-		763 = { add_core_of = ROOT }
-		207 = { add_core_of = ROOT }
-		242 = { add_core_of = ROOT }
-		206 = { add_core_of = ROOT }
-		241 = { add_core_of = ROOT }
-		243 = { add_core_of = ROOT }
-		204 = { add_core_of = ROOT }
-		194 = { add_core_of = ROOT }
-		201 = { add_core_of = ROOT }
-		199 = { add_core_of = ROOT }
-		198 = { add_core_of = ROOT }
-		202 = { add_core_of = ROOT }
-		203 = { add_core_of = ROOT }
-		193 = { add_core_of = ROOT }
-		259 = { add_core_of = ROOT }
-		762 = { add_core_of = ROOT }
-		807 = { add_core_of = ROOT }
+		66 = {
+			add_core_of = ROOT
+		}
+		67 = {
+			add_core_of = ROOT
+		}
+		85 = {
+			add_core_of = ROOT
+		}
+		86 = {
+			add_core_of = ROOT
+		}
+		87 = {
+			add_core_of = ROOT
+		}
+		88 = {
+			add_core_of = ROOT
+		}
+		90 = {
+			add_core_of = ROOT
+		}
+		98 = {
+			add_core_of = ROOT
+		}
+		10 = {
+			add_core_of = ROOT
+		}
+		97 = {
+			add_core_of = ROOT
+		}
+		92 = {
+			add_core_of = ROOT
+		}
+		91 = {
+			add_core_of = ROOT
+		}
+		89 = {
+			add_core_of = ROOT
+		}
+		93 = {
+			add_core_of = ROOT
+		}
+		94 = {
+			add_core_of = ROOT
+		}
+		95 = {
+			add_core_of = ROOT
+		}
+		96 = {
+			add_core_of = ROOT
+		}
+		784 = {
+			add_core_of = ROOT
+		}
+		5 = {
+			add_core_of = ROOT
+		}
+		763 = {
+			add_core_of = ROOT
+		}
+		207 = {
+			add_core_of = ROOT
+		}
+		242 = {
+			add_core_of = ROOT
+		}
+		206 = {
+			add_core_of = ROOT
+		}
+		241 = {
+			add_core_of = ROOT
+		}
+		243 = {
+			add_core_of = ROOT
+		}
+		204 = {
+			add_core_of = ROOT
+		}
+		194 = {
+			add_core_of = ROOT
+		}
+		201 = {
+			add_core_of = ROOT
+		}
+		199 = {
+			add_core_of = ROOT
+		}
+		198 = {
+			add_core_of = ROOT
+		}
+		202 = {
+			add_core_of = ROOT
+		}
+		203 = {
+			add_core_of = ROOT
+		}
+		193 = {
+			add_core_of = ROOT
+		}
+		259 = {
+			add_core_of = ROOT
+		}
+		762 = {
+			add_core_of = ROOT
+		}
+		807 = {
+			add_core_of = ROOT
+		}
 	}
 	custom_effect_tooltip = form_country_latvia_coring_states_tt
 	hidden_effect = {
-		12 = { add_core_of = ROOT }
-		190 = { add_core_of = ROOT }
-		808 = { add_core_of = ROOT }
-		809 = { add_core_of = ROOT }
-		810 = { add_core_of = ROOT }
+		12 = {
+			add_core_of = ROOT
+		}
+		190 = {
+			add_core_of = ROOT
+		}
+		808 = {
+			add_core_of = ROOT
+		}
+		809 = {
+			add_core_of = ROOT
+		}
+		810 = {
+			add_core_of = ROOT
+		}
 	}
-
 	hidden_effect = {
-		news_event = { id = wtt_news.57 hours = 6 }
+		news_event = {
+			id = wtt_news.57
+			hours = 6
+		}
 		set_global_flag = form_commonwealth_flag
 	}
 }
