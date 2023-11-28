@@ -74,26 +74,6 @@ set_convoys = 150
 set_stability = 0.75
 
 recruit_character = BTY_Ruka_Oshida
-add_country_leader_role = {
-	character = BLR_Sirin
-	country_leader = {
-		expire="1965.1.1.1"
-		ideology = stratocracy
-		traits = {
-			
-		}
-	}
-	promote_leader = yes
-}
-add_country_leader_role = {
-	character = BLR_Sirin
-	country_leader = {
-		expire="1965.1.1.1"
-		ideology = democratic_socialist
-		traits = {
-			
-		}
-	}
-	promote_leader = yes
-}
 recruit_character = BTY_Dahut
+# 
+

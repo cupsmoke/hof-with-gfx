@@ -8,6 +8,8 @@ replace_path="common/national_focus"
 replace_path="gfx/loadingscreens"
 replace_path="history/countries"
 replace_path="history/states"
+replace_path="map/strategicregions"
+replace_path="map/supplyareas"
 version="0.1"
 tags={
 	"Alternative History"

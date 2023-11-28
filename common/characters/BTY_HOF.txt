@@ -8,8 +8,14 @@ characters = {
 		}
 		country_leader={
 			ideology=conservatism
-			expire="1965.1.1.1"
-			id=-1
+
+		}
+		country_leader={
+			ideology=stratocracy
+
+		}
+		country_leader={
+			ideology=democratic_socialist
 		}
 	}
 	BTY_Dahut={
@@ -24,8 +30,6 @@ characters = {
 			traits = {
 				adventurous_daredevil
 			}
-			expire="1965.1.1.1"
-			id=-1
 		}
 	}
 }
