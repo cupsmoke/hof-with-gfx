@@ -73,7 +73,7 @@ characters={
 
 			army={
 				small="gfx/interface/ideas/idea_FRA_philippe_leclerc.dds"
-				large="gfx/leaders/FRA/Portrait_France_Philippe_Leclerc.dds"
+				large=GFX_Portrait_FRA_Philippe_Leclerc
 			}
 		}
 		corps_commander={
@@ -799,31 +799,12 @@ characters={
 			legacy_id=822
 		}
 	}
-	FRA_paul_le_gentilhomme={
-		name="Paul Le Gentilhomme"
-		portraits={
-
-			army={
-				small="GFX_idea_advisor_unknown"
-				large="gfx/leaders/FRA/Portrait_France_Paul_Legentilhomme.tga"
-			}
-		}
-		corps_commander={
-			traits={ trait_reckless infantry_officer commando skirmisher }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=4
-			legacy_id=4008
-		}
-	}
 	FRA_jean_touzet_du_vigier={
 		name="Jean Touzet du Vigier"
 		portraits={
 			army={
 				small="GFX_idea_advisor_unknown"
-				large="gfx/leaders/FRA/Portrait_NFA_Jean_Touzet_du_Vigier.tga"
+				large=GFX_Portrait_FRA_Jean_Touzet_du_Vigier
 			}
 		}
 		corps_commander={
@@ -841,7 +822,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_advisor_unknown"
-				large="gfx/leaders/FRA/Portrait_NFA_Louis_Franchet_Esperey.tga"
+				large=GFX_Portrait_FRA_Louis_Franchet_Esperey
 			}
 		}
 		corps_commander={
@@ -852,24 +833,6 @@ characters={
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=4010
-		}
-	}
-	FRA_henri_lebocq={
-		name="Henri Lebocq"
-		portraits={
-			army={
-				small="GFX_idea_advisor_unknown"
-				large="gfx/leaders/FRA/Portrait_NFA_Henri_Lebocq.tga"
-			}
-		}
-		corps_commander={
-			traits={ old_guard career_officer infantry_leader }
-			skill=2
-			attack_skill=1
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=4011
 		}
 	}
 	FRA_jean_bart={

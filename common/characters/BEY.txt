@@ -1,11 +1,10 @@
 #leader
 characters = {
-	
 	BEY_li_shuwen = {
 		name = "BEY_li_shuwen"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BEY/Portrait_Li_Shuwen.png"
+				large = "gfx/leaders/BEY/Portrait_BEY_Li_Shuwen.png"
 			}
 			army = {
 				small = "GFX_idea_advisor_unknown"
@@ -27,20 +26,17 @@ characters = {
 			legacy_id = -1
 		}
 		country_leader = {
-			desc = "POLITICS_LI_SHUWEN_DESC"
 			ideology = authoritarian_democracy
-			expire = "1965.1.1.1"
-			id = -1
 		}
 	}
 	BEY_gao_changgong = {
 		name = "BEY_gao_changgong"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BEY/Portrait_Gao_Changgong_civ.png"
+				large = "gfx/leaders/BEY/Portrait_BEY_Gao_Changgong_pol.png"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_Gao_Changgong.png"
+				large = "gfx/leaders/BEY/Portrait_BEY_Gao_Changgong.png"
 			}
 		}
 		corps_commander = {
@@ -58,15 +54,13 @@ characters = {
 		}
 		country_leader = {
 			ideology = classical_liberalism
-			expire = "1965.1.1.1"
-			id = -1
 		}
 	}
 	BEY_huo_qinge = {
 		name = "BEY_huo_qinge"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BEY/Portrait_Huo_Qinge.png"
+				large = "gfx/leaders/BEY/Portrait_BEY_Huo_Qinge.png"
 			}
 		}
 		corps_commander = {
@@ -83,8 +77,6 @@ characters = {
 		}
 		country_leader = {
 			ideology = fascism_ideology
-			expire = "1965.1.1.1"
-			id = -1
 		}
 	}
 	BEY_sheng_shicai = {
@@ -107,11 +99,8 @@ characters = {
 		}
 		country_leader = {
 			ideology = stalinism
-			expire = "1965.1.1.1"
-			id = -1
 		}
-	}	
-
+	}
 }
 
 # commander
@@ -123,7 +112,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_Hong_Meiling.dds"
+				large = "gfx/leaders/BEY/Portrait_BEY_Hong_Meiling.png"
 			}
 		}
 		corps_commander = {
@@ -181,29 +170,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 3512
-		}
-	}
-	BEY_li_jinglin = {
-		name = "BEY_li_jinglin"
-		portraits = {
-			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Li_Jinglin.png"
-			}
-		}
-		corps_commander = {
-			traits = {
-				trait_cautious
-				organizer
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id = 3513
 		}
 	}
 	BEY_liu_menggeng = {
@@ -470,29 +436,6 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 3524
-		}
-	}
-	BEY_zhang_zizhong = {
-		name = "BEY_zhang_zizhong"
-		portraits = {
-			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Zhang_Zizhong.png"
-			}
-		}
-		corps_commander = {
-			traits = {
-				career_officer
-				infantry_officer
-			}
-			skill = 3
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = 3525
 		}
 	}
 	BEY_zhang_zongchang = {

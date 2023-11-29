@@ -155,7 +155,7 @@ characters={
 		name="Mata Hari"
 		portraits={
 			civilian={
-				large="gfx/leaders/HOL/Portrait_Mata_Hari.png"
+				large=GFX_Portrait_HOL_Mata_Hari
 			}
 		}
 		country_leader={

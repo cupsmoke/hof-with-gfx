@@ -1,0 +1,106 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Bai_Chongxi"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Bai_Chongxi.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Chen_Gong"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Chen_Gong.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Chen_Jitang"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Chen_Jitang.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Chen_Shaokuan"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Chen_Shaokuan.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Daji"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Daji.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Du_Yuming_HOF"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Du_Yuming_HOF.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Gui_Yongqing"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Gui_Yongqing.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_He_Yingqin_HOF"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_He_Yingqin_HOF.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Hu_Zongnan_HOF"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Hu_Zongnan_HOF.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Li_Zongren"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Li_Zongren.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Song_Xilian"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Song_Xilian.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Sun_Lijen"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Sun_Lijen.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Tai_Anlan"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Tai_Anlan.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Tang_Enbo"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Tang_Enbo.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Wang_Jingwei_HOF"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Wang_Jingwei_HOF.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Wang_Yaowu_HOF"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Wang_Yaowu_HOF.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Weng_Wenhao"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Weng_Wenhao.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Xue_Yue_HOF"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Xue_Yue_HOF.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Ying_Zheng"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Ying_Zheng.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Yu_Miaoyi"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Yu_Miaoyi.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Yu_Miaoyi_New"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Yu_Miaoyi_New.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Yu_Miaoyi_Political"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Yu_Miaoyi_Political.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Zhang_Lan"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zhang_Lan.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Zhang_Lingfu"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zhang_Lingfu.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Zhang_Zhizhong"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zhang_Zhizhong.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_CHI_Zheng_Chenggong"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_Zheng_Chenggong.png"
+	}
+}

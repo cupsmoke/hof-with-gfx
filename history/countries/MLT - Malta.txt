@@ -1,71 +1,66 @@
 ﻿capital = 164
-
 #oob = ""
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
 set_convoys = 150
-
 add_political_power = 200
-
 set_technology = {
-  support_weapons = 1
-  superior_firepower = 1
+	support_weapons = 1
+	superior_firepower = 1
 	marines = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-  interwar_antitank = 1
-  tech_maintenance_company = 1
+	interwar_antitank = 1
+	tech_maintenance_company = 1
 	tech_recon = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
-  tech_field_hospital = 1
-  # basic_light_tank = 1
+	tech_field_hospital = 1
+	# basic_light_tank = 1
 	# CAS1 = 1
-  motorised_infantry = 1
+	motorised_infantry = 1
 	# early_fighter = 1
 	# naval_bomber1 = 1
 	# cv_# naval_bomber1 = 1
 	# early_bomber = 1 
-  rocket_artillery = 1
-  
-  fuel_refining = 1
+	rocket_artillery = 1
+	fuel_refining = 1
 	# early_bomber = 1
-  tactical_bomber1 = 1
-  # improved_light_tank = 1 
+	tactical_bomber1 = 1
+	# improved_light_tank = 1 
 	# basic_heavy_tank = 1
-
-  #doctrines
-  force_rotation = 1
-  fighter_baiting = 1
-  low_echelon_support = 1
-  grand_battle_plan = 1
-  trench_warfare = 1
-
-  #electronics
-  electronic_mechanical_engineering = 1
-  radio = 1
-  radio_detection = 1
-  mechanical_computing = 1
-  computing_machine = 1
-
-  #industry
-  basic_machine_tools = 1
-  improved_machine_tools = 1
-  fuel_silos = 1
-  construction1 = 1
-  construction2 = 1
-  dispersed_industry = 1
-  dispersed_industry2 = 1
+	#doctrines
+	force_rotation = 1
+	fighter_baiting = 1
+	low_echelon_support = 1
+	grand_battle_plan = 1
+	trench_warfare = 1
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	fuel_silos = 1
+	construction1 = 1
+	construction2 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
 }
+
 if = {
 	limit = {
-		not = { has_dlc = "Man the Guns" }
+		not = {
+			has_dlc = "Man the Guns"
+		}
 	}
 	set_technology = {
 		early_submarine = 1
@@ -79,6 +74,7 @@ if = {
 		transport = 1
 	}
 }
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -115,45 +111,29 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
 	democratic = 74
 	fascism = 8
 	communism = 1
-	neutrality = 27
+	neutrality = 17
 }
 
 add_offsite_building = {
-  type = industrial_complex
-  level = 1
+	type = industrial_complex
+	level = 1
 }
+
 add_offsite_building = {
-  type = arms_factory
-  level = 1
+	type = arms_factory
+	level = 1
 }
 
 add_research_slot = 2
 add_manpower = 70000
 give_military_access = ISR
-
 recruit_character = MLT_amiya
 recruit_character = MLT_enrico_mizzi
 recruit_character = MLT_gerald_strickland
 recruit_character = MLT_paul_boffa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# 

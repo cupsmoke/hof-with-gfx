@@ -4,7 +4,7 @@ characters = {
 		name = "Ji Diao"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/GDC/Portrait_Kitcho_Yachie.dds"
+				large = GFX_Portrait_GDC_Kitcho_Yachie
 			}
 			army = {
 				small = "GFX_idea_advisor_unknown"
@@ -13,12 +13,10 @@ characters = {
 
 		country_leader = {
 			ideology = conservatism
-			expire = "1953.3.1.1"
 
 		}
 		country_leader = {
 			ideology = stratocracy
-			expire = "1953.3.1.1"
 
 		}
 		corps_commander = {

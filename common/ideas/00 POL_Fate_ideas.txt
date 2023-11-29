@@ -129,7 +129,7 @@ ideas = {
 			}
 			modifier = {
 				political_power_cost = -0.15
-				stability = -0.085
+				stability_factor = -0.085
 				consumer_goods_factor = 0.01
 			}
 		}
@@ -384,9 +384,6 @@ ideas = {
 				consumer_goods_factor = -0.02
 				neutrality_drift = 0.02
 			}
-			research_bonus = {
-				#land_doctrine = 0.05
-			}
 		}
 		POL_Adeptus_Sprawiedliwi_dem = {
 			#### 需要图标 √
@@ -407,9 +404,6 @@ ideas = {
 				consumer_goods_factor = -0.02
 				democratic_drift = 0.015
 			}
-			research_bonus = {
-				#land_doctrine = 0.05
-			}
 		}
 		POL_Glory_of_Kazimierz = {
 			allowed = {
@@ -429,9 +423,6 @@ ideas = {
 				motorized_defence_factor = 0.1
 				land_doctrine_cost_factor = -0.1
 			}
-			research_bonus = {
-				#land_doctrine = 0.05
-			}
 		}
 		POL_Eastern_Buffer = {
 			allowed = {
@@ -448,9 +439,6 @@ ideas = {
 				production_speed_bunker_factor = 0.2
 				production_speed_air_base_factor = 0.2
 				production_speed_anti_air_building_factor = 0.2
-			}
-			research_bonus = {
-				#land_doctrine = 0.05
 			}
 		}
 		POL_firewatch = {
@@ -583,9 +571,7 @@ ideas = {
 				army_armor_attack_factor = 0.1
 				land_doctrine_cost_factor = -0.1
 			}
-			research_bonus = {
-				#land_doctrine = 0.10
-			}
+
 		}
 		GER_german_poland_cooperation_idea = {
 			available = {
@@ -606,9 +592,6 @@ ideas = {
 				experience_gain_army = 0.03
 				army_defence_factor = 0.03
 				land_doctrine_cost_factor = -0.1
-			}
-			research_bonus = {
-				#land_doctrine = 0.10
 			}
 		}
 		POL_Catholic_mobilization_idea = {
@@ -646,9 +629,6 @@ ideas = {
 				industrial_capacity_dockyard = 0.1
 				naval_doctrine_cost_factor = -0.1
 			}
-			research_bonus = {
-				#naval_doctrine = 0.10
-			}
 		}
 		POL_french_poland_cooperation_idea = {
 			available = {
@@ -671,9 +651,6 @@ ideas = {
 				army_infantry_defence_factor = 0.05
 				land_doctrine_cost_factor = -0.1
 			}
-			research_bonus = {
-				#land_doctrine = 0.10
-			}
 		}
 		FRA_french_poland_cooperation_Kaminsky_idea = {
 			available = {
@@ -695,9 +672,6 @@ ideas = {
 				army_attack_factor = 0.03
 				land_doctrine_cost_factor = -0.1
 			}
-			research_bonus = {
-				#land_doctrine = 0.10
-			}
 		}
 		FRA_french_poland_cooperation_smigly_idea = {
 			available = {
@@ -718,9 +692,6 @@ ideas = {
 				experience_gain_army = 0.03
 				army_defence_factor = 0.03
 				land_doctrine_cost_factor = -0.1
-			}
-			research_bonus = {
-				#land_doctrine = 0.10
 			}
 		}
 		POL_french_Investment = {
@@ -802,9 +773,7 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = pol_cud_nad_wisla
-			research_bonus = {
-				#land_doctrine = -0.50
-			}
+
 			targeted_modifier = {
 				tag = SOV
 				attack_bonus_against = 0.1
@@ -2989,7 +2958,7 @@ ideas = {
 		designer = yes
 		POL_fb = {
 			allowed = {
-				has_dlc = "Poland: United and Ready"
+				
 				original_TAG = POL
 			}
 			picture = generic_infantry_equipment_manufacturer_2
@@ -3004,7 +2973,7 @@ ideas = {
 		}
 		POL_lrl = {
 			allowed = {
-				has_dlc = "Poland: United and Ready"
+				
 				original_TAG = POL
 			}
 			picture = generic_motorized_equipment_manufacturer_3
@@ -3019,7 +2988,7 @@ ideas = {
 		}
 		POL_smpa = {
 			allowed = {
-				has_dlc = "Poland: United and Ready"
+				
 				original_TAG = POL
 			}
 			picture = generic_artillery_manufacturer_1
@@ -3092,7 +3061,7 @@ ideas = {
 		}
 		POL_somua = {
 			allowed = {
-				has_dlc = "Poland: United and Ready"
+				
 				original_TAG = POL
 			}
 			visible = {
@@ -3122,7 +3091,7 @@ ideas = {
 		}
 		POL_ford_free = {
 			allowed = {
-				has_dlc = "Poland: United and Ready"
+				
 				original_TAG = POL
 			}
 			visible = {
@@ -3147,7 +3116,7 @@ ideas = {
 		}
 		POL_vauxhall_free = {
 			allowed = {
-				has_dlc = "Poland: United and Ready"
+				
 				original_TAG = POL
 			}
 			visible = {
@@ -3172,7 +3141,7 @@ ideas = {
 		}
 		POL_somua_free = {
 			allowed = {
-				has_dlc = "Poland: United and Ready"
+				
 				original_TAG = POL
 			}
 			visible = {
@@ -3200,7 +3169,7 @@ ideas = {
 		POL_pzinz = {
 			allowed = {
 				original_tag = POL
-				has_dlc = "Poland: United and Ready"
+				
 			}
 			research_bonus = {
 				armor = 0.15
@@ -3219,7 +3188,7 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 			allowed = {
 				original_tag = POL
-				has_dlc = "Poland: United and Ready"
+				
 			}
 			research_bonus = {
 				naval_equipment = 0.15
@@ -3240,7 +3209,7 @@ ideas = {
 			picture = generic_air_manufacturer_1
 			allowed = {
 				original_tag = POL
-				has_dlc = "Poland: United and Ready"
+				
 			}
 			research_bonus = {
 				air_equipment = 0.15
@@ -3259,7 +3228,7 @@ ideas = {
 			picture = generic_air_manufacturer_2
 			allowed = {
 				original_tag = POL
-				has_dlc = "Poland: United and Ready"
+				
 			}
 			research_bonus = {
 				air_equipment = 0.15
@@ -3279,7 +3248,6 @@ ideas = {
 		POL_pkp = {
 			allowed = {
 				original_tag = POL
-				has_dlc = "Poland: United and Ready"
 			}
 			picture = generic_industrial_concern_1
 			research_bonus = {
@@ -3294,7 +3262,6 @@ ideas = {
 		POL_ava = {
 			allowed = {
 				original_tag = POL
-				has_dlc = "Poland: United and Ready"
 			}
 			picture = generic_industrial_concern_2
 			research_bonus = {

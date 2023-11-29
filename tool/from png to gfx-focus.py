@@ -56,7 +56,6 @@ def outpuShineGfx(text):
         txtfile.write('\t\t\tanimationrotation = -90.0\n')
         txtfile.write('\t\t\tanimationlooping = no\n')
         txtfile.write('\t\t\tanimationtime = 0.75\n')
-        txtfile.write('\t\t\tanimationlooping = no\n')
         txtfile.write('\t\t\tanimationdelay = 0\n')
         txtfile.write('\t\t\tanimationblendmode = \"add\"\n')
         txtfile.write('\t\t\tanimationtype = \"scrolling\"\n')
@@ -70,7 +69,6 @@ def outpuShineGfx(text):
         txtfile.write('\t\t\tanimationrotation = 90.0\n')
         txtfile.write('\t\t\tanimationlooping = no\n')
         txtfile.write('\t\t\tanimationtime = 0.75\n')
-        txtfile.write('\t\t\tanimationlooping = no\n')
         txtfile.write('\t\t\tanimationdelay = 0\n')
         txtfile.write('\t\t\tanimationblendmode = \"add\"\n')
         txtfile.write('\t\t\tanimationtype = \"scrolling\"\n')
@@ -86,7 +84,8 @@ def outpuShineGfx(text):
     print(TAG,"shine.gfx已输出")
 
 
-pngpathfirst = '..\gfx\interface\goals\\'
+pngpathfirst = '../gfx/interface/goals/'
+pngpathtest = 'gfx/interface/goals/'
 taglist = getDir(pngpathfirst)
 print('将生成以下tag国策的gfx文件')
 print(taglist)
@@ -95,13 +94,28 @@ interfacePath = '..\interface\goals\\'
 if not os.path.exists(interfacePath):
     os.makedirs(interfacePath)
     print('1')
+
+testfile = open(interfacePath +'_goal.gfx', 'w',encoding='UTF-8')
+testfile.write('####测试用\n')
+testfile.write('spriteTypes = {\n')
+
 for TAG in taglist:
     pngpath = pngpathfirst + TAG
+    pngpath2 = pngpathtest + TAG
     pnglist = getPngName(pngpath)
-
+    for txt in pnglist:
+        txt = re.sub('.png','',txt).strip()
+        pngfullname = '\t\ttexturefile = \"'+pngpath2+'/'+txt+'.png\"\n'
+        pngfullgfxname = '\t\tname = \"GFX_'+txt + '\"\n'
+        testfile.write('\tSpriteType = {\n')
+        testfile.write(pngfullgfxname)
+        testfile.write(pngfullname)
+        testfile.write('\t}\n')
     outpuGfx(pnglist)
     outpuShineGfx(pnglist)
     print(TAG, '共有', len(pnglist), '个图标')
+testfile.write('}\n')
+testfile.close()
 # for a in alist:
 #     taglist = getPngName(pngpath)
 #     outpuGfx(taglist)

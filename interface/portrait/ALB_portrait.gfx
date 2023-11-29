@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_Portrait_ALB_Enver_Hoxha"
+		texturefile = "gfx/leaders/ALB/Portrait_ALB_Enver_Hoxha.png"
+	}
+}

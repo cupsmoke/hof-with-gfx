@@ -4607,16 +4607,6 @@ country_event = {
 			}
 			set_nationality = GER
 		}
-		create_country_leader = {
-			name = "Brynhildr"
-			desc = "POLITICS_BRYNHILDR_DESC"
-			picture = "Portrait_Brynhildr.dds"
-			expire = "1965.1.1"
-			ideology = valkist
-			traits = {
-				Brynhildr_Romantia
-			}
-		}
 	}
 }
 
@@ -4662,16 +4652,6 @@ country_event = {
 			}
 			set_nationality = GER
 		}
-		create_country_leader = {
-			name = "Sigurd"
-			desc = "POLITICS_SIGURD_DESC"
-			picture = "Portrait_Sigurd.dds"
-			expire = "1965.1.1"
-			ideology = valkist
-			traits = {
-				Bolverk_Gram
-			}
-		}
 	}
 }
 
@@ -4690,7 +4670,7 @@ country_event = {
 		create_country_leader = {
 			name = "Albert Speer"
 			desc = ""
-			picture = "Portrait_Albert_Speer.dds"
+			picture = "Portrait_Germany_Albert_Speer_2.png"
 			expire = "1965.1.1"
 			ideology = valkist
 			traits = {
