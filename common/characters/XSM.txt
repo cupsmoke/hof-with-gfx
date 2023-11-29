@@ -3,7 +3,7 @@ characters = {
 		name = "Bai Ze"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/XSM/Portrait_Bai_Ze.dds"
+				large = "gfx/leaders/XSM/Portrait_XSM_Bai_Ze.png"
 			}
 			army = {
 				small = "GFX_idea_advisor_unknown"
@@ -11,13 +11,9 @@ characters = {
 		}
 		country_leader = {
 			ideology = authoritarian_democracy
-			expire = "1965.1.1.1"
-			id = -1
 		}
 		country_leader = {
 			ideology = liberalism
-			expire = "1965.1.1.1"
-			id = -1
 		}
 		corps_commander = {
 			traits = {

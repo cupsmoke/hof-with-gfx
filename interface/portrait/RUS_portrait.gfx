@@ -8,10 +8,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RUS/Portrait_Alexandra_Nikonova.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_Anastasia"
-		texturefile = "gfx/leaders/RUS/Portrait_Anastasia.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_Anastasy_Vonsiatsky"
 		texturefile = "gfx/leaders/RUS/Portrait_Anastasy_Vonsiatsky.png"
 	}
@@ -54,6 +50,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_Russia_Boris_Annenkov"
 		texturefile = "gfx/leaders/RUS/Portrait_Russia_Boris_Annenkov.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_RUS_Anastasia"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Anastasia.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_RUS_Anton_Turkul"

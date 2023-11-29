@@ -71,7 +71,7 @@ characters={
 		name="Gelda"
 		portraits={
 			civilian={
-				large="gfx/leaders/NOR/Portrait_Gelda.dds"
+				large="gfx/leaders/NOR/Portrait_NOR_Gelda.png"
 			}
 		}
 		country_leader={

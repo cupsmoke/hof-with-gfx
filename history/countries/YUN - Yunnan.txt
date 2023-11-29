@@ -1,6 +1,5 @@
 ﻿capital = 325
 oob = "YUN_1936"
-
 set_technology = {
 	infantry_weapons = 1
 }
@@ -17,23 +16,24 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	fascism = 20
 	neutrality = 70
-  democratic = 9
-  communism = 1
+	democratic = 9
+	communism = 1
 }
 
 add_ideas = {
 	CHI_warlord_idea
 	CHI_army_corruption_2
-    CHI_incompetent_officers
+	CHI_incompetent_officers
 }
 
 create_country_leader = {
 	name = "Qin Liangyu"
 	desc = "POLITICS_QIN_LIANGYU_DESC"
-	picture = "Portrait_Qin_Liangyu.dds"
+	picture = "Portrait_YUN_Qin_Liangyu.png"
 	expire = "1965.1.1"
 	ideology = authoritarian_democracy
 	traits = {
@@ -44,7 +44,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Qin Liangyu"
 	desc = "POLITICS_QIN_LIANGYU_DESC"
-	picture = "Portrait_Qin_Liangyu.dds"
+	picture = "Portrait_YUN_Qin_Liangyu.png"
 	expire = "1965.1.1"
 	ideology = valkist
 	traits = {
@@ -55,7 +55,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Qin Liangyu"
 	desc = "POLITICS_QIN_LIANGYU_DESC"
-	picture = "Portrait_Qin_Liangyu.dds"
+	picture = "Portrait_YUN_Qin_Liangyu.png"
 	expire = "1965.1.1"
 	ideology = democratic_socialist
 	traits = {
@@ -66,7 +66,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Qin Liangyu"
 	desc = "POLITICS_QIN_LIANGYU_DESC"
-	picture = "Portrait_Qin_Liangyu.dds"
+	picture = "Portrait_YUN_Qin_Liangyu.png"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -76,7 +76,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Qin Liangyu"
-	picture = "Portrait_Qin_Liangyu.dds"
+	picture = "Portrait_YUN_Qin_Liangyu.png"
 	traits = {
 		war_hero
 		cavalry_officer
@@ -88,13 +88,13 @@ create_field_marshal = {
 	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 2
-
 }
 
 create_corps_commander = {
 	name = "Lu Han"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
-	traits = { }
+	traits = {
+	}
 	skill = 3
 	attack_skill = 4
 	defense_skill = 2
@@ -105,7 +105,8 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Long Yun"
 	gfx = "GFX_portrait_yun_long_yun"
-	traits = { }
+	traits = {
+	}
 	skill = 3
 	attack_skill = 4
 	defense_skill = 2

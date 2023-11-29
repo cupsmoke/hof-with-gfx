@@ -271,11 +271,11 @@ characters={
 		name=SOV_mikhail_tukhachevsky
 		portraits={
 			civilian = {
-				large = "gfx/leaders/SOV/Portraits_Soviet_Mikhail_Tukhachevsky_2.dds"
+				large = "gfx/leaders/SOV/Portrait_SOV_Mikhail_Tukhachevsky.png"
 			}
 			army = {
 				small = "GFX_idea_mikhail_tukhachevsky"
-				large = "gfx/leaders/SOV/Portrait_Soviet_Mikhail_Tukhachevsky_2.png"
+				large = "gfx/leaders/SOV/Portrait_SOV_Mikhail_Tukhachevsky.png"
 			}
 		}
 		field_marshal={
@@ -1969,7 +1969,7 @@ characters={
 		name = SOV_nikola_bukharin
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Nikolai_Bukharin_2.dds"
+				large = "gfx/leaders/SOV/Portrait_SOV_Nikolai_Bukharin.png"
 			}
 			army={
 				small="GFX_idea_sov_nikola_bukharin"

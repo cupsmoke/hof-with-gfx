@@ -1,7 +1,7 @@
 spriteTypes = {
 	SpriteType = {
-		name = "GFX_Matthes"
-		texturefile = "gfx/leaders/RHI/Matthes.png"
+		name = "GFX_Portrait_RHI_Albert_Leo_Schlageter"
+		texturefile = "gfx/leaders/RHI/Portrait_RHI_Albert_Leo_Schlageter.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_RHI_Alphonse_Juin"
@@ -12,8 +12,20 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RHI/Portrait_RHI_Arcueid_Brunestud.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_RHI_Astolfo"
+		texturefile = "gfx/leaders/RHI/Portrait_RHI_Astolfo.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_RHI_Elfzehn_Gewher"
 		texturefile = "gfx/leaders/RHI/Portrait_RHI_Elfzehn_Gewher.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_RHI_FAUD"
+		texturefile = "gfx/leaders/RHI/Portrait_RHI_FAUD.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_RHI_Franz_Josef_Roder"
+		texturefile = "gfx/leaders/RHI/Portrait_RHI_Franz_Josef_Roder.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_RHI_Funfundvierzig_Reina"
@@ -40,8 +52,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RHI/Portrait_RHI_Marie_Pierre_Koenig.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_RHI_Matthes"
+		texturefile = "gfx/leaders/RHI/Portrait_RHI_Matthes.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_RHI_Neun_Layia"
 		texturefile = "gfx/leaders/RHI/Portrait_RHI_Neun_Layia.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_RHI_Otto_Ernst_Remer"
+		texturefile = "gfx/leaders/RHI/Portrait_RHI_Otto_Ernst_Remer.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_RHI_Otto_Wels"

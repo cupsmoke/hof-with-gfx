@@ -12,7 +12,7 @@ characters = {
 		name = SOV_lev_trotsky
 		portraits={
 			civilian = {
-				large = "gfx/leaders/SOV/Portrait_Soviet_Leon_Thotsky_2.png"
+				large = "gfx/leaders/SOV/Portrait_SOV_Leon_Thotsky.png"
 			}
 			army={
 				large= "gfx/leaders/SOV/Portrait_Soviet_Leon_Thotsky_army.png"
@@ -23,7 +23,7 @@ characters = {
 		name = "Enver Passha"
 		portraits={
 			civilian = {
-				large = "gfx/leaders/TMS/Portrait_Enver_Passha.dds"
+				large = "gfx/leaders/TMS/Portrait_Enver_Passha.png"
 			}
 		}
 	}

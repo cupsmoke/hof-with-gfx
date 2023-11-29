@@ -41,12 +41,30 @@ characters={
 		name="Xuanzang Sanzang"
 		portraits={
 			civilian={
-				large="gfx/leaders/SIK/Portrait_Xuanzang_Sanzang.dds"
+				large="gfx/leaders/SIK/Portrait_SIK_Xuanzang_Sanzang.png"
 			}
 		}
 		country_leader={
 			desc="POLITICS_SAN_ZANG_DESC"
 			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_SAN_ZANG_DESC"
+			ideology=syndicalist
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_SAN_ZANG_DESC"
+			ideology=religious_fascism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_SAN_ZANG_DESC"
+			ideology=stratocracy
 			expire="1965.1.1.1"
 			id=-1
 		}
