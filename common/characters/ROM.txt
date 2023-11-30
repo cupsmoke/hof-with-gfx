@@ -241,7 +241,7 @@ characters={
 			legacy_id=5610
 		}
 		country_leader={
-			desc="POLITICS_DARNIC_DESC"
+			# desc="POLITICS_DARNIC_DESC"
 			ideology=conservatism
 			traits={ Realpolitik }
 			expire="1965.1.1.1"

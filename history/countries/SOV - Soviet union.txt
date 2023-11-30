@@ -25,26 +25,19 @@ set_technology = {
 	tech_maintenance_company = 1
 	tech_signal_company = 1
 	tech_mountaineers = 1
+	tech_trucks = 1
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
-	# gwtank = 1
-	# basic_light_tank = 1  # PLACEHOLDER
-	# basic_heavy_tank = 1  # PLACEHOLDER
-	## basic_medium_tank = 1 # PLACEHOLDER
-	# early_fighter = 1
-	fighter1 = 1
-	# early_bomber = 1
-	strategic_bomber1 = 1
-	# naval_bomber1 = 1
 	mass_assault = 1
 	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	armored_car1 = 1
 	basic_train = 1
+
 	masterful_deep_battle = 1
 }
 
@@ -103,12 +96,12 @@ if = {
 		early_ship_hull_submarine = 1
 		basic_ship_hull_submarine = 1
 		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		basic_battery = 1
 		basic_light_battery = 1
 		basic_torpedo = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1
 		mtg_transport = 1
 	}
 }
@@ -195,11 +188,11 @@ add_ideas = {
 	nkvd
 }
 
-add_namespace = {
-	name = "unit_leader_sov"
-	type = unit_leader
-}
-
+# add_namespace = {
+# 	name = "unit_leader_sov"
+# 	type = unit_leader
+# }
+recruit_character = SOV_joseph_dzhugashvili
 recruit_character = SOV_georgy_zhukov
 recruit_character = SOV_konstantin_rokossovsky
 recruit_character = SOV_aleksandr_vasilevsky
@@ -238,8 +231,6 @@ recruit_character = SOV_katyusha
 recruit_character = SOV_sovetskaya_rossiya
 recruit_character = SOV_cryska_barchenowa
 recruit_character = SOV_Skyph_Izhevska
-recruit_character = SOV_joseph_dzhugashvili
-recruit_character = SOV_konstantin_rodzaevsky
 recruit_character = SOV_alexander_fyodorovich_kerensky
 recruit_character = SOV_nikolay_ustryalov
 recruit_character = SOV_aleksandr_kazembek
@@ -258,7 +249,6 @@ recruit_character = SOV_vasily_chuikov
 recruit_character = SOV_filipp_oktyabrskiy
 recruit_character = SOV_arseniy_golovko
 recruit_character = SOV_vasily_chapayeva
-recruit_character = SOV_nikolay_aliyarbekov
 ##
 recruit_character = SOV_alexander_shliapnikov
 recruit_character = SOV_nikolay_krestinsky

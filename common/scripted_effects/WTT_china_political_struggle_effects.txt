@@ -124,12 +124,6 @@ WTT_save_country_as_event_target = {
 	}
 	else_if = {
 		limit = {
-			original_tag = PRC
-		}
-		save_global_event_target_as = scope_PRC
-	}
-	else_if = {
-		limit = {
 			original_tag = GXC
 		}
 		save_global_event_target_as = scope_GXC
@@ -166,12 +160,6 @@ WTT_clear_country_event_target = {
 			original_tag = CHI
 		}
 		clear_global_event_target = scope_CHI
-	}
-	else_if = {
-		limit = {
-			original_tag = PRC
-		}
-		clear_global_event_target = scope_PRC
 	}
 	else_if = {
 		limit = {

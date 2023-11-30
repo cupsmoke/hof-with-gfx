@@ -1,13 +1,48 @@
 characters={
-	YUN_long_yun={
-		name=YUN_long_yun
-		portraits={
-			civilian={
-				large="GFX_portrait_yun_long_yun"
+	YUN_qin_liangyu = {
+		name = YUN_qin_liangyu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_YUN_Qin_Liangyu
+				small = "GFX_idea_advisor_unknow_mil"
 			}
 			army = {
-				small=GFX_portrait_YUN_long_yun_small
-				large="GFX_portrait_yun_long_yun"
+				large = GFX_Portrait_YUN_Qin_Liangyu
+				small = "GFX_idea_advisor_unknow_mil"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+		}
+		country_leader = {
+			ideology = valkist
+		}
+		country_leader = {
+			ideology = democratic_socialist
+		}
+		country_leader = {
+			ideology = socialism
+		}
+		field_marshal = {
+			traits = {
+				war_hero
+				cavalry_officer
+				inspirational_leader
+				offensive_doctrine
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	YUN_long_yun={
+		name=YUN_long_yun
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_YUN_Longyun
+				small = GFX_idea_yun_longyun
 			}
 		}
 		country_leader={
@@ -22,7 +57,7 @@ characters={
 		portraits={
 			army={
 				small=GFX_portrait_YUN_lu_han_small
-				large=GFX_portrait_YUN_lu_han
+				large=GFX_Portrait_YUN_Lu_Han
 			}
 		}
 		advisor={
@@ -49,7 +84,22 @@ characters={
 			legacy_id=-1
 		}
 	}
-
+	YUN_fan_shisheng = {
+		name = YUN_fan_shisheng
+		portraits = {
+			army = {
+				large = GFX_Portrait_YUN_Fan_Shisheng
+				small = GFX_idea_advisor_unknow_mil
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+		}
+	}
 	YUN_mao_dong={
 		name=YUN_mao_dong
 		portraits={

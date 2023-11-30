@@ -26,22 +26,11 @@ set_popularities = {
 }
 
 recruit_character = GDC_ji_diao
+recruit_character = GXC_chen_jitang
 add_ideas = {
 	CHI_warlord_idea
 	CHI_army_corruption_2
 	CHI_incompetent_officers
-}
-
-create_corps_commander = {
-	name = "Chen Jitang"
-	portrait_path = "gfx/leaders/GDC/Portrait_GDC_Chen_Jitang.png"
-	traits = {
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
 }
 
 # 

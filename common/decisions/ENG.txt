@@ -2687,7 +2687,7 @@ ENG_appeal_to_imperial_loyalists = {
 							tree = new_zealander_focus
 							keep_completed = yes
 						}
-						NZL_enforce_loyalty = yes
+						# NZL_enforce_loyalty = yes
 					}
 				}
 				hidden_effect = {
@@ -5369,7 +5369,7 @@ ENG_move_to_secure_the_dominions = {
 					idea = fascist_influence
 					days = 730
 				}
-				NZL_enforce_loyalty = yes
+				# NZL_enforce_loyalty = yes
 				country_event = {
 					id = mtg_britain.65
 				}
@@ -5461,7 +5461,7 @@ ENG_move_to_secure_the_dominions = {
 				hidden_effect = {
 					set_country_flag = ENG_remain_as_puppet
 				}
-				NZL_enforce_loyalty = yes
+				# NZL_enforce_loyalty = yes
 				country_event = {
 					id = mtg_britain.65
 				}

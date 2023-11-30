@@ -222,8 +222,8 @@ units = {
 		location = 10433
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_chassis_0 = { owner = "MAN" creator = "JAP" amount = 120 version_name = "Type 94 Tankette"} }
-		force_equipment_variants = { medium_tank_chassis_0 = { owner = "MAN" creator = "JAP" amount = 120 version_name = "Type 89 I-Go"} }
+		force_equipment_variants = { light_tank_chassis_0 = { owner = "MAN" creator = "JAP"  version_name = "Type 94 Tankette"} }
+		force_equipment_variants = { medium_tank_chassis_0 = { owner = "MAN" creator = "JAP"  version_name = "Type 89 I-Go"} }
 	}
 
 	division = { # "2 Dokuritsu Konsei Ryodan"
@@ -234,8 +234,8 @@ units = {
 		location = 10433
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_chassis_0 = { owner = "MAN" creator = "JAP" amount = 120 version_name = "Type 94 Tankette"} }
-		force_equipment_variants = { medium_tank_chassis_0 = { owner = "MAN" creator = "JAP" amount = 120 version_name = "Type 89 I-Go"} }
+		force_equipment_variants = { light_tank_chassis_0 = { owner = "MAN" creator = "JAP"  version_name = "Type 94 Tankette"} }
+		force_equipment_variants = { medium_tank_chassis_0 = { owner = "MAN" creator = "JAP"  version_name = "Type 89 I-Go"} }
 	}
 
 }

@@ -79,7 +79,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Pauline Bonaparte"
 	desc = ""
-	picture = "Pauline_Bonaparte.dds"
+	picture = "Portrait_Pauline_Bonaparte.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -88,7 +88,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Pepperoni"
-	picture = "Portrait_Pepperoni.dds"
+	picture = "Portrait_Pauline_Bonaparte.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -97,7 +97,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Alceste de Ambris"
-	picture = "Portrait_NPL_Alceste_de_Ambris.png"
+	picture = "gfx/leaders/NPL/Portrait_NPL_Alceste_de_Ambris.png"
 	expire = "1965.1.1"
 	ideology = syndicalist
 	traits = {

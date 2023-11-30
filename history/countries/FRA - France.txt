@@ -127,16 +127,13 @@ if = {
 		basic_heavy_battery = 1
 		basic_torpedo = 1
 		basic_depth_charges = 1
-		Jean_light_secondary_battery = 1
-		Dunkerque_class_battery = 1
-		37_semi_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 		sonar = 1
 		smoke_generator = 1
-		Dunkerque_secondary_battery = 1
-		Strasbourg_armor = 1
+		basic_dp_light_battery = 1
+		cruiser_submarines = 1
 	}
 
 }

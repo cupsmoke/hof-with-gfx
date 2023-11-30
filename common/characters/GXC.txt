@@ -1,4 +1,50 @@
 characters={
+
+	GXC_chen_huijie = {
+		name = CHI_chen_huijie
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GXC_Chen_Huijie
+				small = "GFX_idea_advisor_unknow_mil"
+			}
+		}
+		country_leader = {
+			ideology = totalist
+			traits = {
+				cornered_fox
+			}
+		}
+		country_leader = {
+			ideology = valkist
+			traits = {
+				cornered_fox
+			}
+		}
+		country_leader = {
+			ideology = stratocracy
+			traits = {
+				cornered_fox
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {
+				cornered_fox
+			}
+		}
+		field_marshal = {
+			traits = {
+				career_officer
+				trait_reckless
+				offensive_doctrine
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
 	GXC_li_zongren={
 		name=GXC_li_zongren
 		portraits={
@@ -28,38 +74,7 @@ characters={
 		}
 	}
 
-	GXC_chen_jitang={
-		name=GXC_chen_jitang
-		portraits={
-			army={
-				large=GFX_portrait_GXC_chen_jitang
-				small=GFX_portrait_GXC_chen_jitang_small
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = GXC_chen_jitang
-			allowed = {
-				original_tag = GXC
-			}
-			traits = {
-				army_chief_defensive_2
-			}
-				cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		
-		corps_commander={
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
+
 
 	GXC_liu_peng={
 		name=GXC_liu_peng

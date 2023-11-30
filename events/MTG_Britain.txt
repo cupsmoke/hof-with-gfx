@@ -807,12 +807,12 @@ country_event = {
 				}
 				AST_enforce_loyalty = yes
 			}
-			if = {
-				limit = {
-					tag = NZL
-				}
-				NZL_enforce_loyalty = yes
-			}
+			# if = {
+			# 	limit = {
+			# 		tag = NZL
+			# 	}
+			# 	NZL_enforce_loyalty = yes
+			# }
 		}
 	}
 }
@@ -7372,15 +7372,15 @@ country_event = {
 					AST_enforce_loyalty = yes
 				}
 			}
-			if = {
-				limit = {
-					FROM = { original_tag = NZL }
-				}
-				FROM = {
-					load_focus_tree = { tree = new_zealander_focus keep_completed = yes }
-					NZL_enforce_loyalty = yes
-				}
-			}
+			# if = {
+			# 	limit = {
+			# 		FROM = { original_tag = NZL }
+			# 	}
+			# 	FROM = {
+			# 		load_focus_tree = { tree = new_zealander_focus keep_completed = yes }
+			# 		NZL_enforce_loyalty = yes
+			# 	}
+			# }
 		}
 	}
 }

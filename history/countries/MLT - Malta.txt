@@ -1,4 +1,4 @@
-﻿capital = 164
+﻿capital = 116
 #oob = ""
 # Starting tech
 set_technology = {

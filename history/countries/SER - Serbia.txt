@@ -1,4 +1,4 @@
-﻿capital = 107
+﻿capital = 108
 
 oob = "SER_1936"
 

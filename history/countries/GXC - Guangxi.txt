@@ -35,52 +35,8 @@ add_ideas = {
 	CHI_army_corruption_2
     CHI_incompetent_officers
 }
-
-create_country_leader = {
-	name = "Chen Huijie"
-	desc = "POLITICS_CHEN_DESC"
-	picture = "Portrait_GXC_Chen_Huijie.png"
-	expire = "1965.1.1"
-	ideology = stratocracy
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chen Huijie"
-	desc = "POLITICS_CHEN_DESC"
-	picture = "Portrait_GXC_Chen_Huijie.png"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chen Huijie"
-	desc = "POLITICS_CHEN_DESC"
-	picture = "Portrait_GXC_Chen_Huijie.png"
-	expire = "1965.1.1"
-	ideology = totalist
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Chen Huijie"
-	desc = "POLITICS_CHEN_DESC"
-	picture = "Portrait_GXC_Chen_Huijie.png"
-	expire = "1965.1.1"
-	ideology = valkist
-	traits = {
-		#
-	}
-}
-
-
+recruit_character = GXC_chen_huijie
+recruit_character = GXC_li_zongren
 
 
 create_corps_commander = {
@@ -93,3 +49,4 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 2
 }
+# 

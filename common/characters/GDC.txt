@@ -30,3 +30,40 @@ characters = {
 	}
 
 }
+characters = {
+	GXC_chen_jitang={
+		name=GXC_chen_jitang
+		portraits={
+			army={
+				large=GFX_Portrait_GDC_Chen_Jitang
+				small=GFX_idea_advisor_unknown
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = GXC_chen_jitang
+			allowed = {
+				original_tag = GXC
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+
+		}
+	}
+
+
+
+}
