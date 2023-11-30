@@ -128,10 +128,10 @@ set_convoys = 200
 create_faction = chinese_united_front
 give_guarantee = GXC
 puppet = YUN
-diplomatic_relation = {
-	country = GER
-	relation = non_aggression_pact
-}
+# diplomatic_relation = {
+# 	country = GER
+# 	relation = non_aggression_pact
+# }
 
 add_opinion_modifier = {
 	target = GER
@@ -154,18 +154,15 @@ add_opinion_modifier = {
 	modifier = hostile_status
 }
 
-recruit_character = CHI_zhang_guotao
+recruit_character = CHI_Chen_Gong
 recruit_character = CHI_wang_jingwei
-recruit_character = CHI_weng_wenhao
 recruit_character = CHI_tu_yuming
 recruit_character = CHI_hsueh_yueh
 recruit_character = CHI_tai_anlan
 recruit_character = CHI_wang_yaowu
 recruit_character = CHI_sun_li_jen
 recruit_character = CHI_hu_zongnan
-recruit_character = CHI_gu_zhutong
-recruit_character = CHI_wei_lihuang
-recruit_character = CHI_fu_zuoyi
+
 recruit_character = CHI_yu_miaoyi
 recruit_character = CHI_fang_zeyi
 recruit_character = CHI_zhu_de

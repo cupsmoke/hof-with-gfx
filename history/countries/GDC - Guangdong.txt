@@ -32,4 +32,16 @@ add_ideas = {
 	CHI_incompetent_officers
 }
 
+create_corps_commander = {
+	name = "Chen Jitang"
+	portrait_path = "gfx/leaders/GDC/Portrait_GDC_Chen_Jitang.png"
+	traits = {
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
 # 

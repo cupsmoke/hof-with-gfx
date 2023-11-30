@@ -1,25 +1,28 @@
 ﻿capital = 7
-
 oob = "HOL_1936"
 if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "HOL_1936_naval_mtg"
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "HOL_1936_naval_mtg"
 	else = {
 		set_naval_oob = "HOL_1936_naval_legacy"
 	}
 }
 
 if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "HOL_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			engines_1 = 1
-			aircraft_construction = 1
-			iw_small_airframe = 1
-			iw_medium_airframe = 1
-			early_bombs = 1
-		}
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	set_air_oob = "HOL_1936_air_bba"
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+		iw_medium_airframe = 1
+		early_bombs = 1
+	}
 	else = {
 		set_air_oob = "HOL_1936_air_legacy"
 		set_technology = {
@@ -32,21 +35,20 @@ if = {
 set_research_slots = 3
 set_stability = 0.75
 set_war_support = 0
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
-    tech_signal_company = 1
-    tech_logistics_company = 1
+	tech_signal_company = 1
+	tech_logistics_company = 1
 	tech_mountaineers = 1
 	marines = 1
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-    interwar_antitank = 1
+	interwar_antitank = 1
 	# gwtank = 1
 	# basic_light_tank = 1
 	# improved_light_tank = 1
@@ -58,7 +60,6 @@ set_technology = {
 	# strategic_bomber1 = 1
 	# CAS1 = 1
 	# naval_bomber1 = 1
-	
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
@@ -71,11 +72,17 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	set_technology = { bicycle_infantry = 1 }
+	set_technology = {
+		bicycle_infantry = 1
+	}
 }
 
 if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
 	set_technology = {
 		early_submarine = 1
 		basic_destroyer = 1
@@ -86,8 +93,11 @@ if = {
 		transport = 1
 	}
 }
+
 if = {
-	limit = { has_dlc = "Man the Guns" }
+	limit = {
+		has_dlc = "Man the Guns"
+	}
 	set_technology = {
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
@@ -99,7 +109,7 @@ if = {
 		basic_battery = 1
 		basic_torpedo = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1
+		# basic_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		coastal_defense_ships = 1
 		mtg_transport = 1
@@ -116,10 +126,11 @@ if = {
 	}
 }
 
-
 # DIPLOMACY
-
-set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
+set_variable = {
+	var = gateway_to_europe_influence_pp_total
+	value = 0
+}
 
 add_ideas = {
 	HOL_Valkist_idea
@@ -140,13 +151,13 @@ if = {
 	}
 }
 
-
 set_politics = {
 	ruling_party = fascism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
 	democratic = 3
 	fascism = 94
@@ -155,9 +166,7 @@ set_popularities = {
 
 set_convoys = 150
 set_stability = 0.75
-
 #
-
 recruit_character = HOL_hendrikus_colijn
 recruit_character = HOL_lou_de_visser
 recruit_character = HOL_willem_schermerhorn
@@ -183,20 +192,17 @@ recruit_character = HOL_jacob_adriaan_de_wilde
 recruit_character = HOL_anton_de_kom
 recruit_character = HOL_jan_goudriaan
 recruit_character = HOL_adriaan_dijxhoorn
-
 recruit_character = HOL_cornelis_van_geelkerken
 recruit_character = HOL_meinout_rost_van_tonningen
-recruit_character = HOL_dirk_jan_de_geer
-recruit_character = HOL_pieter_sjoerds_gerbrandy
-recruit_character = HOL_wilhelmina
-
 recruit_character = HOL_mata_hari
-
-
 ### VARIANTS ###
 # 1936 Start #
 if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "K-XIV Class"
@@ -209,10 +215,14 @@ if = {
 		}
 	}
 }
+
 if = {
-	limit = { has_dlc = "Man the Guns" }
+	limit = {
+		has_dlc = "Man the Guns"
+	}
 	# Submarines #
-	create_equipment_variant = {			# represents K II-X, O8 subs
+	create_equipment_variant = {
+		# represents K II-X, O8 subs
 		name = "K-III Class"
 		type = ship_hull_submarine_1
 		name_group = HOL_SS_KCLASS
@@ -225,7 +235,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "O9 Class"					# represents O9-15, K XI-XIII subs
+		name = "O9 Class"		# represents O9-15, K XI-XIII subs
 		type = ship_hull_submarine_1
 		name_group = HOL_SS_OCLASS
 		parent_version = 0
@@ -237,7 +247,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "K-XIV Class"				# represents K XIV-XVIII, O16 subs
+		name = "K-XIV Class"		# represents K XIV-XVIII, O16 subs
 		type = ship_hull_submarine_2
 		name_group = HOL_SS_KCLASS
 		parent_version = 0
@@ -249,7 +259,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Van Ghent Class"			
+		name = "Van Ghent Class"
 		type = ship_hull_light_1
 		name_group = HOL_DD_HISTORICAL
 		parent_version = 0
@@ -266,7 +276,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Van Galen Class"				
+		name = "Van Galen Class"
 		type = ship_hull_light_1
 		name_group = HOL_DD_HISTORICAL
 		parent_version = 0
@@ -317,7 +327,7 @@ if = {
 	}
 	# Heavy Cruisers #
 	create_equipment_variant = {
-		name = "Hertog Hendrik Class"			
+		name = "Hertog Hendrik Class"
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = HOL_CA_HISTORICAL
 		parent_version = 0
@@ -335,7 +345,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Soerabaja Class"				# represents Soerabaja (De Zeven Provinciën) and Jacob van Heemskerck 
+		name = "Soerabaja Class"		# represents Soerabaja (De Zeven Provinciën) and Jacob van Heemskerck 
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = HOL_CA_HISTORICAL
 		parent_version = 0
@@ -354,18 +364,23 @@ if = {
 	}
 }
 
-
 # 1939 Start #
 1939.1.1 = {
 	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
+		limit = {
+			not = {
+				has_dlc = "Man the Guns"
+			}
+		}
 		# Ship variants #
 	}
 	if = {
-		limit = { has_dlc = "Man the Guns" }
+		limit = {
+			has_dlc = "Man the Guns"
+		}
 		# Submarines #
 		create_equipment_variant = {
-			name = "O19 Class"								# represents O19-24 subs
+			name = "O19 Class"			# represents O19-24 subs
 			type = ship_hull_submarine_3
 			name_group = HOL_SS_OCLASS
 			parent_version = 0
@@ -378,7 +393,7 @@ if = {
 		}
 		# Destroyers #
 		create_equipment_variant = {
-			name = "Gerard Callenburgh Class"					
+			name = "Gerard Callenburgh Class"
 			type = ship_hull_light_2
 			name_group = HOL_DD_HISTORICAL
 			parent_version = 0
@@ -394,7 +409,7 @@ if = {
 			}
 		}
 		create_equipment_variant = {
-			name = "van der Zaan Class"				# DD-sized minelayer			
+			name = "van der Zaan Class"			# DD-sized minelayer			
 			type = ship_hull_light_2
 			parent_version = 0
 			modules = {

@@ -164,15 +164,15 @@ create_country_leader = {
 	ideology = totalist
 	
 }
-create_field_marshal = {
-	name = "Gretel Jeckeln"
-	picture = "Portrait_Gretel_Jeckeln.dds"
-	traits = {  thorough_planner offensive_doctrine politically_connected skilled_staffer }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 6
-	logistics_skill = 4
-}
+# create_field_marshal = {
+# 	name = "Gretel Jeckeln"
+# 	picture = "Portrait_Gretel_Jeckeln.dds"
+# 	traits = {  thorough_planner offensive_doctrine politically_connected skilled_staffer }
+# 	skill = 5
+# 	attack_skill = 4
+# 	defense_skill = 5
+# 	planning_skill = 6
+# 	logistics_skill = 4
+# }
 
 

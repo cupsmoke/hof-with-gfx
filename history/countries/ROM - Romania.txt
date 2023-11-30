@@ -1,9 +1,10 @@
 ﻿capital = 46
-
 oob = "ROM_1936"
 if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "ROM_1936_naval_mtg"
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "ROM_1936_naval_mtg"
 	else = {
 		set_naval_oob = "ROM_1936_naval_legacy"
 	}
@@ -13,66 +14,70 @@ set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.7
 starting_train_buffer = 2
-
 add_equipment_to_stockpile = {
-    type = train_equipment_1
-    amount = 60
-    producer = FRA
+	type = train_equipment_1
+	amount = 60
+	producer = FRA
 }
 
 # Starting tech
 set_technology = {
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
 	# gwtank = 1
-  motorised_infantry = 1
+	motorised_infantry = 1
 	# basic_light_tank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 	# early_fighter = 1
-  # naval_bomber1 = 1
+	# naval_bomber1 = 1
 	# early_bomber = 1
-  
-  # CAS1 = 1
+	# CAS1 = 1
 	fuel_silos = 1
 	basic_train = 1
 	trench_warfare = 1
-
 	haide_haide = 1
 }
 
 if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "ROM_1936_air_bba"
-		set_technology = {
-			iw_small_airframe = 1
-			aa_lmg = 1
-			engines_1 = 1
-		}
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	set_air_oob = "ROM_1936_air_bba"
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		engines_1 = 1
+	}
 	else = {
 		set_air_oob = "ROM_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
-
 		}
 	}
 }
 
-
 if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
 	set_technology = {
 		early_submarine = 1
 		early_destroyer = 1
 	}
 }
+
 if = {
-	limit = { has_dlc = "Man the Guns" }
+	limit = {
+		has_dlc = "Man the Guns"
+	}
 	set_technology = {
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
@@ -90,34 +95,28 @@ if = {
 	limit = {
 		has_dlc = "Death or Dishonor"
 	}
-
 }
-# add_ideas = neutrality_idea
 
+# add_ideas = neutrality_idea
 add_ideas = {
-    # rom_magyor_problem
-    ROM_iron_guard_beginning
-    ROM_boyars_idea
-    Yggdmillennia_idea
+	# rom_magyor_problem
+	ROM_iron_guard_beginning
+	ROM_boyars_idea
+	Yggdmillennia_idea
 	UKR_OUN_subversion_ROM
 	limited_conscription
 	war_economy
 
-	ROM_Corneliu_codreanu
-	ROM_horia_sima
-	ROM_armand_calinescu
 	# ROM_Alexandru_Cantacuzino
-
 }
+
 84 = {
 	add_building_construction = {
-		type = supply_node 
+		type = supply_node
 		level = 1
 		instant_build = yes
 	}
 }
-
-
 
 #Kick off kings crazy life
 if = {
@@ -133,13 +132,13 @@ if = {
 }
 
 set_convoys = 200
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 20
 	fascism = 20
@@ -163,7 +162,7 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	create_equipment_variant = {
-		name = "R-35" #due to similar design this also covers R-35
+		name = "R-35"		#due to similar design this also covers R-35
 		type = light_tank_chassis_1
 		parent_version = 0
 		modules = {
@@ -181,9 +180,7 @@ if = {
 	}
 }
 
-
 set_cosmetic_tag = ROM_kingdom
-
 recruit_character = ROM_petre_dumitrescu
 recruit_character = ROM_ioan_mihail_racovita
 recruit_character = ROM_constantin_sanatescu
@@ -210,10 +207,7 @@ recruit_character = ROM_celenike_icecolle_yggdmillennia
 recruit_character = ROM_gordes_musik_yggdmillennia
 recruit_character = ROM_caules_forvedge_yggdmillennia
 recruit_character = ROM_roche_frain_yggdmillennia
-
 # ROM_create_yugg_leaders = yes
-
-
 ROM_create_yggd_leaders = yes
 ####
 recruit_character = ROM_Alexandru_Cantacuzino
@@ -239,10 +233,18 @@ recruit_character = ROM_izayoi_sakuya
 recruit_character = ROM_gheorghe_mihail
 recruit_character = ROM_paul_teodorescu
 recruit_character = ROM_gheorghe_vasiliu
-
 recruit_character = rom_barbu_paraianu
 recruit_character = ROM_flandre_scarlet
 recruit_character = ROM_Remilia_scarlet
+
+###
+activate_advisor = ROM_Corneliu_codreanu
+activate_advisor = ROM_horia_sima
+activate_advisor = ROM_armand_calinescu
+
+	
+	
+	
 ### VARIANTS ###
 # 1936 Start #
 if = {
@@ -250,7 +252,7 @@ if = {
 		has_dlc = "By Blood Alone"
 	}
 	create_equipment_variant = {
-		name = "IAR 14" 
+		name = "IAR 14"
 		type = small_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = light_mg_2x
@@ -259,8 +261,13 @@ if = {
 		}
 	}
 }
+
 if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "Regele Ferdinand Class"
@@ -273,11 +280,14 @@ if = {
 		}
 	}
 }
+
 if = {
-	limit = { has_dlc = "Man the Guns" }
+	limit = {
+		has_dlc = "Man the Guns"
+	}
 	# Submarines #
 	create_equipment_variant = {
-		name = "Delfinul Class"				
+		name = "Delfinul Class"
 		type = ship_hull_submarine_2
 		name_group = ROM_SS_HISTORICAL
 		parent_version = 0
@@ -289,7 +299,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Marasti Class"				
+		name = "Marasti Class"
 		type = ship_hull_light_1
 		name_group = ROM_DD_HISTORICAL
 		parent_version = 0
@@ -306,7 +316,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Regele Ferdinand Class"	
+		name = "Regele Ferdinand Class"
 		type = ship_hull_light_1
 		name_group = ROM_DD_HISTORICAL
 		parent_version = 0

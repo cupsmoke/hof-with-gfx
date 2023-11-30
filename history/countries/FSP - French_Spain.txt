@@ -1,20 +1,21 @@
 ﻿capital = 41
-
 oob = "SPR_1936"
 if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SPR_1936_naval_mtg"
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "SPR_1936_naval_mtg"
 	else = {
 		set_naval_oob = "SPR_1936_naval_legacy"
 	}
 }
 
 set_popularities = {
-		democratic = 40
-		fascism = 8
-		communism = 2
-    neutrality = 40
-	}
+	democratic = 40
+	fascism = 8
+	communism = 2
+	neutrality = 50
+}
 
 set_politics = {
 	ruling_party = neutrality
@@ -25,52 +26,46 @@ set_politics = {
 
 set_convoys = 150
 set_stability = 0.5
-
-
 set_technology = {
-		fighter1 = 1
-		# CAS1 = 1
-		tactical_bomber1 = 1
-		# gwtank = 1
-		# basic_light_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		motorised_infantry = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-
+	fighter1 = 1
+	# CAS1 = 1
+	tactical_bomber1 = 1
+	# gwtank = 1
+	# basic_light_tank = 1
+	interwar_artillery = 1
+	interwar_antitank = 1
+	motorised_infantry = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	#doctrines
+	air_superiority = 1
+	grand_battle_plan = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	battlefleet_concentration = 1
+	submarine_operations = 1
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	oil_processing = 1
+	improved_oil_processing = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+}
 
 create_country_leader = {
 	name = "Nicolette Oudinot"
@@ -105,22 +100,21 @@ create_country_leader = {
 create_country_leader = {
 	name = "Nicolette Oudinot"
 	desc = ""
-	picture = "Portrait_Nicolette_Oudinot.tga"
+	picture = "Portrait_Nicolette_Oudinot.dds"
 	expire = "1965.1.1"
 	ideology = syndicalist
 	traits = {
 	}
 }
 
-
-
-
-
-
 ### VARIANTS ###
 # 1936 Start #
 if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "C Class"
@@ -143,11 +137,14 @@ if = {
 		}
 	}
 }
+
 if = {
-	limit = { has_dlc = "Man the Guns" }
+	limit = {
+		has_dlc = "Man the Guns"
+	}
 	# Submarines #
 	create_equipment_variant = {
-		name = "B Class"				
+		name = "B Class"
 		type = ship_hull_submarine_1
 		parent_version = 0
 		name_group = SPR_SS_HISTORICAL
@@ -159,7 +156,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "C Class"				
+		name = "C Class"
 		type = ship_hull_submarine_2
 		name_group = SPR_SS_HISTORICAL
 		parent_version = 0
@@ -171,7 +168,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Alsedo Class"				
+		name = "Alsedo Class"
 		type = ship_hull_light_1
 		name_group = SPR_DD_HISTORICAL
 		parent_version = 0
@@ -188,7 +185,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Churucca Class"	
+		name = "Churucca Class"
 		type = ship_hull_light_2
 		name_group = SPR_DD_HISTORICAL
 		parent_version = 0
@@ -204,7 +201,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Júpiter Class"					# minelayers
+		name = "Júpiter Class"		# minelayers
 		type = ship_hull_light_2
 		name_group = SPR_DD_HISTORICAL
 		parent_version = 0
@@ -275,7 +272,7 @@ if = {
 	}
 	# Heavy Cruisers #
 	create_equipment_variant = {
-		name = "Canarias Class"				
+		name = "Canarias Class"
 		type = ship_hull_cruiser_2
 		name_group = SPR_CA_HISTORICAL
 		parent_version = 0
@@ -293,7 +290,7 @@ if = {
 	}
 	# Battleships #
 	create_equipment_variant = {
-		name = "España Class"	
+		name = "España Class"
 		type = ship_hull_heavy_1
 		name_group = SPR_BB_HISTORICAL
 		parent_version = 0
@@ -316,14 +313,20 @@ if = {
 # 1939 Start #
 1939.1.1 = {
 	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
+		limit = {
+			not = {
+				has_dlc = "Man the Guns"
+			}
+		}
 		# Ship variants #
 	}
 	if = {
-		limit = { has_dlc = "Man the Guns" }
+		limit = {
+			has_dlc = "Man the Guns"
+		}
 		# Submarines #
 		create_equipment_variant = {
-			name = "General Mola Class"							# purchased from Italy
+			name = "General Mola Class"			# purchased from Italy
 			type = ship_hull_submarine_2
 			name_group = SPR_SS_HISTORICAL
 			parent_version = 0
@@ -336,7 +339,7 @@ if = {
 		}
 		# Destroyers #
 		create_equipment_variant = {
-			name = "Melilla Class"								# purchased from Italy				
+			name = "Melilla Class"			# purchased from Italy				
 			type = ship_hull_light_1
 			name_group = SPR_DD_HISTORICAL
 			parent_version = 0
@@ -353,7 +356,7 @@ if = {
 			obsolete = yes
 		}
 		create_equipment_variant = {
-			name = "Eolo Class"									# minelayer
+			name = "Eolo Class"			# minelayer
 			type = ship_hull_light_2
 			name_group = SPR_DD_HISTORICAL
 			parent_version = 0

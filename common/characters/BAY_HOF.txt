@@ -8,8 +8,9 @@ characters = {
 		}
 		country_leader = {
 			ideology = absolute_monarchy
-			expire = "1965.1.1.1"
-			id = -1
+		}
+		country_leader = {
+			ideology = religious_fascism
 		}
 	}
 	BAY_Irisviel_von_Einzbern = {
@@ -24,8 +25,9 @@ characters = {
 		}
 		country_leader = {
 			ideology = socialism
-			expire = "1965.1.1.1"
-			id = -1
+		}
+		country_leader = {
+			ideology = totalist
 		}
 		field_marshal = {
 			traits = {

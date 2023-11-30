@@ -60,22 +60,5 @@ set_popularities = {
 
 recruit_character = BAY_Jubstacheit_von_Einzbern
 recruit_character = BAY_Irisviel_von_Einzbern
-add_country_leader_role = {
-	character = BAY_Jubstacheit_von_Einzbern
-	country_leader = {
-		expire = "1965.1.1.1"
-		ideology = religious_fascism
-	}
-	promote_leader = yes
-}
-
-add_country_leader_role = {
-	character = BAY_Irisviel_von_Einzbern
-	country_leader = {
-		expire = "1965.1.1.1"
-		ideology = totalist
-	}
-	promote_leader = yes
-}
-
 recruit_character = BAY_Ernestine_Wrede
+# 

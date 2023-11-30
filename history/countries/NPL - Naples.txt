@@ -97,7 +97,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Alceste de Ambris"
-	picture = "Portrait_SRI_Alceste_de_Ambris.png"
+	picture = "Portrait_NPL_Alceste_de_Ambris.png"
 	expire = "1965.1.1"
 	ideology = syndicalist
 	traits = {

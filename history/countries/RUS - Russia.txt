@@ -250,7 +250,7 @@ recruit_character = RUS_dmitry_yazov
 recruit_character = RUS_nikolay_krylov
 recruit_character = RUS_mikhail_berens
 recruit_character = RUS_nestor_monastyrev
-recruit_character = RUS_kalina
+# recruit_character = RUS_kalina
 recruit_character = RUS_berezovich_kryuger
 recruit_character = RUS_bronya_zaychik
 recruit_character = RUS_vladimir_makarov
@@ -310,7 +310,6 @@ recruit_character = RUS_viktor_chernov
 recruit_character = RUS_irakli_tsereteli
 #recruit_character = RUS_alexandr_kolchak
 recruit_character = RUS_g_k
-recruit_character = RUS_bronya_zaychik
 recruit_character = RUS_havier_witkin
 
 recruit_character = RUS_Victoria_Romanovna

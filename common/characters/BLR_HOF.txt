@@ -8,10 +8,12 @@ characters = {
 		}
 		country_leader = {
 			ideology = stratocracy
-			traits = {
-			}
-			expire = "1965.1.1.1"
-			id = -1
+		}
+		country_leader = {
+			ideology = nazism
+		}
+		country_leader = {
+			ideology = totalist
 		}
 	}
 	BLR_Cecilia_Schariac = {

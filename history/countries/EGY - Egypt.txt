@@ -191,7 +191,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Nitocris"
-	picture = "gfx/leaders/EGY/Portrait_Nitocris.dds"
+	picture = "gfx/leaders/EGY/Portrait_EGY_Nitocris.png"
 	traits = {
 		organisational_leader
 		politically_connected
