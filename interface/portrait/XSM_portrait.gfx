@@ -1,2 +1,10 @@
 spriteTypes = {
+	SpriteType = {
+		name = "GFX_Portrait_XSM_Bai_Ze"
+		texturefile = "gfx/leaders/XSM/Portrait_XSM_Bai_Ze.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_XSM_Lv_Bu"
+		texturefile = "gfx/leaders/XSM/Portrait_XSM_Lv_Bu.png"
+	}
 }
