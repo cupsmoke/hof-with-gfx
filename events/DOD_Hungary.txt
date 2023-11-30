@@ -4100,7 +4100,6 @@ country_event = {
 			factor = 75 #if available
 		}
 		trigger = {
-			NOT = { has_completed_focus = ROM_appoint_soviet_friendly_government }
 		}
 		SOV = { country_event = DOD_hungary.114 }
 		
@@ -7071,7 +7070,6 @@ country_event = {
 				OR = {
 					exists = no
 					is_puppet = yes
-					NOT = { has_completed_focus = FRA_little_entente }
 				}
 			}
 		}

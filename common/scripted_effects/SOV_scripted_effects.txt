@@ -42,11 +42,6 @@ SOV_approach_sinkiang_diplomacy_effect = {
 		}
 		add_ai_strategy = {
 			type = alliance
-			id = PRC		
-			value = -5
-		}
-		add_ai_strategy = {
-			type = alliance
 			id = XSM		
 			value = -5
 		}
