@@ -670,90 +670,90 @@ country_event = {
 		}
 	}
 }
-#France refuses to sell Madagascar
-country_event = {
-	id = NSB_poland_events.402
-	title = NSB_poland_events.402.t
-	desc = NSB_poland_events.402.desc
-	picture = GFX_report_event_generic_parliament
+# #France refuses to sell Madagascar
+# country_event = {
+# 	id = NSB_poland_events.402
+# 	title = NSB_poland_events.402.t
+# 	desc = NSB_poland_events.402.desc
+# 	picture = GFX_report_event_generic_parliament
 	
-	is_triggered_only = yes
+# 	is_triggered_only = yes
 
-	option = { #Sell the island(s) to Poland
-		name = NSB_poland_events.402.a
-		ai_chance = {
-			base = 10
-		}
-		remove_decision_on_cooldown = POL_purchase_madagascar
-	}
-}
+# 	option = { #Sell the island(s) to Poland
+# 		name = NSB_poland_events.402.a
+# 		ai_chance = {
+# 			base = 10
+# 		}
+# 		remove_decision_on_cooldown = POL_purchase_madagascar
+# 	}
+# }
 
-#Poland wants to buy other colonies
-country_event = {
-	id = NSB_poland_events.5	
-	title = NSB_poland_events.4.t
-	desc = NSB_poland_events.4.desc
-	picture = GFX_report_event_generic_conference
+# #Poland wants to buy other colonies
+# country_event = {
+# 	id = NSB_poland_events.5	
+# 	title = NSB_poland_events.4.t
+# 	desc = NSB_poland_events.4.desc
+# 	picture = GFX_report_event_generic_conference
 	
-	is_triggered_only = yes
+# 	is_triggered_only = yes
 
-	option = { #Sell the island(s) to Poland
-		name = NSB_poland_events.4.a
-		ai_chance = {
-			base = 10
-			modifier = { #Shouldn't sell their colony if that is all they have left.
-				factor = 0
-				has_capitulated = yes
-				NOT = {
-					any_controlled_state = {
-						NOT = {
-							state = POL_colony_purchase
-						}
-					}
-				}
-			}
-		}
-		POL = {
-			transfer_state = event_target:POL_colony_purchase
-		}
-		if = {
-			limit = {
-				event_target:POL_colony_purchase = {
-					state = 546
-				}
-			}
-			add_timed_idea = {
-				idea = POL_sold_colony_expensive
-				days = 720
-			}
-		}
-		else = {
-			add_timed_idea = {
-				idea = POL_sold_colony_cheap
-				days = 720
-			}
-		}
-		POL = { country_event = { id = NSB_poland_events.501 } }
-	}
-	option = { #Refuse to sell the colony
-		name = NSB_poland_events.4.b
-		ai_chance = {
-			base = 10
-			modifier = { #Should generally be okay with selling their colonies if they have other territory left.
-				factor = 0.5
-				any_controlled_state = {
-					NOT = {
-						state = POL_colony_purchase
-					}
-				}
-			}
-		}
-		hidden_effect = {
-			event_target:POL_colony_purchase = { set_state_flag = rejected_purchase_flag }
-		}
-		POL = { country_event = { id = NSB_poland_events.502 } }
-	}
-}
+# 	option = { #Sell the island(s) to Poland
+# 		name = NSB_poland_events.4.a
+# 		ai_chance = {
+# 			base = 10
+# 			modifier = { #Shouldn't sell their colony if that is all they have left.
+# 				factor = 0
+# 				has_capitulated = yes
+# 				NOT = {
+# 					any_controlled_state = {
+# 						NOT = {
+# 							state = POL_colony_purchase
+# 						}
+# 					}
+# 				}
+# 			}
+# 		}
+# 		POL = {
+# 			transfer_state = event_target:POL_colony_purchase
+# 		}
+# 		if = {
+# 			limit = {
+# 				event_target:POL_colony_purchase = {
+# 					state = 546
+# 				}
+# 			}
+# 			add_timed_idea = {
+# 				idea = POL_sold_colony_expensive
+# 				days = 720
+# 			}
+# 		}
+# 		else = {
+# 			add_timed_idea = {
+# 				idea = POL_sold_colony_cheap
+# 				days = 720
+# 			}
+# 		}
+# 		POL = { country_event = { id = NSB_poland_events.501 } }
+# 	}
+# 	option = { #Refuse to sell the colony
+# 		name = NSB_poland_events.4.b
+# 		ai_chance = {
+# 			base = 10
+# 			modifier = { #Should generally be okay with selling their colonies if they have other territory left.
+# 				factor = 0.5
+# 				any_controlled_state = {
+# 					NOT = {
+# 						state = POL_colony_purchase
+# 					}
+# 				}
+# 			}
+# 		}
+# 		hidden_effect = {
+# 			event_target:POL_colony_purchase = { set_state_flag = rejected_purchase_flag }
+# 		}
+# 		POL = { country_event = { id = NSB_poland_events.502 } }
+# 	}
+# }
 #Colony sale succeeds
 country_event = {
 	id = NSB_poland_events.501
@@ -785,56 +785,56 @@ country_event = {
 	}
 }
 #Colony sale fails
-country_event = {
-	id = NSB_poland_events.502
-	title = NSB_poland_events.402.t
-	desc = NSB_poland_events.402.desc
-	picture = GFX_report_event_journalists_speech
+# country_event = {
+# 	id = NSB_poland_events.502
+# 	title = NSB_poland_events.402.t
+# 	desc = NSB_poland_events.402.desc
+# 	picture = GFX_report_event_journalists_speech
 	
-	is_triggered_only = yes
+# 	is_triggered_only = yes
 
-	option = { #Decision is removed so Poland is not throwing civ factories down the drain for nothing.
-		name = NSB_poland_events.402.a
-		ai_chance = {
-			base = 10
-		}
-		custom_effect_tooltip = POL_remove_colony_purchase_tt
-		hidden_effect = {
-			if = {
-				limit = {
-					event_target:POL_colony_purchase = {
-						state = 701
-					}
-				}
-				remove_decision_on_cooldown = POL_purchase_gambia
-			}
-			if = {
-				limit = {
-					event_target:POL_colony_purchase = {
-						state = 773
-					}
-				}
-				remove_decision_on_cooldown = POL_purchase_cheap_colony
-			}
-			if = {
-				limit = {
-					event_target:POL_colony_purchase = {
-						state = 546
-					}
-				}
-				remove_decision_on_cooldown = POL_purchase_cheap_colony
-			}
-			if = {
-				limit = {
-					event_target:POL_colony_purchase = {
-						state = 454
-					}
-				}
-				remove_decision_on_cooldown = POL_purchase_cheap_colony
-			}
-		}
-	}
-}
+# 	option = { #Decision is removed so Poland is not throwing civ factories down the drain for nothing.
+# 		name = NSB_poland_events.402.a
+# 		ai_chance = {
+# 			base = 10
+# 		}
+# 		custom_effect_tooltip = POL_remove_colony_purchase_tt
+# 		hidden_effect = {
+# 			if = {
+# 				limit = {
+# 					event_target:POL_colony_purchase = {
+# 						state = 701
+# 					}
+# 				}
+# 				remove_decision_on_cooldown = POL_purchase_gambia
+# 			}
+# 			if = {
+# 				limit = {
+# 					event_target:POL_colony_purchase = {
+# 						state = 773
+# 					}
+# 				}
+# 				remove_decision_on_cooldown = POL_purchase_cheap_colony
+# 			}
+# 			if = {
+# 				limit = {
+# 					event_target:POL_colony_purchase = {
+# 						state = 546
+# 					}
+# 				}
+# 				remove_decision_on_cooldown = POL_purchase_cheap_colony
+# 			}
+# 			if = {
+# 				limit = {
+# 					event_target:POL_colony_purchase = {
+# 						state = 454
+# 					}
+# 				}
+# 				remove_decision_on_cooldown = POL_purchase_cheap_colony
+# 			}
+# 		}
+# 	}
+# }
 
 #Poland asks Liberia to become a puppet
 country_event = {
@@ -1020,45 +1020,7 @@ country_event = {
 }
 
 #
-country_event = {
-	id = NSB_poland_events.8
-	title = NSB_poland_events.8.t
-	desc = NSB_poland_events.8.d
-	picture = GFX_report_event_royal_parade
 
-	trigger = {
-		tag = POL
-		has_country_leader  = {
-			character = POL_anna_andersson
-			ruling_only  = yes
-		}
-		has_country_flag = POL_vojtek_commander
-		NOT = { is_in_faction_with = SOV }
-		219 = {
-			controller = {
-				OR = {
-					tag = POL
-					is_in_faction_with = POL
-				}
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	fire_only_once = yes
-
-	option = {
-		name = NSB_poland_events.8.a
-		add_political_power = -100
-	}
-	option = {
-		name = NSB_poland_events.8.b
-		promote_character = POL_wojtek
-	}
-}
 
 #Release Don Republic
 country_event = {

@@ -36,6 +36,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Huang_Tianxiang.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_BEY_Huo_Diange"
+		texturefile = "gfx/leaders/BEY/Portrait_BEY_Huo_Diange.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_BEY_Huo_Qinge"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Huo_Qinge.png"
 	}
@@ -52,24 +56,24 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Jing_Ke.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_BEY_Li_Liu_Menggeng"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Li_Liu_Menggeng.png"
+		name = "GFX_Portrait_BEY_Liu_Menggeng"
+		texturefile = "gfx/leaders/BEY/Portrait_BEY_Liu_Menggeng.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_BEY_Liu_Yunqiao"
+		texturefile = "gfx/leaders/BEY/Portrait_BEY_Liu_Yunqiao.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_BEY_Li_Etang"
+		texturefile = "gfx/leaders/BEY/Portrait_BEY_Li_Etang.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_BEY_Li_Shuwen"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Li_Shuwen.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_BEY_Ma_Zhanshan"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Ma_Zhanshan.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_BEY_Qi_Xieyuan"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Qi_Xieyuan.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Shangguan_Yunxiang"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Shangguan_Yunxiang.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_BEY_Sheng_Shicai_army"
@@ -98,10 +102,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_BEY_Wan_Fulin"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Wan_Fulin.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Wu_Junsheng"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Wu_Junsheng.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_BEY_Wu_Peifu"
@@ -142,9 +142,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_BEY_Zhang_Zongchang"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Zhang_Zongchang.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Zhang_Zuoxiang"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Zhang_Zuoxiang.png"
 	}
 }

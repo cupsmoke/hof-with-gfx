@@ -2,7 +2,7 @@ import re
 import os
 import io
 import os.path
-
+import shutil
 # 路径识别
 
 
@@ -26,7 +26,8 @@ def outpuGfx(text):
     global interfacePath
     global TAG
     pngpath = 'gfx/leaders/' + TAG
-    txtfile = open(interfacePath + TAG + '_portrait' + '.gfx' , 'w',encoding='UTF-8')
+    global gfxfilename
+    txtfile = open(gfxfilename , 'w',encoding='UTF-8')
     # spriteTypes = {
     txtfile.write('spriteTypes = {\n')
     for txt in text:
@@ -46,12 +47,16 @@ taglist = getDir(pngpathfirst)
 print('将生成以下tag领袖头像的gfx文件')
 print(taglist)
 input('')
-interfacePath = '..\interface\portrait\\'
+interfacePath = '../interface/portrait'
+if os.path.exists(interfacePath):
+    shutil.rmtree(interfacePath)
 if not os.path.exists(interfacePath):
     os.makedirs(interfacePath)
 for TAG in taglist:
     pngpath = pngpathfirst + TAG
-    gfxfilename = interfacePath+ TAG + '_portrait'  + '.gfx'
+    tagnamefile =  TAG + '_portrait'  + '.gfx'
+    gfxfilename = os.path.join(interfacePath,tagnamefile)
+    # gfxfilename = interfacePath+ TAG + '_portrait'  + '.gfx'
     pnglist = getPngName(pngpath)
     outpuGfx(pnglist)
 

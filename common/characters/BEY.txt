@@ -4,7 +4,7 @@ characters = {
 		name = "BEY_li_shuwen"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Li_Shuwen.png"
+				large = GFX_Portrait_BEY_Li_Shuwen
 			}
 			army = {
 				small = "GFX_idea_advisor_unknown"
@@ -23,7 +23,6 @@ characters = {
 			defense_skill = 5
 			planning_skill = 4
 			logistics_skill = 4
-			legacy_id = -1
 		}
 		country_leader = {
 			ideology = authoritarian_democracy
@@ -33,10 +32,10 @@ characters = {
 		name = "BEY_gao_changgong"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Gao_Changgong_pol.png"
+				large = GFX_Portrait_BEY_Gao_Changgong_pol
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Gao_Changgong.png"
+				large = GFX_Portrait_BEY_Gao_Changgong
 			}
 		}
 		corps_commander = {
@@ -60,7 +59,7 @@ characters = {
 		name = "BEY_huo_qinge"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Huo_Qinge.png"
+				large = GFX_Portrait_BEY_Huo_Qinge
 			}
 		}
 		corps_commander = {
@@ -83,10 +82,10 @@ characters = {
 		name = SIK_sheng_shicai
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Sheng_Shicai_leader.png"
+				large = GFX_Portrait_BEY_Sheng_Shicai_leader
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Sheng_Shicai_army.png"
+				large = GFX_Portrait_BEY_Sheng_Shicai_army
 				small = GFX_portrait_SIK_sheng_shicai_small
 			}
 		}
@@ -112,7 +111,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Hong_Meiling.png"
+				large = GFX_Portrait_BEY_Hong_Meiling
 			}
 		}
 		corps_commander = {
@@ -121,33 +120,31 @@ characters = {
 			defense_skill = 5
 			planning_skill = 3
 			logistics_skill = 3
-			legacy_id = -1
 		}
 	}
-	BEY_chen_tiaoyuan = {
-		name = "BEY_chen_tiaoyuan"
-		portraits = {
-			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Chen_Tiaoyuan.png"
-			}
-		}
-		corps_commander = {
-			traits = {
-				career_officer
-				politically_connected
-				substance_abuser
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-			legacy_id = 3511
-		}
-	}
+	# BEY_chen_tiaoyuan = {
+	# 	name = "BEY_chen_tiaoyuan"
+	# 	portraits = {
+	# 		army = {
+	# 			small = "GFX_idea_advisor_unknown"
+	# 		}
+	# 		army = {
+	# 			large = "gfx/leaders/BEY/Portrait_BEY_Chen_Tiaoyuan.png"
+	# 		}
+	# 	}
+	# 	corps_commander = {
+	# 		traits = {
+	# 			career_officer
+	# 			politically_connected
+	# 			substance_abuser
+	# 		}
+	# 		skill = 3
+	# 		attack_skill = 2
+	# 		defense_skill = 2
+	# 		planning_skill = 3
+	# 		logistics_skill = 3
+	# 	}
+	# }
 	BEY_jiang_baili = {
 		name = "BEY_jiang_baili"
 		portraits = {
@@ -155,7 +152,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Jiang_Baili.png"
+				large = GFX_Portrait_BEY_Jiang_Baili
 			}
 		}
 		corps_commander = {
@@ -169,7 +166,6 @@ characters = {
 			defense_skill = 3
 			planning_skill = 1
 			logistics_skill = 1
-			legacy_id = 3512
 		}
 	}
 	BEY_liu_menggeng = {
@@ -179,7 +175,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Li_Liu_Menggeng.png"
+				large = GFX_Portrait_BEY_Liu_Menggeng
 			}
 		}
 		corps_commander = {
@@ -193,32 +189,9 @@ characters = {
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 4
-			legacy_id = 3514
 		}
 	}
-	BEY_ma_zhanshan = {
-		name = "BEY_ma_zhanshan"
-		portraits = {
-			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Ma_Zhanshan.png"
-			}
-		}
-		corps_commander = {
-			traits = {
-				trait_reckless
-				trickster
-			}
-			skill = 3
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 1
-			legacy_id = 3515
-		}
-	}
+
 	BEY_qi_xieyuan = {
 		name = "BEY_qi_xieyuan"
 		portraits = {
@@ -226,7 +199,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Qi_Xieyuan.png"
+				large = GFX_Portrait_BEY_Qi_Xieyuan
 			}
 		}
 		corps_commander = {
@@ -242,7 +215,6 @@ characters = {
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 3
-			legacy_id = 3516
 		}
 	}
 	BEY_shi_yousan = {
@@ -252,7 +224,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Shi_Yousan.png"
+				large = GFX_Portrait_BEY_Shi_Yousan
 			}
 		}
 		corps_commander = {
@@ -275,7 +247,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Sun_Chuanfang.png"
+				large = GFX_Portrait_BEY_Sun_Chuanfang
 			}
 		}
 		corps_commander = {
@@ -292,7 +264,6 @@ characters = {
 			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
-			legacy_id = 3518
 		}
 	}
 	BEY_sun_dianying = {
@@ -302,7 +273,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Sun_Dianying.png"
+				large = GFX_Portrait_BEY_Sun_Dianying
 			}
 		}
 		corps_commander = {
@@ -316,7 +287,6 @@ characters = {
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 2
-			legacy_id = 3519
 		}
 	}
 	BEY_wu_peifu = {
@@ -326,7 +296,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Wu_Peifu.png"
+				large = GFX_Portrait_BEY_Wu_Peifu
 			}
 		}
 		field_marshal = {
@@ -341,7 +311,6 @@ characters = {
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 1
-			legacy_id = 3520
 		}
 	}
 	BEY_yan_xishan = {
@@ -351,7 +320,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Yan_Xishan.png"
+				large = GFX_Portrait_BEY_Yan_Xishan
 			}
 		}
 		field_marshal = {
@@ -375,7 +344,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Yang_Yuting.png"
+				large = GFX_Portrait_BEY_Yang_Yuting
 			}
 		}
 		corps_commander = {
@@ -388,7 +357,6 @@ characters = {
 			defense_skill = 2
 			planning_skill = 3
 			logistics_skill = 2
-			legacy_id = 3522
 		}
 	}
 	BEY_zhang_jinghui = {
@@ -398,7 +366,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Zhang_Jinghui.png"
+				large = GFX_Portrait_BEY_Zhang_Jinghui
 			}
 		}
 		corps_commander = {
@@ -422,7 +390,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Zhang_Xueliang_abuser.png"
+				large = GFX_Portrait_BEY_Zhang_Xueliang_army
 			}
 		}
 		corps_commander = {
@@ -445,7 +413,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Zhang_Zongchang.png"
+				large = GFX_Portrait_BEY_Zhang_Zongchang
 			}
 		}
 		corps_commander = {
@@ -458,30 +426,6 @@ characters = {
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 3
-			legacy_id = 3526
-		}
-	}
-	BEY_zhang_zuoxiang = {
-		name = "BEY_zhang_zuoxiang"
-		portraits = {
-			army = {
-				small = "GFX_idea_advisor_unknown"
-			}
-			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Zhang_Zuoxiang.png"
-			}
-		}
-		corps_commander = {
-			traits = {
-				old_guard
-				career_officer
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id = 3527
 		}
 	}
 	BEY_wan_fulin = {
@@ -491,7 +435,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Wan_Fulin.png"
+				large = GFX_Portrait_BEY_Wan_Fulin
 			}
 		}
 		corps_commander = {
@@ -503,7 +447,6 @@ characters = {
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 2
-			legacy_id = 3528
 		}
 	}
 	BEY_wang_lingyun = {
@@ -513,7 +456,7 @@ characters = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Wang_Lingyun.png"
+				large = GFX_Portrait_BEY_Wang_Lingyun
 			}
 		}
 		corps_commander = {
@@ -527,54 +470,71 @@ characters = {
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 2
-			legacy_id = 3529
 		}
 	}
-	BEY_wu_junsheng = {
-		name = "BEY_wu_junsheng"
+
+	###
+	BEY_Huo_Diange = {
+		name = "BEY_Huo_Diange"
 		portraits = {
 			army = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Wu_Junsheng.png"
+				large = GFX_Portrait_BEY_Huo_Diange
 			}
 		}
 		corps_commander = {
 			traits = {
-				old_guard
 				cavalry_officer
-				substance_abuser
 			}
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 2
-			legacy_id = 3530
 		}
 	}
-	BEY_shangguan_yunxiang = {
-		name = "BEY_shangguan_yunxiang"
+	BEY_Liu_Yunqiao = {
+		name = "BEY_Liu_Yunqiao"
 		portraits = {
 			army = {
 				small = "GFX_idea_advisor_unknown"
 			}
 			army = {
-				large = "gfx/leaders/BEY/Portrait_BEY_Shangguan_Yunxiang.png"
+				large = GFX_Portrait_BEY_Liu_Yunqiao
 			}
 		}
 		corps_commander = {
 			traits = {
-				politically_connected
-				substance_abuser
+				cavalry_officer
 			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
 			planning_skill = 2
-			logistics_skill = 1
-			legacy_id = 3531
+			logistics_skill = 2
+		}
+	}
+	BEY_Li_Etang = {
+		name = "BEY_Li_Etang"
+		portraits = {
+			army = {
+				small = "GFX_idea_advisor_unknown"
+			}
+			army = {
+				large = GFX_Portrait_BEY_Li_Etang
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }

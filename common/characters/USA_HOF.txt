@@ -93,16 +93,5 @@ characters={
 	}
 
 	##
-	usa_alexander_vandegrift={
-		name = "Alexander Vandegrift"
-		portraits={
-			civilian={
-				large="GFX_portrait_usa_alexander_vandegrift"
-			}
-			army={
-				small="GFX_idea_advisor_unknown"
-			}
-		}
-	}
 }
 

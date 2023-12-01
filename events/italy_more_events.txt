@@ -2,28 +2,25 @@
 # GSK Britain Events
 ###########################
 add_namespace = more_italy
-
-country_event = {     # Italy: Rename Constantinople
+country_event = {
+	# Italy: Rename Constantinople
 	id = more_italy.1
 	title = more_italy.1.t
 	desc = more_italy.1.d
 	picture = GFX_report_event_generic_nero
-
 	trigger = {
 		original_tag = ITA
 		has_completed_focus = ita_recover_eastern_roma
 		has_civil_war = no
 		341 = {
-				CONTROLLER = {
-					tag = ITA
-				}
+			CONTROLLER = {
+				tag = ITA
 			}
+		}
 	}
-	
 	mean_time_to_happen = {
 		days = 30
 	}
-	
 	fire_only_once = yes
 	# Great
 	option = {
@@ -31,10 +28,12 @@ country_event = {     # Italy: Rename Constantinople
 		ai_chance = {
 			base = 111
 		}
-		set_province_name = { id = 9833 name = Constantinople }
+		set_province_name = {
+			id = 9833
+			name = Constantinople
+		}
 		add_political_power = -100
 	}
-	
 	# No
 	option = {
 		name = more_italy.1.b
@@ -44,7 +43,6 @@ country_event = {     # Italy: Rename Constantinople
 		add_stability = -0.05
 	}
 }
-
 
 country_event = {
 	id = more_italy.3
@@ -57,18 +55,14 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
 		add_political_power = -25
-
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.4
-	           days = 1
-        }
+			country_event = {
+				id = more_italy.4
+				days = 1
+			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -82,18 +76,14 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
 		add_political_power = -5
-
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.5
-	           days = 1
-        }
+			country_event = {
+				id = more_italy.5
+				days = 1
+			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -107,18 +97,14 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
 		add_political_power = -15
-
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.6
-	           hours = 1
-        }
+			country_event = {
+				id = more_italy.6
+				hours = 1
+			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -142,23 +128,18 @@ country_event = {
 				}
 			}
 		}
-
 		add_political_power = 25
-
 		add_popularity = {
 			ideology = communism
 			popularity = 0.05
 		}
-
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.7
-	           days = 1
-        }
+			country_event = {
+				id = more_italy.7
+				days = 1
+			}
 		}
-
 	}
-
 	option = {
 		name = more_italy.6.b
 		ai_chance = {
@@ -174,25 +155,19 @@ country_event = {
 				}
 			}
 		}
-
 		add_political_power = -50
-
 		add_popularity = {
 			ideology = communism
 			popularity = -0.02
 		}
-
-        set_country_flag = Spartacus_Suppress
-
+		set_country_flag = Spartacus_Suppress
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.7
-	           days = 1
-        }
+			country_event = {
+				id = more_italy.7
+				days = 1
+			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -246,16 +221,13 @@ country_event = {
 				}
 			}
 		}
-
 		hidden_effect = {
 			country_event = {
 				id = more_italy.8
 				days = 30
 			}
 		}
-
 	}
-
 	option = {
 		name = more_italy.7.b
 		ai_chance = {
@@ -305,17 +277,13 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-
 		hidden_effect = {
 			country_event = {
 				id = more_italy.11
 				days = 30
 			}
 		}
-
-
 	}
-
 	option = {
 		name = more_italy.7.c
 		ai_chance = {
@@ -345,16 +313,13 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-
 		hidden_effect = {
 			country_event = {
 				id = more_italy.15
 				days = 30
 			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -368,18 +333,14 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
 		add_political_power = -100
-
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.9
-	           days = 15
-        }
+			country_event = {
+				id = more_italy.9
+				days = 15
+			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -393,54 +354,38 @@ country_event = {
 		ai_chance = {
 			base = 99
 		}
-
-        remove_ideas = ita_Colonial_war
-
-			army_experience = 5
-
+		remove_ideas = ita_Colonial_war
+		army_experience = 5
 		add_political_power = 150
-
-			add_war_support = 0.05
-
-			random_army_leader = {
-				limit = { 
-					has_id = 3000
-				}
-				
-				add_unit_leader_trait = trickster	
-				
+		add_war_support = 0.05
+		random_army_leader = {
+			limit = {
+				has_id = 3000
 			}
-
-		hidden_effect = {
-        country_event = {
-	           id = more_italy.10
-	           hours = 1
-        }
+			add_unit_leader_trait = trickster
 		}
-
+		hidden_effect = {
+			country_event = {
+				id = more_italy.10
+				hours = 1
+			}
+		}
 	}
-
 	option = {
 		name = more_italy.9.b
 		ai_chance = {
 			base = 1
 		}
-
-        remove_ideas = ita_Colonial_war
-
-			army_experience = 5
-
+		remove_ideas = ita_Colonial_war
+		army_experience = 5
 		add_political_power = -50
-
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.10
-	           hours = 1
-        }
+			country_event = {
+				id = more_italy.10
+				hours = 1
+			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -454,15 +399,10 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
 		add_political_power = 25
-
-         set_country_flag = ita_regroup_senatus_flag
-
-         custom_effect_tooltip = ita_regroup_senatus_tt
-
+		set_country_flag = ita_regroup_senatus_flag
+		custom_effect_tooltip = ita_regroup_senatus_tt
 	}
-	
 }
 
 country_event = {
@@ -476,18 +416,14 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
 		add_political_power = 25
-
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.12
-	           days = 7
-        }
+			country_event = {
+				id = more_italy.12
+				days = 7
+			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -501,18 +437,14 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
 		add_political_power = -25
-
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.13
-	           days = 7
-        }
+			country_event = {
+				id = more_italy.13
+				days = 7
+			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -526,41 +458,30 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
-
-        remove_ideas = ita_Colonial_war
-
+		remove_ideas = ita_Colonial_war
 		add_political_power = 150
-
-		add_stability = 0.10
-
-			random_army_leader = {
-				limit = { 
-					has_id = 843
-				}			
-
-				add_unit_leader_trait = commando
-
+		add_stability = 0.1
+		random_army_leader = {
+			limit = {
+				has_id = 843
 			}
-
-					add_tech_bonus = {
-							name = special_bonus
-							bonus = 1.0
-							ahead_reduction = 2
-							uses = 1
-							technology = paratroopers
-							technology = paratroopers2
-						}
-
-		hidden_effect = {
-        country_event = {
-	           id = more_italy.14
-	           days = 3
-        }
+			add_unit_leader_trait = commando
 		}
-
+		add_tech_bonus = {
+			name = special_bonus
+			bonus = 1
+			ahead_reduction = 2
+			uses = 1
+			technology = paratroopers
+			technology = paratroopers2
+		}
+		hidden_effect = {
+			country_event = {
+				id = more_italy.14
+				days = 3
+			}
+		}
 	}
-	
 }
 
 country_event = {
@@ -574,16 +495,10 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
 		add_political_power = 25
-
-         set_country_flag = ita_towards_republic_flag
-
-         custom_effect_tooltip = ita_towards_republic_tt
-
-
+		set_country_flag = ita_towards_republic_flag
+		custom_effect_tooltip = ita_towards_republic_tt
 	}
-	
 }
 
 country_event = {
@@ -594,7 +509,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = more_italy.15.a
-
 		ai_chance = {
 			base = 75
 			modifier = {
@@ -608,19 +522,15 @@ country_event = {
 				}
 			}
 		}
-
 		hidden_effect = {
 			country_event = {
-				   id = more_italy.16
-				   days = 3
+				id = more_italy.16
+				days = 3
 			}
 		}
-
 	}
-
 	option = {
 		name = more_italy.15.b
-
 		ai_chance = {
 			base = 25
 			modifier = {
@@ -644,16 +554,13 @@ country_event = {
 				}
 			}
 		}
-
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.17
-	           days = 3
-        }
+			country_event = {
+				id = more_italy.17
+				days = 3
+			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -667,17 +574,13 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
-
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.18
-	           hours = 3
-        }
+			country_event = {
+				id = more_italy.18
+				hours = 3
+			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -691,17 +594,13 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
-
 		hidden_effect = {
-        country_event = {
-	           id = more_italy.20
-	           days = 7
-        }
+			country_event = {
+				id = more_italy.20
+				days = 7
+			}
 		}
-
 	}
-	
 }
 
 country_event = {
@@ -715,37 +614,32 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
-
-         set_country_flag = ita_Repubblica_Sociale_flag
-
-					if = {
-						limit = { 
-					    has_country_flag = Spartacus_Suppress
-						}
-		                hidden_effect = {
-                        country_event = {
-	                           id = more_italy.21
-	                           days = 7
-                        }
-		                }
-					}
-
-					if = {
-						limit = { 
-					    NOT = { has_country_flag = Spartacus_Suppress }
-						}
-		                hidden_effect = {
-                        country_event = {
-	                           id = more_italy.19
-	                           days = 7
-                        }
-		                }
-					}
-
-
+		set_country_flag = ita_Repubblica_Sociale_flag
+		if = {
+			limit = {
+				has_country_flag = Spartacus_Suppress
+			}
+			hidden_effect = {
+				country_event = {
+					id = more_italy.21
+					days = 7
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = Spartacus_Suppress
+				}
+			}
+			hidden_effect = {
+				country_event = {
+					id = more_italy.19
+					days = 7
+				}
+			}
+		}
 	}
-	
 }
 
 country_event = {
@@ -759,19 +653,12 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
-        remove_ideas = ita_Colonial_war
-
+		remove_ideas = ita_Colonial_war
 		add_political_power = -100
-
-		add_stability = -0.10
-
-         set_country_flag = ita_political_turmoil_flag
-
-         custom_effect_tooltip = ita_political_turmoil_tt
-
+		add_stability = -0.1
+		set_country_flag = ita_political_turmoil_flag
+		custom_effect_tooltip = ita_political_turmoil_tt
 	}
-	
 }
 
 country_event = {
@@ -785,30 +672,19 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
-        remove_ideas = ita_Colonial_war
-
-					air_experience = 15
-
+		remove_ideas = ita_Colonial_war
+		air_experience = 15
 		add_political_power = 150
-
-			add_war_support = 0.10
-
-			random_army_leader = {
-				limit = { 
-					has_id = 3001
-				}
-				
-				add_attack = 1
-				
+		add_war_support = 0.1
+		random_army_leader = {
+			limit = {
+				has_id = 3001
 			}
-
-         set_country_flag = ita_regoup_fascist_flag
-
-         custom_effect_tooltip = ita_regoup_fascist_tt
-
+			add_attack = 1
+		}
+		set_country_flag = ita_regoup_fascist_flag
+		custom_effect_tooltip = ita_regoup_fascist_tt
 	}
-	
 }
 
 country_event = {
@@ -822,28 +698,17 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-
-        remove_ideas = ita_Colonial_war
-
-			army_experience = 5
-
+		remove_ideas = ita_Colonial_war
+		army_experience = 5
 		add_political_power = 150
-
-			add_war_support = 0.10
-
-			random_army_leader = {
-				limit = { 
-					has_id = 3000
-				}
-				
-				add_unit_leader_trait = trickster	
-				
+		add_war_support = 0.1
+		random_army_leader = {
+			limit = {
+				has_id = 3000
 			}
-
-         set_country_flag = ita_regoup_fascist_flag
-
-         custom_effect_tooltip = ita_regoup_fascist_tt
-
+			add_unit_leader_trait = trickster
+		}
+		set_country_flag = ita_regoup_fascist_flag
+		custom_effect_tooltip = ita_regoup_fascist_tt
 	}
-	
 }

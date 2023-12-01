@@ -146,7 +146,7 @@ HOF_ITA_nero_progress_in_ethiopia_success_effect = {
 		}
 		set_country_flag = ITA_missiolini_progress_in_ethiopia_one_mission_successful_flag
 	}
-	else_if = { #Second mission to succeed
+	else = { #Second mission to succeed
 		ITA_nero_claudius = { unit_leader_event = { id =  HOF_italy_nero.11 } }
 	}
 }
@@ -250,10 +250,10 @@ ITA_missiolini_stockpile_trucks_success_effect = {
 	else = { # GREATER REWARD (from To Live as a Lion focus)
 		add_political_power = 75
 		add_war_support = 0.05
-		add_timed_idea = {
-			idea = ITA_efficient_supply_lines_lion_version
-			days = 365
-		}
+		# add_timed_idea = {
+		# 	idea = ITA_efficient_supply_lines_lion_version
+		# 	days = 365
+		# }
 	}
 }
 
