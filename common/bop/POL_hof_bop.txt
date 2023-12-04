@@ -2,7 +2,7 @@ POL_Nationalism_bop = {
 	initial_value = -0.05
 	left_side = POL_Pilsudski_Poland 
 	right_side = POL_Dmowski_Poland
-	decision_category = POL_Polish_Unity
+	# decision_category = POL_Polish_Unity
 
 	range = { 
 		id = POL_Nationalism_bop_balanced 
