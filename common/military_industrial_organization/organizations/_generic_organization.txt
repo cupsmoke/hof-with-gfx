@@ -5,10 +5,14 @@ generic_tank_organization = {
 		always = yes
 	}
 	visible = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	available = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	equipment_type = {
 		mio_cat_eq_all_light_tank
@@ -2148,10 +2152,14 @@ generic_escort_ship_organization = {
 		always = yes
 	}
 	visible = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	available = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	equipment_type = {
 		screen_ship
@@ -3664,10 +3672,14 @@ generic_general_aircraft_organization = {
 		always = yes
 	}
 	visible = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	available = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	equipment_type = {
 		mio_cat_eq_all_small_plane
@@ -6569,10 +6581,14 @@ generic_artillery_organization = {
 		always = yes
 	}
 	visible = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	available = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	equipment_type = {
 		artillery_equipment
@@ -6865,10 +6881,14 @@ generic_infantry_equipment_organization = {
 		always = yes
 	}
 	visible = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	available = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	equipment_type = {
 		infantry_equipment
@@ -7448,10 +7468,14 @@ generic_motorized_mechanized_organization = {
 		always = yes
 	}
 	visible = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	available = {
-		is_generic_tags = yes
+		FROM = {
+			generic_mio_tag = yes
+		}
 	}
 	equipment_type = {
 		motorized_equipment

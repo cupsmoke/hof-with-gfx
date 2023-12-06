@@ -1,0 +1,23 @@
+#scripted triggers for Division Medals feature
+
+special_mio_tag = {
+	OR = {
+		original_tag = ENG
+		original_tag = GER
+		original_tag = FRA
+		original_tag = SOV
+		original_tag = RUS
+		original_tag = JAP
+		original_tag = ITA
+		original_tag = USA
+		original_tag = ROM
+		original_tag = HUN
+		original_tag = POL
+		original_tag = SWE
+	}
+}
+
+
+generic_mio_tag = {
+	special_mio_tag = no
+}

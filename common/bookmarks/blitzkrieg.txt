@@ -1,0 +1,255 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.2.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		"ENG" = {
+			history = "ENG_GATHERING_STORM_COVER"
+			ideology = neutrality
+			ideas = {
+				# ARTURIA_round_table_idea
+				# ARTURIA_knight_diplomacy_idea
+				# ENG_britain_ireland_trade_war
+			}
+			focuses = {
+				# uk_radiant_path_focus
+				# uk_darkened_focus
+				# arturia_move_capitals
+			}
+		}
+		"FRA" = {
+			history = "FRA_GATHERING_STORM_COVER"
+			ideology = neutrality
+			ideas = {
+				# FRA_semi_restoration_idea
+				# FRA_shadow_of_World_War_I_idea_I
+				# FRA_dragon_witch_activity_idea
+			}
+			focuses = {
+				# FRA_Luminosite_Eternelle
+				# FRA_je_suis_la_deluge
+				# FRA_North_African_holistic_citizenship
+			}
+		}
+		"GER" = {
+			history = "GER_GATHERING_STORM_COVER"
+			ideology = fascism
+			available = {
+				has_dlc = "Waking the Tiger"
+			}
+			ideas = {
+				# sour_loser
+				# relaxed_Corrupt_industry
+				# GER_Intricate_intelligence_agency
+			}
+			focuses = {
+				# GER_Armaments_payment_promissory_note
+				# GER_RAD
+				# GER_Full_control
+			}
+		}
+		"ITA" = {
+			history = "ITA_GATHERING_STORM_COVER"
+			ideology = neutrality
+			ideas = {
+				# ITA_tyrant_1
+				# ita_unaccepted_rome
+				# Questione_romana
+			}
+			focuses = {
+				# ita_emperor_priviege
+				# ita_red_blue_alliance
+				# ita_rebrith_of_roma
+			}
+		}
+		"ITA" = {
+			history = "ITA_GATHERING_STORM_COVER"
+			ideology = neutrality
+			ideas = {
+				# ITA_tyrant_1
+				# ita_unaccepted_rome
+				# Questione_romana
+			}
+			focuses = {
+				# ita_emperor_priviege
+				# ita_red_blue_alliance
+				# ita_rebrith_of_roma
+			}
+		}
+		"ITA" = {
+			history = "ITA_GATHERING_STORM_COVER"
+			ideology = neutrality
+			ideas = {
+				# ITA_tyrant_1
+				# ita_unaccepted_rome
+				# Questione_romana
+			}
+			focuses = {
+				# ita_emperor_priviege
+				# ita_red_blue_alliance
+				# ita_rebrith_of_roma
+			}
+		}
+		"POL" = {
+			history = "POL_GATHERING_STORM_COVER"
+			ideology = democratic
+			ideas = {
+				# POL_cud_nad_wisla
+				# POL_fragile_democracy
+				# UKR_OUN_subversion_POL
+			}
+			focuses = {
+				# POL_Adeptus_Sprawiedliwi
+				# POL_the_second_lwow_trial
+				# POL_conduct_Prometeizm
+			}
+		}
+		
+		"JAP" = {
+			history = "JAP_GATHERING_STORM_COVER"
+			ideology = neutrality
+			ideas = {
+				# jap_tamamo_empress
+				# idea_jap_army_goverment_conflict
+				# idea_jap_corrupt_democracy
+			}
+			focuses = {
+				# JAP_greater_east_asian_co_prosperity_sphere
+				# JAP_Kappa
+				# JAP_japanese_national_socialism
+			}
+		}
+
+		"ROM" = {
+			minor = yes
+			history = "ROM_GATHERING_STORM_COVER"
+			ideology = neutrality
+			ideas = {
+				# ROM_iron_guard_beginning
+				# ROM_boyars_idea
+				# Yggdmillennia_idea
+			}
+			focuses = {
+				# ROM_the_unification
+				# ROM_kingdom_of_legion
+				# ROM_Partidul_Natiunii
+			}
+		}
+		"HUN" = {
+			minor = yes
+			history = "HUN_GATHERING_STORM_COVER"
+			ideology = neutrality
+			ideas = {
+				# HUN_disjointed_government_idea
+				# HUN_Ethnic_resistance_idea
+				# HUN_GER_economic_control_idea
+			}
+			focuses = {
+				# HUN_hungarians_are_united
+				# HUN_Action_Chakhtis
+				# HUN_Revolutionary_Court
+			}
+		}
+		"SOV" = {
+			minor = yes
+			history = "SOV_GATHERING_STORM_COVER"
+			ideology = communism
+			ideas = {
+				# trotskyite_plot
+				# SOV_Legacy_of_the_Great_Famine
+				# SOV_red_army_idea
+			}
+			focuses = {
+				# SOV_expend_NKVD
+				# SOV_For_the_world_revolution
+				# SOV_Democratic_alliance
+			}
+		}
+		"RUS" = {
+			minor = yes
+			history = "RUS_GATHERING_STORM_COVER"
+			ideology = neutrality
+			ideas = {
+				# RUS_rebirth_of_the_tsar_0
+				# RUS_sour_loser
+				# rus_japanese_advisory_group
+			}
+			focuses = {
+				# rus_redeem_glory_of_past
+				# rus_pravoslavie_samoderzhavie_narodnost
+				# rus_PSR_comes_back
+			}
+		}
+		"UKR" = {
+			minor = yes
+			history = "UKR_GATHERING_STORM_COVER"
+			ideology = communism
+			ideas = {
+				# UKR_Legacy_of_the_Great_Famine_idea_1
+				# UKR_DniproHES_idea
+				# UKR_no_army_idea
+			}
+			focuses = {
+				# UKR_Anarchist_loyal_to_our_cause
+				# UKR_Big_two_system
+				# UKR_generic_Zaporizhzhia_industrial_complex
+			}
+		}
+
+		"SWE" = {
+			minor = yes
+			history = "SWE_GATHERING_STORM_COVER"
+			ideology = democratic
+			ideas = {
+				# en_svensk_tiger
+				# swe_finance_tension
+				# swe_Svenska_kyrkan
+			}
+			focuses = {
+				# swe_Kalmarunionen
+				# swe_myth_of_twenties_centry
+				# swe_minecraft
+			}
+		}
+
+		# minors from DLC ####
+		"MEX" = {
+			minor = yes
+			history = "MEX_GATHERING_STORM_COVER"
+			ideology = neutrality
+			ideas = {
+				# MEX_church_power_2
+				# MEX_politicised_army
+				# MEX_oil_concessions
+			}
+			focuses = {
+				# MEX_focus_Lucha_libre
+				# MEX_focus_proclaim_aztec
+				# MEX_focus_sunset_invasion
+			}
+		}
+		"FIC" = {
+			minor = yes
+			history = "FIC_GATHERING_STORM_COVER"
+			ideology = neutrality
+			ideas = {
+				# FIC_Difficulty_in_conscription
+				# FIC_salt_opium_alcohol_idea
+				# FIC_Agricultural_colonies_idea
+			}
+			focuses = {
+				# FIC_Shipping_rubber
+				# FIC_Pull_out_the_poppy
+				# FIC_Croix_de_Feu
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345			# <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

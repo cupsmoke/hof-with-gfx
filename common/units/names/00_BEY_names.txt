@@ -1,4 +1,4 @@
-﻿FNG = {
+﻿BEY = {
 	submarine = {
 		prefix = ""
 		generic = { "Qianting" }
