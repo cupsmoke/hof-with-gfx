@@ -128,8 +128,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Yamanami_Keisuke.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_JAP_Yamanami_Keisuke2"
-		texturefile = "gfx/leaders/JAP/Portrait_JAP_Yamanami_Keisuke2.png"
+		name = "GFX_Portrait_JAP_Yamanami_Keisuke_2"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Yamanami_Keisuke_2.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_JAP_Yogyu_Munenori"

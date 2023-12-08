@@ -1,0 +1,17 @@
+# leader
+characters = {
+	ENG_arturia_pendragon = {
+		name = ENG_arturia_pendragon
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ENG_Arturia_Pendragon
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			traits = {
+				knight_king
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+# leader
+characters = {
+	JAP_sakamoto_ryoma = {
+		name = JAP_sakamoto_ryoma
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_JAP_Sakamoto_Ryoma
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {
+				reform_pioneer
+			}
+		}
+	}
+}

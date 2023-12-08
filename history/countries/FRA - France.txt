@@ -798,6 +798,10 @@ if = {
 }
 
 #character#
+recruit_character = FRA_marie_antoinette 
+recruit_character = FRA_maurice_thorez 
+recruit_character = FRA_leo_b_harvey 
+recruit_character = FRA_pierre_cauchon 
 
 
 # 1939

@@ -1335,7 +1335,8 @@ if = {
 	}
 }
 
-
+##
+recruit_character = ENG_arturia_pendragon
 
 # 
 

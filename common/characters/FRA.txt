@@ -1,0 +1,52 @@
+# leader
+characters = {
+	FRA_marie_antoinette = {
+		name = FRA_marie_antoinette
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_FRA_Marie
+			}
+		}
+		country_leader = {
+			desc="POLITICS_MARIE_ANTOINETTE_DESC"
+			ideology = authoritarian_democracy
+			traits = {
+				reform_pioneer
+			}
+		}
+	}
+	FRA_maurice_thorez = {
+		name = FRA_maurice_thorez
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_FRA_Maurice_Thorez_0
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+		}
+	}
+	FRA_leo_b_harvey = {
+		name = FRA_leo_b_harvey
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_FRA_Leo_B_Harvey
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits={ ideal_holy_king }
+		}
+	}
+	FRA_pierre_cauchon = {
+		name = FRA_pierre_cauchon
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_FRA_Pierre_Cauchon
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+}

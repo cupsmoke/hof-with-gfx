@@ -1,0 +1,18 @@
+# leader
+characters = {
+	ITA_nero_claudius = {
+		name = ITA_nero_claudius
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ITA_Nero_Neutrality
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NERO_CLAUDIUS_DESC"
+			ideology = authoritarian_democracy
+			traits = {
+				Tyrant_of_rose
+			}
+		}
+	}
+}

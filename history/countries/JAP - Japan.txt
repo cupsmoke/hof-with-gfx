@@ -1134,5 +1134,10 @@ set_variable = {
 	JAP_train_koukyogun_cd = 335
 }
 
+
+#
+recruit_character = JAP_sakamoto_ryoma 
+
+
 # 
 # 

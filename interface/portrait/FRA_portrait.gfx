@@ -88,8 +88,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Martha.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_FRA_Maurice_Thorez"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Maurice_Thorez.png"
+		name = "GFX_Portrait_FRA_Maurice_Thorez_0"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Maurice_Thorez_0.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_FRA_Mozart"
