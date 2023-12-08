@@ -1,15 +1,11 @@
 spriteTypes = {
 	SpriteType = {
-		name = "GFX_Portrait_BEY_Chen_Tiaoyuan"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Chen_Tiaoyuan.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_BEY_Gao_Changgong"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Gao_Changgong.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_BEY_Gao_Changgong_pol"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Gao_Changgong_pol.png"
+		name = "GFX_Portrait_BEY_Gao_Changgong_civ"
+		texturefile = "gfx/leaders/BEY/Portrait_BEY_Gao_Changgong_civ.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_BEY_Hong_Meiling"
@@ -40,24 +36,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Huo_Diange.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_BEY_Huo_Qinge"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Huo_Qinge.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_BEY_Huyan_Zhuo"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Huyan_Zhuo.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_BEY_Jiang_Baili"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Jiang_Baili.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_BEY_Jing_Ke"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Jing_Ke.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Liu_Menggeng"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Liu_Menggeng.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_BEY_Liu_Yunqiao"
@@ -72,10 +56,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Li_Shuwen.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_BEY_Qi_Xieyuan"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Qi_Xieyuan.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_BEY_Sheng_Shicai_army"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Sheng_Shicai_army.png"
 	}
@@ -84,44 +64,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Sheng_Shicai_leader.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_BEY_Shi_Yousan"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Shi_Yousan.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Sun_Chuanfang"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Sun_Chuanfang.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Sun_Dianying"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Sun_Dianying.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Wang_Lingyun"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Wang_Lingyun.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Wan_Fulin"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Wan_Fulin.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Wu_Peifu"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Wu_Peifu.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Yang_Yuting"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Yang_Yuting.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_BEY_Yan_Qing"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Yan_Qing.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Yan_Xishan"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Yan_Xishan.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Zhang_Jinghui"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Zhang_Jinghui.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_BEY_Zhang_Jue"
@@ -130,17 +74,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_BEY_Zhang_Jue_suit"
 		texturefile = "gfx/leaders/BEY/Portrait_BEY_Zhang_Jue_suit.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Zhang_Xueliang_abuser"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Zhang_Xueliang_abuser.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Zhang_Xueliang_army"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Zhang_Xueliang_army.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_BEY_Zhang_Zongchang"
-		texturefile = "gfx/leaders/BEY/Portrait_BEY_Zhang_Zongchang.png"
 	}
 }

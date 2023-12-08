@@ -1,0 +1,85 @@
+# leader
+characters = {
+	GER_siegfried = {
+		name = GER_siegfried
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Siegfried_2
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SIEGFRIED_DESC"
+			ideology = valkist
+			traits = {
+				Wachter_des_Vaterlandes
+				Das_Rheingold
+			}
+		}
+	}
+	GER_kriemhild = {
+		name = GER_kriemhild
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Kriemhild
+			}
+		}
+	}
+	GER_ernst_thalmann = {
+		name = GER_ernst_thalmann
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Ernst_Thalmann
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+		}
+	}
+}
+
+#mar
+characters = {
+	GER_ludendorff = {
+		name = GER_ludendorff
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Ludendorff_suit
+			}
+			army = {
+				large = GFX_Portrait_GER_Ludendorff_uniform
+				
+			} 
+		}
+	}
+}
+
+#commander
+characters = {
+	GER_max_bauer = {
+		name = GER_max_bauer
+		portraits = {
+			army = {
+				large = GFX_Portrait_GER_Max_Bauer
+				
+			} 
+		}
+	}
+	GER_reichenau = {
+		name = GER_reichenau
+		portraits = {
+			army = {
+				large = GFX_Portrait_GER_Reichenau
+				
+			} 
+		}
+	}
+	GER_manfred_von_richthofen = {
+		name = GER_manfred_von_richthofen
+		portraits = {
+			army = {
+				large = GFX_Portrait_GER_Manfred_von_Richthofen
+			}
+		}
+	}
+}
+

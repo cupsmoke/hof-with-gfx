@@ -17,6 +17,8 @@ elif corenum == '2':
     # 启动
     print('启动gfx生成器')
     path = 'E:/download/github download/hof-with-gfx/tool'
+    pypath = os.path.join(path,'from png to gfx-portrait_rename.py')
+    subprocess.run(['python', pypath])
     pypath = os.path.join(path,'from png to gfx-portrait.py')
     subprocess.run(['python', pypath])
     pypath = os.path.join(path,'from png to gfx-idea.py')

@@ -1,42 +1,114 @@
 spriteTypes = {
 	SpriteType = {
-		name = "GFX_Portrait_JAP_Akasaka_Saburo"
-		texturefile = "gfx/leaders/MAN/Portrait_JAP_Akasaka_Saburo.png"
+		name = "GFX_Portrait_MAN_Genrikh_Lyushkov"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Genrikh_Lyushkov.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_JAP_Kanji_Ishiwara"
-		texturefile = "gfx/leaders/MAN/Portrait_JAP_Kanji_Ishiwara.png"
+		name = "GFX_Portrait_MAN_Hanekawa_Tsubasa"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Hanekawa_Tsubasa.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_JAP_Seishiro_Itagaki"
-		texturefile = "gfx/leaders/MAN/Portrait_JAP_Seishiro_Itagaki.png"
+		name = "GFX_Portrait_MAN_Hanekawa_Tsubasa_After"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Hanekawa_Tsubasa_After.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_MAN_Kenkichi_Ueda"
-		texturefile = "gfx/leaders/MAN/Portrait_MAN_Kenkichi_Ueda.png"
+		name = "GFX_Portrait_MAN_Hayasaka_Ai"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Hayasaka_Ai.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_MAN_Renya_Mutaguchi"
-		texturefile = "gfx/leaders/MAN/Portrait_MAN_Renya_Mutaguchi.png"
+		name = "GFX_Portrait_MAN_Hideki_Tojo"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Hideki_Tojo.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_MAN_Shizuichi_Tanaka"
-		texturefile = "gfx/leaders/MAN/Portrait_MAN_Shizuichi_Tanaka.png"
+		name = "GFX_Portrait_MAN_Hoshiguma"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Hoshiguma.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_MAN_shuten_doji"
-		texturefile = "gfx/leaders/MAN/Portrait_MAN_shuten_doji.png"
+		name = "GFX_Portrait_MAN_Hoshino_Ai"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Hoshino_Ai.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_MAN_Tomoyuki_Yamashita"
-		texturefile = "gfx/leaders/MAN/Portrait_MAN_Tomoyuki_Yamashita.png"
+		name = "GFX_Portrait_MAN_Hotsumi_Ozaki"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Hotsumi_Ozaki.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_MAN_Toshizo_Nishio"
-		texturefile = "gfx/leaders/MAN/Portrait_MAN_Toshizo_Nishio.png"
+		name = "GFX_Portrait_MAN_Isshiki_Iroha"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Isshiki_Iroha.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_MAN_Yasuji_Okamura"
-		texturefile = "gfx/leaders/MAN/Portrait_MAN_Yasuji_Okamura.png"
+		name = "GFX_Portrait_MAN_Kanji_Ishiwara"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Kanji_Ishiwara.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Kazuya_Mishima"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Kazuya_Mishima.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Kim_Kyung_Cheon"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Kim_Kyung_Cheon.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Komakusa_Sannyo"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Komakusa_Sannyo.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Konno_Junko"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Konno_Junko.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Masanobu_Tsuji"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Masanobu_Tsuji.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Miyano_Shiho"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Miyano_Shiho.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Mizuno_Ai"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Mizuno_Ai.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Naoe_Ai"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Naoe_Ai.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Sakura_Matou"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Sakura_Matou.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Sakura_Matou_After"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Sakura_Matou_After.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Shiba_Tatsuya"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Shiba_Tatsuya.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Shiromeguri_Meguri"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Shiromeguri_Meguri.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Shuten_Doji"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Shuten_Doji.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Teiichi_Suzuki"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Teiichi_Suzuki.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Uesugi_Katsuko"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Uesugi_Katsuko.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Uesugi_Torako"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Uesugi_Torako.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Yuugiri"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Yuugiri.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MAN_Zhao_Zhiqi"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Zhao_Zhiqi.png"
 	}
 }

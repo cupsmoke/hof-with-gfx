@@ -1,2 +1,10 @@
 spriteTypes = {
+	SpriteType = {
+		name = "GFX_Portrait_MEX_Tenochtitlan"
+		texturefile = "gfx/leaders/MEX/Portrait_MEX_Tenochtitlan.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_MEX_Tezcatlipoca"
+		texturefile = "gfx/leaders/MEX/Portrait_MEX_Tezcatlipoca.png"
+	}
 }

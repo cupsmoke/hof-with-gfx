@@ -16,17 +16,6 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
-	# gwtank = 1
-	# basic_light_tank = 1
-	# improved_light_tank = 1
-	# basic_heavy_tank = 1
-	# early_fighter = 1
-	# fighter1 = 1
-	# early_bomber = 1
-	# tactical_bomber1 = 1
-	# strategic_bomber1 = 1
-	# CAS1 = 1
-	# naval_bomber1 = 1
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
@@ -134,11 +123,6 @@ if = {
 		basic_heavy_tank_chassis = 1
 		engine_tech_1 = 1
 	}
-}
-
-set_variable = {
-	var = ger_gateway_to_europe_influence
-	value = 0
 }
 
 set_variable = {
@@ -710,4 +694,12 @@ if = {
 # 	Ferdinand_von_Bredow_advisor
 # 	hjalmar_schacht
 # }
+# 
+recruit_character = GER_siegfried
+recruit_character = GER_kriemhild
+recruit_character = GER_ernst_thalmann
+recruit_character = GER_ludendorff
+recruit_character = GER_max_bauer
+recruit_character = GER_reichenau
+recruit_character = GER_manfred_von_richthofen
 # 

@@ -1,0 +1,14 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_Portrait_ZHL_Guo_Jiqiao"
+		texturefile = "gfx/leaders/ZHL/Portrait_ZHL_Guo_Jiqiao.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_ZHL_Song_Shilun"
+		texturefile = "gfx/leaders/ZHL/Portrait_ZHL_Song_Shilun.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_ZHL_Wang_Jianan"
+		texturefile = "gfx/leaders/ZHL/Portrait_ZHL_Wang_Jianan.png"
+	}
+}

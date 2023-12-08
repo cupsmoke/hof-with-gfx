@@ -4,7 +4,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/XSM/Portrait_XSM_Bai_Ze.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_XSM_Lv_Bu"
-		texturefile = "gfx/leaders/XSM/Portrait_XSM_Lv_Bu.png"
+		name = "GFX_Portrait_XSM_Lu_Bu"
+		texturefile = "gfx/leaders/XSM/Portrait_XSM_Lu_Bu.png"
 	}
 }

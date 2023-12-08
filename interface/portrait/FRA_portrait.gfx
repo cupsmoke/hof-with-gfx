@@ -1,46 +1,114 @@
 spriteTypes = {
 	SpriteType = {
-		name = "GFX_Portrait_Beadamante"
-		texturefile = "gfx/leaders/FRA/Portrait_Beadamante.png"
+		name = "GFX_Portrait_FRA_Astolfo"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Astolfo.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_Chevalier"
-		texturefile = "gfx/leaders/FRA/Portrait_Chevalier.png"
+		name = "GFX_Portrait_FRA_Beadamante"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Beadamante.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_FRA_Jean_Touzet_du_Vigier"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Jean_Touzet_du_Vigier.png"
+		name = "GFX_Portrait_FRA_Charlemagne"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Charlemagne.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_FRA_Louis_Franchet_Esperey"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Louis_Franchet_Esperey.png"
+		name = "GFX_Portrait_FRA_Charlotte_Corday"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Charlotte_Corday.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Chevalier"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Chevalier.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Ciel"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Ciel.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Ciel_2"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Ciel_2.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_DeRaisCaster"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_DeRaisCaster.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Edmond"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Edmond.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Giless"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Giless.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Jacques_Doriot_0"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Jacques_Doriot_0.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Jeanne"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Jeanne.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Jeanne0"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Jeanne0.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Jeanne1"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Jeanne1.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Jeanne_Darc_Alter"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Jeanne_Darc_Alter.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Jeanne_prove"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Jeanne_prove.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Karl"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Karl.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Leo_B_Harvey"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Leo_B_Harvey.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_FRA_Marcel_Cachin"
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Marcel_Cachin.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_FRA_Maurice_Thorez_HOF"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Maurice_Thorez_HOF.png"
+		name = "GFX_Portrait_FRA_Marie"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Marie.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_FRA_Paul_Legentilhomme"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Paul_Legentilhomme.png"
+		name = "GFX_Portrait_FRA_Marie_alter"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Marie_alter.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_FRA_Philippe_Leclerc"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Philippe_Leclerc.png"
+		name = "GFX_Portrait_FRA_Martha"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Martha.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_Giless"
-		texturefile = "gfx/leaders/FRA/Portrait_Giless.png"
+		name = "GFX_Portrait_FRA_Maurice_Thorez"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Maurice_Thorez.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_Marie"
-		texturefile = "gfx/leaders/FRA/Portrait_Marie.png"
+		name = "GFX_Portrait_FRA_Mozart"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Mozart.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_Marie_alter"
-		texturefile = "gfx/leaders/FRA/Portrait_Marie_alter.png"
+		name = "GFX_Portrait_FRA_Napoleon"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Napoleon.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Pierre_Cauchon"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Pierre_Cauchon.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_Sanson"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Sanson.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FRA_St_Martha_admiral"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_St_Martha_admiral.png"
 	}
 }

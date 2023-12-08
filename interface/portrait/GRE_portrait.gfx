@@ -4,12 +4,32 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GRE/Portrait_GRE_Alexander.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_GRE_Artemis"
+		texturefile = "gfx/leaders/GRE/Portrait_GRE_Artemis.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_GRE_Beryl_Gut"
+		texturefile = "gfx/leaders/GRE/Portrait_GRE_Beryl_Gut.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_GRE_Caenis"
+		texturefile = "gfx/leaders/GRE/Portrait_GRE_Caenis.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_GRE_Circe"
+		texturefile = "gfx/leaders/GRE/Portrait_GRE_Circe.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_GRE_Constantine_XI"
 		texturefile = "gfx/leaders/GRE/Portrait_GRE_Constantine_XI.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_GRE_Constantine_XI_Emperor"
 		texturefile = "gfx/leaders/GRE/Portrait_GRE_Constantine_XI_Emperor.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_GRE_Gorgon"
+		texturefile = "gfx/leaders/GRE/Portrait_GRE_Gorgon.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_GRE_Jason"
@@ -22,5 +42,9 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_GRE_Medea"
 		texturefile = "gfx/leaders/GRE/Portrait_GRE_Medea.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_GRE_Odysseus"
+		texturefile = "gfx/leaders/GRE/Portrait_GRE_Odysseus.png"
 	}
 }

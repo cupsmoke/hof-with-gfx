@@ -16,20 +16,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RHI/Portrait_RHI_Astolfo.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_RHI_Elfzehn_Gewher"
-		texturefile = "gfx/leaders/RHI/Portrait_RHI_Elfzehn_Gewher.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_RHI_FAUD"
 		texturefile = "gfx/leaders/RHI/Portrait_RHI_FAUD.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_RHI_Franz_Josef_Roder"
 		texturefile = "gfx/leaders/RHI/Portrait_RHI_Franz_Josef_Roder.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RHI_Funfundvierzig_Reina"
-		texturefile = "gfx/leaders/RHI/Portrait_RHI_Funfundvierzig_Reina.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_RHI_Henri_Frenay"
@@ -56,20 +48,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RHI/Portrait_RHI_Matthes.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_RHI_Neun_Layia"
-		texturefile = "gfx/leaders/RHI/Portrait_RHI_Neun_Layia.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_RHI_Otto_Ernst_Remer"
 		texturefile = "gfx/leaders/RHI/Portrait_RHI_Otto_Ernst_Remer.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_RHI_Otto_Wels"
 		texturefile = "gfx/leaders/RHI/Portrait_RHI_Otto_Wels.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RHI_Vierhundertsechzehn_Koch"
-		texturefile = "gfx/leaders/RHI/Portrait_RHI_Vierhundertsechzehn_Koch.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_RHI_Willy_Brandt"

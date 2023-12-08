@@ -1,0 +1,14 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_Portrait_FNG_Lu_Zhengcao"
+		texturefile = "gfx/leaders/FNG/Portrait_FNG_Lu_Zhengcao.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FNG_Wan_Yi"
+		texturefile = "gfx/leaders/FNG/Portrait_FNG_Wan_Yi.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_FNG_Zhang_Xuecheng"
+		texturefile = "gfx/leaders/FNG/Portrait_FNG_Zhang_Xuecheng.png"
+	}
+}
