@@ -38,6 +38,17 @@ characters = {
 			ideology = stalinism
 		}
 	}
+	GER_franz_von_papen = {
+		name = GER_franz_von_papen
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Franz_von_Papen
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+		}
+	}
 }
 
 #mar
