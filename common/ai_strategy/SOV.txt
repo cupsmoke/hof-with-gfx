@@ -353,10 +353,7 @@ germany_ally = {
 		original_tag = SOV
 	}				 
 	enable = {
-		OR = { 
-			has_completed_focus = SOV_anti_capitalist_diplomacy
-			GER = { has_completed_focus = GER_soviet_ally }
-		}
+		always = no
 		country_exists = GER
 	}
 	abort = {
@@ -380,7 +377,7 @@ germany_enemy = {
 		original_tag = SOV
 	}		   
 	enable = {
-		has_completed_focus = SOV_anti_fascist_diplomacy
+		# has_completed_focus = SOV_anti_fascist_diplomacy
 		country_exists = GER
 		OR = {
 			date > 1942.1.1
@@ -692,7 +689,7 @@ SOV_dont_mess_with_volunteers_for_european_democratic_nations = { # Reverse stra
 		original_tag = SOV
 	}
 	enable = {
-		has_government = democratic
+		has_government = conservatism
 		SOV = {
 			has_government = communism
 		}

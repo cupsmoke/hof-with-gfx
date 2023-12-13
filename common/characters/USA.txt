@@ -1,0 +1,14 @@
+# leader
+characters = {
+	USA_thomas_edison = {
+		name = USA_thomas_edison
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_USA_Thomas_Edison
+			}
+		}
+		country_leader = {
+			ideology = con_conservatism
+		}
+	}
+}

@@ -29,5 +29,7 @@ elif corenum == '2':
     subprocess.run(['python', pypath])
     pypath = os.path.join(path,'from png to gfx-event.py')
     subprocess.run(['python', pypath])
+    pypath = os.path.join(path,'from png to gfx-ideo.py')
+    subprocess.run(['python', pypath])
 # subprocess.run(['python', 'from png to gfx-event.py'])
 # print(path1)

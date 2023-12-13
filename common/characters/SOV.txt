@@ -1,15 +1,17 @@
 # leader
 characters = {
-	SOV_joseph_dzhugashvili={
-		name=SOV_joseph_dzhugashvili
-		portraits={
-			civilian={
-				large=GFX_Portrait_SOV_Joseph_Dzhugashvili
+	SOV_joseph_dzhugashvili = {
+		name = SOV_joseph_dzhugashvili
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_SOV_Joseph_Dzhugashvili
 			}
 		}
-		country_leader={
-			ideology=stalinism
-			traits={ father_of_nation }
+		country_leader = {
+			ideology = com_stalinism
+			traits = {
+				father_of_nation
+			}
 		}
 	}
 }

@@ -61,17 +61,17 @@ if = {
 
 set_convoys = 10
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternalism
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 40
-	fascism = 15
+	conservatism = 40
+	despotism = 15
 	communism = 1
-	neutrality = 44
+	paternalism = 44
 }
 
 # add_ideas = {
@@ -199,12 +199,12 @@ set_cosmetic_tag = POL_Republic
 	set_garrison_strength = 1
 }
 
-set_power_balance = {
-	id = POL_Nationalism_bop
-	left_side = POL_Pilsudski_Poland
-	right_side = POL_Dmowski_Poland
-	set_value = 0.05
-}
+# set_power_balance = {
+# 	id = POL_Nationalism_bop
+# 	left_side = POL_Pilsudski_Poland
+# 	right_side = POL_Dmowski_Poland
+# 	set_value = 0.05
+# }
 
 set_party_name = {
 	ideology = fascism
@@ -412,3 +412,10 @@ if = {
 # recruit_character = POL_tadeusz_bielecki
 # recruit_character = POL_henryk_floyar_rajchman
 # recruit_character = POL_joachim_stefan_bartoszewicz
+# 
+
+
+recruit_character = POL_jozef_pilsudski
+
+
+# 

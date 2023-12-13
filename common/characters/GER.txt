@@ -8,8 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_SIEGFRIED_DESC"
-			ideology = valkist
+			ideology = fas_valkist
 			traits = {
 				Wachter_des_Vaterlandes
 				Das_Rheingold
@@ -24,7 +23,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = valkist
+			ideology = fas_valkist
 		}
 	}
 	GER_ernst_thalmann = {
@@ -35,7 +34,43 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = com_leninism
+		}
+		country_leader = {
+			ideology = soc_anti_revisionism
+		}
+	}
+	GER_kurt_schumacher = {
+		name = GER_kurt_schumacher
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Kurt_Schumacher
+			}
+		}
+		country_leader = {
+			ideology = pro_progressivism
+		}
+	}
+	GER_otto_gessler = {
+		name = GER_otto_gessler
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Kurt_Schumacher
+			}
+		}
+		country_leader = {
+			ideology = lib_liberalism
+		}
+	}
+	GER_heinrich_bruning = {
+		name = GER_heinrich_bruning
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Heinrich_Bruning
+			}
+		}
+		country_leader = {
+			ideology = con_conservatism
 		}
 	}
 	GER_franz_von_papen = {
@@ -46,7 +81,29 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = con_conservatism
+		}
+	}
+	GER_kuno_von_westarp = {
+		name = GER_kuno_von_westarp
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Kuno_von_Westarp
+			}
+		}
+		country_leader = {
+			ideology = pat_guided_democracy
+		}
+	}
+	GER_alfred_hugenberg = {
+		name = GER_alfred_hugenberg
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Alfred_Hugenberg
+			}
+		}
+		country_leader = {
+			ideology = des_oligarchism
 		}
 	}
 }

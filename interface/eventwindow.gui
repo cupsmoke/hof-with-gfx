@@ -529,7 +529,6 @@ guiTypes = {
 			position = { x=0 y=121 }	
 			size = { width = 580 height = 485 }
 			Orientation = UPPER_LEFT
-			verticalScrollbar = ANC_slider
 		
 			instantTextBoxType = {
 				name = "Description"

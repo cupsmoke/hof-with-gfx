@@ -4,24 +4,13 @@ import io
 import os.path
 import shutil
 # 路径识别
-
+import core
 
 # 需要的输入：
 # 路径 TAG
 
 # TAG = input('请输入TAG：').upper()
 
-def getDir(path):
-    taglist = []
-    taglist1 = os.listdir(path)
-    for tag in taglist1:
-        path1 = path + tag
-        if os.path.isdir(path1):
-            taglist.append(tag)
-    return taglist
-def getPngName(tagpath):
-    taglist = os.listdir(tagpath)
-    return taglist
 def outpuGfx(text):
     global interfacePath
     global TAG
@@ -40,20 +29,20 @@ def outpuGfx(text):
     txtfile.write('}\n')
     txtfile.close()
     print(TAG+"_advisor.gfx文件已输出")
-pngpathfirst = '..\gfx\interface\\advisor\\'
-taglist = getDir(pngpathfirst)
-print('将生成以下tag民族精神的gfx文件')
+pngpathfirst = '../gfx/interface/advisor/'
+taglist = core.getDir(pngpathfirst)
+print('将生成以下tag顾问的gfx文件')
 print(taglist)
 input('')
-interfacePath = '..\interface\\advisor\\'
+interfacePath = '../interface/advisor/'
 if os.path.exists(interfacePath):
     shutil.rmtree(interfacePath)
 if not os.path.exists(interfacePath):
     os.makedirs(interfacePath)
 for TAG in taglist:
-    pngpath = pngpathfirst + TAG
+    pngpath = os.path.join(pngpathfirst,TAG)
     gfxfilename = interfacePath + 'advisor_' + TAG + '.gfx'
-    pnglist = getPngName(pngpath)
+    pnglist = core.getPngName(pngpath)
     outpuGfx(pnglist)
 
     # for tag in taglist:

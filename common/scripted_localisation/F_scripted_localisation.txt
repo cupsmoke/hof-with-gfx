@@ -13,7 +13,7 @@ defined_text = { # firstslot
 	text = {
 		trigger = {
 			original_tag = GER
-			#has_government = neutrality
+			#has_government = despotism
 		}
 		localization_key = GER_FIRSTSLOT
 	}
@@ -32,7 +32,7 @@ defined_text = { # secondslot
 	text = {
 		trigger = {
 			original_tag = GER
-			#has_government = neutrality
+			#has_government = despotism
 		}
 		localization_key = GER_SECONDSLOT
 	}
@@ -51,7 +51,7 @@ defined_text = { # thirdslot
 	text = {
 		trigger = {
 			original_tag = GER
-			#has_government = neutrality
+			#has_government = despotism
 		}
 		localization_key = GER_THIRDSLOT
 	}
@@ -70,7 +70,7 @@ defined_text = { # fourthslot
 	text = {
 		trigger = {
 			original_tag = GER
-			#has_government = neutrality
+			#has_government = despotism
 		}
 		localization_key = GER_FOURTHSLOT
 	}
@@ -89,7 +89,7 @@ defined_text = { # fifthslot
 	text = {
 		trigger = {
 			original_tag = GER
-			#has_government = neutrality
+			#has_government = despotism
 		}
 		localization_key = GER_FIFTHSLOT
 	}
@@ -108,7 +108,7 @@ defined_text = { # sixthslot
 	text = {
 		trigger = {
 			original_tag = GER
-			#has_government = neutrality
+			#has_government = despotism
 		}
 		localization_key = GER_SIXTHSLOT
 	}

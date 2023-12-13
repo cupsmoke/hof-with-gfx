@@ -1,0 +1,33 @@
+﻿focus_tree = {
+	id = spec_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POL
+		}
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+	focus = {
+		id = SPE_army_effort_spec
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			army_experience = 5
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+}

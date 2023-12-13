@@ -162,7 +162,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			removal_cost = -1
 			picture = generic_democratic_drift_bonus
@@ -176,7 +176,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = despotism
 			}
 			removal_cost = -1
 			picture = generic_pp_unity_bonus
@@ -262,7 +262,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			removal_cost = -1
 			picture = generic_democratic_drift_bonus
@@ -276,7 +276,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = despotism
 			}
 			removal_cost = -1
 			picture = generic_pp_unity_bonus
@@ -317,7 +317,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			removal_cost = -1
 			picture = generic_democratic_drift_bonus
@@ -423,7 +423,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = despotism
 			}
 			cancel = {
 				has_war = yes

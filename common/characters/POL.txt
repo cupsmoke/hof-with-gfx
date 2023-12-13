@@ -1,0 +1,17 @@
+# leader
+characters = {
+	POL_jozef_pilsudski = {
+		name = POL_jozef_pilsudski
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_POL_Jozef_Pilsudski
+			}
+		}
+		country_leader = {
+			ideology = pat_guided_democracy
+			traits = {
+				# Tyrant_of_rose
+			}
+		}
+	}
+}

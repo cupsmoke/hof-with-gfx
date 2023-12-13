@@ -63,7 +63,7 @@ JAP_wants_arms = {
 	enable = {
 		OR = {
 			has_government = fascism
-			has_government = neutrality
+			has_government = despotism
 		}
 		OR = {
 			date < 1939.1.1
@@ -239,7 +239,7 @@ JAP_in_for_the_long_haul_bruv = {
 	}
 
 	enable = {
-		has_government = democratic
+		has_government = conservatism
 		date < 1937.1.1
 		has_war = no
 	}

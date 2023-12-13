@@ -31,7 +31,7 @@ ideas = {
 		best_of_the_best_spirit = {
 			ledger = army
 			visible = { 
-				has_government = democratic
+				has_government = conservatism
 			}
 			modifier = {
 				army_leader_start_level = 2
@@ -63,7 +63,7 @@ ideas = {
 			visible = { 
 				OR = {
 					has_government = fascism
-					has_government = neutrality
+					has_government = despotism
 				}
 			}
 			modifier = {
@@ -196,7 +196,7 @@ ideas = {
 
 		relief_of_command_spirit = {
 			ledger = army
-			visible = { has_government = democratic }
+			visible = { has_government = conservatism }
 			modifier = {
 				experience_gain_army_factor = 0.25
 				army_advisor_cost_factor = -0.5

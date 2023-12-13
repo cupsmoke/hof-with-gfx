@@ -1,5 +1,13 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_Portrait_ITA_Antonio_Gramsci_0"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Antonio_Gramsci_0.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_ITA_Gabriele_dAnnunzio"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Gabriele_dAnnunzio.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_ITA_Nero_Neutrality"
 		texturefile = "gfx/leaders/ITA/Portrait_ITA_Nero_Neutrality.png"
 	}

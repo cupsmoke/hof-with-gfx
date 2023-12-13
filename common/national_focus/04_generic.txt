@@ -2258,7 +2258,7 @@ focus_tree = {
 			OR = {
 				has_government = fascism
 				has_government = communism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		x = -1
@@ -2276,7 +2276,7 @@ focus_tree = {
 				OR = {
 					AND = {
 						is_historical_focus_on = yes
-						has_government = neutrality
+						has_government = despotism
 					}
 					has_idea = neutrality_idea
 				}
@@ -2301,7 +2301,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		x = -2
@@ -2356,7 +2356,7 @@ focus_tree = {
 				else = {
 					OR = {
 						has_government = communism
-						has_government = neutrality
+						has_government = despotism
 					}
 				}
 			}
@@ -2406,8 +2406,8 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_government = democratic
-				has_government = neutrality
+				has_government = conservatism
+				has_government = despotism
 			}
 		}
 		x = 1
@@ -2432,7 +2432,7 @@ focus_tree = {
 				NOT = {
 					any_neighbor_country = {
 						is_major = yes
-						has_government = democratic
+						has_government = conservatism
 					}
 				}
 			}

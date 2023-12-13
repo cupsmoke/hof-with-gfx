@@ -97,18 +97,18 @@ guiTypes = {
 			size = { width = 255 height = 60 }
 			clipping = no
 					
-#			instantTextboxType = {
-#				name = "party"
-#				position = { x = 9 y = 2 }
-#				font = "hoi_18mbs"
-#				text = "party"
-#				maxWidth = 155
-#				maxHeight = 20
-#			}
+			# instantTextboxType = {
+			# 	name = "party"
+			# 	position = { x = 9 y = 2 }
+			# 	font = "hoi_18mbs"
+			# 	text = "party"
+			# 	maxWidth = 155
+			# 	maxHeight = 20 
+			# }
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 9 y = 0 }
+				position = { x = -200 y = 0 }
 				font = "hoi_18mbs"
 				text = "ideology"
 				maxWidth = 155
@@ -281,12 +281,7 @@ guiTypes = {
 			}
 		}
 		
-#		buttonType = {
-#			name = "show_subjects_button"
-#			position = { x = 482 y = 246 }
-#			quadTextureSprite = "GFX_subject_button"
-#		}
-		
+
 		containerWindowType = {
 			name = "active_goal"
 			position = { x = 179 y = 48 }
@@ -463,7 +458,8 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 425 }
+			# position = { x = 0 y = 425 }
+			position = { x = 0 y = 567 }
 			size = { width=100%% height=100%% }
 			verticalScrollbar = "right_vertical_slider"
 			scroll_wheel_factor = 40
@@ -492,7 +488,8 @@ guiTypes = {
 		iconType ={
 			name ="tutorial_glow"
 			spriteType = "GFX_tutorial_politics_icon_glow"
-			position = { x= 12 y = 383 }
+			# position = { x= 12 y = 383 }
+			position = { x= 12 y = 525 }
 			Orientation = "UPPER_LEFT"
 			hide = yes
 		}	
@@ -512,11 +509,12 @@ guiTypes = {
 		iconType ={
 			name ="politics_bottom"
 			spriteType = "GFX_main_screens_bottom"
-			position = { x = -2 y = 383 }
+			# position = { x = -2 y = 383 }
+			position = { x = -2 y = 520 }
 			Orientation = "UPPER_LEFT"
 			scale = 1.02
 		}
-
+ 
 		iconType = {
 			name = "rules"
 			spriteType = "GFX_rules_sum_icon"
@@ -525,7 +523,8 @@ guiTypes = {
 
 		buttonType = {
 			name = "manage_occupied_button"
-			position = { x = 10 y = 390 }
+			# position = { x = 10 y = 390 }
+			position = { x = 10 y = 532 }
 			quadTextureSprite = "GFX_new_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -533,7 +532,8 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
-			position = { x = 48 y = 398 }
+			# position = { x = 48 y = 398 }
+			position = { x = 48 y = 540 }
 			font = "hoi_16mbs"
 			# text = "MANAGE_OCCUPIED_TERRITORIES"
 			maxWidth = 122
@@ -544,7 +544,8 @@ guiTypes = {
 			# 附庸国
 			name = "subjects_button_container"
 			# position = { x = 367 y = 390 }
-			position = { x = 195 y = 390 }
+			# position = { x = 195 y = 390 }
+			position = { x = 195 y = 532 }
 			buttonType = {
 				name = "show_subjects_button"
 				position = { x = 0 y = 0 }
@@ -575,7 +576,7 @@ guiTypes = {
 		buttonType = {
 			name = "show_exiles_collaborations_button"
 			# position = { x = 190 y = 390 }
-			position = { x = 104 y = 390 }
+			position = { x = 104 y = 532 }
 			quadTextureSprite = "GFX_new_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
@@ -584,7 +585,8 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
-			position = { x = -1000 y = 398 }
+			# position = { x = -1000 y = 398 }
+			position = { x = -1000 y = 540 }
 			font = "hoi_16mbs"
 			maxWidth = 130
 			maxHeight = 20
@@ -598,14 +600,16 @@ guiTypes = {
 			# 流亡政府小图标
 			name = "icon_exiled_collaborations_governments"
 			spriteType = "GFX_icon_exiled_governments"
-			position = { x = 106 y = 391 }
+			# position = { x = 106 y = 391 }
+			position = { x = 106 y = 533 } 
 		}
 
 		iconType = {
 			# 占领地区域小图标
 			name = "icon_occupied_territories"
 			spriteType = "GFX_icon_occupied_territories"
-			position = { x = 12 y = 391 }
+			# position = { x = 12 y = 391 }
+			position = { x = 12 y = 533 }
 		}
 	}
 	
@@ -999,13 +1003,13 @@ guiTypes = {
 		name = "political_party_info_entry"
 		size = { width = 330 height = 18 }
 		clipping = no
-
+		position = { x = -75 y = 75 }
 		iconType = {
 			name = "leading_pol_party_bg"
 			position = { x = 60 y = 5 }
 			spriteType = "GFX_leading_pol_party_bg"
 		}		
-		
+		 
 		iconType = {
 			name = "color_block_bg"
 			position = { x = 60 y = 2 }
@@ -1033,7 +1037,7 @@ guiTypes = {
 			font = "hoi_16mbs"
 			text = "party name"
 			fixedsize = yes
-			maxWidth = 175
+			maxWidth = 250
 			maxHeight = 18
 		}
 	}

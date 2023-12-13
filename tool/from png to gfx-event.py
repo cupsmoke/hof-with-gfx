@@ -2,7 +2,7 @@ import re
 import os
 import io
 import os.path
-
+import core
 # 路径识别
 
 
@@ -11,10 +11,6 @@ import os.path
 
 # TAG = input('请输入TAG：').upper()
 
-def getPngName(tagpath):
-    taglist = os.listdir(tagpath)
-    # 列出所有的文件名
-    return taglist
 def diffEvent(pngnames):
     global reportnamelist
     global newsnamelist
@@ -59,8 +55,8 @@ def outputNews(text):
     txtfile.write('}\n')
     txtfile.close()
     print("news event.gfx文件已输出")
-pngpathfirst = '..\gfx\event_pictures\\'
-pngnames = getPngName(pngpathfirst)
+pngpathfirst = '../gfx/event_pictures/'
+pngnames = core.getPngName(pngpathfirst)
 reportfile = 'eventFate.gfx'
 newsfile = 'eventnewsFate.gfx'
 reportnamelist = []
@@ -69,7 +65,7 @@ diffEvent(pngnames)
 print('事件图共有',len(reportnamelist),'个')
 print('新闻图共有',len(newsnamelist),'个')
 input('type any')
-interfacePath = '..\interface\\'
+interfacePath = '../interface/'
 if not os.path.exists(interfacePath):
     os.makedirs(interfacePath)
 outputReport(reportnamelist)

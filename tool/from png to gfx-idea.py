@@ -2,7 +2,7 @@ import re
 import os
 import io
 import os.path
-
+import core
 # 路径识别
 
 
@@ -11,17 +11,6 @@ import os.path
 
 # TAG = input('请输入TAG：').upper()
 
-def getDir(path):
-    taglist = []
-    taglist1 = os.listdir(path)
-    for tag in taglist1:
-        path1 = path + tag
-        if os.path.isdir(path1):
-            taglist.append(tag)
-    return taglist
-def getPngName(tagpath):
-    taglist = os.listdir(tagpath)
-    return taglist
 def outpuGfx(text):
     global interfacePath
     global TAG
@@ -42,7 +31,7 @@ def outpuGfx(text):
     txtfile.close()
     print(TAG,"idea.gfx文件已输出")
 pngpathfirst = '..\gfx\interface\ideas\\'
-taglist = getDir(pngpathfirst)
+taglist = core.getDir(pngpathfirst)
 print('将生成以下tag民族精神的gfx文件')
 print(taglist)
 input('')
@@ -52,7 +41,7 @@ if not os.path.exists(interfacePath):
 for TAG in taglist:
     pngpath = pngpathfirst + TAG
     gfxfilename = interfacePath + 'idea_' + TAG + '.gfx'
-    pnglist = getPngName(pngpath)
+    pnglist = core.getPngName(pngpath)
     outpuGfx(pnglist)
 
     # for tag in taglist:

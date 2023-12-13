@@ -8,11 +8,10 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc="POLITICS_MARIE_ANTOINETTE_DESC"
-			ideology = authoritarian_democracy
-			traits = {
-				reform_pioneer
-			}
+			ideology = pat_paternalism
+		}
+		country_leader = {
+			ideology = des_absolute_monarchy
 		}
 	}
 	FRA_maurice_thorez = {
@@ -23,7 +22,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = com_stalinism
 		}
 	}
 	FRA_leo_b_harvey = {
@@ -34,7 +33,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = con_conservatism
 			traits={ ideal_holy_king }
 		}
 	}
@@ -46,7 +45,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fas_religious_fascism
 		}
 	}
 }

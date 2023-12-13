@@ -24,27 +24,28 @@ set_technology = {
 	fuel_refining = 1
 	armored_car1 = 1
 	basic_train = 1
-
 	auftragstaktik = 1
 }
 
 if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "GER_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			aa_cannon_1 = 1
-			engines_1 = 1
-			engines_2 = 1
-			radial_engines_2 = 1
-			early_bombs = 1
-			aircraft_construction = 1
-			iw_small_airframe = 1
-			basic_small_airframe = 1
-			iw_medium_airframe = 1
-			basic_medium_airframe = 1
-			iw_large_airframe = 1
-		}
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	set_air_oob = "GER_1936_air_bba"
+	set_technology = {
+		aa_lmg = 1
+		aa_cannon_1 = 1
+		engines_1 = 1
+		engines_2 = 1
+		radial_engines_2 = 1
+		early_bombs = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+		basic_small_airframe = 1
+		iw_medium_airframe = 1
+		basic_medium_airframe = 1
+		iw_large_airframe = 1
+	}
 	else = {
 		set_air_oob = "GER_1936_air_legacy"
 		set_technology = {
@@ -112,6 +113,7 @@ if = {
 	}
 	set_naval_oob = "GER_1936_naval_mtg"
 }
+
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -136,9 +138,9 @@ set_variable = {
 }
 
 add_equipment_to_stockpile = {
-    type = train_equipment_1
-    amount = 80
-    producer = GER
+	type = train_equipment_1
+	amount = 80
+	producer = GER
 }
 
 set_research_slots = 4
@@ -171,9 +173,11 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 20
+	conservatism = 10
+	paternalism = 10
+	despotism= 15	
 	fascism = 60
-	communism = 20
+	communism = 5
 }
 
 create_faction = Stahlpakt
@@ -192,7 +196,6 @@ add_to_faction = HOL
 # 	GER_Intricate_intelligence_agency
 # 	Powerful_influence_idea
 # }
-
 # add_ideas = {
 # 	Ferdinand_von_Bredow_advisor
 # 	hjalmar_schacht
@@ -204,12 +207,11 @@ add_to_faction = HOL
 # 	GER_wilhelm_canaris
 # 	GER_Hohenheim_Paracelsus
 # }
-
-
-
 if = {
 	limit = {
-		not = { has_dlc = "Man the Guns" }
+		not = {
+			has_dlc = "Man the Guns"
+		}
 	}
 	### Ship Variants ###
 	## 1936 Start ##
@@ -239,6 +241,7 @@ if = {
 		}
 	}
 }
+
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -321,15 +324,18 @@ if = {
 		icon = "GFX_GER_improved_light_tank_medium"
 	}
 }
+
 if = {
-	limit = { has_dlc = "Man the Guns" }
+	limit = {
+		has_dlc = "Man the Guns"
+	}
 	create_equipment_variant = {
 		name = "Deutschland Class"
 		type = ship_hull_cruiser_panzerschiff
 		name_group = GER_CA_HISTORICAL
 		parent_version = 0
 		modules = {
-        	fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_battery_slot = ship_heavy_battery_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
@@ -337,7 +343,7 @@ if = {
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 			rear_1_custom_slot = ship_torpedo_1
 			mid_1_custom_slot = ship_airplane_launcher_1
-    	}
+		}
 	}
 	create_equipment_variant = {
 		name = "Type 24 Class"
@@ -539,6 +545,7 @@ if = {
 		obsolete = yes
 	}
 }
+
 if = {
 	limit = {
 		NOT = {
@@ -556,7 +563,6 @@ if = {
 		}
 		obsolete = yes
 	}
-	
 	create_equipment_variant = {
 		name = "Do 17"
 		type = tac_bomber_equipment_0
@@ -569,11 +575,11 @@ if = {
 		obsolete = yes
 	}
 }
+
 if = {
 	limit = {
 		has_dlc = "By Blood Alone"
 	}
-
 	create_equipment_variant = {
 		name = "Do 23"
 		type = medium_plane_airframe_0
@@ -606,7 +612,6 @@ if = {
 		}
 		obsolete = yes
 	}
-
 	create_equipment_variant = {
 		name = "He 111"
 		type = medium_plane_airframe_1
@@ -623,7 +628,6 @@ if = {
 		}
 		icon = "GFX_GER_tactical_bomber1_medium"
 	}
-	
 	create_equipment_variant = {
 		name = "Do 17"
 		type = small_plane_cas_airframe_0
@@ -634,9 +638,8 @@ if = {
 		}
 		icon = "GFX_GER_medium_plane_1_medium"
 	}
-
 	create_equipment_variant = {
-		name = "He 51" #also covers Ar 68
+		name = "He 51"		#also covers Ar 68
 		type = small_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = light_mg_2x
@@ -689,16 +692,23 @@ if = {
 	}
 }
 
-
 # add_ideas = {
 # 	Ferdinand_von_Bredow_advisor
 # 	hjalmar_schacht
 # }
 # 
+# 
 recruit_character = GER_siegfried
 recruit_character = GER_kriemhild
 recruit_character = GER_ernst_thalmann
+recruit_character = GER_kurt_schumacher
+recruit_character = GER_otto_gessler
+recruit_character = GER_heinrich_bruning
+recruit_character = GER_franz_von_papen
+recruit_character = GER_kuno_von_westarp
+recruit_character = GER_alfred_hugenberg
 recruit_character = GER_ludendorff
+# 
 recruit_character = GER_max_bauer
 recruit_character = GER_reichenau
 recruit_character = GER_manfred_von_richthofen

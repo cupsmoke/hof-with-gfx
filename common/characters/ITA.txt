@@ -8,11 +8,32 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_NERO_CLAUDIUS_DESC"
-			ideology = authoritarian_democracy
+			ideology = des_oligarchism
 			traits = {
 				Tyrant_of_rose
 			}
+		}
+	}
+	ITA_gabriele_dannunzio = {
+		name = ITA_gabriele_dannunzio
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ITA_Gabriele_dAnnunzio
+			}
+		}
+		country_leader = {
+			ideology = fas_valkist
+		}
+	}
+	ITA_antonio_gramsci = {
+		name = ITA_antonio_gramsci
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ITA_Antonio_Gramsci_0
+			}
+		}
+		country_leader = {
+			ideology = com_marxism
 		}
 	}
 }

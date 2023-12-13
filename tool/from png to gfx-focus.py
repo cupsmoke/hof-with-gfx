@@ -2,7 +2,7 @@ import re
 import os
 import io
 import os.path
-
+import core
 
 def getDir(path):
     taglist = []
@@ -86,7 +86,7 @@ def outpuShineGfx(text):
 
 pngpathfirst = '../gfx/interface/goals/'
 pngpathtest = 'gfx/interface/goals/'
-taglist = getDir(pngpathfirst)
+taglist = core.getDir(pngpathfirst)
 print('将生成以下tag国策的gfx文件')
 print(taglist)
 input('按回车继续')
@@ -100,9 +100,9 @@ testfile.write('####测试用\n')
 testfile.write('spriteTypes = {\n')
 
 for TAG in taglist:
-    pngpath = pngpathfirst + TAG
-    pngpath2 = pngpathtest + TAG
-    pnglist = getPngName(pngpath)
+    pngpath = os.path.join(pngpathfirst,TAG)
+    pngpath2 = os.path.join(pngpathtest, TAG)
+    pnglist = core.getPngName(pngpath)
     for txt in pnglist:
         txt = re.sub('.png','',txt).strip()
         pngfullname = '\t\ttexturefile = \"'+pngpath2+'/'+txt+'.png\"\n'

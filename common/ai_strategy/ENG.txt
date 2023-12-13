@@ -966,8 +966,8 @@ ENG_in_for_the_long_haul_bruv = {
 
 	enable = {
 		or = {
-		  has_government = democratic
-		  has_government = neutrality
+		  has_government = conservatism
+		  has_government = despotism
 		}
 		date < 1937.9.1
 		has_war = no
@@ -992,8 +992,8 @@ ENG_industry_we_on_an_island_bruv = {
 
 	enable = {
 		or = {
-		  has_government = democratic
-		  has_government = neutrality
+		  has_government = conservatism
+		  has_government = despotism
 		}
 		has_war = no
 		date > 1937.9.1
@@ -1057,8 +1057,8 @@ ENG_growing_confidence_in_the_air = {
 		has_army_manpower = { size > 999999 }
 		has_war = yes
 		or = {
-			has_government = democratic
-			has_government = neutrality
+			has_government = conservatism
+			has_government = despotism
 		}
 		date > 1941.1.1
 		has_country_flag = ENG_1942_big_plane_decision_flag
@@ -1098,7 +1098,7 @@ ENG_allies_dont_ask_for_diplo_access_to_SOV = {
 
 	enable = {
 		ENG = {
-			has_government = democratic
+			has_government = conservatism
 		}
 		SOV = {
 			has_government = communism

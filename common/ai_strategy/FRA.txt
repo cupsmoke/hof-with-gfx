@@ -666,7 +666,7 @@ FRA_antagonize_vichy = {
 
 	enable_reverse = {
 		FRA = {
-			has_government = democratic
+			has_government = conservatism
 		}
 	}
 

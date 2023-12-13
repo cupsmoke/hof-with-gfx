@@ -12,9 +12,9 @@ local_supplies=0.0
 	}
 
 	history={
-		owner = MAN
+		owner = BEY
 		add_core_of = CHI
-		add_core_of = MAN
+		# add_core_of = MAN
 		add_core_of = BEY
 		buildings = {
 			infrastructure = 2

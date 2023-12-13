@@ -9,7 +9,6 @@
 # 		set_naval_oob = "ENG_1936_Naval_Legacy"
 # 	}
 # }
-
 # load_oob = "ENG_Motorized"
 set_research_slots = 4
 starting_train_buffer = 4
@@ -497,14 +496,14 @@ if = {
 }
 
 set_popularities = {
-	neutrality = 60
-	fascism = 0
-	communism = 0
-	democratic = 40
+
+	liberalism = 15
+	conservatism = 60
+	paternalism = 25
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = conservatism
 	last_election = "1935.11.14"
 	election_frequency = 120
 	elections_allowed = no
@@ -528,7 +527,6 @@ add_to_faction = RAJ# Must be after puppet
 add_to_faction = MAL
 #give_guarantee = CZE
 # Order matters - here Chamberlain becomes starting leader
-
 ### Ship Variants ###
 if = {
 	limit = {
@@ -1337,7 +1335,6 @@ if = {
 
 ##
 recruit_character = ENG_arturia_pendragon
-
+recruit_character = ENG_waver_velvet
 # 
-
 # 

@@ -426,7 +426,7 @@ USA_unit_buffer_for_europe = {
 			USA = {
 				OR = {
 					AND = {
-						has_government = democratic
+						has_government = conservatism
 						ENG = { is_in_faction_with = USA }
 						OR = {
 							GER = { has_government = fascism }
@@ -576,7 +576,7 @@ USA_unit_buffer_for_africa = {
 			USA = {
 				OR = {
 					AND = {
-						has_government = democratic
+						has_government = conservatism
 						ENG = { is_in_faction_with = USA }
 						OR = {
 							GER = { has_government = fascism }
@@ -801,13 +801,13 @@ USA_save_the_aussies = {
 	}
 
 	enable = {
-		has_government = democratic
+		has_government = conservatism
 		is_in_faction = no
 		has_war = no
 
 		JAP = {	has_war_with = AST }
 		AST = {
-			has_government = democratic			
+			has_government = conservatism			
 			surrender_progress > 0.15
 		}
 		has_opinion = {
@@ -850,7 +850,7 @@ USA_save_india = { # in the case where japan has beaten china and is moving on i
 	}
 
 	enable = {
-		has_government = democratic
+		has_government = conservatism
 		is_in_faction = no
 		has_war = no
 
@@ -1308,7 +1308,7 @@ USA_protect_against_extremism = { # Reverse strategy
 
 	enable_reverse = {
 		USA = {
-			has_government = democratic
+			has_government = conservatism
 		}
 	}
 
@@ -1344,7 +1344,7 @@ USA_protect_against_extremism = { # Reverse strategy
 			}
 			USA = {
 				OR = {
-					NOT = {	has_government = democratic }
+					NOT = {	has_government = conservatism }
 					has_war_with = ROOT
 				}
 			}
@@ -1628,7 +1628,7 @@ GER_is_bad = {
 		ENG = {
 			has_war_with = GER
 		}
-		has_government = democratic
+		has_government = conservatism
 		ENG = {
 			NOT = { has_government = fascism }
 		}

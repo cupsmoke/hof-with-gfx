@@ -502,8 +502,8 @@ GER_MOT_01 =
 
 	can_use = {
 		OR = {
-			has_government = neutrality 
-			has_government = democratic 
+			has_government = despotism 
+			has_government = conservatism 
 		}
 	}
 
@@ -949,8 +949,8 @@ GER_MONINF_01 =
 
 	can_use = { 
 		OR = {
-			has_government = neutrality 
-			has_government = democratic 
+			has_government = despotism 
+			has_government = conservatism 
 		}
 	}
 
@@ -1185,8 +1185,8 @@ GER_MONMOB_01 =
 
 	can_use = { 
 		OR = {
-			has_government = neutrality 
-			has_government = democratic 
+			has_government = despotism 
+			has_government = conservatism 
 		}
 	}
 

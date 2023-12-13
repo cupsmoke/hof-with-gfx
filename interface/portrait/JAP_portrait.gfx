@@ -12,6 +12,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Chacha.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_JAP_Emiya_Kiritsugu"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Emiya_Kiritsugu.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_JAP_Emiya_Shiro"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Emiya_Shiro.png"
 	}
@@ -122,6 +126,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_JAP_Ushiwakamaru"
 		texturefile = "gfx/leaders/JAP/Portrait_JAP_Ushiwakamaru.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_JAP_Yakumo_Yukari"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Yakumo_Yukari.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_JAP_Yakumo_Yukari_ex"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Yakumo_Yukari_ex.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_JAP_Yamanami_Keisuke"

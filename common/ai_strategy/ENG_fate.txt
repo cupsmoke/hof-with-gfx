@@ -541,8 +541,8 @@ ENG_wants_arms = {
 
 	enable = {
 		or = {
-		  has_government = democratic
-		  has_government = neutrality
+		  has_government = conservatism
+		  has_government = despotism
 		}
 		date > 1937.6.1
 		date < 1939.4.1
@@ -581,7 +581,7 @@ ENG_balance_of_power_GER = {
 			date > 1938.6.1
 		}
         NOT = { has_government = fascism }
-        GER = { NOT = { has_government = democratic } }
+        GER = { NOT = { has_government = conservatism } }
         GER = { NOT = { is_in_faction_with = ENG } }
 	}
 	
@@ -623,7 +623,7 @@ ENG_balance_of_power_FRA = {
 			date > 1938.6.1
 		}
         NOT = { has_government = fascism }
-        FRA = { NOT = { has_government = democratic } }
+        FRA = { NOT = { has_government = conservatism } }
         FRA = { NOT = { is_in_faction_with = ENG } }
 	}
 	
@@ -665,7 +665,7 @@ ENG_balance_of_power_ITA = {
 			date > 1938.6.1
 		}
         NOT = { has_government = fascism }
-        ITA = { NOT = { has_government = democratic } }
+        ITA = { NOT = { has_government = conservatism } }
         ITA = { NOT = { is_in_faction_with = ENG } }
 	}
 	
@@ -707,7 +707,7 @@ ENG_balance_of_power_JAP = {
 			date > 1938.6.1
 		}
         NOT = { has_government = fascism }
-        JAP = { NOT = { has_government = democratic } }
+        JAP = { NOT = { has_government = conservatism } }
         JAP = { NOT = { is_in_faction_with = ENG } }
 	}
 	
@@ -749,7 +749,7 @@ ENG_balance_of_power_SOV = {
 			date > 1938.6.1
 		}
         NOT = { has_government = fascism }
-        SOV = { NOT = { has_government = democratic } }
+        SOV = { NOT = { has_government = conservatism } }
         SOV = { NOT = { is_in_faction_with = ENG } }
 	}
 	

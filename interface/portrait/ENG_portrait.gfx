@@ -16,7 +16,23 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ENG/Portrait_ENG_Barghest2.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_ENG_Flat_Escardos"
+		texturefile = "gfx/leaders/ENG/Portrait_ENG_Flat_Escardos.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_ENG_Melusine"
 		texturefile = "gfx/leaders/ENG/Portrait_ENG_Melusine.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_ENG_Reines_El_Melloi"
+		texturefile = "gfx/leaders/ENG/Portrait_ENG_Reines_El_Melloi.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_ENG_Svin_Glascheit"
+		texturefile = "gfx/leaders/ENG/Portrait_ENG_Svin_Glascheit.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_ENG_Waver_Velvet"
+		texturefile = "gfx/leaders/ENG/Portrait_ENG_Waver_Velvet.png"
 	}
 }

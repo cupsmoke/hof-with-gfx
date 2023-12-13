@@ -8,10 +8,35 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = liberalism
+			ideology = lib_liberalism
 			traits = {
 				reform_pioneer
 			}
+		}
+	}
+	JAP_yakumo_yukari = {
+		name = JAP_yakumo_yukari
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_JAP_Yakumo_Yukari
+			}
+		}
+		country_leader = {
+			ideology = des_stratocracy
+		}
+		country_leader = {
+			ideology = fas_fascism
+		}
+	}
+	JAP_emiya_kiritsugu = {
+		name = JAP_emiya_kiritsugu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_JAP_Emiya_Kiritsugu
+			}
+		}
+		country_leader = {
+			ideology = com_marxism
 		}
 	}
 }

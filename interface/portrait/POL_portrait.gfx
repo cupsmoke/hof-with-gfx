@@ -24,6 +24,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/POL/Portrait_POL_Iwona_Krukowska.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_POL_Jozef_Pilsudski"
+		texturefile = "gfx/leaders/POL/Portrait_POL_Jozef_Pilsudski.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_POL_Justyna_Valentine"
 		texturefile = "gfx/leaders/POL/Portrait_POL_Justyna_Valentine.png"
 	}

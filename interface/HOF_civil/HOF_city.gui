@@ -4,7 +4,8 @@ guiTypes = {
 		name = "HOF_city_view"
 		# position = { x = 195 y = 390 }
 		#按钮之间的距离为 91
-		position = { x = 286  y = 390 }
+		# position = { x = 286  y = 390 }
+		position = { x = 286  y = 532 }
 		size = { width = 100% height= 100% }
 		# orientation = LOWER_RIGHT
 		buttonType = {

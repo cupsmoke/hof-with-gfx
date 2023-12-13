@@ -8,10 +8,33 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democracy
+			ideology = pat_guided_democracy
 			traits = {
 				knight_king
 			}
+		}
+		country_leader = {
+			ideology = des_absolute_monarchy
+			traits = {
+				knight_king
+			}
+		}
+		country_leader = {
+			ideology = fas_rexism
+			traits = {
+				knight_king
+			}
+		}
+	}
+	ENG_waver_velvet = {
+		name = ENG_waver_velvet
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ENG_Waver_Velvet
+			}
+		}
+		country_leader = {
+			ideology = con_conservatism
 		}
 	}
 }

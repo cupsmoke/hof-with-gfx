@@ -13,7 +13,7 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			original_tag = GER
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = GER_KAISER_WAGEN_NAME
 	}
@@ -22,7 +22,7 @@ defined_text = { # Country
 			original_tag = GER
 			OR = {
 				has_government = communism
-				has_government = democratic
+				has_government = conservatism
 			}
 		}
 		localization_key = GER_VOLKS_WAGEN_NAME
@@ -37,7 +37,7 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			original_tag = GER
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = GER_HERMANN_GORING_WERKE_NAME_KAISER
 	}
@@ -351,9 +351,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
+				has_government = conservatism
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_ROYAL_TANK_REGIMENT_NAME_HISTORICAL
@@ -373,9 +373,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
+				has_government = conservatism
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_ROYAL_TANK_REGIMENT_DESC_HISTORICAL
@@ -395,9 +395,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
+				has_government = conservatism
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_ROYAL_ORDNANCE_FACTORIES_NAME_HISTORICAL
@@ -417,9 +417,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
+				has_government = conservatism
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_ROYAL_ORDNANCE_FACTORIES_DESC_HISTORICAL
@@ -439,9 +439,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
+				has_government = conservatism
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_BSA_COMPANY_DESC_HISTORICAL
@@ -463,9 +463,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
+				has_government = conservatism
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_AIR_REARMAMENT_DESC_HISTORICAL
@@ -485,9 +485,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
+				has_government = conservatism
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_NAVAL_REARMAMENT_DESC_HISTORICAL
@@ -507,9 +507,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
+				has_government = conservatism
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_COASTAL_COMMAND_DESC_HISTORICAL
@@ -529,9 +529,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
+				has_government = conservatism
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_BRITANNIA_RULES_THE_WAVES_DESC_HISTORICAL
@@ -551,9 +551,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
+				has_government = conservatism
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_VANGUARD_DESC_HISTORICAL
@@ -979,7 +979,7 @@ defined_text = {
 	text = { #Salazarist Portugal
 		trigger = {
 			NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = POR_topple_government_wargoal
 	}
@@ -1246,8 +1246,8 @@ defined_text = {
 		trigger = {
 			SOV = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = conservatism
 				}
 			}
 		}
@@ -1277,8 +1277,8 @@ defined_text = {
 		trigger = {
 			SOV = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = conservatism
 				}
 			}
 		}
@@ -1308,8 +1308,8 @@ defined_text = {
 		trigger = {
 			SOV = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = conservatism
 				}
 			}
 		}
@@ -1339,8 +1339,8 @@ defined_text = {
 		trigger = {
 			SOV = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = conservatism
 				}
 			}
 		}

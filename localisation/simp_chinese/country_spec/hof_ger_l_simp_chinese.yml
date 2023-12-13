@@ -1,0 +1,19 @@
+﻿l_simp_chinese:
+
+#party name
+ GER_communism_party:0 "德意志共产党"
+ GER_communism_party_long:0 "德意志共产党(Kommunistische Partei Deutschlands)"
+ GER_socialism_party:0 "德意志共产党"
+ GER_socialism_party_long:0 "德意志共产党(Kommunistische Partei Deutschlands)"
+ GER_progressivism_party:0 "德国社民党"
+ GER_progressivism_party_long:0 "德国社会民主党(Sozialdemokratische Partei Deutschlands)"
+ GER_liberalism_party:0 "民主党"
+ GER_liberalism_party_long:0 "德意志民主党(Deutsche Demokratische Partei)"
+ GER_conservatism_party:0 "中央党"
+ GER_conservatism_party_long:0 "德意志中央党(Deutsche Zentrumspartei)"
+ GER_paternalism_party:0 "国家人民党"
+ GER_paternalism_party_long:0 "德意志国家人民党(Deutschnationale Volkspartei)"
+ GER_despotism_party:0 "国家人民党"
+ GER_despotism_party_long:0 "德意志国家人民党(Deutschnationale Volkspartei)"
+ GER_fascism_party:0 "VDV"
+ GER_fascism_party_long:0 "国家人民主义德意志人民党(Valkistische Deutsche Volkspartei)"
