@@ -127,4 +127,63 @@ guiTypes = {
 			pdx_tooltip = "HOF_get_city_effect_tt"
 		}
 	}
+
+
+
+
+	containerWindowType = {
+		name = "HOF_pol_party_ruling_mark"
+
+		position = { x = 263  y = 376 }
+		size = { width = 100% height= 100% }
+		# orientation = LOWER_RIGHT
+		iconType = {
+			name = "pol_party_ruling_mark_com"
+			spriteType = "GFX_pol_party_ruling_mark"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "pol_party_ruling_mark_soc"
+			spriteType = "GFX_pol_party_ruling_mark"
+			position = { x = 0 y = 16 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "pol_party_ruling_mark_pro"
+			spriteType = "GFX_pol_party_ruling_mark"
+			position = { x = 0 y = 32 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "pol_party_ruling_mark_lib"
+			spriteType = "GFX_pol_party_ruling_mark"
+			position = { x = 0 y = 48 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "pol_party_ruling_mark_com"
+			spriteType = "GFX_pol_party_ruling_mark"
+			position = { x = 0 y = 64 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "pol_party_ruling_mark_pat"
+			spriteType = "GFX_pol_party_ruling_mark"
+			position = { x = 0 y = 80 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "pol_party_ruling_mark_dep"
+			spriteType = "GFX_pol_party_ruling_mark"
+			position = { x = 0 y = 96 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "pol_party_ruling_mark_fas"
+			spriteType = "GFX_pol_party_ruling_mark"
+			position = { x = 0 y = 112 }
+			alwaystransparent = yes
+		}
+	}
 }

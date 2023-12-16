@@ -36,6 +36,14 @@ characters = {
 		country_leader = {
 			ideology = com_leninism
 		}
+	}
+	GER_georg_ledebour = {
+		name = GER_georg_ledebour
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Georg_Ledebour
+			}
+		}
 		country_leader = {
 			ideology = soc_anti_revisionism
 		}
@@ -55,7 +63,7 @@ characters = {
 		name = GER_otto_gessler
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_GER_Kurt_Schumacher
+				large = GFX_Portrait_GER_Otto_Gessler
 			}
 		}
 		country_leader = {

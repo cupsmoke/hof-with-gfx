@@ -104,4 +104,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/gui_hof/politic/icon_city_show.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_pol_party_ruling_mark"
+		texturefile = "gfx/interface/gui_hof/politic/pol_party_ruling_mark.png"
+		legacy_lazy_load = no
+	}
 }

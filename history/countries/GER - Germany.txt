@@ -701,6 +701,7 @@ if = {
 recruit_character = GER_siegfried
 recruit_character = GER_kriemhild
 recruit_character = GER_ernst_thalmann
+recruit_character = GER_georg_ledebour
 recruit_character = GER_kurt_schumacher
 recruit_character = GER_otto_gessler
 recruit_character = GER_heinrich_bruning

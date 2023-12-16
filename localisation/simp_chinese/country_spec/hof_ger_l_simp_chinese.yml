@@ -1,12 +1,12 @@
 ﻿l_simp_chinese:
 
 #party name
- GER_communism_party:0 "德意志共产党"
+ GER_communism_party:0 "德国共产党"
  GER_communism_party_long:0 "德意志共产党(Kommunistische Partei Deutschlands)"
- GER_socialism_party:0 "德意志共产党"
- GER_socialism_party_long:0 "德意志共产党(Kommunistische Partei Deutschlands)"
+ GER_socialism_party:0 "德意志社会主义工人党"
+ GER_socialism_party_long:0 "德意志社会主义工人党(Sozialistische Arbeiterpartei Deutschlands)"
  GER_progressivism_party:0 "德国社民党"
- GER_progressivism_party_long:0 "德国社会民主党(Sozialdemokratische Partei Deutschlands)"
+ GER_progressivism_party_long:0 "德意志社会民主党(Sozialdemokratische Partei Deutschlands)"
  GER_liberalism_party:0 "民主党"
  GER_liberalism_party_long:0 "德意志民主党(Deutsche Demokratische Partei)"
  GER_conservatism_party:0 "中央党"
@@ -17,3 +17,15 @@
  GER_despotism_party_long:0 "德意志国家人民党(Deutschnationale Volkspartei)"
  GER_fascism_party:0 "VDV"
  GER_fascism_party_long:0 "国家人民主义德意志人民党(Valkistische Deutsche Volkspartei)"
+
+#character
+ GER_siegfried:0 "齐格弗里德"
+ GER_kriemhild:0 "克琳希德"
+ GER_ernst_thalmann:0 "恩斯特·台尔曼"
+ GER_georg_ledebour:0 "乔治·莱德堡"
+ GER_kurt_schumacher:0 "库尔特·舒马赫"
+ GER_otto_gessler:0 "奥托·格斯勒"
+ GER_heinrich_bruning:0 "海因里希·布吕宁"
+ GER_franz_von_papen:0 "弗朗茨·冯·帕彭"
+ GER_kuno_von_westarp:0 "库诺·冯·韦斯塔普"
+ GER_alfred_hugenberg:0 "阿尔弗雷德·胡根伯格"

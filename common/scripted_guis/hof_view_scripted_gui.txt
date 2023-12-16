@@ -203,5 +203,14 @@ scripted_gui = {
 
 		
 	}
+
+	HOF_pol_party_ruling_mark_ui = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "HOF_pol_party_ruling_mark"
+		visible = {
+            always = yes
+        }
+	}
 }
 

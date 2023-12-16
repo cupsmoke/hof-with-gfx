@@ -1,4 +1,4 @@
-# leader
+# queen
 characters = {
 	FRA_marie_antoinette = {
 		name = FRA_marie_antoinette
@@ -13,7 +13,23 @@ characters = {
 		country_leader = {
 			ideology = des_absolute_monarchy
 		}
+		country_leader = {
+			ideology = con_conservatism
+		}
+		country_leader = {
+			ideology = fas_rexism
+		}
+		country_leader = {
+			ideology = pro_progressivism
+		}
+		country_leader = {
+			ideology = lib_market_liberalism
+		}
 	}
+
+}
+# leader
+characters = {
 	FRA_maurice_thorez = {
 		name = FRA_maurice_thorez
 		portraits = {
@@ -25,6 +41,28 @@ characters = {
 			ideology = com_stalinism
 		}
 	}
+	FRA_leon_jouhaux = {
+		name = FRA_leon_jouhaux
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_FRA_Leon_Jouhaux
+			}
+		}
+		country_leader = {
+			ideology = soc_syndicalist
+		}
+	}
+	FRA_leon_blum = {
+		name = FRA_leon_blum
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_FRA_Leon_Blum_0
+			}
+		}
+		country_leader = {
+			ideology = pro_progressivism
+		}
+	}
 	FRA_leo_b_harvey = {
 		name = FRA_leo_b_harvey
 		portraits = {
@@ -33,8 +71,32 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = con_conservatism
-			traits={ ideal_holy_king }
+			ideology = lib_market_liberalism
+			traits = {
+				ideal_holy_king
+			}
+		}
+	}
+	FRA_edouard_daladier = {
+		name = FRA_edouard_daladier
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_FRA_Edouard_Daladier
+			}
+		}
+		country_leader = {
+			ideology = lib_liberalism
+		}
+	}
+	FRA_pierre_etienne_flandin = {
+		name = FRA_pierre_etienne_flandin
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_FRA_Pierre_Etienne_Flandin
+			}
+		}
+		country_leader = {
+			ideology = lib_liberalism
 		}
 	}
 	FRA_pierre_cauchon = {
