@@ -3,7 +3,7 @@ state={
 	id=567
 	name="STATE_567" # Bratsk
 	manpower = 410183
-local_supplies=0.0
+	local_supplies=0.0
 	state_category = rural
 	
 	resources={

@@ -3,7 +3,7 @@ state={
 	id=411
 	name="STATE_411" # Isfahan
 	manpower = 885272
-local_supplies=0.0
+	local_supplies=0.0
 	resources={
 		oil=12 # was: 14
 	}

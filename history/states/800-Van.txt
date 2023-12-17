@@ -29,6 +29,6 @@ state={
 		652 4583 6935 7470 11880 12376 13121 
 	}
 	manpower = 365490
-local_supplies=0.0
+	local_supplies=0.0
 	state_category = rural
 }

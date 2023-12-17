@@ -3,7 +3,7 @@ state={
 	id=773
 	name="STATE_773" # Cameroon
 	manpower = 2945782
-local_supplies=0.0
+	local_supplies=0.0
 	
 	state_category = rural
 

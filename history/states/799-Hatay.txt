@@ -5,7 +5,7 @@ state={
 		12029 
 	}
 	manpower = 234379
-local_supplies=0.0
+	local_supplies=0.0
 	
 	state_category = enclave
 

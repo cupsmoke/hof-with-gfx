@@ -2,7 +2,7 @@ state= {
 	id=623
 	name="STATE_623"
 	manpower = 2010656
-local_supplies=0.0
+	local_supplies=0.0
 	
 	state_category = city
 	
@@ -11,7 +11,7 @@ local_supplies=0.0
 	}
 
 	history= {
-		owner = JAP
+		owner = PHI
 		buildings = {
 			infrastructure = 2
 			12213 = {

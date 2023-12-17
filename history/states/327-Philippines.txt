@@ -3,12 +3,12 @@ state=
 	id=327
 	name="STATE_327" # Luzon
 	manpower = 3548684
-local_supplies=0.0
+	local_supplies=0.0
 	
 	state_category = town
 	history=
 	{
-		owner = JAP
+		owner = PHI
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

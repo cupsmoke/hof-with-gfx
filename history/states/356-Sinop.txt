@@ -3,7 +3,7 @@ state={
 	id=356
 	name="STATE_356" # Kastamonu
 	manpower = 860589
-local_supplies=0.0
+	local_supplies=0.0
 	state_category = rural
 
 	history={

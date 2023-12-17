@@ -3,7 +3,7 @@ state=
 	id=457
 	name="STATE_457" # Arabian Desert
 	manpower = 2194
-local_supplies=0.0
+	local_supplies=0.0
 	
 	state_category = wasteland
 	

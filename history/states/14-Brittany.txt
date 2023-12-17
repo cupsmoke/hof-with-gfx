@@ -3,7 +3,7 @@ state={
 	id=14
 	name="STATE_14"
 	manpower = 2396600
-local_supplies=0.0
+	local_supplies=0.0
 	
 	state_category = city
 
@@ -35,12 +35,8 @@ local_supplies=0.0
 			}
 		}
 		add_core_of = FRA
-    add_core_of = BTY
-		1939.1.1 = {
-			buildings = {
-				dockyard = 5
-			}
-		}
+    	add_core_of = BTY
+
 	}
 
 	provinces={

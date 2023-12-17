@@ -3,7 +3,7 @@ state={
 	id=611
 	name="STATE_611" # South Chahar
 	manpower = 1470000
-local_supplies=0.0
+	local_supplies=0.0
 	
 	state_category = pastoral
 
