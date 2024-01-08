@@ -195,17 +195,15 @@ add_equipment_to_stockpile = {
 set_convoys = 600
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	progressivism = 11
-	liberalism = 38
-	conservatism = 42
-	communism = 1
-	socialism = 8
+	democratic = 91
+	communism = 5
+	neutrality = 4
 }
 # set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
 # add_ideas = {

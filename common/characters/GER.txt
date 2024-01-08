@@ -45,7 +45,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = soc_anti_revisionism
+			ideology = com_anti_revisionism
 		}
 	}
 	GER_kurt_schumacher = {
@@ -56,7 +56,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = pro_progressivism
+			ideology = dem_progressivism
 		}
 	}
 	GER_otto_gessler = {
@@ -67,7 +67,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = lib_liberalism
+			ideology = dem_liberalism
 		}
 	}
 	GER_heinrich_bruning = {
@@ -78,7 +78,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = con_conservatism
+			ideology = dem_conservatism
 		}
 	}
 	GER_franz_von_papen = {
@@ -89,7 +89,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = con_conservatism
+			ideology = dem_conservatism
 		}
 	}
 	GER_kuno_von_westarp = {
@@ -100,7 +100,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = pat_guided_democracy
+			ideology = neu_guided_democracy
 		}
 	}
 	GER_alfred_hugenberg = {
@@ -111,7 +111,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = des_oligarchism
+			ideology = neu_oligarchism
 		}
 	}
 }

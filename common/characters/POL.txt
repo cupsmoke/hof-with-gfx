@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = pat_guided_democracy
+			ideology = neu_guided_democracy
 			traits = {
 				# Tyrant_of_rose
 			}

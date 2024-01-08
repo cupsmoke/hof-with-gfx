@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = con_conservatism
+			ideology = dem_conservatism
 		}
 	}
 }

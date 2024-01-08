@@ -8,13 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = pat_guided_democracy
-			traits = {
-				knight_king
-			}
-		}
-		country_leader = {
-			ideology = des_absolute_monarchy
+			ideology = neu_guided_democracy
 			traits = {
 				knight_king
 			}
@@ -34,7 +28,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = con_conservatism
+			ideology = dem_conservatism
 		}
 	}
 }

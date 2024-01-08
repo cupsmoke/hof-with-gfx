@@ -52,6 +52,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/UKR/Portrait_UKR_Nestor_Makhno_2.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_UKR_Nikita_Khrushchev"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Nikita_Khrushchev.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_UKR_Nikolai_Sablin"
 		texturefile = "gfx/leaders/UKR/Portrait_UKR_Nikolai_Sablin.png"
 	}

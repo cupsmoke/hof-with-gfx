@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = lib_liberalism
+			ideology = dem_liberalism
 			traits = {
 				reform_pioneer
 			}
@@ -22,7 +22,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = des_stratocracy
+			ideology = neu_stratocracy
 		}
 		country_leader = {
 			ideology = fas_fascism

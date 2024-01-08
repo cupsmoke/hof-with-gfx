@@ -1,0 +1,18 @@
+﻿l_simp_chinese:
+
+#party name
+ UKR_communism_party:0 "乌克兰共产党"
+ UKR_communism_party_long:0 "乌克兰共产党"
+ UKR_democratic_party:0 "彼得留拉匪帮"
+ UKR_democratic_party_long:0 "彼得留拉匪帮"
+ UKR_neutrality_party:0 "-"
+ UKR_neutrality_party_long:0 "-"
+ UKR_fascism_party:0 "科诺瓦列次匪帮"
+ UKR_fascism_party_long:0 "科诺瓦列次匪帮"
+# character
+ UKR_nikita_khrushchev:0 "尼基塔·赫鲁晓夫"
+ UKR_leonid_brezhnev:0 "列昂尼德·勃列日涅夫"
+ UKR_symon_petlura:0 "谢苗·彼得留拉"
+ UKR_lesia_petliura:0 "蕾西亚·彼得留拉"
+ UKR_yevhen_konovalets:0 "叶文·科诺瓦列特"
+ UKR_stepan_bandera:0 "斯捷潘·班德拉"

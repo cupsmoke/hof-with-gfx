@@ -1,0 +1,102 @@
+# leader
+characters = {
+	UKR_nikita_khrushchev = {
+		name = UKR_nikita_khrushchev
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_UKR_Nikita_Khrushchev
+			}
+		}
+		country_leader = {
+			ideology = com_leninism
+			traits = {
+			}
+		}
+	}
+	UKR_leonid_brezhnev = {
+		name = UKR_leonid_brezhnev
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_UKR_Leonid_Brezhnev
+			}
+		}
+		country_leader = {
+			ideology = com_stalinism
+			traits = {
+			}
+		}
+	}
+	UKR_symon_petlura = {
+		name = UKR_symon_petlura
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_UKR_Symon_Petlura
+			}
+			army = {
+				small = GFX_idea_ukr_symon_petlura
+				large = GFX_Portrait_UKR_Symon_Petlura
+			}
+		}
+		country_leader = {
+			ideology = dem_progressivism
+			traits = {
+			}
+		}
+		field_marshal = {
+			traits = {
+				politically_connected
+				trickster
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+			visible = {
+				# NOT = {
+				# 	has_government = communism
+				# }
+			}
+		}
+	}
+	UKR_lesia_petliura = {
+		name = UKR_lesia_petliura
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_UKR_Lesia_Petliura
+			}
+		}
+	}
+}
+
+# oun
+characters = {
+	UKR_yevhen_konovalets = {
+		name = UKR_yevhen_konovalets
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_UKR_Yevhen_Konovalets
+			}
+			# army = {
+			# 	large = "gfx/leaders/UKR/Portrait_UKR_Yevhen_Konovalets_army.png"
+			# 	small = "GFX_idea_ukr_yevhen_konovalets"
+			# }
+		}
+		country_leader = {
+			ideology = fas_fascism
+			traits = {
+			}
+		}
+	}
+	UKR_stepan_bandera = {
+		name = UKR_stepan_bandera
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_UKR_Stepan_Bandera
+			}
+			army = {
+				small = "GFX_idea_advisor_unknown"
+			}
+		}
+	}
+}

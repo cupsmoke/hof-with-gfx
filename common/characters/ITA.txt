@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = des_oligarchism
+			ideology = neu_oligarchism
 			traits = {
 				Tyrant_of_rose
 			}

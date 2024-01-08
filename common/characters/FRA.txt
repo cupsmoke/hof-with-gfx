@@ -8,25 +8,15 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = pat_paternalism
+			ideology = neu_paternalism
 		}
 		country_leader = {
-			ideology = des_absolute_monarchy
-		}
-		country_leader = {
-			ideology = con_conservatism
+			ideology = dem_conservatism
 		}
 		country_leader = {
 			ideology = fas_rexism
 		}
-		country_leader = {
-			ideology = pro_progressivism
-		}
-		country_leader = {
-			ideology = lib_market_liberalism
-		}
 	}
-
 }
 # leader
 characters = {
@@ -49,7 +39,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = soc_syndicalist
+			ideology = com_syndicalist
 		}
 	}
 	FRA_leon_blum = {
@@ -60,7 +50,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = pro_progressivism
+			ideology = dem_progressivism
 		}
 	}
 	FRA_leo_b_harvey = {
@@ -71,7 +61,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = lib_market_liberalism
+			ideology = dem_market_liberalism
 			traits = {
 				ideal_holy_king
 			}
@@ -85,7 +75,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = lib_liberalism
+			ideology = dem_liberalism
 		}
 	}
 	FRA_pierre_etienne_flandin = {
@@ -96,7 +86,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = lib_liberalism
+			ideology = dem_liberalism
 		}
 	}
 	FRA_pierre_cauchon = {

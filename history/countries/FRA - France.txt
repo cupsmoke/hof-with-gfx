@@ -153,15 +153,14 @@ add_equipment_to_stockpile = {
 
 set_convoys = 700
 set_popularities = {
-	paternalism = 20
+	neutrality = 20
 	fascism = 20
 	communism = 15
-	conservatism = 40
-	liberalism = 5
+	democratic = 45
 }
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = democratic
 	last_election = "1932.5.1"
 	election_frequency = 120
 	elections_allowed = no
