@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+
+#party name
+ FRA_communism_party:0 "法国共产党"
+ FRA_communism_party_long:0 "法国共产党"
+ FRA_democratic_party:0 "民主同盟"
+ FRA_democratic_party_long:0 "民主同盟"
+ FRA_neutrality_party:0 "波旁王朝"
+ FRA_neutrality_party_long:0 "波旁王朝"
+ FRA_fascism_party:0 "法兰西行动"
+ FRA_fascism_party_long:0 "法兰西行动"
+# character
+ FRA_marie_antoinette:0 "玛丽·安托瓦内特"
+ FRA_maurice_thorez:0 "莫里斯·多列士"
+ FRA_leo_b_harvey:0 "利奥·B·哈维"
+ FRA_pierre_cauchon:0 "皮埃尔·科雄"
+

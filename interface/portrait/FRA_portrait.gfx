@@ -36,10 +36,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Edmond.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_FRA_Edouard_Daladier"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Edouard_Daladier.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_FRA_Giless"
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Giless.png"
 	}
@@ -70,14 +66,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_FRA_Karl"
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Karl.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_FRA_Leon_Blum_0"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Leon_Blum_0.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_FRA_Leon_Jouhaux"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Leon_Jouhaux.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_FRA_Leo_B_Harvey"
@@ -114,10 +102,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_FRA_Pierre_Cauchon"
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Pierre_Cauchon.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_FRA_Pierre_Etienne_Flandin"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Pierre_Etienne_Flandin.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_FRA_Sanson"
