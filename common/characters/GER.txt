@@ -129,6 +129,14 @@ characters = {
 			}
 		}
 	}
+	GER_mathilde_ludendorff = {
+		name = GER_mathilde_ludendorff
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GER_Mathilde_Ludendorff
+			}
+		}
+	}
 }
 
 #commander
@@ -138,6 +146,14 @@ characters = {
 		portraits = {
 			army = {
 				large = GFX_Portrait_GER_Max_Bauer
+			}
+		}
+	}
+	GER_fritz_bronsart_von_schellendorf = {
+		name = GER_fritz_bronsart_von_schellendorf
+		portraits = {
+			army = {
+				large = GFX_Portrait_GER_Fritz_Bronsart_von_Schellendorf
 			}
 		}
 	}

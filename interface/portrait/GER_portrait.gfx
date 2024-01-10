@@ -20,6 +20,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GER/Portrait_GER_Franz_von_Papen.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_GER_Fritz_Bronsart_von_Schellendorf"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Fritz_Bronsart_von_Schellendorf.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_GER_Georg_Ledebour"
 		texturefile = "gfx/leaders/GER/Portrait_GER_Georg_Ledebour.png"
 	}
@@ -50,6 +54,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_GER_Manfred_von_Richthofen"
 		texturefile = "gfx/leaders/GER/Portrait_GER_Manfred_von_Richthofen.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_GER_Mathilde_Ludendorff"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Mathilde_Ludendorff.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_GER_Max_Bauer"
