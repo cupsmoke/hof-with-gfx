@@ -118,14 +118,14 @@ characters = {
 
 #mar
 characters = {
-	GER_ludendorff = {
-		name = GER_ludendorff
+	GER_erich_ludendorff = {
+		name = GER_erich_ludendorff
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_GER_Ludendorff_suit
+				large = GFX_Portrait_GER_Erich_Ludendorff_suit
 			}
 			army = {
-				large = GFX_Portrait_GER_Ludendorff_uniform
+				large = GFX_Portrait_GER_Erich_Ludendorff_uniform
 			}
 		}
 	}
@@ -157,11 +157,11 @@ characters = {
 			}
 		}
 	}
-	GER_reichenau = {
-		name = GER_reichenau
+	GER_walter_von_reichenau = {
+		name = GER_walter_von_reichenau
 		portraits = {
 			army = {
-				large = GFX_Portrait_GER_Reichenau
+				large = GFX_Portrait_GER_Walter_von_Reichenau
 			}
 		}
 	}

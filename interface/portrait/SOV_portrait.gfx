@@ -12,6 +12,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_Leon_Thotsky.png"
 	}
 	SpriteType = {
+		name = "GFX_Portrait_SOV_Nikita_Khrushchev_soviet"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Nikita_Khrushchev_soviet.png"
+	}
+	SpriteType = {
 		name = "GFX_Portrait_SOV_Nikolai_Bukharin"
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_Nikolai_Bukharin.png"
 	}

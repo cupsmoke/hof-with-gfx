@@ -11,7 +11,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = RUS
+		owner = SOV
 		buildings = {
 			infrastructure = 1
 		}
@@ -20,6 +20,7 @@ state={
 		}
 		add_core_of = TAN
 		add_core_of = SOV
+		add_core_of = RUS
 	}
 
 	provinces={

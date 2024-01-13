@@ -608,38 +608,7 @@
  
  IRQ_neutrality:0 "苏美尔与阿卡德"
  IRQ_neutrality_DEF:0 "苏美尔与阿卡德"
- 
- FRA_Marriage_fascism:0 "不列颠-法兰西圣杯国"
- FRA_Marriage_fascism_DEF:0 "不列颠-法兰西圣杯国"
- FRA_Marriage_neutrality:0 "不列颠-法兰西联合王国"
- FRA_Marriage_neutrality_DEF:0 "不列颠-法兰西联合王国"
- FRA_Marriage_democratic:0 "不列颠-法兰西联邦"
- FRA_Marriage_democratic_DEF:0 "不列颠-法兰西联邦"
- FRA_Marriage_communism:0 "不列颠-法兰西无产阶级公社"
- FRA_Marriage_communism_DEF:0 "不列颠-法兰西无产阶级公社"
- 
- ENG_FRA_UK_fascism:0 "不列颠-法兰西帝国"
- ENG_FRA_UK_fascism_DEF:0 "不列颠-法兰西帝国"
- ENG_FRA_UK_neutrality:0 "不列颠-法兰西联合王国"
- ENG_FRA_UK_neutrality_DEF:0 "不列颠-法兰西联合王国"
- ENG_FRA_UK_democratic:0 "不列颠-法兰西联邦"
- ENG_FRA_UK_democratic_DEF:0 "不列颠-法兰西联邦"
- ENG_FRA_UK_communism:0 "不列颠-法兰西无产阶级公社"
- ENG_FRA_UK_communism_DEF:0 "不列颠-法兰西无产阶级公社"
- 
- ENG_FRA_UK_fascism_ADJ:0 "不列颠-法兰西"
- ENG_FRA_UK_democratic_ADJ:0 "不列颠-法兰西"
- ENG_FRA_UK_neutrality_ADJ:0 "不列颠-法兰西"
- ENG_FRA_UK_communism_ADJ:0 "不列颠-法兰西"
- 
- FRA_Marriage_fascism_ADJ:0 "不列颠-法兰西"
- FRA_Marriage_democratic_ADJ:0 "不列颠-法兰西"
- FRA_Marriage_neutrality_ADJ:0 "不列颠-法兰西"
- FRA_Marriage_communism_ADJ:0 "不列颠-法兰西"
- 
- FRA_la_pucelle_democratic:0 "法兰西王国"
- FRA_la_pucelle_democratic_DEF:0 "法兰西王国"
- 
+  
  FRA_restoration_democratic:0 "法兰克联邦"
  FRA_restoration_democratic_DEF:0 "法兰克联邦"
  FRA_restoration_communism:0 "法兰克无产阶级公社"
@@ -657,10 +626,7 @@
  
  IRQ_neutrality_party_long:0 "苏美尔复兴党"
  IRQ_neutrality_party:0 "苏美尔复兴党"
- 
- SOV_neutrality_party_anastasia_long:0 "罗曼诺夫王朝"
- SOV_neutrality_party_anastasia:0 "罗曼诺夫王朝"
- 
+  
  FRA_neutrality_party_Marie_long:0 "哈布斯堡-波旁王朝"
  FRA_neutrality_party_Marie:0 "哈布斯堡-波旁王朝"
  

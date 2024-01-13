@@ -3,10 +3,10 @@ state = {
 	name = "STATE_875" #Chukchi Peninsula
 	impassable = yes
 	history = {
-		owner = RUS
-		victory_points = {
-			13204 1 
-		}
+		owner = SOV
+		# victory_points = {
+		# 	13204 1 
+		# }
 		buildings = {
 			infrastructure = 1
 			13204 ={
@@ -15,9 +15,6 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = RUS
-		add_core_of = CKK
-		add_core_of = FER
-
 	}
 
 	provinces = {

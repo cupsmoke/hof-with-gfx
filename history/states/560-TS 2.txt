@@ -10,7 +10,7 @@ state = {
 	}
 
 	history={
-		owner = RUS
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 			1772 = {
@@ -19,7 +19,6 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = RUS
-		add_core_of = FER
 	}
 
 	provinces = {

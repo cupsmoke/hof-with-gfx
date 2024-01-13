@@ -707,9 +707,9 @@ recruit_character = GER_heinrich_bruning
 recruit_character = GER_franz_von_papen
 recruit_character = GER_kuno_von_westarp
 recruit_character = GER_alfred_hugenberg
-recruit_character = GER_ludendorff
+recruit_character = GER_erich_ludendorff
 # 
 recruit_character = GER_max_bauer
-recruit_character = GER_reichenau
+recruit_character = GER_walter_von_reichenau
 recruit_character = GER_manfred_von_richthofen
 # 

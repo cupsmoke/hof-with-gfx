@@ -8,7 +8,7 @@ state = {
 		chromium = 8		# was: 10
 	}
 	history = {
-		owner = RUS
+		owner = SOV
 		victory_points = {
 			4705
 			1
@@ -21,7 +21,6 @@ state = {
 		}
 		add_core_of = SOV
 		add_core_of = RUS
-		add_core_of = FER
 	}
 	provinces = {
 		1672
