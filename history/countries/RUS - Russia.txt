@@ -1,0 +1,295 @@
+﻿capital = 563
+# oob = "RUS_1936"
+# if = {
+# 	limit = {
+# 		has_dlc = "Man the Guns"
+# 	}
+# 	set_naval_oob = "RUS_1936_naval_mtg"
+# 	else = {
+# 		set_naval_oob = "RUS_1936_naval_legacy"
+# 	}
+# }
+
+# recruit_character = RUS_entente_observe_committee
+# add_ideas = {
+# }
+
+# add_timed_idea = {
+# 	idea = RUS_Petergrod_gold_idea
+# 	days = 500
+# }
+
+set_technology = {
+	fuel_silos = 1
+	#### Tanks ####
+	# gwtank = 1
+	# basic_light_tank = 1
+	#### INF ####
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_signal_company = 1
+	marines = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	motorised_infantry = 1
+	#### AIR ####
+	# early_fighter = 1
+	# early_bomber = 1
+	basic_train = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	armored_car1 = 1
+	masterful_deep_battle = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	# set_air_oob = "RUS_1936_air_bba"
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		early_bombs = 1
+		engines_1 = 1
+		iw_medium_airframe = 1
+		iw_large_airframe = 1
+		aircraft_construction = 1
+	}
+	create_equipment_variant = {
+		name = "NiD 62（R）"		#
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_FRA_early_fighter_medium"
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "D.500（R）"		#
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_FRA_light_plane_2_medium"
+	}
+	create_equipment_variant = {
+		name = "S-27 Ilya Muromets Bis"
+		type = medium_plane_airframe_0
+		parent_version = 1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_2 = light_mg_2x
+			fixed_auxiliary_weapon_slot_3 = bomb_locks
+			engine_type_slot = radial_engine_1_4x
+			special_type_slot_1 = armor_plate_medium
+			special_type_slot_2 = armor_plate_medium
+			special_type_slot_3 = lmg_defense_turret
+			special_type_slot_4 = lmg_defense_turret
+		}
+		icon = "GFX_RUS_early_bomber_medium"
+	}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+		}
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+	create_equipment_variant = {
+		name = "FT mod. 31"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "GFX_light_tank_chassis_0_medium"
+	}
+	create_equipment_variant = {
+		name = "FT Char Cannon"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "GFX_light_tank_chassis_0_medium"
+	}
+}
+
+if = {
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		# basic_secondary_battery = 1
+		mtg_transport = 1
+	}
+}
+
+set_research_slots = 3
+starting_train_buffer = 3
+set_convoys = 30
+set_stability = 0.56
+set_war_support = 0.61
+add_equipment_to_stockpile = {
+	type = train_equipment_1
+	amount = 30
+	producer = RUS
+}
+
+add_equipment_to_stockpile = {
+	type = train_equipment_1
+	amount = 30
+	producer = JAP
+}
+
+# puppet = MON
+give_military_access = JAP
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1922.12.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 40
+	fascism = 30
+	communism = 5
+	democratic = 25
+}
+
+#INDUSTRIAL RELOCATION
+set_variable = {
+	RUS_industrial_relocation_max_factories = 4
+}
+#Max amount of factories that will be relocated by a decision
+set_variable = {
+	RUS_industrial_relocation_days = 60
+}
+#Decision duration (can be halved by focus)
+set_variable = {
+	RUS_industrial_relocation_trains_focus = 120
+}
+#Trains to be used by the focus (20 trains / factory)
+set_variable = {
+	RUS_industrial_relocation_trains_focus_negative = -120
+}
+#Trains to be used by the focus (20 trains / factory)
+set_variable = {
+	RUS_industrial_relocation_trains_decision = 80
+}
+#Trains to be used by the generic decision (20 trains / factory)
+set_variable = {
+	RUS_industrial_relocation_trains_decision_negative = -80
+}
+#Trains to be used by the generic decision (20 trains / factory)
+set_variable = {
+	RUS_industrial_relocation_trains_decision_aluminium = 20
+}
+#Trains to be used by the aluminium decision (20 trains / factory)
+set_variable = {
+	RUS_industrial_relocation_trains_decision_aluminium_negative = -20
+}
+#Trains to be used by the aluminium decision (20 trains / factory)
+#INDUSTRIAL RELOCATION
+set_variable = {
+	SOV_industrial_relocation_max_factories = 4
+}
+#Max amount of factories that will be relocated by a decision
+set_variable = {
+	SOV_industrial_relocation_days = 60
+}
+#Decision duration (can be halved by focus)
+set_variable = {
+	SOV_industrial_relocation_trains_focus = 120
+}
+#Trains to be used by the focus (20 trains / factory)
+set_variable = {
+	SOV_industrial_relocation_trains_focus_negative = -120
+}
+#Trains to be used by the focus (20 trains / factory)
+set_variable = {
+	SOV_industrial_relocation_trains_decision = 80
+}
+#Trains to be used by the generic decision (20 trains / factory)
+set_variable = {
+	SOV_industrial_relocation_trains_decision_negative = -80
+}
+#Trains to be used by the generic decision (20 trains / factory)
+set_variable = {
+	SOV_industrial_relocation_trains_decision_aluminium = 20
+}
+#Trains to be used by the aluminium decision (20 trains / factory)
+set_variable = {
+	SOV_industrial_relocation_trains_decision_aluminium_negative = -20
+}
+#Trains to be used by the aluminium decision (20 trains / factory)

@@ -173,6 +173,8 @@ create_faction = Comintern
 add_to_faction = SOV
 give_guarantee = SIK
 puppet = UKR
+puppet = MON
+puppet = TAN
 
 
 
