@@ -6,22 +6,12 @@ state={
 		owner = BEY
 		add_core_of = CHI
 		add_core_of = BEY
+		add_claim_by = SHX
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 
 		}
-		1939.1.1 = {
-			remove_building = {
-				type = industrial_complex
-				level = 1
-
-			}
-			owner = BEY
-			controller = MEN
-
-		}
-
 	}
 
 	provinces={

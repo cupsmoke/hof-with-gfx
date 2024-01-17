@@ -9,16 +9,13 @@
 # 		set_naval_oob = "RUS_1936_naval_legacy"
 # 	}
 # }
-
 # recruit_character = RUS_entente_observe_committee
 # add_ideas = {
 # }
-
 # add_timed_idea = {
 # 	idea = RUS_Petergrod_gold_idea
 # 	days = 500
 # }
-
 set_technology = {
 	fuel_silos = 1
 	#### Tanks ####
@@ -226,70 +223,87 @@ set_popularities = {
 	communism = 5
 	democratic = 25
 }
+recruit_character = RUS_anastasia_i
 
 #INDUSTRIAL RELOCATION
 set_variable = {
 	RUS_industrial_relocation_max_factories = 4
 }
+
 #Max amount of factories that will be relocated by a decision
 set_variable = {
 	RUS_industrial_relocation_days = 60
 }
+
 #Decision duration (can be halved by focus)
 set_variable = {
 	RUS_industrial_relocation_trains_focus = 120
 }
+
 #Trains to be used by the focus (20 trains / factory)
 set_variable = {
 	RUS_industrial_relocation_trains_focus_negative = -120
 }
+
 #Trains to be used by the focus (20 trains / factory)
 set_variable = {
 	RUS_industrial_relocation_trains_decision = 80
 }
+
 #Trains to be used by the generic decision (20 trains / factory)
 set_variable = {
 	RUS_industrial_relocation_trains_decision_negative = -80
 }
+
 #Trains to be used by the generic decision (20 trains / factory)
 set_variable = {
 	RUS_industrial_relocation_trains_decision_aluminium = 20
 }
+
 #Trains to be used by the aluminium decision (20 trains / factory)
 set_variable = {
 	RUS_industrial_relocation_trains_decision_aluminium_negative = -20
 }
+
 #Trains to be used by the aluminium decision (20 trains / factory)
 #INDUSTRIAL RELOCATION
 set_variable = {
 	SOV_industrial_relocation_max_factories = 4
 }
+
 #Max amount of factories that will be relocated by a decision
 set_variable = {
 	SOV_industrial_relocation_days = 60
 }
+
 #Decision duration (can be halved by focus)
 set_variable = {
 	SOV_industrial_relocation_trains_focus = 120
 }
+
 #Trains to be used by the focus (20 trains / factory)
 set_variable = {
 	SOV_industrial_relocation_trains_focus_negative = -120
 }
+
 #Trains to be used by the focus (20 trains / factory)
 set_variable = {
 	SOV_industrial_relocation_trains_decision = 80
 }
+
 #Trains to be used by the generic decision (20 trains / factory)
 set_variable = {
 	SOV_industrial_relocation_trains_decision_negative = -80
 }
+
 #Trains to be used by the generic decision (20 trains / factory)
 set_variable = {
 	SOV_industrial_relocation_trains_decision_aluminium = 20
 }
+
 #Trains to be used by the aluminium decision (20 trains / factory)
 set_variable = {
 	SOV_industrial_relocation_trains_decision_aluminium_negative = -20
 }
+
 #Trains to be used by the aluminium decision (20 trains / factory)

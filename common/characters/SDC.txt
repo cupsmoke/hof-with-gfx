@@ -1,0 +1,17 @@
+# leader
+characters = {
+	SDC_zhang_tianran = {
+		name = SDC_zhang_tianran
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_SDC_Zhang_Tianran
+			}
+		}
+		country_leader = {
+			ideology = neu_theocracy
+			traits = {
+
+			}
+		}
+	} 
+}

@@ -736,17 +736,17 @@ BTY = {
 	color_ui = rgb { 81 6 11 }
 }
 ORL = {
-  color = rgb { 180 180 180 }
+  	color = rgb { 180 180 180 }
 	color_ui = rgb { 180 180 180 }
 }
-KIT = {
-  color = rgb { 0 147 71 }
-	color_ui = rgb { 0 147 71 }
-}
-FSP = {
-  color = rgb { 215 215 215 }
-	color_ui = rgb { 215 215 215 }
-}
+# KIT = {
+#   color = rgb { 0 147 71 }
+# 	color_ui = rgb { 0 147 71 }
+# }
+# FSP = {
+#   color = rgb { 215 215 215 }
+# 	color_ui = rgb { 215 215 215 }
+# }
 QUE = {
   color = rgb { 52 228 254 }
 	color_ui = rgb { 52 228 254 }
@@ -940,3 +940,14 @@ CHU = {
 	color = rgb { 191 128 64 }
 	color_ui = rgb { 134 89 45 }
 }
+
+# china
+FNG = {
+	color = rgb { 189 113 33 }
+	color_ui = rgb { 189 113 33 }
+}
+ZHL = {
+	color = rgb { 93 99 122 }
+	color_ui = rgb { 93 99 122 }
+}
+

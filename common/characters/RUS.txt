@@ -1,0 +1,17 @@
+# leader
+characters = {
+	RUS_anastasia_i = {
+		name = RUS_anastasia_i
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_RUS_Anastasia
+			}
+		}
+		country_leader = {
+			ideology = neu_absolute_monarchy
+			traits = {
+				# father_of_nation
+			}
+		}
+	}
+}

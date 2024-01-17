@@ -175,10 +175,6 @@ give_guarantee = SIK
 puppet = UKR
 puppet = MON
 puppet = TAN
-
-
-
-
 ### VARIANTS ###
 # 1936 Start #
 if = {

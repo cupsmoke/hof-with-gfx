@@ -1,0 +1,17 @@
+# leader
+characters = {
+	FNG_zhang_xuecheng = {
+		name = FNG_zhang_xuecheng
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_FNG_Zhang_Xuecheng
+			}
+		}
+		country_leader = {
+			ideology = neu_despotism
+			traits = {
+
+			}
+		}
+	}
+}

@@ -1,20 +1,15 @@
-state=
-{
+state = {
 	id=597
 	name="STATE_597"
 	manpower = 38373200
 	local_supplies=0.0
 	state_category = town
-	
-	
-	history=
-	{
+
+	history=	{
 		owner = BEY
 		add_core_of = CHI
 		add_core_of = BEY
-		victory_points = {
-			1069 3 
-		}
+		add_claim_by = SDC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

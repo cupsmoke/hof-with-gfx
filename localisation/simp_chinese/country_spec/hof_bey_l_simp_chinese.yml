@@ -1,0 +1,50 @@
+﻿l_simp_chinese:
+# country
+ BEY_DEF:0 "中国"
+ 
+ BEY_neutrality:0 "中国北洋政府"
+ BEY_neutrality_DEF:0 "中国北洋政府"
+ BEY_democratic:0 "中国北洋政府"
+ BEY_democratic_DEF:0 "中国北洋政府"
+ BEY_communism:0 "中华人民共和国"
+ BEY_communism_DEF:0 "中华人民共和国"
+ BEY_fascism:0 "中华维新政府"
+ BEY_fascism_DEFRAF:0 "中华维新政府"
+#party name
+ BEY_communism_party:0 "中国共产党"
+ BEY_communism_party_long:0 "中国共产党"
+ BEY_democratic_party:0 "民主同盟"
+ BEY_democratic_party_long:0 "民主同盟"
+ BEY_neutrality_party:0 "军政府"
+ BEY_neutrality_party_long:0 "军政府"
+ BEY_fascism_party:0 "中国革新党"
+ BEY_fascism_party_long:0 "中国革新党"
+# character
+ BEY_li_shuwen:0 "李书文"
+ BEY_gao_changgong:0 "高长恭"
+ BEY_huo_qinge:0 "霍青娥"
+ BEY_hong_meiling:0 "红美铃"
+ BEY_chen_tiaoyuan:0 "陈调元"
+ BEY_jiang_baili:0 "蒋百里"
+ BEY_li_jinglin:0 "李景林"
+ BEY_liu_menggeng:0 "刘梦庚"
+ BEY_ma_zhanshan:0 "马占山"
+ BEY_qi_xieyuan:0 "齐燮元"
+ BEY_shi_yousan:0 "石友三"
+ BEY_sun_chuanfang:0 "孙传芳"
+ BEY_sun_dianying:0 "孙殿英"
+ BEY_wu_peifu:0 "吴佩孚"
+ BEY_yan_xishan:0 "阎锡山"
+ BEY_yang_yuting:0 "杨宇霆"
+ BEY_zhang_xueliang:0 "张学良"
+ BEY_zhang_zizhong:0 "张自忠"
+ BEY_zhang_zongchang:0 "张宗昌"
+ BEY_zhang_zuoxiang:0 "张作相"
+ BEY_wan_fulin:0 "万福麟"
+ BEY_wang_lingyun:0 "王凌云"
+ BEY_wu_junsheng:0 "吴俊升"
+ BEY_shangguan_yunxiang:0 "上官云相"
+# 
+
+
+

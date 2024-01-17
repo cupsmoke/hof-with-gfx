@@ -1,0 +1,23 @@
+﻿l_simp_chinese:
+# country
+ ZHL_ADJ:0 "直系"
+ 
+ ZHL_neutrality:0 "直系"
+ ZHL_neutrality_DEF:0 "直系"
+ ZHL_democratic:0 "直系"
+ ZHL_democratic_DEF:0 "直系"
+ ZHL_communism:0 "直系"
+ ZHL_communism_DEF:0 "直系"
+ ZHL_fascism:0 "直系"
+ ZHL_fascism_DEF:0 "直系"
+#party name
+ ZHL_communism_party:0 "中国共产党"
+ ZHL_communism_party_long:0 "中国共产党"
+ ZHL_democratic_party:0 "民主同盟"
+ ZHL_democratic_party_long:0 "民主同盟"
+ ZHL_neutrality_party:0 "军政府"
+ ZHL_neutrality_party_long:0 "军政府"
+ ZHL_fascism_party:0 "中国革新党"
+ ZHL_fascism_party_long:0 "中国革新党"
+# 
+ ZHL_song_shilun:0 "宋时轮"

@@ -1,0 +1,23 @@
+﻿l_simp_chinese:
+# # country
+ SDC_ADJ:0 "鲁系"
+ 
+ SDC_democratic:0 "鲁系"
+ SDC_democratic_DEF:0 "鲁系"
+ SDC_neutrality:0 "鲁系"
+ SDC_neutrality_DEF:0 "鲁系"
+ SDC_fascism:0 "山东国"
+ SDC_fascism_DEF:0 "山东国" 
+ SDC_communism:0 "山东革命根据地"
+ SDC_communism_DEF:0 "山东革命根据地"
+# #party name
+#  SDC_communism_party:0 "中国共产党"
+#  SDC_communism_party_long:0 "中国共产党"
+#  SDC_democratic_party:0 "民主同盟"
+#  SDC_democratic_party_long:0 "民主同盟"
+#  SDC_neutrality_party:0 "军政府"
+#  SDC_neutrality_party_long:0 "军政府"
+#  SDC_fascism_party:0 "中国革新党"
+#  SDC_fascism_party_long:0 "中国革新党"
+# 
+ SDC_zhang_tianran:0 "张天然"

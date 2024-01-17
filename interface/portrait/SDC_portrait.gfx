@@ -1,0 +1,10 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_Portrait_SDC_Sun_Huiming"
+		texturefile = "gfx/leaders/SDC/Portrait_SDC_Sun_Huiming.png"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_SDC_Zhang_Tianran"
+		texturefile = "gfx/leaders/SDC/Portrait_SDC_Zhang_Tianran.png"
+	}
+}

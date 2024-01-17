@@ -1,71 +1,19 @@
 spriteTypes = {
 	SpriteType = {
-		name = "GFX_Portrait_RUS_Alexander_Kolchak"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Alexander_Kolchak.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RUS_Alexandra_Nikonova"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Alexandra_Nikonova.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_RUS_Anastasia"
 		texturefile = "gfx/leaders/RUS/Portrait_RUS_Anastasia.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RUS_Anastasy_Vonsiatsky"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Anastasy_Vonsiatsky.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RUS_Antona_Kalashnikova"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Antona_Kalashnikova.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RUS_Anton_Iwanowitsch_Denikin"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Anton_Iwanowitsch_Denikin.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RUS_Anton_Turkul"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Anton_Turkul.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RUS_Avtomat_Kalashnikova"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Avtomat_Kalashnikova.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_RUS_Berezovich_Kryuger"
 		texturefile = "gfx/leaders/RUS/Portrait_RUS_Berezovich_Kryuger.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_RUS_Boris_Andreyevich_Vilkitsky"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Boris_Andreyevich_Vilkitsky.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_RUS_carl_mannerheim"
 		texturefile = "gfx/leaders/RUS/Portrait_RUS_carl_mannerheim.png"
 	}
 	SpriteType = {
-		name = "GFX_Portrait_RUS_Diterikhs"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Diterikhs.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RUS_Dmitry_Yazov"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Dmitry_Yazov.png"
-	}
-	SpriteType = {
 		name = "GFX_Portrait_RUS_George_Mikhailovich_Romanov"
 		texturefile = "gfx/leaders/RUS/Portrait_RUS_George_Mikhailovich_Romanov.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RUS_Ivan_Romanovsky"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Ivan_Romanovsky.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RUS_Lavr_Kornilov"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Lavr_Kornilov.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RUS_Mikhail_Drozdovsky"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Mikhail_Drozdovsky.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_RUS_Nikita_Dragovich"
@@ -86,10 +34,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Portrait_RUS_Victoria_Romanovna"
 		texturefile = "gfx/leaders/RUS/Portrait_RUS_Victoria_Romanovna.png"
-	}
-	SpriteType = {
-		name = "GFX_Portrait_RUS_Vladimir_Manshteyn"
-		texturefile = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Manshteyn.png"
 	}
 	SpriteType = {
 		name = "GFX_Portrait_RUS_Yuri_Kornilov"

@@ -1,0 +1,17 @@
+# leader
+characters = {
+	ZHL_song_shilun = {
+		name = ZHL_song_shilun
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ZHL_Song_Shilun
+			}
+		}
+		country_leader = {
+			ideology = neu_oligarchism
+			traits = {
+
+			}
+		}
+	}
+}

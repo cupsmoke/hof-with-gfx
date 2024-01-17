@@ -1,0 +1,16 @@
+# leader
+characters = {
+	SHX_zhao_zongfu = {
+		name = SHX_zhao_zongfu
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_SHX_Zhao_Zongfu
+			}
+		}
+		country_leader = {
+			ideology = neu_oligarchism
+			traits = {
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+# leader
+characters = {
+	BEY_li_shuwen = {
+		name = BEY_li_shuwen
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_BEY_Li_Shuwen
+			}
+		}
+		country_leader = {
+			ideology = neu_oligarchism
+			traits = {
+			}
+		}
+	}
+	BEY_gao_changgong = {
+		name = BEY_gao_changgong
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_BEY_Gao_Changgong_civ
+			}
+		}
+		country_leader = {
+			ideology = dem_conservatism
+			traits = {
+			}
+		}
+	}
+}

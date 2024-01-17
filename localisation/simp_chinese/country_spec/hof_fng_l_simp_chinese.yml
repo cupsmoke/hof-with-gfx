@@ -1,0 +1,23 @@
+﻿l_simp_chinese:
+# country
+ FNG_ADJ:0 "奉系"
+ 
+ FNG_neutrality:0 "奉系"
+ FNG_neutrality_DEF:0 "奉系"
+ FNG_democratic:0 "奉系"
+ FNG_democratic_DEF:0 "奉系"
+ FNG_communism:0 "奉系"
+ FNG_communism_DEF:0 "奉系"
+ FNG_fascism:0 "奉系"
+ FNG_fascism_DEF:0 "奉系"
+#party name
+ FNG_communism_party:0 "中国共产党"
+ FNG_communism_party_long:0 "中国共产党"
+ FNG_democratic_party:0 "民主同盟"
+ FNG_democratic_party_long:0 "民主同盟"
+ FNG_neutrality_party:0 "军政府"
+ FNG_neutrality_party_long:0 "军政府"
+ FNG_fascism_party:0 "中国革新党"
+ FNG_fascism_party_long:0 "中国革新党"
+# 
+ FNG_zhang_xuecheng:0 "张学成"
